@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- METATAGS -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="en-US" />
+        <title>HTML5 device mockups</title>
+
+        <style>
+            * {
+                -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing:border-box; box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+
+            html {
+                background-image: -webkit-radial-gradient(center center, circle cover, #ffffff, #cfcfcf 100%);
+                background-image:    -moz-radial-gradient(center center, circle cover, #ffffff, #cfcfcf 100%);
+                background-image:     -ms-radial-gradient(center center, circle cover, #ffffff, #cfcfcf 100%);
+                background-image:      -o-radial-gradient(center center, circle cover, #ffffff, #cfcfcf 100%);
+                background-image:         radial-gradient(center center, circle cover, #ffffff, #cfcfcf 100%);
+            }
+
+            h1 {
+                line-height: 200%;
+                margin: 30px auto;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+
+            nav {
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            nav a {
+                padding: 0 10px;
+                height:                24px;
+                line-height:           24px;
+                border-radius:         24px;
+                -webkit-border-radius: 24px;
+                -moz-border-radius:    24px;
+                display: inline-block;
+                font-family: sans-serif;
+                background-color: #ccc;
+            }
+
+            nav a.active, nav a:hover {
+                color: #e2e2e2;
+                background-color: #333;
+                cursor: pointer;
+            }
+
+            .device-container {
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            code, pre {
+                background-color: #e2e2e2;
+                border-radius:         24px;
+                -webkit-border-radius: 24px;
+                -moz-border-radius:    24px;
+                border: 1px #ccc solid;
+                display: block;
+                width: 800px;
+                padding: 10px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+        </style>
+
+        <!-- THE STYLESHEET FOR DEVICE MOCKUPS -->
+        <link rel="stylesheet" type="text/css" href="./device-mockups/device-mockups2.css" />
+
+    </head>
+
+    <body>
+
+        <h1>HTML5 device mockups.</h1>
+        <nav>
+            <span id="device-tabs">
+                <a data-value="iphone5"  data-size-port="300px" data-size-land="600px"     class="active" >iPhone5</a>
+                <a data-value="ipad"     data-size-port="600px" data-size-land="800px" >iPad</a>
+                <a data-value="imac"     data-size-port="800px" data-size-land="800px" >iMac</a>
+                <a data-value="macbook"  data-size-port="800px" data-size-land="800px" >MacBook Pro</a>
+                <a data-value="s3"       data-size-port="300px" data-size-land="500px" >Galaxy S3</a>
+                <a data-value="nexus7"   data-size-port="300px" data-size-land="500px" >Nexus 7</a>
+                <a data-value="surface"  data-size-port="600px" data-size-land="600px" >Surface</a>
+                <a data-value="lumia920" data-size-port="300px" data-size-land="600px" >Lumia920</a>
+            </span>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <span id="orientation-tabs">
+                <a data-value="portrait" class="active">Portrait</a>
+                <a data-value="landscape">Landscape</a>
+            </span>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <span id="color-tabs">
+                <a data-value="black" class="active">Color1</a>
+                <a data-value="white">Color2</a>
+            </span>
+        </nav>
+        <pre id="generated-code"></pre>
+        <div>
+        
+<div class="device-container" style="max-width:300px;" data-size-port="300px" data-size-land="600px"><div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
+    <div class="device">
+        <div class="screen">
+            <!-- PUT CONTENTS HERE -->
+        </div>
+        <div class="button">
+            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+        </div>
+    </div>
+</div></div>
+
+        </div>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                var cachedEl = $(".device-container").first();
+
+                function setSize() {
+                    if( $(cachedEl).find(".device-mockup").attr("data-orientation") == "portrait" ) {
+                        $(cachedEl).css("maxWidth", $(cachedEl).attr("data-size-port"));
+                    } else {
+                        $(cachedEl).css("maxWidth", $(cachedEl).attr("data-size-land"));
+                    }
+                }
+
+                $("#device-tabs > a").click(function(e){
+                    e.preventDefault();
+                    $(this).addClass("active").siblings().removeClass("active");
+                    $(cachedEl).attr("data-size-port", $(this).attr("data-size-port")).attr("data-size-land", $(this).attr("data-size-land")).find(".device-mockup").attr("data-device", $(this).attr("data-value"));
+                    setSize()
+                    $("#generated-code").text($(cachedEl).html());
+                    return false;
+                });
+
+                $("#orientation-tabs > a").click(function(e){
+                    e.preventDefault();
+                    $(this).addClass("active").siblings().removeClass("active");
+                    $(cachedEl).find(".device-mockup").attr("data-orientation", $(this).attr("data-value"));
+                    setSize()
+                    $("#generated-code").text($(cachedEl).html());
+                    return false;
+                });
+
+                $("#color-tabs > a").click(function(e){
+                    e.preventDefault();
+                    $(this).addClass("active").siblings().removeClass("active");
+                    $(cachedEl).find(".device-mockup").attr("data-color", $(this).attr("data-value"));
+                    $("#generated-code").text($(cachedEl).html());
+                    return false;
+                });
+
+                $("#generated-code").text($(cachedEl).html());
+
+            });
+        </script>
+
+
+    </body>
+</html>

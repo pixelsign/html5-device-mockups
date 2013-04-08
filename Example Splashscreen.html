@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- METATAGS -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="en-US" />
+        <title>Example splash screen for HTML5 device mockups</title>
+
+        <style>
+            * {
+                -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing:border-box; box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+            }
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                overflow: hidden;
+            }
+
+            body {
+                background-color: black;
+                background-image: url("bg.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                text-align: center;
+            }
+
+            div.bg-shader {
+                background: transparent url("pattern2.png") repeat 0 0;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+
+            div.outer-container {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                z-index: 2;
+                overflow: auto;
+            }
+
+            div.container {
+                position: relative;
+                z-index: 2;
+                text-align: center;
+                margin: 0 auto;
+                width: 100%;
+                max-width: 800px;
+                padding-top: 60px;
+            }
+
+            div.device-place {
+                position: absolute;
+                right: 15%;
+                top: 8%;
+                width: 25%;
+            }
+
+            div.text-place {
+                position: absolute;
+                left: 15%;
+                top: 20%;
+                width: 40%;
+            }
+
+            h1 {
+                color: white;
+                font-weight: 100;
+                text-shadow: 1px 1px 3px black;
+                font-size: 300%;
+            }
+
+            p {
+                margin: 40px auto;
+                color: #eee;
+                font-weight: 100;
+                text-shadow: 1px 1px 3px black;
+                font-size: 160%;
+                text-align: justify;
+                max-width: 600px;
+                color: white;
+            }
+
+            .screen > img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            #slide-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+
+            #slide-container > .slide {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            .devices-here {
+                width: 100%;
+                position: relative;
+            }
+
+            .show-device {
+                width: 100%;
+                margin: 0 auto;
+                display: none;
+            }
+
+            .device-1 {
+                max-width: 300px;
+            }
+
+            .device-2 {
+                max-width: 600px;
+            }
+
+            .device-3 {
+                max-width: 600px;
+            }
+
+            .device-4 {
+                max-width: 600px;
+            }
+        </style>
+
+        <!-- THE STYLESHEET FOR DEVICE MOCKUPS -->
+        <link rel="stylesheet" type="text/css" href="./device-mockups/device-mockups2.css" />
+
+    </head>
+
+    <body>
+        <div class="bg-shader"></div>
+
+        <div class="outer-container">
+
+            <div class="container">
+                <h1>HTML5 Device Mockups</h1>
+                <p>Boost the appearance of your splashscreens and websites with these HTML5 mockups of popular devices.</p>
+                <div class="devices-here">
+    
+                    <div class="show-device device-1">
+                        <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- PUT CONTENTS HERE -->
+                                    <img src="DEMOPIC/demo1.gif" />
+                                </div>
+                                <div class="button">
+                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="show-device device-2">
+                        <div class="device-mockup" data-device="macbook">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- PUT CONTENTS HERE -->
+                                    <iframe width="100%" height="100%" src="http://www.youtube.com/embed/o9tK6T3ZKQ4" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="show-device device-3">
+                        <div class="device-mockup" data-device="imac" data-orientation="portrait" data-color="black">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- PUT CONTENTS HERE -->
+                                    <iframe width="100%" height="100%" src="http://www.youtube.com/embed/o9tK6T3ZKQ4" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="show-device device-4">
+                        <div class="device-mockup" data-device="ipad" data-orientation="landscape" data-color="black">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- PUT CONTENTS HERE -->
+                                    <iframe width="100%" height="100%" src="http://www.youtube.com/embed/o9tK6T3ZKQ4" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="show-device device-1">
+                        <div class="device-mockup" data-device="lumia920" data-orientation="portrait" data-color="black">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- PUT CONTENTS HERE -->
+                                    <img src="DEMOPIC/demo1.gif" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="show-device device-1">
+                        <div class="device-mockup" data-device="nexus7" data-orientation="portrait" data-color="black">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- PUT CONTENTS HERE -->
+                                    <img src="DEMOPIC/demo1.gif" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="show-device device-3">
+                        <div class="device-mockup" data-device="surface" data-orientation="portrait" data-color="black">
+                            <div class="device">
+                                <div class="screen">
+                                    <!-- PUT CONTENTS HERE -->
+                                    <iframe width="100%" height="100%" src="http://www.youtube.com/embed/o9tK6T3ZKQ4" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript">
+            /*
+
+            Included in this package for demonstrative purposes.
+
+            ############################################################
+            
+                Ryan McWilliams
+                http://www.rmcwill.com
+                jQuery Text Rotator
+                08/04/11
+            
+            ############################################################
+            */
+            (function($){
+                $.fn.extend({ 
+                    //plugin name - rotaterator
+                    rotaterator: function(options) {
+             
+                        var defaults = {
+                            fadeSpeed: 600,
+                            pauseSpeed: 100,
+                            child:null
+                        };
+                         
+                        var options = $.extend(defaults, options);
+                     
+                        return this.each(function() {
+                              var o =options;
+                              var obj = $(this);                
+                              var items = $(obj.children(), obj);
+                              items.each(function() {$(this).hide();})
+                              if(!o.child){var next = $(obj).children(':first');
+                              }else{var next = o.child;
+                              }
+                              $(next).fadeIn(o.fadeSpeed, function() {
+                                    $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
+                                        var next = $(this).next();
+                                        if (next.length == 0){
+                                                next = $(obj).children(':first');
+                                        }
+                                        $(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});
+                                    })
+                                });
+                        });
+                    }
+                });
+            })(jQuery);
+            
+            $(document).ready(function() {
+                $('.devices-here').rotaterator({fadeSpeed:300, pauseSpeed:2000});
+            }); 
+        </script>
+    </body>
+</html>
