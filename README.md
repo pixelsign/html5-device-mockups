@@ -17,7 +17,7 @@ Why?
 * Attracts customers
 * Makes your site look professional
 * Give people the idea that your app/site works on mobile
-* Give the impression that your illustrations are ment for web/mobile
+* Give the impression that your illustrations are meant for web/mobile
 * Lots of screenshots in just one "device"
 
 Features:
