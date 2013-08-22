@@ -91,7 +91,7 @@
 
 /* iPhone5 */
 .device-mockup.iphone5,
-.device-mockup.iphone5.protrait {
+.device-mockup.iphone5.portrait {
 	padding-bottom: 200.477897%;
 }
 
@@ -142,7 +142,7 @@
 
 /* iPad */
 .device-mockup.ipad,
-.device-mockup.ipad.protrait {
+.device-mockup.ipad.portrait {
 	padding-bottom: 128.406276%;
 }
 
@@ -193,7 +193,7 @@
 
 /* Galaxy S3 */
 .device-mockup.s3,
-.device-mockup.s3.protrait {
+.device-mockup.s3.portrait {
 	padding-bottom: 178.787879%;
 }
 
@@ -233,7 +233,7 @@
 
 /* Lumia 920 */
 .device-mockup.lumia920,
-.device-mockup.lumia920.protrait {
+.device-mockup.lumia920.portrait {
 	padding-bottom: 172.796353%;
 }
 
@@ -261,7 +261,7 @@
 
 /* Nexus 7 */
 .device-mockup.nexus7,
-.device-mockup.nexus7.protrait {
+.device-mockup.nexus7.portrait {
 	padding-bottom: 156.521739%;
 }
 
