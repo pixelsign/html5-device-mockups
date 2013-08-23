@@ -1,6 +1,8 @@
 HTML5 device mockups
 ====================
 
+You can view the demo page of all devices here: http://aarnis.com/demo.html
+
 Use on...
 * Your website / splash screen
 
