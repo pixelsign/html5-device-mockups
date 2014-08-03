@@ -60,7 +60,7 @@ Integrating to your website:
                 - Select color
                         - Note: not all devices support multiple colors
 
-                - Copy / paste the HTML to your porjects HTML source code
+                - Copy / paste the HTML to your projects HTML source code
 
 *STEP 3)*
 
