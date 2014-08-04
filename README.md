@@ -97,8 +97,8 @@ Created by:
 ---
 
 > Tomi Hiltunen
-> * public@mitakuuluu.fi
-> * http://tomihiltunen.blogspot.com
+> * tomi@innovaniac.com
+> * http://innovaniac.com
 
 
 > Angelos Arnis
