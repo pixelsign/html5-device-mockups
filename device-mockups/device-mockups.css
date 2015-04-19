@@ -5,7 +5,7 @@
  *		Tomi Hiltunen
  *		tomi@mitakuuluu.fi
  *		http://fi.linkedin.com/in/tomihiltunen/
- *		
+ *
  *		Angelos Arnis
  *		http://fi.linkedin.com/in/angelosarnis/
  *
@@ -44,6 +44,7 @@
 			left:   13.364486%;
 			right:  13.364486%;
 			overflow: hidden;
+      background: rgba(255, 0, 0, 0.3);
 		}
 
 		.device-mockup > .device > .button {
@@ -56,7 +57,7 @@
 			-moz-border-radius: 100%;
 			cursor: pointer;
 		}
-                
+
 
 /* DEVICES */
 
@@ -192,42 +193,91 @@
 
 
 /* Galaxy S3 */
-.device-mockup.s3,
-.device-mockup.s3.portrait {
-	padding-bottom: 178.787879%;
+.device-mockup.galaxy_s3,
+.device-mockup.galaxy_s3.portrait {
+  padding-bottom: 178.787879%;
 }
 
-.device-mockup.s3.landscape {
-	padding-bottom: 55.9322034%;
+.device-mockup.galaxy_s3.landscape {
+  padding-bottom: 55.9322034%;
 }
 
-.device-mockup.s3 > .device,
-.device-mockup.s3.black > .device,
-.device-mockup.s3.portrait.black > .device {
-	background-image: url("galaxy_s3/s3_port_black.png");
+.device-mockup.galaxy_s3 > .device,
+.device-mockup.galaxy_s3.black > .device,
+.device-mockup.galaxy_s3.portrait.black > .device {
+  background-image: url("galaxy_s3/s3_port_black.png");
 }
 
-.device-mockup.s3.landscape > .device,
-.device-mockup.s3.landscape.black > .device {
-	background-image: url("galaxy_s3/s3_land_black.png");
+.device-mockup.galaxy_s3.landscape > .device,
+.device-mockup.galaxy_s3.landscape.black > .device {
+  background-image: url("galaxy_s3/s3_land_black.png");
 }
 
-.device-mockup.s3.white > .device,
-.device-mockup.s3.portrait.white > .device {
-	background-image: url("galaxy_s3/s3_port_white.png");
+.device-mockup.galaxy_s3.white > .device,
+.device-mockup.galaxy_s3.portrait.white > .device {
+  background-image: url("galaxy_s3/s3_port_white.png");
 }
 
-.device-mockup.s3.landscape.white > .device {
-	background-image: url("galaxy_s3/s3_land_white.png");
+.device-mockup.galaxy_s3.landscape.white > .device {
+  background-image: url("galaxy_s3/s3_land_white.png");
 }
 
-.device-mockup.s3 > .device > .screen,
-.device-mockup.s3.portrait > .device > .screen {
-	top: 12.3728814%; bottom: 15.5367232%; left: 13.8383838%; right: 13.8383838%;
+.device-mockup.galaxy_s3 > .device > .screen,
+.device-mockup.galaxy_s3.portrait > .device > .screen {
+  top: 12.3728814%; bottom: 15.5367232%; left: 13.8383838%; right: 13.8383838%;
 }
 
-.device-mockup.s3.landscape > .device > .screen {
-	top: 13.8383838%; bottom: 13.8383838%; left: 12.3728814%; right: 15.5367232%;
+.device-mockup.galaxy_s3.landscape > .device > .screen {
+  top: 13.8383838%; bottom: 13.8383838%; left: 12.3728814%; right: 15.5367232%;
+}
+
+
+/* Galaxy S5 */
+.device-mockup.galaxy_s5,
+.device-mockup.galaxy_s5.portrait {
+  padding-bottom: 194.188862%;
+}
+
+.device-mockup.galaxy_s5.landscape {
+  padding-bottom: 51.496259%;
+}
+
+.device-mockup.galaxy_s5 > .device,
+.device-mockup.galaxy_s5.black > .device,
+.device-mockup.galaxy_s5.portrait.black > .device {
+  background-image: url("galaxy_s5/galaxy_s5_port_black.png");
+}
+
+.device-mockup.galaxy_s5.landscape > .device,
+.device-mockup.galaxy_s5.landscape.black > .device {
+  background-image: url("galaxy_s5/galaxy_s5_land_black.png");
+}
+
+.device-mockup.galaxy_s5.white > .device,
+.device-mockup.galaxy_s5.portrait.white > .device {
+  background-image: url("galaxy_s5/galaxy_s5_port_white.png");
+}
+
+.device-mockup.galaxy_s5.landscape.white > .device {
+  background-image: url("galaxy_s5/galaxy_s5_land_white.png");
+}
+
+.device-mockup.galaxy_s5.gold > .device,
+.device-mockup.galaxy_s5.portrait.gold > .device {
+  background-image: url("galaxy_s5/galaxy_s5_port_gold.png");
+}
+
+.device-mockup.galaxy_s5.landscape.gold > .device {
+  background-image: url("galaxy_s5/galaxy_s5_land_gold.png");
+}
+
+.device-mockup.galaxy_s5 > .device > .screen,
+.device-mockup.galaxy_s5.portrait > .device > .screen {
+  top: 10.2%; bottom: 10.1%; left: 6.3%; right: 6.4%;
+}
+
+.device-mockup.galaxy_s5.landscape > .device > .screen {
+  top: 6.6%; bottom: 6.2%; left: 10.15%; right: 10%;
 }
 
 

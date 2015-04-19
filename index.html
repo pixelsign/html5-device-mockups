@@ -39,6 +39,12 @@
                 margin: 0 auto;
                 text-align: center;
                 margin-bottom: 30px;
+                width: 800px;
+            }
+
+            nav table {
+              width: 100%;
+              text-align: left;
             }
 
             nav a {
@@ -51,6 +57,7 @@
                 display: inline-block;
                 font-family: sans-serif;
                 background-color: #ccc;
+                margin-bottom: 6px;
             }
 
             nav a.active, nav a:hover {
@@ -87,26 +94,32 @@
 
         <h1>HTML5 device mockups.</h1>
         <nav>
-            <span id="device-tabs">
-                <a data-value="iphone5"  data-size-port="300px" data-size-land="600px"     class="active" >iPhone5</a>
-                <a data-value="ipad"     data-size-port="600px" data-size-land="800px" >iPad</a>
-                <a data-value="imac"     data-size-port="800px" data-size-land="800px" >iMac</a>
-                <a data-value="macbook"  data-size-port="800px" data-size-land="800px" >MacBook Pro</a>
-                <a data-value="s3"       data-size-port="300px" data-size-land="500px" >Galaxy S3</a>
-                <a data-value="nexus7"   data-size-port="300px" data-size-land="500px" >Nexus 7</a>
-                <a data-value="surface"  data-size-port="600px" data-size-land="600px" >Surface</a>
-                <a data-value="lumia920" data-size-port="300px" data-size-land="600px" >Lumia920</a>
-            </span>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <span id="orientation-tabs">
+          <table>
+            <tr>
+              <td id="device-tabs">
+                <a data-value="iphone5"   data-size-port="300px" data-size-land="600px"     class="active" >iPhone5</a>
+                <a data-value="ipad"      data-size-port="600px" data-size-land="800px" >iPad</a>
+                <a data-value="imac"      data-size-port="800px" data-size-land="800px" >iMac</a>
+                <a data-value="macbook"   data-size-port="800px" data-size-land="800px" >MacBook Pro</a>
+                <a data-value="galaxy_s3" data-size-port="300px" data-size-land="500px" >Galaxy S3</a>
+                <a data-value="galaxy_s5" data-size-port="300px" data-size-land="500px" >Galaxy S5</a>
+                <br>
+                <a data-value="nexus7"    data-size-port="300px" data-size-land="500px" >Nexus 7</a>
+                <a data-value="surface"   data-size-port="600px" data-size-land="600px" >Surface</a>
+                <a data-value="lumia920"  data-size-port="300px" data-size-land="600px" >Lumia920</a>
+              </td>
+              <td id="orientation-tabs">
                 <a data-value="portrait" class="active">Portrait</a>
+                <br>
                 <a data-value="landscape">Landscape</a>
-            </span>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <span id="color-tabs">
+              </td>
+              <td id="color-tabs">
                 <a data-value="black" class="active">Color1</a>
+                <br>
                 <a data-value="white">Color2</a>
-            </span>
+              </td>
+            </tr>
+          </table>
         </nav>
         <pre id="generated-code"></pre>
         <div>
