@@ -271,6 +271,29 @@
 }
 
 
+/* Galaxy Tab4 */
+.device-mockup[data-device="galaxy_tab4"],
+.device-mockup[data-device="galaxy_tab4"][data-orientation="landscape"] {
+  padding-bottom: 72.689464%;
+}
+
+.device-mockup[data-device="galaxy_tab4"] > .device,
+.device-mockup[data-device="galaxy_tab4"][data-color="black"] > .device,
+.device-mockup[data-device="galaxy_tab4"][data-orientation="landscape"][data-color="black"] > .device {
+  background-image: url("galaxy_tab4/galaxy_tab4_land_black.png");
+}
+
+.device-mockup[data-device="galaxy_tab4"][data-color="white"] > .device,
+.device-mockup[data-device="galaxy_tab4"][data-orientation="landscape"][data-color="white"] > .device {
+  background-image: url("galaxy_tab4/galaxy_tab4_land_white.png");
+}
+
+.device-mockup[data-device="galaxy_tab4"] > .device > .screen,
+.device-mockup[data-device="galaxy_tab4"][data-orientation="landscape"] > .device > .screen {
+  top: 11.5%; bottom: 11.5%; left: 5.4%; right: 5.2%;
+}
+
+
 /* Lumia 920 */
 .device-mockup[data-device="lumia920"],
 .device-mockup[data-device="lumia920"][data-orientation="portrait"] {

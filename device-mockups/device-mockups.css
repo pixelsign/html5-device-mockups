@@ -281,6 +281,29 @@
 }
 
 
+/* Galaxy Tab4 */
+.device-mockup.galaxy_tab4,
+.device-mockup.galaxy_tab4.landscape {
+  padding-bottom: 72.689464%;
+}
+
+.device-mockup.galaxy_tab4 > .device,
+.device-mockup.galaxy_tab4.landscape > .device,
+.device-mockup.galaxy_tab4.landscape.black > .device {
+  background-image: url("galaxy_tab4/galaxy_tab4_land_black.png");
+}
+
+.device-mockup.galaxy_tab4.white > .device,
+.device-mockup.galaxy_tab4.landscape.white > .device {
+  background-image: url("galaxy_tab4/galaxy_tab4_land_white.png");
+}
+
+.device-mockup.galaxy_tab4 > .device > .screen,
+.device-mockup.galaxy_tab4.landscape > .device > .screen {
+  top: 11.5%; bottom: 11.5%; left: 5.4%; right: 5.2%;
+}
+
+
 /* Lumia 920 */
 .device-mockup.lumia920,
 .device-mockup.lumia920.portrait {
