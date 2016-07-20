@@ -1,4 +1,4 @@
-HTML5 device mockups
+HTML5 device mockups 2.0
 ====================
 
 You can view the demo page of all devices here: http://pixelsign.github.io/html5-device-mockups/
@@ -31,6 +31,17 @@ Features:
 * Multiple orientations
 * Two separate ways for integrating the devices to your site
 
+New in 2.0:
+* iPhone 6
+* iPhone 6 Plus
+* iPhone SE
+* iPad Air
+* iPad Air 2
+* iPad Pro
+* Macbook 2015
+* Minified CSS Files
+* NEW PROJECT PAGE
+
 Integrating to your website:
 ----------------------------
 
@@ -38,13 +49,13 @@ Integrating to your website:
 
         Import either one of the provided CSS file to your project:
 
-                Import "device-mockups/device-mockups.css"
+                Import "device-mockups/device-mockups.min.css"
                         - If you want to define the devices using CSS class names
-                        - <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups.css" />
+                        - <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups.min.css" />
 
-                Import "device-mockups/device-mockups2.css"
+                Import "device-mockups/device-mockups2.min.css"
                         - If you want to define the devices using HTML tag attributes
-                        - <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups2.css" />
+                        - <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups2.min.css" />
 
 *STEP 2)*
 
