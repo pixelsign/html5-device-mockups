@@ -1,0 +1,401 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- METATAGS -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML5 device mockups</title>
+
+        <style>
+            * {
+                -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing:border-box; box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+
+            html {
+                
+            }
+
+            h1 {
+                line-height: 200%;
+                margin: 30px auto;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+
+            nav {
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            nav a {
+                padding: 0 10px;
+                height:                24px;
+                line-height:           24px;
+                border-radius:         24px;
+                -webkit-border-radius: 24px;
+                -moz-border-radius:    24px;
+                display: inline-block;
+                font-family: sans-serif;
+                background-color: #ccc;
+                margin-bottom: 10px;
+            }
+
+            nav a.active, nav a:hover {
+                color: #e2e2e2;
+                background-color: #333;
+                cursor: pointer;
+            }
+
+            .device-container {
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            pre {
+                background-color: #e2e2e2;
+                border-radius: 24px;
+                -webkit-border-radius: 24px;
+                -moz-border-radius: 24px;
+                border: 1px #ccc solid;
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                overflow: auto;
+            }
+
+            .generated-code {
+                margin: 0 auto;
+            }
+
+            .top-buffer { margin-top:20px; }
+
+            .dropdown-menu {
+                width: 100%;
+            }
+
+            /* .screen {
+                background: url(DEMOPIC/IMG_0068.png);
+                background-size: cover;
+            } */
+
+            #landscapeMode {
+                display: none;
+            }
+        </style>
+
+        <!-- THE STYLESHEET FOR DEVICE MOCKUPS -->
+        <link rel="stylesheet" type="text/css" href="./device-mockups/device-mockups2.css" />
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/github.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <h1>HTML5 device mockups.</h1>
+
+                    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                        
+                        <div id="deviceDropdown" class="btn-group" role="group">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Devices
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="deviceDropdown">
+
+                            <li class="dropdown-header">Phones</li>
+                            <li><a href="#" data-value="iphone5" data-size-port="300px" data-color-options="Black, White" class="active">iPhone 5</a></li>
+                            <li><a href="#" data-value="iphone6" data-size-port="300px" data-color-options="Black, White, Gold">iPhone 6</a></li>
+                            <li><a href="#" data-value="iphone6_plus" data-size-port="300px" data-color-options="Black, White, Gold">iPhone 6 Plus</a></li>
+                            <li><a href="#" data-value="iphone_se" data-size-port="300px" data-color-options="Black, White, Gold, Rose">iPhone SE</a></li>
+                            <li><a href="#" data-value="galaxy_s3" data-size-port="300px" data-color-options="Black, White">Galaxy S3</a></li>
+                            <li><a href="#" data-value="galaxy_s5" data-size-port="300px" data-color-options="Black, White">Galaxy S5</a></li>
+                            <li><a href="#" data-value="lumia920" data-size-port="300px" data-color-options="Black">Lumia 920</a></li>
+                            <li><a href="#" data-value="nexus7" data-size-port="300px" data-color-options="Black">Nexus 7</a></li>
+                            <li role="separator" class="divider"></li>
+
+                            <li class="dropdown-header">Tablets</li>
+                            <li><a href="#" data-value="ipad" data-size-port="600px" data-size-land="800px" data-color-options="Black, White">iPad</a></li>
+                            <li><a href="#" data-value="ipad_air" data-size-port="600px" data-size-land="800px" data-color-options="Grey, Silver">iPad Air</a></li>
+                            <li><a href="#" data-value="ipad_air_2" data-size-port="600px" data-size-land="800px" data-color-options="Grey, Silver, Gold">iPad Air 2</a></li>
+                            <li><a href="#" data-value="ipad_pro" data-size-port="600px" data-size-land="800px" data-color-options="Grey, Silver, Gold">iPad Pro</a></li>
+                            <li><a href="#" data-value="galaxy_tab4" data-size-port="600px" data-size-land="600px" data-color-options="Black, White">Galaxy Tab 4</a></li>
+                            <li><a href="#" data-value="surface" data-size-port="600px" data-size-land="600px">Microsoft Surface</a></li>
+                            <li role="separator" class="divider"></li>
+
+                            <li class="dropdown-header">Computers</li>
+                            <li><a href="#" data-value="imac" data-size-port="800px" data-size-land="800px">iMac</a></li>
+                            <li><a href="#" data-value="macbook" data-size-port="800px" data-size-land="800px">MacBook</a></li>
+                            <li><a href="#" data-value="macbook_2015" data-size-port="800px" data-size-land="800px" data-color-options="Grey, Silver, Gold">Macbook 2015</a></li>
+                            <li role="separator" class="divider"></li>
+
+                            <li class="dropdown-header">TV</li>
+                            <li><a href="#" data-value="samsung_tv" data-size-port="800px" data-size-land="800px" data-color-options="Black">Samsung TV</a></li>
+                          </ul>
+                        </div>
+
+                        <div id="orientationDropdown" class="btn-group" role="group">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Orientation
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="orientationDropdown">
+
+                            <li><a href="#" data-value="portrait" class="active">Portrait</a></li>
+                            <li><a href="#" data-value="landscape">Landscape</a></li>
+                          </ul>
+                        </div>
+
+                        <div id="colorDropdown" class="btn-group" role="group">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Color
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="colorDropdown"></ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row top-buffer">
+
+                <div id="portraitMode1" class="col-sm-4">
+
+                
+
+                        
+                        
+<div class="device-container" style="max-width:300px;" data-size-port="300px" data-size-land="600px">
+    <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
+        <div class="device">
+            <div class="screen">
+                <!-- <iframe src="http://framework7.io/kitchen-sink-ios" style="width: 100%; height: 100%;"></iframe> -->
+            </div>
+            <div class="button">
+                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+            </div>
+        </div>
+    </div>
+</div>
+                   
+
+
+                </div>
+
+                <div id="portraitMode2" class="col-sm-8">
+                    <pre><code class="generated-code"></code></pre>
+                </div>
+
+            </div>
+
+            <div id="landscapeMode" class="row top-buffer">
+                    
+                    <div class="col-sm-12"> 
+                        <pre><code class="generated-code"></code></pre>
+                    </div>
+
+            </div>
+
+            </div>
+
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/highlight.pack.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                hljs.initHighlightingOnLoad();
+
+                function reInitHightlight () {
+                    $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+                }
+
+                /* dropdown automatic close */
+                /* dropdown active item in dropdown title */
+                $('body').on('click', '.dropdown-menu li a', function() {
+
+                    $('.btn-group.open').removeClass('open');
+
+                    $(this).closest(".btn-group").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+                    $(this).closest(".btn-group").find('.btn').val($(this).data('value'));
+                });
+
+               
+
+                var cachedEl = $(".device-container").first();
+
+                function setSize() {
+                    if( $(cachedEl).find(".device-mockup").attr("data-orientation") == "portrait" ) {
+                        $(cachedEl).css("maxWidth", $(cachedEl).attr("data-size-port"));
+                    } else {
+                        $(cachedEl).css("maxWidth", $(cachedEl).attr("data-size-land"));
+                    }
+                }
+
+                function toggleLayout($this) {
+
+                    var landscapeMode = $('#landscapeMode');
+                    var portraitMode1 = $('#portraitMode1');
+                    var portraitMode2 = $('#portraitMode2');
+
+                    if ($this.attr('data-value') == 'portrait') {
+
+                        landscapeMode.css('display', 'none');
+                        portraitMode1.removeClass('col-sm-12').addClass('col-sm-4');
+                        portraitMode2.css('display', 'block');
+
+                    }else{
+                        landscapeMode.css('display', 'block');
+                        portraitMode1.removeClass('col-sm-4').addClass('col-sm-12');
+                        portraitMode2.css('display', 'none');
+                    }
+                }
+
+                function calcDeviceContainerWidth() {
+                    var deviceContainer = $('.device-container');
+
+                    var testWidth = deviceContainer.width();
+                    var testHeight = deviceContainer.height();
+
+                    var codeHeight = $('#landscapeMode > div').outerHeight(true);
+                    if (codeHeight == 0) {
+                        codeHeight = $('#portraitMode2').outerHeight(true);
+                    }
+
+                    var margin;
+                    if (!isPortraitMode()) {
+                        margin = 60;
+                    }else{
+                        margin = 40;
+                    }
+
+                    var target = ($(window).height() - $('body > div > div:nth-child(1)').height()) - margin - codeHeight;
+
+                    var calcWidth = target * (testWidth / testHeight);
+
+                    deviceContainer.css('max-width', calcWidth);
+                }
+
+                function isPortraitMode() {
+                    if ($('#orientationDropdown .dropdown-toggle').attr('value') == 'portrait') {
+                        return true;
+                    }else{
+                        return false;
+                    }
+                }
+
+                function refreshColorOptions() {
+                    var colorOptionsString = $('#deviceDropdown').find('.active').attr('data-color-options');
+                    if (colorOptionsString != null) {
+                        var colorOptionsArray = colorOptionsString.split(', ');
+                        var dropdown = $('ul[aria-labelledby="colorDropdown"]');
+                        dropdown.html('');
+                        console.log(colorOptionsArray);
+                        for (var i = 0; i <= colorOptionsArray.length - 1; i++) {
+                            if (i == 0) {
+                                dropdown.append('<li><a href="#" data-value="' + colorOptionsArray[i].toLowerCase() + '" class="active">' + colorOptionsArray[i] + '</a></li>');
+                            }else{
+                                dropdown.append('<li><a href="#" data-value="' + colorOptionsArray[i].toLowerCase() + '">' + colorOptionsArray[i] + '</a></li>');
+                            }
+                            console.log(colorOptionsArray[i]);
+
+                        }
+                    }   
+                    
+                }
+
+                refreshColorOptions();
+
+                $('body').on('click', '#deviceDropdown .dropdown-menu li a', function(e) {
+
+                    e.preventDefault();
+                    $('#deviceDropdown .dropdown-menu li a').removeClass("active"); //remove last active element
+                    $(this).addClass("active"); //set new active element
+
+                    refreshColorOptions();
+
+                    $(cachedEl)
+                    .attr("data-size-port", $(this).attr("data-size-port"))
+                    .attr("data-size-land", $(this).attr("data-size-land"))
+                    .find(".device-mockup")
+                    .attr("data-device", $(this).attr("data-value"))
+                    .attr("data-color", $('ul[aria-labelledby="colorDropdown"] li a').first().attr('data-value'));
+                    $('#colorDropdown button').html($('ul[aria-labelledby="colorDropdown"] li a').first().text() + ' <span class="caret"></span>');
+                    setSize();
+                    $(".generated-code").text($(cachedEl).html());
+
+                    calcDeviceContainerWidth();
+
+                    reInitHightlight();
+
+                    return false;
+                });
+
+                $('body').on('click', '#orientationDropdown .dropdown-menu li a', function(e) {
+
+                    e.preventDefault();
+                    $(this).addClass("active").siblings().removeClass("active");
+                    $(cachedEl).find(".device-mockup").attr("data-orientation", $(this).attr("data-value"));
+                    setSize()
+                    $(".generated-code").text($(cachedEl).html());
+
+                    toggleLayout($(this));
+
+                    calcDeviceContainerWidth();
+
+                    reInitHightlight();
+
+                    refreshColorOptions();
+
+                    return false;
+                });
+
+                $('body').on('click', '#colorDropdown .dropdown-menu li a', function(e) {
+
+                    e.preventDefault();
+                    $(this).addClass("active").siblings().removeClass("active");
+                    $(cachedEl).find(".device-mockup").attr("data-color", $(this).attr("data-value"));
+                    $(".generated-code").text($(cachedEl).html());
+
+                    calcDeviceContainerWidth();
+
+                    reInitHightlight();
+
+                    refreshColorOptions();
+
+                    return false;
+                });
+
+                $(".generated-code").text($(cachedEl).html());
+
+                calcDeviceContainerWidth();
+
+            });
+        </script>
+
+
+    </body>
+</html>
