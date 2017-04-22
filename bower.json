@@ -15,6 +15,7 @@
     "images",
     "fonts",
     "css",
-    "index.html"
+    "index.html",
+    "device-mockups/**/*.psd"
   ]
 }
