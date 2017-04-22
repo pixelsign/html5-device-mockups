@@ -51,3 +51,43 @@
   width: 71.30325814536342%;
   height: 84.23127463863338%;
 }
+.device[data-device="galaxyS3"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 51.41800246609125%;
+  background-image: url("../device-mockups/galaxyS3/landscape_black.png");
+}
+.device[data-device="galaxyS3"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 7.074340527577938%;
+  left: 9.3711467324291%;
+  width: 78.91491985203453%;
+  height: 86.33093525179856%;
+}
+.device[data-device="galaxyS3"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 51.41800246609125%;
+  background-image: url("../device-mockups/galaxyS3/landscape_white.png");
+}
+.device[data-device="galaxyS3"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 7.074340527577938%;
+  left: 9.3711467324291%;
+  width: 78.91491985203453%;
+  height: 86.33093525179856%;
+}
+.device[data-device="galaxyS3"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 194.7178871548619%;
+  background-image: url("../device-mockups/galaxyS3/portrait_black.png");
+}
+.device[data-device="galaxyS3"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 9.67940813810111%;
+  left: 6.602641056422569%;
+  width: 86.31452581032413%;
+  height: 78.91491985203453%;
+}
+.device[data-device="galaxyS3"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 194.7178871548619%;
+  background-image: url("../device-mockups/galaxyS3/portrait_white.png");
+}
+.device[data-device="galaxyS3"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 9.3711467324291%;
+  left: 6.602641056422569%;
+  width: 86.31452581032413%;
+  height: 78.91491985203453%;
+}
