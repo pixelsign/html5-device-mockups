@@ -171,3 +171,13 @@
   width: 87.94567062818336%;
   height: 83.05597579425114%;
 }
+.device[data-device="iMac"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 80.46663049376018%;
+  background-image: url("../device-mockups/iMac/portrait_black.png");
+}
+.device[data-device="iMac"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 5.057316250842886%;
+  left: 4.0694519804666305%;
+  width: 91.86109603906674%;
+  height: 64.19420094403236%;
+}
