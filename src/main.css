@@ -181,3 +181,43 @@
   width: 91.86109603906674%;
   height: 64.19420094403236%;
 }
+.device[data-device="iPad"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 129.56989247311827%;
+  background-image: url("../device-mockups/iPad/portrait_black.png");
+}
+.device[data-device="iPad"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 9.12863070539419%;
+  left: 10.304659498207885%;
+  width: 79.21146953405018%;
+  height: 81.3969571230982%;
+}
+.device[data-device="iPad"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 129.56989247311827%;
+  background-image: url("../device-mockups/iPad/portrait_white.png");
+}
+.device[data-device="iPad"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 9.12863070539419%;
+  left: 10.483870967741936%;
+  width: 79.3010752688172%;
+  height: 81.3969571230982%;
+}
+.device[data-device="iPad"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 77.04011065006915%;
+  background-image: url("../device-mockups/iPad/landscape_black.png");
+}
+.device[data-device="iPad"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 10.23339317773788%;
+  left: 9.266943291839558%;
+  width: 81.32780082987551%;
+  height: 79.44344703770197%;
+}
+.device[data-device="iPad"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 77.04011065006915%;
+  background-image: url("../device-mockups/iPad/landscape_white.png");
+}
+.device[data-device="iPad"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 10.23339317773788%;
+  left: 9.266943291839558%;
+  width: 81.32780082987551%;
+  height: 79.44344703770197%;
+}
