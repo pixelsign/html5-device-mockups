@@ -151,3 +151,23 @@
   width: 80.4694048616932%;
   height: 87.8048780487805%;
 }
+.device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 168.33616298811543%;
+  background-image: url("../device-mockups/galaxyTab4/portrait_black.png");
+}
+.device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 8.572869389813414%;
+  left: 5.68760611205433%;
+  width: 87.94567062818336%;
+  height: 83.00554715078164%;
+}
+.device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 168.33616298811543%;
+  background-image: url("../device-mockups/galaxyTab4/portrait_white.png");
+}
+.device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 8.522440746343923%;
+  left: 5.68760611205433%;
+  width: 87.94567062818336%;
+  height: 83.05597579425114%;
+}
