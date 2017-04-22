@@ -221,3 +221,63 @@
   width: 81.32780082987551%;
   height: 79.44344703770197%;
 }
+.device[data-device="iPadAir2"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 141.3929784824462%;
+  background-image: url("../device-mockups/iPadAir2/portrait_black.png");
+}
+.device[data-device="iPadAir2"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 9.090909090909092%;
+  left: 6.455266138165346%;
+  width: 86.9762174405436%;
+  height: 82.01842210652784%;
+}
+.device[data-device="iPadAir2"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 141.3929784824462%;
+  background-image: url("../device-mockups/iPadAir2/portrait_white.png");
+}
+.device[data-device="iPadAir2"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 9.090909090909092%;
+  left: 6.455266138165346%;
+  width: 86.9762174405436%;
+  height: 82.01842210652784%;
+}
+.device[data-device="iPadAir2"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 141.3929784824462%;
+  background-image: url("../device-mockups/iPadAir2/portrait_gold.png");
+}
+.device[data-device="iPadAir2"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 9.090909090909092%;
+  left: 6.455266138165346%;
+  width: 86.9762174405436%;
+  height: 82.01842210652784%;
+}
+.device[data-device="iPadAir2"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 70.72486984381257%;
+  background-image: url("../device-mockups/iPadAir2/landscape_black.png");
+}
+.device[data-device="iPadAir2"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 6.5685164212910525%;
+  left: 9.090909090909092%;
+  width: 82.01842210652784%;
+  height: 86.9762174405436%;
+}
+.device[data-device="iPadAir2"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 70.72486984381257%;
+  background-image: url("../device-mockups/iPadAir2/landscape_white.png");
+}
+.device[data-device="iPadAir2"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 6.5685164212910525%;
+  left: 9.090909090909092%;
+  width: 82.01842210652784%;
+  height: 86.9762174405436%;
+}
+.device[data-device="iPadAir2"][data-orientation="landscape"][data-color="gold"] {
+  padding-bottom: 70.72486984381257%;
+  background-image: url("../device-mockups/iPadAir2/landscape_gold.png");
+}
+.device[data-device="iPadAir2"][data-orientation="landscape"][data-color="gold"] .screen {
+  top: 6.5685164212910525%;
+  left: 9.090909090909092%;
+  width: 82.01842210652784%;
+  height: 86.9762174405436%;
+}
