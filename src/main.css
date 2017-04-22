@@ -91,3 +91,63 @@
   width: 86.31452581032413%;
   height: 78.91491985203453%;
 }
+.device[data-device="galaxyS5"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 193.9837398373984%;
+  background-image: url("../device-mockups/galaxyS5/portrait_black.png");
+}
+.device[data-device="galaxyS5"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 9.80720871751886%;
+  left: 6.097560975609756%;
+  width: 87.8048780487805%;
+  height: 80.4694048616932%;
+}
+.device[data-device="galaxyS5"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 193.9837398373984%;
+  background-image: url("../device-mockups/galaxyS5/portrait_white.png");
+}
+.device[data-device="galaxyS5"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 9.80720871751886%;
+  left: 6.097560975609756%;
+  width: 87.8048780487805%;
+  height: 80.4694048616932%;
+}
+.device[data-device="galaxyS5"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 193.9837398373984%;
+  background-image: url("../device-mockups/galaxyS5/portrait_gold.png");
+}
+.device[data-device="galaxyS5"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 9.80720871751886%;
+  left: 6.097560975609756%;
+  width: 87.8048780487805%;
+  height: 80.4694048616932%;
+}
+.device[data-device="galaxyS5"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 51.55071248952222%;
+  background-image: url("../device-mockups/galaxyS5/landscape_black.png");
+}
+.device[data-device="galaxyS5"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 6.097560975609756%;
+  left: 9.80720871751886%;
+  width: 80.4694048616932%;
+  height: 87.8048780487805%;
+}
+.device[data-device="galaxyS5"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 51.55071248952222%;
+  background-image: url("../device-mockups/galaxyS5/landscape_white.png");
+}
+.device[data-device="galaxyS5"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 6.097560975609756%;
+  left: 9.80720871751886%;
+  width: 80.4694048616932%;
+  height: 87.8048780487805%;
+}
+.device[data-device="galaxyS5"][data-orientation="landscape"][data-color="gold"] {
+  padding-bottom: 51.55071248952222%;
+  background-image: url("../device-mockups/galaxyS5/landscape_gold.png");
+}
+.device[data-device="galaxyS5"][data-orientation="landscape"][data-color="gold"] .screen {
+  top: 6.097560975609756%;
+  left: 9.80720871751886%;
+  width: 80.4694048616932%;
+  height: 87.8048780487805%;
+}
