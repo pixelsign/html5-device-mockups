@@ -9,6 +9,11 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src",
+    "js",
+    "images",
+    "fonts",
+    "css"
   ]
 }
