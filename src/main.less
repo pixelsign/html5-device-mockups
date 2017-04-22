@@ -1,0 +1,42 @@
+@import "for";
+@import "devices";
+@import "general";
+
+.device {
+    .for(@array); .-each(@value) {
+
+        @name:  extract(@value, 1);
+        @orientation:  extract(@value, 2);
+        @color:  extract(@value, 3);
+
+        &[data-device="@{name}"][data-orientation="@{orientation}"][data-color="@{color}"] {
+            @paddingCalc: (extract(@value, 5) / (extract(@value, 4) / 300) / 300 * 100);
+            @padding: ~"@{paddingCalc}%";
+
+            @backgroundUrl: "../device-mockups/@{name}/@{orientation}_@{color}.png";
+
+            padding-bottom: @padding;
+            background-image: url("@{backgroundUrl}");
+
+            .screen {
+                @topCalc: extract(@value, 6) / extract(@value, 5) * 100;
+                @top: ~"@{topCalc}%";
+                top: @top;
+
+                @leftCalc: extract(@value, 9) / extract(@value, 4) * 100;
+                @left: ~"@{leftCalc}%";
+                left: @left;
+
+                @screenWidth: extract(@value, 4) - extract(@value, 7) - extract(@value, 9);
+                @widthCalc: @screenWidth / extract(@value, 4) * 100;
+                @width: ~"@{widthCalc}%";
+                width: @width;
+
+                @screenHeight: extract(@value, 5) - extract(@value, 6) - extract(@value, 8);
+                @heightCalc: @screenHeight / extract(@value, 5) * 100;
+                @height: ~"@{heightCalc}%";
+                height: @height;
+            }
+        }
+    }
+}

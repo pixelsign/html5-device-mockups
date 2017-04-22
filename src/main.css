@@ -1,0 +1,53 @@
+.device-wrapper {
+  max-width: 300px;
+  width: 100%;
+}
+.device {
+  position: relative;
+  background-size: cover;
+}
+.device .screen {
+  position: absolute;
+  background-size: cover;
+  background-image: url(https://static.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg);
+}
+.device[data-device="iphone5"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 210.29023746701844%;
+  background-image: url("../device-mockups/iphone5/portrait_black.png");
+}
+.device[data-device="iphone5"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 14.805520702634881%;
+  left: 8.179419525065963%;
+  width: 84.43271767810026%;
+  height: 71.267252195734%;
+}
+.device[data-device="iphone5"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 210.29023746701844%;
+  background-image: url("../device-mockups/iphone5/portrait_white.png");
+}
+.device[data-device="iphone5"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 14.805520702634881%;
+  left: 8.179419525065963%;
+  width: 84.43271767810026%;
+  height: 71.267252195734%;
+}
+.device[data-device="iphone5"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 47.68170426065163%;
+  background-image: url("../device-mockups/iphone5/landscape_black.png");
+}
+.device[data-device="iphone5"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 7.490144546649145%;
+  left: 14.786967418546364%;
+  width: 71.30325814536342%;
+  height: 84.23127463863338%;
+}
+.device[data-device="iphone5"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 47.68170426065163%;
+  background-image: url("../device-mockups/iphone5/landscape_white.png");
+}
+.device[data-device="iphone5"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 7.490144546649145%;
+  left: 14.786967418546364%;
+  width: 71.30325814536342%;
+  height: 84.23127463863338%;
+}
