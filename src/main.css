@@ -281,3 +281,63 @@
   width: 82.01842210652784%;
   height: 86.9762174405436%;
 }
+.device[data-device="iPadPro"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 138.62249346120313%;
+  background-image: url("../device-mockups/iPadPro/portrait_black.png");
+}
+.device[data-device="iPadPro"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 7.044025157232705%;
+  left: 5.361813426329555%;
+  width: 89.23278116826503%;
+  height: 85.9119496855346%;
+}
+.device[data-device="iPadPro"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 138.62249346120313%;
+  background-image: url("../device-mockups/iPadPro/portrait_white.png");
+}
+.device[data-device="iPadPro"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 7.044025157232705%;
+  left: 5.361813426329555%;
+  width: 89.23278116826503%;
+  height: 85.9119496855346%;
+}
+.device[data-device="iPadPro"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 138.62249346120313%;
+  background-image: url("../device-mockups/iPadPro/portrait_gold.png");
+}
+.device[data-device="iPadPro"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 7.0754716981132075%;
+  left: 5.361813426329555%;
+  width: 89.23278116826503%;
+  height: 85.88050314465409%;
+}
+.device[data-device="iPadPro"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 72.13836477987421%;
+  background-image: url("../device-mockups/iPadPro/landscape_black.png");
+}
+.device[data-device="iPadPro"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 5.405405405405405%;
+  left: 7.044025157232705%;
+  width: 85.9119496855346%;
+  height: 89.23278116826503%;
+}
+.device[data-device="iPadPro"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 72.13836477987421%;
+  background-image: url("../device-mockups/iPadPro/landscape_white.png");
+}
+.device[data-device="iPadPro"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 5.405405405405405%;
+  left: 7.044025157232705%;
+  width: 85.9119496855346%;
+  height: 89.23278116826503%;
+}
+.device[data-device="iPadPro"][data-orientation="landscape"][data-color="gold"] {
+  padding-bottom: 72.1471235460547%;
+  background-image: url("../device-mockups/iPadPro/landscape_gold.png");
+}
+.device[data-device="iPadPro"][data-orientation="landscape"][data-color="gold"] .screen {
+  top: 5.403050108932462%;
+  left: 7.073247406475951%;
+  width: 85.88494184218798%;
+  height: 89.23747276688452%;
+}
