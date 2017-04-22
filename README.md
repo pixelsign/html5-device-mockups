@@ -1,3 +1,5 @@
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/html5-device-mockups/Lobby)
+
 HTML5 device mockups 2.0
 ====================
 
