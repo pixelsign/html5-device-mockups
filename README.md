@@ -1,5 +1,5 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/html5-device-mockups/Lobby)
-[![Bower](https://img.shields.io/bower/v/bootstrap.svg)](https://bower.io/search/?q=html5-device-mockups)
+[![Bower](https://img.shields.io/bower/v/html5-device-mockups.svg)](https://bower.io/search/?q=html5-device-mockups)
 
 HTML5 device mockups 2.0
 ====================
