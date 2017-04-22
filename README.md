@@ -1,7 +1,7 @@
 HTML5 device mockups 2.0
 ====================
 
-You can view the demo page of all devices here: http://pixelsign.github.io/html5-device-mockups/
+You can view the demo page of all devices here: https://pixelsign.github.io/html5-device-mockups/
 
 Use on...
 * Your website / splash screen
