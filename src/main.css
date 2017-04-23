@@ -541,3 +541,43 @@
   width: 70.95565271705185%;
   height: 83.8794233289646%;
 }
+.device[data-device="iPhone5"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 209.46123521681997%;
+  background-image: url("../device-mockups/iPhone5/portrait_black.png");
+}
+.device[data-device="iPhone5"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 14.805520702634881%;
+  left: 8.278580814717477%;
+  width: 84.23127463863338%;
+  height: 71.267252195734%;
+}
+.device[data-device="iPhone5"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 209.46123521681997%;
+  background-image: url("../device-mockups/iPhone5/portrait_white.png");
+}
+.device[data-device="iPhone5"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 14.805520702634881%;
+  left: 8.278580814717477%;
+  width: 84.23127463863338%;
+  height: 71.267252195734%;
+}
+.device[data-device="iPhone5"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 47.74153074027603%;
+  background-image: url("../device-mockups/iPhone5/landscape_black.png");
+}
+.device[data-device="iPhone5"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 7.490144546649145%;
+  left: 14.805520702634881%;
+  width: 71.267252195734%;
+  height: 84.23127463863338%;
+}
+.device[data-device="iPhone5"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 47.74153074027603%;
+  background-image: url("../device-mockups/iPhone5/landscape_white.png");
+}
+.device[data-device="iPhone5"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 7.490144546649145%;
+  left: 14.805520702634881%;
+  width: 71.267252195734%;
+  height: 84.23127463863338%;
+}
