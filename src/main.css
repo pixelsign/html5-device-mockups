@@ -220,10 +220,11 @@
   height: 64.19420094403236%;
 }
 .device[data-device="iMac"][data-orientation="portrait"][data-color="black"] .button {
-  top: 101.88806473364802%;
-  left: 17.471513836136733%;
-  width: 65.00271296798698%;
-  height: -5.799055967633175%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="iPad"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 129.56989247311827%;
@@ -236,10 +237,10 @@
   height: 81.3969571230982%;
 }
 .device[data-device="iPad"][data-orientation="portrait"][data-color="black"] .button {
-  top: 104.49515905947442%;
-  left: 28.85304659498208%;
-  width: 42.204301075268816%;
-  height: -8.506224066390041%;
+  top: 93.15352697095436%;
+  left: 47.132616487455195%;
+  width: 6.003584229390681%;
+  height: 4.495159059474412%;
 }
 .device[data-device="iPad"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 129.56989247311827%;
@@ -252,10 +253,10 @@
   height: 81.3969571230982%;
 }
 .device[data-device="iPad"][data-orientation="portrait"][data-color="white"] .button {
-  top: 104.49515905947442%;
-  left: 28.85304659498208%;
-  width: 42.204301075268816%;
-  height: -8.506224066390041%;
+  top: 93.15352697095436%;
+  left: 47.132616487455195%;
+  width: 6.003584229390681%;
+  height: 4.495159059474412%;
 }
 .device[data-device="iPad"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 77.04011065006915%;
@@ -268,10 +269,10 @@
   height: 79.44344703770197%;
 }
 .device[data-device="iPad"][data-orientation="landscape"][data-color="black"] .button {
-  top: 135.63734290843806%;
-  left: 22.268326417704014%;
-  width: 55.3941908713693%;
-  height: -40.843806104129264%;
+  top: 46.768402154398565%;
+  left: 93.22268326417704%;
+  width: 4.426002766251729%;
+  height: 6.014362657091562%;
 }
 .device[data-device="iPad"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 77.04011065006915%;
@@ -284,10 +285,10 @@
   height: 79.44344703770197%;
 }
 .device[data-device="iPad"][data-orientation="landscape"][data-color="white"] .button {
-  top: 135.63734290843806%;
-  left: 22.268326417704014%;
-  width: 55.3941908713693%;
-  height: -40.843806104129264%;
+  top: 46.768402154398565%;
+  left: 93.22268326417704%;
+  width: 4.426002766251729%;
+  height: 6.014362657091562%;
 }
 .device[data-device="iPadAir2"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 141.3929784824462%;
