@@ -691,3 +691,13 @@
   width: 97.25378787878788%;
   height: 85.21229868228404%;
 }
+.device[data-device="Surface"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 62.38125395820139%;
+  background-image: url("../device-mockups/Surface/portrait_black.png");
+}
+.device[data-device="Surface"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 11.065989847715736%;
+  left: 6.776440785307157%;
+  width: 86.38378720709309%;
+  height: 77.76649746192894%;
+}
