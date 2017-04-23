@@ -10,11 +10,19 @@ module.exports = function(grunt) {
                     'src/main.css': 'src/main.less'
                 }
             }
+        },
+        cssmin: {
+            target: {
+                files: {
+                    'dest/main.min.css': ['src/main.css']
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('default', ['less']);
+    grunt.registerTask('default', ['less', 'cssmin']);
 
 };
