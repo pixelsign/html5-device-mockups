@@ -581,3 +581,43 @@
   width: 71.267252195734%;
   height: 84.23127463863338%;
 }
+.device[data-device="Lumia930"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 192.31287929871883%;
+  background-image: url("../device-mockups/Lumia930/portrait_black.png");
+}
+.device[data-device="Lumia930"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 7.1178120617110805%;
+  left: 5.529332434254889%;
+  width: 87.86244099797707%;
+  height: 81.13604488078542%;
+}
+.device[data-device="Lumia930"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 192.31287929871883%;
+  background-image: url("../device-mockups/Lumia930/portrait_white.png");
+}
+.device[data-device="Lumia930"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 7.1178120617110805%;
+  left: 5.529332434254889%;
+  width: 87.86244099797707%;
+  height: 81.13604488078542%;
+}
+.device[data-device="Lumia930"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 51.998597475455824%;
+  background-image: url("../device-mockups/Lumia930/landscape_black.png");
+}
+.device[data-device="Lumia930"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 6.608226567768037%;
+  left: 7.1178120617110805%;
+  width: 81.13604488078542%;
+  height: 87.86244099797707%;
+}
+.device[data-device="Lumia930"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 51.998597475455824%;
+  background-image: url("../device-mockups/Lumia930/landscape_white.png");
+}
+.device[data-device="Lumia930"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 6.608226567768037%;
+  left: 7.1178120617110805%;
+  width: 81.13604488078542%;
+  height: 87.86244099797707%;
+}
