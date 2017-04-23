@@ -681,3 +681,13 @@
   width: 75.15657620041753%;
   height: 81.76043557168784%;
 }
+.device[data-device="SamsungTV"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 64.6780303030303%;
+  background-image: url("../device-mockups/SamsungTV/portrait_black.png");
+}
+.device[data-device="SamsungTV"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 2.1961932650073206%;
+  left: 1.3257575757575757%;
+  width: 97.25378787878788%;
+  height: 85.21229868228404%;
+}
