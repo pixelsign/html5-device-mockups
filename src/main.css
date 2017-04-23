@@ -621,3 +621,23 @@
   width: 81.13604488078542%;
   height: 87.86244099797707%;
 }
+.device[data-device="Lumia920"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 183.16151202749143%;
+  background-image: url("../device-mockups/Lumia920/portrait_black.png");
+}
+.device[data-device="Lumia920"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 8.25515947467167%;
+  left: 8.419243986254296%;
+  width: 82.4742268041237%;
+  height: 75.046904315197%;
+}
+.device[data-device="Lumia920"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 54.59662288930582%;
+  background-image: url("../device-mockups/Lumia920/landscape_black.png");
+}
+.device[data-device="Lumia920"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 9.106529209621993%;
+  left: 8.25515947467167%;
+  width: 75.046904315197%;
+  height: 82.4742268041237%;
+}
