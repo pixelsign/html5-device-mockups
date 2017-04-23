@@ -47,6 +47,26 @@ New in 2.0:
 * Minified CSS Files
 * NEW PROJECT PAGE
 
+| Name | Filename | Orientations | Colors |
+| --- | --- | --- | --- |
+| Galaxy S3 | galaxyS3 | portrait, landscape | black, white |
+| Galaxy S5 | galaxyS5 | portrait, landscape | black, white, gold |
+| Galaxy Tab 4 | galaxyTab4 | portrait | black, white |
+| iMac | iMac | portrait | black |
+| iPad | iPad | portrait, landscape | black, white |
+| iPad Air 2 | iPadAir2 | portrait, landscape | black, white, gold |
+| iPad Pro | iPadPro | portrait, landscape | black, white, gold |
+| iPhone 6 | iPhone6 | portrait, landscape | black, white, gold |
+| iPhone 6 Plus | iPhone6Plus | portrait, landscape | black, white, gold |
+| iPhone SE | iPhoneSE | portrait, landscape | black, white, gold, pink |
+| iPhone 5 | iPhone5 | portrait, landscape | black, white |
+| Lumia 930 | Lumia930 | portrait, landscape | black, white |
+| Lumia920 | Lumia920 | portrait, landscape | black |
+| Macbook | Macbook | portrait | black |
+| Macbook 2015 | Macbook2015 | portrait | black, white, gold |
+| Samsung TV | SamsungTV | portrait | black |
+| Surface | Surface | portrait | black |
+
 Integrating to your website:
 ----------------------------
 
