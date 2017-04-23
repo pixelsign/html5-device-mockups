@@ -37,6 +37,26 @@
                 @height: ~"@{heightCalc}%";
                 height: @height;
             }
+
+            .button {
+                @topCalc: extract(@value, 10) / extract(@value, 5) * 100;
+                @top: ~"@{topCalc}%";
+                top: @top;
+
+                @leftCalc: extract(@value, 13) / extract(@value, 4) * 100;
+                @left: ~"@{leftCalc}%";
+                left: @left;
+
+                @screenWidth: extract(@value, 4) - extract(@value, 11) - extract(@value, 13);
+                @widthCalc: @screenWidth / extract(@value, 4) * 100;
+                @width: ~"@{widthCalc}%";
+                width: @width;
+
+                @screenHeight: extract(@value, 5) - extract(@value, 10) - extract(@value, 12);
+                @heightCalc: @screenHeight / extract(@value, 5) * 100;
+                @height: ~"@{heightCalc}%";
+                height: @height;
+            }
         }
     }
 }
