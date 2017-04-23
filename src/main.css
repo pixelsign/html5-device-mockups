@@ -341,3 +341,63 @@
   width: 85.88494184218798%;
   height: 89.23747276688452%;
 }
+.device[data-device="iPhone6"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 207.620164126612%;
+  background-image: url("../device-mockups/iPhone6/portrait_black.png");
+}
+.device[data-device="iPhone6"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 12.25296442687747%;
+  left: 6.096131301289566%;
+  width: 88.042203985932%;
+  height: 75.32467532467533%;
+}
+.device[data-device="iPhone6"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 207.620164126612%;
+  background-image: url("../device-mockups/iPhone6/portrait_white.png");
+}
+.device[data-device="iPhone6"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 12.25296442687747%;
+  left: 6.096131301289566%;
+  width: 88.042203985932%;
+  height: 75.32467532467533%;
+}
+.device[data-device="iPhone6"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 207.620164126612%;
+  background-image: url("../device-mockups/iPhone6/portrait_gold.png");
+}
+.device[data-device="iPhone6"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 12.25296442687747%;
+  left: 6.096131301289566%;
+  width: 88.042203985932%;
+  height: 75.32467532467533%;
+}
+.device[data-device="iPhone6"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 48.164878599661215%;
+  background-image: url("../device-mockups/iPhone6/landscape_black.png");
+}
+.device[data-device="iPhone6"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 5.861664712778429%;
+  left: 12.309429700734048%;
+  width: 75.26821005081875%;
+  height: 87.92497069167644%;
+}
+.device[data-device="iPhone6"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 48.164878599661215%;
+  background-image: url("../device-mockups/iPhone6/landscape_white.png");
+}
+.device[data-device="iPhone6"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 5.861664712778429%;
+  left: 12.309429700734048%;
+  width: 75.26821005081875%;
+  height: 87.92497069167644%;
+}
+.device[data-device="iPhone6"][data-orientation="landscape"][data-color="gold"] {
+  padding-bottom: 48.164878599661215%;
+  background-image: url("../device-mockups/iPhone6/landscape_gold.png");
+}
+.device[data-device="iPhone6"][data-orientation="landscape"][data-color="gold"] .screen {
+  top: 5.861664712778429%;
+  left: 12.309429700734048%;
+  width: 75.26821005081875%;
+  height: 87.92497069167644%;
+}
