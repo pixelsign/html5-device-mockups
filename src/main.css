@@ -877,10 +877,11 @@
   height: 81.13604488078542%;
 }
 .device[data-device="Lumia930"][data-orientation="portrait"][data-color="black"] .button {
-  top: 52.98036465638148%;
-  left: 21.712744436952125%;
-  width: 56.50708024275119%;
-  height: 44.98597475455821%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Lumia930"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 192.31287929871883%;
@@ -893,10 +894,11 @@
   height: 81.13604488078542%;
 }
 .device[data-device="Lumia930"][data-orientation="portrait"][data-color="white"] .button {
-  top: 52.98036465638148%;
-  left: 21.712744436952125%;
-  width: 56.50708024275119%;
-  height: 44.98597475455821%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Lumia930"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 51.998597475455824%;
@@ -909,10 +911,11 @@
   height: 87.86244099797707%;
 }
 .device[data-device="Lumia930"][data-orientation="landscape"][data-color="black"] .button {
-  top: 101.88806473364802%;
-  left: 11.29032258064516%;
-  width: 77.38429172510519%;
-  height: -5.799055967633175%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Lumia930"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 51.998597475455824%;
@@ -925,10 +928,11 @@
   height: 87.86244099797707%;
 }
 .device[data-device="Lumia930"][data-orientation="landscape"][data-color="white"] .button {
-  top: 101.88806473364802%;
-  left: 11.29032258064516%;
-  width: 77.38429172510519%;
-  height: -5.799055967633175%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Lumia920"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 183.16151202749143%;
@@ -941,10 +945,11 @@
   height: 75.046904315197%;
 }
 .device[data-device="Lumia920"][data-orientation="portrait"][data-color="black"] .button {
-  top: 141.74484052532833%;
-  left: 55.32646048109966%;
-  width: -10.824742268041238%;
-  height: -47.18574108818011%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Lumia920"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 54.59662288930582%;
@@ -957,10 +962,11 @@
   height: 82.4742268041237%;
 }
 .device[data-device="Lumia920"][data-orientation="landscape"][data-color="black"] .button {
-  top: 259.6219931271478%;
-  left: 30.206378986866795%;
-  width: 39.493433395872415%;
-  height: -169.58762886597938%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 59.530791788856305%;
@@ -973,10 +979,11 @@
   height: 84.07224958949097%;
 }
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] .button {
-  top: 248.11165845648605%;
-  left: 31.47605083088954%;
-  width: 36.950146627565985%;
-  height: -157.63546798029557%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 57.51565762004176%;
@@ -989,10 +996,11 @@
   height: 81.76043557168784%;
 }
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="black"] .button {
-  top: 137.1143375680581%;
-  left: 16.805845511482254%;
-  width: 66.33611691022965%;
-  height: -42.37749546279492%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 57.51565762004176%;
@@ -1005,10 +1013,11 @@
   height: 81.76043557168784%;
 }
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="white"] .button {
-  top: 137.1143375680581%;
-  left: 16.805845511482254%;
-  width: 66.33611691022965%;
-  height: -42.37749546279492%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 57.51565762004176%;
@@ -1021,10 +1030,11 @@
   height: 81.76043557168784%;
 }
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="gold"] .button {
-  top: 137.1143375680581%;
-  left: 16.805845511482254%;
-  width: 66.33611691022965%;
-  height: -42.37749546279492%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="SamsungTV"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 64.6780303030303%;
@@ -1037,10 +1047,11 @@
   height: 85.21229868228404%;
 }
 .device[data-device="SamsungTV"][data-orientation="portrait"][data-color="black"] .button {
-  top: 221.2298682284041%;
-  left: 30.492424242424242%;
-  width: 38.92045454545455%;
-  height: -129.72181551976573%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="Surface"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 62.38125395820139%;
@@ -1053,8 +1064,8 @@
   height: 77.76649746192894%;
 }
 .device[data-device="Surface"][data-orientation="portrait"][data-color="black"] .button {
-  top: 153.4010152284264%;
-  left: 20.39265357821406%;
-  width: 59.151361621279285%;
-  height: -59.289340101522846%;
+  top: 92.18274111675126%;
+  left: 48.89170360987967%;
+  width: 2.3432552248258394%;
+  height: 3.654822335025381%;
 }
