@@ -651,3 +651,33 @@
   width: 76.83284457478005%;
   height: 84.07224958949097%;
 }
+.device[data-device="Macbook2015"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 57.51565762004176%;
+  background-image: url("../device-mockups/Macbook2015/portrait_black.png");
+}
+.device[data-device="Macbook2015"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 7.350272232304899%;
+  left: 12.421711899791232%;
+  width: 75.15657620041753%;
+  height: 81.76043557168784%;
+}
+.device[data-device="Macbook2015"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 57.51565762004176%;
+  background-image: url("../device-mockups/Macbook2015/portrait_white.png");
+}
+.device[data-device="Macbook2015"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 7.350272232304899%;
+  left: 12.421711899791232%;
+  width: 75.15657620041753%;
+  height: 81.76043557168784%;
+}
+.device[data-device="Macbook2015"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 57.51565762004176%;
+  background-image: url("../device-mockups/Macbook2015/portrait_gold.png");
+}
+.device[data-device="Macbook2015"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 7.350272232304899%;
+  left: 12.421711899791232%;
+  width: 75.15657620041753%;
+  height: 81.76043557168784%;
+}
