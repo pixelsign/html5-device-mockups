@@ -39,6 +39,9 @@
             }
 
             .button {
+                & when (extract(@value, 10) = 0) and (extract(@value, 11) = 0) and (extract(@value, 12) = 0) and (extract(@value, 13) = 0) {
+                    display: none;
+                }
                 @topCalc: extract(@value, 10) / extract(@value, 5) * 100;
                 @top: ~"@{topCalc}%";
                 top: @top;

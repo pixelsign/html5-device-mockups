@@ -186,10 +186,11 @@
   height: 83.00554715078164%;
 }
 .device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="black"] .button {
-  top: 76.1976802824004%;
-  left: 27.33446519524618%;
-  width: 45.24617996604414%;
-  height: 20.87745839636914%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 168.33616298811543%;
@@ -202,10 +203,11 @@
   height: 83.05597579425114%;
 }
 .device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="white"] .button {
-  top: 76.1976802824004%;
-  left: 27.33446519524618%;
-  width: 45.24617996604414%;
-  height: 20.87745839636914%;
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
 .device[data-device="iMac"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 80.46663049376018%;
