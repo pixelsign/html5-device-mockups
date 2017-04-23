@@ -401,3 +401,63 @@
   width: 75.26821005081875%;
   height: 87.92497069167644%;
 }
+.device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 201.45161290322577%;
+  background-image: url("../device-mockups/iPhone6Plus/portrait_black.png");
+}
+.device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 11.489191353082466%;
+  left: 6.532258064516129%;
+  width: 87.09677419354838%;
+  height: 76.86148919135309%;
+}
+.device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 201.45161290322577%;
+  background-image: url("../device-mockups/iPhone6Plus/portrait_white.png");
+}
+.device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 11.489191353082466%;
+  left: 6.532258064516129%;
+  width: 87.09677419354838%;
+  height: 76.86148919135309%;
+}
+.device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 201.45161290322577%;
+  background-image: url("../device-mockups/iPhone6Plus/portrait_gold.png");
+}
+.device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 11.489191353082466%;
+  left: 6.532258064516129%;
+  width: 87.09677419354838%;
+  height: 76.86148919135309%;
+}
+.device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 49.639711769415534%;
+  background-image: url("../device-mockups/iPhone6Plus/landscape_black.png");
+}
+.device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 6.370967741935483%;
+  left: 11.489191353082466%;
+  width: 76.86148919135309%;
+  height: 87.09677419354838%;
+}
+.device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 49.639711769415534%;
+  background-image: url("../device-mockups/iPhone6Plus/landscape_white.png");
+}
+.device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 6.370967741935483%;
+  left: 11.489191353082466%;
+  width: 76.86148919135309%;
+  height: 87.09677419354838%;
+}
+.device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="gold"] {
+  padding-bottom: 49.639711769415534%;
+  background-image: url("../device-mockups/iPhone6Plus/landscape_gold.png");
+}
+.device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="gold"] .screen {
+  top: 6.370967741935483%;
+  left: 11.489191353082466%;
+  width: 76.86148919135309%;
+  height: 87.09677419354838%;
+}
