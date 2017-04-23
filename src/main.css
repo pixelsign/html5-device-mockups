@@ -641,3 +641,13 @@
   width: 75.046904315197%;
   height: 82.4742268041237%;
 }
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 59.530791788856305%;
+  background-image: url("../device-mockups/Macbook/portrait_black.png");
+}
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 6.403940886699508%;
+  left: 11.534701857282501%;
+  width: 76.83284457478005%;
+  height: 84.07224958949097%;
+}
