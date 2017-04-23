@@ -461,3 +461,83 @@
   width: 76.86148919135309%;
   height: 87.09677419354838%;
 }
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 209.829619921363%;
+  background-image: url("../device-mockups/iPhoneSE/portrait_black.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 14.803247970018738%;
+  left: 8.51900393184797%;
+  width: 83.8794233289646%;
+  height: 70.95565271705185%;
+}
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 209.829619921363%;
+  background-image: url("../device-mockups/iPhoneSE/portrait_white.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 14.803247970018738%;
+  left: 8.51900393184797%;
+  width: 83.8794233289646%;
+  height: 70.95565271705185%;
+}
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 209.829619921363%;
+  background-image: url("../device-mockups/iPhoneSE/portrait_gold.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 14.803247970018738%;
+  left: 8.51900393184797%;
+  width: 83.8794233289646%;
+  height: 70.95565271705185%;
+}
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="pink"] {
+  padding-bottom: 209.829619921363%;
+  background-image: url("../device-mockups/iPhoneSE/portrait_pink.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="pink"] .screen {
+  top: 14.803247970018738%;
+  left: 8.51900393184797%;
+  width: 83.8794233289646%;
+  height: 70.95565271705185%;
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 47.65771392879451%;
+  background-image: url("../device-mockups/iPhoneSE/landscape_black.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 7.601572739187418%;
+  left: 14.803247970018738%;
+  width: 70.95565271705185%;
+  height: 83.8794233289646%;
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="white"] {
+  padding-bottom: 47.65771392879451%;
+  background-image: url("../device-mockups/iPhoneSE/landscape_white.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="white"] .screen {
+  top: 7.601572739187418%;
+  left: 14.803247970018738%;
+  width: 70.95565271705185%;
+  height: 83.8794233289646%;
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="gold"] {
+  padding-bottom: 47.65771392879451%;
+  background-image: url("../device-mockups/iPhoneSE/landscape_gold.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="gold"] .screen {
+  top: 7.601572739187418%;
+  left: 14.803247970018738%;
+  width: 70.95565271705185%;
+  height: 83.8794233289646%;
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="pink"] {
+  padding-bottom: 47.65771392879451%;
+  background-image: url("../device-mockups/iPhoneSE/landscape_pink.png");
+}
+.device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="pink"] .screen {
+  top: 7.601572739187418%;
+  left: 14.803247970018738%;
+  width: 70.95565271705185%;
+  height: 83.8794233289646%;
+}
