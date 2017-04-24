@@ -3,18 +3,15 @@ module.exports = function(grunt) {
     grunt.initConfig({
         less: {
             development: {
-                options: {
-                    paths: ['src']
-                },
                 files: {
-                    'src/main.css': 'src/main.less'
+                    'dist/device-mockups.css': 'src/device-mockups.less'
                 }
             }
         },
         cssmin: {
             target: {
                 files: {
-                    'dist/main.min.css': ['src/main.css']
+                    'dist/device-mockups.min.css': ['dist/device-mockups.css']
                 }
             }
         }
