@@ -1069,3 +1069,35 @@
   width: 2.3432552248258394%;
   height: 3.654822335025381%;
 }
+.device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 89.11783644558918%;
+  background-image: url("../device-mockups/iPhone6Hand/portrait_black.png");
+}
+.device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 10.83815028901734%;
+  left: 10.946555054732775%;
+  width: 33.67675466838377%;
+  height: 67.26878612716763%;
+}
+.device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="black"] .button {
+  top: 79.6965317919075%;
+  left: 24.790727623953636%;
+  width: 5.988409529942048%;
+  height: 6.791907514450866%;
+}
+.device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 89.11783644558918%;
+  background-image: url("../device-mockups/iPhone6Hand/portrait_white.png");
+}
+.device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 10.83815028901734%;
+  left: 11.07533805537669%;
+  width: 33.54797166773986%;
+  height: 67.26878612716763%;
+}
+.device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="white"] .button {
+  top: 79.6965317919075%;
+  left: 24.790727623953636%;
+  width: 5.988409529942048%;
+  height: 6.791907514450866%;
+}
