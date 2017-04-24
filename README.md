@@ -31,10 +31,8 @@ Features:
 * Maintains the device's aspect ratio when scaled
 * Perfectly aligned screen content containers
 * Some devices have "home button" layer defined for possible click event bindings
-* Lengthy gallery of different devices
 * Multiple color schemes
 * Multiple orientations
-* Two separate ways for integrating the devices to your site
 
 Devices
 -------
