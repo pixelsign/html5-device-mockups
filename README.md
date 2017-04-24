@@ -3,7 +3,7 @@
 [![Bower](https://img.shields.io/bower/v/html5-device-mockups.svg)](https://bower.io/search/?q=html5-device-mockups)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-HTML5 device mockups :iphone:
+HTML5 device mockups :iphone::computer:
 ====================
 
 You can view the demo page of all devices here: https://pixelsign.github.io/html5-device-mockups/
