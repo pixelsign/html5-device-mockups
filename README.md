@@ -59,7 +59,7 @@ Devices
 | Samsung TV | SamsungTV | portrait | black |
 | Surface | Surface | portrait | black |
 
-##Integrating to your website:
+## Integrating to your website:
 
 ### Bower
 ```
@@ -70,7 +70,7 @@ bower install html5-device-mockups
 ```
 <link rel="stylesheet" type="text/css" href="dist/main.min.css">
 ```
-##Usage
+## Usage
 
 Use this example or grap the code from the HTML generator on our demo site:
 
