@@ -55,7 +55,9 @@ Devices
 | Macbook | Macbook | portrait | black |
 | Macbook 2015 | Macbook2015 | portrait | black, white, gold |
 | Samsung TV | SamsungTV | portrait | black |
-| Surface | Surface | portrait | black |
+| iPhone 6 Hand | iPhone6Hand | portrait | black, white |
+| iPhone 7 Hand | iPhone7Hand | portrait | black |
+| iPhone 7 Hand 2 | iPhone7Hand_2 | portrait | black |
 
 ## Integrating to your website:
 
