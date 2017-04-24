@@ -1,495 +1,164 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Crew &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+<html lang="en">
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
-	<!-- Font Awesome Icons -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-
-	<link rel="stylesheet" href="css/style.css">
-
-	<link rel="stylesheet" href="css/github.css">
-
-	<link rel="stylesheet" type="text/css" href="device-mockups/device-mockups2.min.css" />
-
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>HTML5-device-mockups</title>
+	<link rel="stylesheet" href="assets/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/device-mockups.min.css">
 	<style>
+		.navbar-brand {
+			font-size: 30px;
+			font-weight: 700;
+			color: white !important;
+		}
 
-	body:after{
-	    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-	    content: url(images/slide_5.jpg);
-	}
+		.navbar-light .navbar-nav .nav-link {
+			color: white !important;
+		}
 
-	#wrapper {
-		margin-bottom: 236px;
-		position: relative;
-    	z-index: 1;
-	}
-	header img {
-	    padding-top: 4px;
-	}
-	footer {
-		position: fixed;
-	    bottom: 0;
-	    width: 100%;
-	    background: #323a45;
-	}
-	.owl-carousel-fullwidth .item img {
-	    max-width: 60%;
-	    float: left;
-	}
-	#slider > div > div.owl-stage-outer.owl-height > div > div.owl-item.active > div > div > div > div.col-sm-5.iphone-image > div > div > img.to-animate-2 {
-		margin-left: -20%;
-	}
-    .owl-stage-outer.owl-height {
-        height: 800px !important;
-    }
-    #fh5co-about-us {
-        background: white;
-    }
-    /* Demo */
-    .device-container {
-        margin: 0 auto;
-        width: 100%;
-    }
+		.navbar-collapse {
+			justify-content: flex-end;
+		}
 
-    pre {
-        background-color: #f8f8f8;
-        border-radius: 24px;
-        -webkit-border-radius: 24px;
-        -moz-border-radius: 24px;
-        border: 1px #ccc solid;
-        display: block;
-        width: 100%;
-        padding: 10px;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        overflow: auto;
-    }
+		header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 100;
+		}
 
-    .generated-code {
-        margin: 0 auto;
-    }
+		.intro {
+			height: 100vh;
+			background: url(https://static.pexels.com/photos/213803/pexels-photo-213803.jpeg);
+			background-size: cover;
 
-    .top-buffer { margin-top: 50px; }
+			display: flex;
+			align-items: center;
+			color: white;
+		}
 
-    .dropdown-menu {
-        width: 100%;
-    }
+		.intro .device-wrapper {
+			max-width: 60%;
+			float: left;
+			width: 100%;
+		}
 
-    #landscapeMode {
-        display: none;
-    }
-    
-    .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
-	    color: white;
-	}
+		.device-wrapper {
+			max-width: none;
+		}
 
-	#fh5co-our-services h2, #fh5co-our-services h3 {
-		color: #ffffff;
-	}
+		.intro .device-wrapper.deviceRight {
+			margin-left: -20%;
+		}
 
-	ul[aria-labelledby="deviceDropdown"] i {
-		color: red;
-	}
+		.intro .title {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
 	</style>
+</head>
 
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-	<header role="banner" id="fh5co-header">
-			<div class="container">
-				<!-- <div class="row"> -->
-			    <nav class="navbar navbar-default">
-		        <div class="navbar-header">
-		        	<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		          	<a class="navbar-brand" href="index.html">Pixelsign</a> 
-		          	<img class="logo" src="images/pixelsign%20logo.png" width="41px" alt="pixelsign%20logo.png">
-		        </div>
-		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right">
-		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-		            <li><a href="#" data-nav-section="about"><span>About</span></a></li>
-		            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
-		            <li><a href="#" data-nav-section="press"><span>Demo</span></a></li>
-		          </ul>
-		        </div>
-			    </nav>
-			  <!-- </div> -->
-		  </div>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<nav class="navbar navbar-toggleable-md navbar-light">
+						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+						<a class="navbar-brand" href="#">Pixelsign <img src="images/pixelsign logo.png" alt="" class="logo" width="41"></a>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<div class="navbar-nav">
+								<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-item nav-link" href="#">About</a>
+								<a class="nav-item nav-link" href="#">Features</a>
+								<a class="nav-item nav-link" href="#">Demo</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
 	</header>
 
-	<div id="slider" data-section="home">
-		<div class="owl-carousel owl-carousel-fullwidth">
-			<!-- You may change the background color here. -->
-		    <div class="item" style="background: #5f2c82; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #5f2c82 , #49a09d); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
-		    	<div class="container" style="position: relative;">
-		    		<div class="row">
-					    <div class="col-sm-7">
-			    			<div class="fh5co-owl-text-wrap">
-						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">Create stunning showcases.</h1>
-									<h2 class="fh5co-sub-lead to-animate">Spice up your website with live HTML5 mockups of popular devices.</h3>
-
-									<p class="to-animate-2"><a href="#fh5co-press" class="btn btn-primary btn-lg">View Demo</a></p>
-						    	</div>
-						    </div>
-					    </div>
-					    <div class="col-sm-5 iphone-image">
-					    	<div class="fh5co-owl-text-wrap">
-					    		<div class="fh5co-owl-text">
-					    			<img src="device-mockups/iphone_se/iphone_se_port_gold.png" class="to-animate">
-					    			<img src="device-mockups/iphone_se/iphone_se_port_rose.png" class="to-animate-2">
-					    		</div>
-					    	</div>
-					    </div>
-
-                    </div>                 </div>             </div>
-
-		    <div class="item" style="background-image:url(images/slide_5.jpg)">
-		    	<div class="overlay"></div>
-		    	<div class="container" style="position: relative;">
-		    		<div class="row">
-		    			<div class="col-md-8 col-md-offset-2 text-center">
-		    				<div class="fh5co-owl-text-wrap">
-						    	<div class="fh5co-owl-text">
-		    						<h1 class="fh5co-lead to-animate">Grab it now for free!</h1>
-									
-									<p class="to-animate-2"><a href="https://github.com/pixelsign/html5-device-mockups" target="_blank" class="btn btn-primary btn-lg">Download from Github</a></p>
-								</div>
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 title">
+					<h1>Create stunning showcases.</h1>
+					<h2>Spice up your website with live HTML5 mockups of popular devices.</h2>
+				</div>
+				<div class="col-md-4">
+					<div class="device-wrapper deviceLeft">
+						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="black">
+							<div class="screen">
+								<!-- PUT CONTENTS HERE -->
 							</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    </div>
-
+							<div class="button">
+								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
+							</div>
+						</div>
+					</div>
+					<div class="device-wrapper deviceRight">
+						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="pink">
+							<div class="screen">
+								<!-- PUT CONTENTS HERE -->
+							</div>
+							<div class="button">
+								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	
-	<div id="wrapper">
-		<div id="fh5co-about-us" data-section="about">
-			<div class="container">
-				<div class="row row-bottom-padded-lg" id="about-us">
-					<div class="col-md-12 section-heading text-center">
-						<h2 class="to-animate">Embed your app, video or website.</h2>
-                        <h3 class="to-animate">Show off your creations to your audience in real time!</h3>
-					</div>
-					<div class="col-md-8 to-animate">
-						<img src="device-mockups/macbook_2015/grey.png" class="img-responsive img-rounded" alt="Free HTML5 Template">
-					</div>
-					<div class="col-md-4 to-animate">
-						<h2>Size matters!</h2>
-                        <p>With Pixelsign you can embed your designs and products in a variety of devices that keep their aspect ratio respectively.</p>
-                        <h2>It's alive!</h2>
-                        <p>They say a picture is worth a thousand words...
-                        <br>
-                        <br>Why not give users a full hands-on experience on your ideas?</p><a class="btn btn-primary" href="https://github.com/pixelsign/html5-device-mockups" target="_blank">GRAB IT ON GITHUB<br></a>
-					</div>
-				</div>
-				<div class="row" id="team">
-					<div class="col-md-12 section-heading text-center to-animate">
-						<h2>Team</h2>
-					</div>
-					<div class="col-md-12">
-						<div class="row row-bottom-padded-lg">
-							<div class="col-md-4 text-center to-animate">
-								<div class="person">
-									<img src="images/angelos.png" class="img-responsive img-rounded" alt="Person">
-									<h3 class="name">Angelos Arnis</h3>
-									<div class="position">Web Developer</div>
-									<p>We came up with this idea, trying to create a website. We wanted to showcase a product so we were looking for the right mockup for this. We couldn't find one so we invented it! And now you can use it too!</p>
-									<ul class="social social-circle">
-										<li><a href="http://twitter.com/AngelosArnis" target="_blank"><i class="icon-twitter"></i></a></li>
-										<li><a href="http://linkedin.com/in/angelosarnis" target="_blank"><i class="icon-linkedin"></i></a></li>
-										<li><a href="http://dribbble.com/pixelsign" target="_blank"><i class="icon-dribbble"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-4 text-center to-animate">
-								<div class="person">
-									<img src="images/tomi.png" class="img-responsive img-rounded" alt="Person">
-									<h3 class="name">Tomi Hiltunen</h3>
-									<div class="position">Web Developer</div>
-									<p>We built this out of a problem we faced. And when we did, we were so excited, we wanted to share it with the rest of the world, for free... We love code and design so we believe everyone should be able to use it.</p>
-									<ul class="social social-circle">
-										<li><a href="http://twitter.com/TomiHiltunen" target="_blank"><i class="icon-twitter"></i></a></li>
-										<li><a href="http://linkedin.com/in/TomiHiltunen" target="_blank"><i class="icon-linkedin"></i></a></li>
-										<li><a href="http://dribbble.com/pixelsign" target="_blank"><i class="icon-dribbble"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-4 text-center to-animate">
-								<div class="person">
-									<img src="images/ben.png" class="img-responsive img-rounded" alt="Person">
-									<h3 class="name">Ben</h3>
-									<div class="position">Web Developer</div>
-									<p>I created Version 2.0. I think this project needs some fresh air so I added a couple of devices and created a whole new project site.</p>
-									<ul class="social social-circle">
-										<li><a href="https://twitter.com/beno182" target="_blank"><i class="icon-twitter"></i></a></li>
-										<li><a href="https://github.com/ben182" target="_blank"><i class="icon-github"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="fh5co-our-services" data-section="services">
-			<div class="container">
-				<div class="row row-bottom-padded-sm">
-					<div class="col-md-12 section-heading text-center">
-						<h2 class="to-animate">Your designs are now up for preview. Live!</h2>
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2 to-animate">
-								<h3>Everyone deserves a little bit of eye candy.
-        						<br>Give it to them!</p></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="box to-animate">
-							<div class="icon colored-1"><span><i class="icon-mustache"></i></span></div>
-							<h3>100% free</h3>
-						</div>
-						<div class="box to-animate">
-							<div class="icon colored-4"><span><i class="icon-heart"></i></span></div>
-							<h3>Made with love</h3>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="box to-animate">
-							<div class="icon colored-2"><span><i class="icon-screen-desktop"></i></span></div>
-							<h3>Fully responsive</h3>
-						</div>
-						<div class="box to-animate">
-							<div class="icon colored-5"><span><i class="icon-rocket"></i></span></div>
-							<h3>Fast &amp; light</h3>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="box to-animate">
-							<div class="icon colored-3"><span><i class="icon-eye"></i></span></div>
-							<h3>Retina-ready</h3>
-						</div>
-						<div class="box to-animate">
-							<div class="icon colored-6"><span><i class="icon-user"></i></span></div>
-							<h3>For creative like you!</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div id="fh5co-press" data-section="press">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 section-heading text-center">
-						<h2 class="single-animate animate-press-1">Demo</h2>
-					</div>
-				</div>
-				<div class="row">
-
-					<div class="container">
-
-			            <div class="row">
-
-			                <div class="col-sm-12">
-
-			                    <div class="btn-group btn-group-justified" role="group" aria-label="...">
-			                        
-			                        <div id="deviceDropdown" class="btn-group" role="group">
-			                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			                            Devices
-			                            <span class="caret"></span>
-			                          </button>
-			                          <ul class="dropdown-menu" aria-labelledby="deviceDropdown">
-
-			                            <li class="dropdown-header">Phones</li>
-			                            <li><a href="#" data-value="iphone5" data-size-port="300px" data-color-options="Black, White" class="active">iPhone 5</a></li>
-			                            <li><a href="#" data-value="iphone6" data-size-port="300px" data-color-options="Black, White, Gold">iPhone 6 <i>New!</i></a></li>
-			                            <li><a href="#" data-value="iphone6_plus" data-size-port="300px" data-color-options="Black, White, Gold">iPhone 6 Plus <i>New!</i></a></li>
-			                            <li><a href="#" data-value="iphone_se" data-size-port="300px" data-color-options="Black, White, Gold, Rose">iPhone SE <i>New!</i></a></li>
-			                            <li><a href="#" data-value="galaxy_s3" data-size-port="300px" data-color-options="Black, White">Galaxy S3</a></li>
-			                            <li><a href="#" data-value="galaxy_s5" data-size-port="300px" data-color-options="Black, White">Galaxy S5</a></li>
-			                            <li><a href="#" data-value="lumia920" data-size-port="300px" data-color-options="Black">Lumia 920</a></li>
-			                            <li><a href="#" data-value="nexus7" data-size-port="300px" data-color-options="Black">Nexus 7</a></li>
-			                            <li role="separator" class="divider"></li>
-
-			                            <li class="dropdown-header">Tablets</li>
-			                            <li><a href="#" data-value="ipad" data-size-port="600px" data-size-land="800px" data-color-options="Black, White">iPad</a></li>
-			                            <li><a href="#" data-value="ipad_air" data-size-port="600px" data-size-land="800px" data-color-options="Grey, Silver">iPad Air <i>New!</i></a></li>
-			                            <li><a href="#" data-value="ipad_air_2" data-size-port="600px" data-size-land="800px" data-color-options="Grey, Silver, Gold">iPad Air 2 <i>New!</i></a></li>
-			                            <li><a href="#" data-value="ipad_pro" data-size-port="600px" data-size-land="800px" data-color-options="Grey, Silver, Gold">iPad Pro <i>New!</i></a></li>
-			                            <li><a href="#" data-value="galaxy_tab4" data-size-port="600px" data-size-land="600px" data-color-options="Black, White">Galaxy Tab 4</a></li>
-			                            <li><a href="#" data-value="surface" data-size-port="600px" data-size-land="600px" data-color-options="Black">Microsoft Surface</a></li>
-			                            <li role="separator" class="divider"></li>
-
-			                            <li class="dropdown-header">Computers</li>
-			                            <li><a href="#" data-value="imac" data-size-port="800px" data-size-land="800px" data-color-options="Black">iMac</a></li>
-			                            <li><a href="#" data-value="macbook" data-size-port="800px" data-size-land="800px" data-color-options="Black">MacBook</a></li>
-			                            <li><a href="#" data-value="macbook_2015" data-size-port="800px" data-size-land="800px" data-color-options="Grey, Silver, Gold">Macbook 2015 <i>New!</i></a></li>
-			                            <li role="separator" class="divider"></li>
-
-			                            <li class="dropdown-header">TV</li>
-			                            <li><a href="#" data-value="samsung_tv" data-size-port="800px" data-size-land="800px" data-color-options="Black">Samsung TV <i>New!</i></a></li>
-			                          </ul>
-			                        </div>
-
-			                        <div id="orientationDropdown" class="btn-group" role="group">
-			                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			                            Orientation
-			                            <span class="caret"></span>
-			                          </button>
-			                          <ul class="dropdown-menu" aria-labelledby="orientationDropdown">
-
-			                            <li><a href="#" data-value="portrait" class="active">Portrait</a></li>
-			                            <li><a href="#" data-value="landscape">Landscape</a></li>
-			                          </ul>
-			                        </div>
-
-			                        <div id="colorDropdown" class="btn-group" role="group">
-			                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			                            Color
-			                            <span class="caret"></span>
-			                          </button>
-			                          <ul class="dropdown-menu" aria-labelledby="colorDropdown"></ul>
-			                        </div>
-
-			                    </div>
-			                </div>
-
-			            </div>
-
-			            <div class="row top-buffer">
-
-			                <div id="portraitMode1" class="col-sm-4">
-
-			                
-
-			                        
-			                        
-<div class="device-container" style="max-width:300px;" data-size-port="300px" data-size-land="600px">
-    <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
-        <div class="device">
-            <div class="screen">
-                <!-- PUT CONTENTS HERE -->
-            </div>
-            <div class="button">
-                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-            </div>
-        </div>
-    </div>
-</div>
-			                   
-
-
-			                </div>
-
-			                <div id="portraitMode2" class="col-sm-8">
-			                    <pre><code class="generated-code"></code></pre>
-			                </div>
-
-			            </div>
-
-			            <div id="landscapeMode" class="row top-buffer">
-			                    
-			                    <div class="col-sm-12"> 
-			                        <pre><code class="generated-code"></code></pre>
-			                    </div>
-
-			            </div>
-
-			            </div>
-
-				</div>
-			</div>
-		</div>
-	</div> <!-- wrapper -->
-	
-
-	<footer id="footer" role="contentinfo">
+	<div class="about">
 		<div class="container">
-			<div class="row row-bottom-padded-sm">
-				<div class="col-md-12">
-					<p class="copyright text-center">&copy; 2016 Pixelsign, HTML5 mobile devices</p>
+			<div class="row">
+				<div class="col text-center">
+					<h1>EMBED YOUR APP, VIDEO OR WEBSITE</h1>
+					<h2>Show off your creations to your audience!</h2>
 				</div>
 			</div>
+
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<ul class="social social-circle">
-						<li><a href="https://twitter.com/share?url=http%3A%2F%2Faarnis.com" target="_blank"><i class="icon-twitter"></i></a></li>
-						<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faarnis.com" target="_blank"><i class="icon-facebook"></i></a></li>
-						<li><a href="https://github.com/pixelsign/html5-device-mockups" target="_blank"><i class="icon-github"></i></a></li>
-					</ul>
+				<div class="col-md-8">
+					<div class="device-wrapper">
+						<div class="device" data-device="Macbook2015" data-orientation="portrait" data-color="black">
+							<div class="screen">
+								<!-- PUT CONTENTS HERE -->
+							</div>
+							<div class="button">
+								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h2>Size matters!</h2>
+					<p>With Pixelsign you can embed your designs and products in a variety of devices that keep their aspect ratio respectively.</p>
+					<h2>It's alive!</h2>
+					<p>They say a picture is worth a thousand words...
+						<br>
+						<br>Why not give users a full hands-on experience on your ideas?</p><a class="btn btn-primary" href="https://github.com/pixelsign/html5-device-mockups" target="_blank">GRAB IT ON GITHUB<br></a>
 				</div>
 			</div>
 		</div>
-	</footer>
-	
+	</div>
 
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Owl Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
 
-	<script type="text/javascript" src="js/highlight.pack.js"></script>
+	<script src="assets/jquery/jquery-3.2.1.min.js"></script>
+	<script src="assets/tether-master/dist/js/tether.min.js"></script>
+	<script src="assets/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+	<script src="assets/custom/helper.js"></script>
+</body>
 
-	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
-
-	</body>
 </html>
