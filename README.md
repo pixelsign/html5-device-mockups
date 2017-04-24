@@ -51,7 +51,6 @@ Devices
 | iPhone SE | iPhoneSE | portrait, landscape | black, white, gold, pink |
 | iPhone 5 | iPhone5 | portrait, landscape | black, white |
 | Lumia 930 | Lumia930 | portrait, landscape | black, white |
-| Lumia920 | Lumia920 | portrait, landscape | black |
 | Macbook | Macbook | portrait | black |
 | Macbook 2015 | Macbook2015 | portrait | black, white, gold |
 | Samsung TV | SamsungTV | portrait | black |
