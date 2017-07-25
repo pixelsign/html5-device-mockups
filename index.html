@@ -6,9 +6,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>HTML5-device-mockups</title>
-	<link rel="stylesheet" href="assets/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="dist/device-mockups.min.css">
 	<style>
+		body {
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: 'Nunito', sans-serif;
+		}
+
+		h1 {
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 2px;
+		}
+
 		.navbar-brand {
 			font-size: 30px;
 			font-weight: 700;
@@ -19,8 +39,14 @@
 			color: white !important;
 		}
 
-		.navbar-collapse {
-			justify-content: flex-end;
+		.device-wrapper.deviceRight .screen {
+			background-image: url(https://media.giphy.com/media/2eLAwdushm3cI/giphy.gif);
+			background-position: center;
+		}
+
+		.device-wrapper.deviceLeft .screen {
+			background-image: url(https://images.pexels.com/photos/265067/pexels-photo-265067.jpeg?dl&fit=crop&w=1280&h=853);
+			background-position: center;
 		}
 
 		header {
@@ -41,8 +67,19 @@
 			color: white;
 		}
 
+		.intro:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: linear-gradient(to bottom right, #000000, #000F00);
+			opacity: .3;
+		}
+
 		.intro .device-wrapper {
-			max-width: 60%;
+			max-width: 55%;
 			float: left;
 			width: 100%;
 		}
@@ -52,13 +89,20 @@
 		}
 
 		.intro .device-wrapper.deviceRight {
-			margin-left: -20%;
+			margin-left: -10%;
 		}
 
 		.intro .title {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			align-items: baseline;
+		}
+
+		.btn {
+			margin-top: 4px;
+			line-height: 1.5;
+			text-transform: uppercase;
 		}
 	</style>
 </head>
@@ -73,14 +117,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 						<a class="navbar-brand" href="#">Pixelsign <img src="images/pixelsign logo.png" alt="" class="logo" width="41"></a>
-						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-							<div class="navbar-nav">
-								<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-								<a class="nav-item nav-link" href="#">About</a>
-								<a class="nav-item nav-link" href="#">Features</a>
-								<a class="nav-item nav-link" href="#">Demo</a>
-							</div>
-						</div>
 					</nav>
 				</div>
 			</div>
@@ -93,10 +129,11 @@
 				<div class="col-md-8 title">
 					<h1>Create stunning showcases.</h1>
 					<h2>Spice up your website with live HTML5 mockups of popular devices.</h2>
+					<a class="btn btn-primary" href="#" role="button">Grab it on Github</a>
 				</div>
 				<div class="col-md-4">
 					<div class="device-wrapper deviceLeft">
-						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="black">
+						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="white">
 							<div class="screen">
 								<!-- PUT CONTENTS HERE -->
 							</div>
@@ -120,44 +157,10 @@
 		</div>
 	</div>
 
-	<div class="about">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<h1>EMBED YOUR APP, VIDEO OR WEBSITE</h1>
-					<h2>Show off your creations to your audience!</h2>
-				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-md-8">
-					<div class="device-wrapper">
-						<div class="device" data-device="Macbook2015" data-orientation="portrait" data-color="black">
-							<div class="screen">
-								<!-- PUT CONTENTS HERE -->
-							</div>
-							<div class="button">
-								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<h2>Size matters!</h2>
-					<p>With Pixelsign you can embed your designs and products in a variety of devices that keep their aspect ratio respectively.</p>
-					<h2>It's alive!</h2>
-					<p>They say a picture is worth a thousand words...
-						<br>
-						<br>Why not give users a full hands-on experience on your ideas?</p><a class="btn btn-primary" href="https://github.com/pixelsign/html5-device-mockups" target="_blank">GRAB IT ON GITHUB<br></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<script src="assets/jquery/jquery-3.2.1.min.js"></script>
-	<script src="assets/tether-master/dist/js/tether.min.js"></script>
-	<script src="assets/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/tether/dist/js/tether.min.js"></script>
 	<script src="assets/custom/helper.js"></script>
 </body>
 
