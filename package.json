@@ -1,7 +1,7 @@
 {
   "name": "html5-device-mockups",
-  "version": "2.0.0",
-  "description": "HTML5 device mockups 2.0",
+  "version": "3.0.0",
+  "description": "HTML5 mockups of popular devices, to showcase your portfolio and spice up your website.",
   "main": "dist/device-mockups.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
