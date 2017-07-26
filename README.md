@@ -99,6 +99,10 @@ Created by:
 > * angelos.arnis@gmail.com
 > * http://dribbble.com/pixelsign
 
+> Benjamin Bortels
+> * moin@benjaminbortels.de
+> * https://benjaminbortels.de
+
 
 Credits for the original graphical renderings of the devices
 used in this package are found in a separate file which is

@@ -50,7 +50,7 @@
 		}
 
 		header {
-			position: fixed;
+			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -65,6 +65,8 @@
 			display: flex;
 			align-items: center;
 			color: white;
+
+			margin-bottom: 64px;
 		}
 
 		.intro:before {
@@ -103,6 +105,17 @@
 			margin-top: 4px;
 			line-height: 1.5;
 			text-transform: uppercase;
+		}
+
+		footer.container {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			text-align: center;
+			z-index: -1;
+			padding-top: 20px;
+			padding-bottom: 20px;
 		}
 	</style>
 </head>
@@ -157,11 +170,19 @@
 		</div>
 	</div>
 
+	<footer class="container">
+		<div class="row">
+			<div class="col">
+				Made by <a href="http://innovaniac.com" target="_blank">Tomi Hiltunen</a>, <a href="http://dribbble.com/pixelsign" target="_blank">Angelos Arnis</a> and <a href="https://benjaminbortels.de" target="_blank">Benjamin Bortels</a>
+			</div>
+		</div>
+		</div>
 
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="bower_components/tether/dist/js/tether.min.js"></script>
-	<script src="assets/custom/helper.js"></script>
+
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/tether/dist/js/tether.min.js"></script>
+		<script src="assets/custom/helper.js"></script>
 </body>
 
 </html>
