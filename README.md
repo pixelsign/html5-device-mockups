@@ -1,6 +1,7 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/html5-device-mockups/Lobby)
 [![GitHub release](https://img.shields.io/github/release/pixelsign/html5-device-mockups.svg)]()
 [![Bower](https://img.shields.io/bower/v/html5-device-mockups.svg)](https://bower.io/search/?q=html5-device-mockups)
+[![npm](https://img.shields.io/npm/v/html5-device-mockups.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 HTML5 device mockups :iphone::computer:
