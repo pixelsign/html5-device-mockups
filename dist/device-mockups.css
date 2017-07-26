@@ -934,51 +934,51 @@
   width: 100%;
   height: 100%;
 }
-.device[data-device="Lumia920"][data-orientation="portrait"][data-color="black"] {
-  padding-bottom: 183.16151202749143%;
-  background-image: url("../device-mockups/Lumia920/portrait_black.png");
-}
-.device[data-device="Lumia920"][data-orientation="portrait"][data-color="black"] .screen {
-  top: 8.25515947467167%;
-  left: 8.419243986254296%;
-  width: 82.4742268041237%;
-  height: 75.046904315197%;
-}
-.device[data-device="Lumia920"][data-orientation="portrait"][data-color="black"] .button {
-  display: none;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-}
-.device[data-device="Lumia920"][data-orientation="landscape"][data-color="black"] {
-  padding-bottom: 54.59662288930582%;
-  background-image: url("../device-mockups/Lumia920/landscape_black.png");
-}
-.device[data-device="Lumia920"][data-orientation="landscape"][data-color="black"] .screen {
-  top: 9.106529209621993%;
-  left: 8.25515947467167%;
-  width: 75.046904315197%;
-  height: 82.4742268041237%;
-}
-.device[data-device="Lumia920"][data-orientation="landscape"][data-color="black"] .button {
-  display: none;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-}
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] {
-  padding-bottom: 59.530791788856305%;
+  padding-bottom: 57.51565762004176%;
   background-image: url("../device-mockups/Macbook/portrait_black.png");
 }
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] .screen {
-  top: 6.403940886699508%;
-  left: 11.534701857282501%;
-  width: 76.83284457478005%;
-  height: 84.07224958949097%;
+  top: 7.259528130671507%;
+  left: 12.369519832985386%;
+  width: 75.26096033402922%;
+  height: 81.85117967332124%;
 }
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] .button {
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 57.51565762004176%;
+  background-image: url("../device-mockups/Macbook/portrait_white.png");
+}
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 7.259528130671507%;
+  left: 12.369519832985386%;
+  width: 75.26096033402922%;
+  height: 81.85117967332124%;
+}
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="white"] .button {
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="gold"] {
+  padding-bottom: 57.51565762004176%;
+  background-image: url("../device-mockups/Macbook/portrait_gold.png");
+}
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="gold"] .screen {
+  top: 7.259528130671507%;
+  left: 12.369519832985386%;
+  width: 75.26096033402922%;
+  height: 81.85117967332124%;
+}
+.device[data-device="Macbook"][data-orientation="portrait"][data-color="gold"] .button {
   display: none;
   top: 0%;
   left: 0%;
@@ -1030,6 +1030,23 @@
   height: 81.76043557168784%;
 }
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="gold"] .button {
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.device[data-device="MacbookPro"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 57.94701986754966%;
+  background-image: url("../device-mockups/MacbookPro/portrait_black.png");
+}
+.device[data-device="MacbookPro"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 6.714285714285714%;
+  left: 11.83774834437086%;
+  width: 76.40728476821192%;
+  height: 82.42857142857143%;
+}
+.device[data-device="MacbookPro"][data-orientation="portrait"][data-color="black"] .button {
   display: none;
   top: 0%;
   left: 0%;
@@ -1132,4 +1149,21 @@
   left: 58.392434988179666%;
   width: 7.801418439716312%;
   height: 4.925373134328359%;
+}
+.device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 58.97363993269771%;
+  background-image: url("../device-mockups/Chromebook/portrait_black.png");
+}
+.device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 7.893485496909178%;
+  left: 12.731351654514864%;
+  width: 74.14469994391474%;
+  height: 71.2791250594389%;
+}
+.device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] .button {
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
