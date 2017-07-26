@@ -58,6 +58,12 @@ Devices
 | iPhone 6 Hand | iPhone6Hand | portrait | black, white |
 | iPhone 7 Hand | iPhone7Hand | portrait | black |
 | iPhone 7 Hand 2 | iPhone7Hand_2 | portrait | black |
+| Chromebook | Chromebook | portrait | black |
+| HTC One M8 | HtcOneM8 | portrait, landscape | black |
+| Huawei P8 | HuaweiP8 | portrait, landscape | gold |
+| Surface Pro 3 | SurfacePro3 | landscape | black |
+| Surface Studio | SurfaceStudio | portrait | black |
+| iPhone 7 | iPhone7 | portrait, landscape | black, white, gold, pink, red |
 
 ## Integrating to your website:
 
