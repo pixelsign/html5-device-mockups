@@ -72,6 +72,11 @@ Devices
 bower install html5-device-mockups
 ```
 
+### npm
+```
+npm i html5-device-mockups
+```
+
 ### Old traditional way
 ```
 <link rel="stylesheet" type="text/css" href="dist/main.min.css">
