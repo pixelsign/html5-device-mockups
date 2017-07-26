@@ -33,6 +33,7 @@ Features:
 * Some devices have "home button" layer defined for possible click event bindings
 * Multiple color schemes
 * Multiple orientations
+* 86 different device images
 
 Devices
 -------
