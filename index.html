@@ -130,7 +130,8 @@
 			<div class="row">
 				<div class="col">
 					<nav class="navbar navbar-toggleable-md navbar-light">
-						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+						    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 						<a class="navbar-brand" href="#">Pixelsign <img src="images/pixelsign logo.png" alt="" class="logo" width="41"></a>
@@ -186,7 +187,23 @@
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="bower_components/tether/dist/js/tether.min.js"></script>
-		<script src="assets/custom/helper.js"></script>
+
+		<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-103554950-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 </body>
 
 </html>
