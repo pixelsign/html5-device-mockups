@@ -10,7 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
     "grunt-contrib-cssmin": "^2.1.0",
-    "grunt-contrib-less": "^1.4.1"
-  }
+    "grunt-contrib-less": "^1.4.1",
+    "less-plugin-autoprefix": "^1.5.1"
+  },
+  "link": "https://github.com/pixelsign/html5-device-mockups"
 }
