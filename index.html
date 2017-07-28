@@ -155,7 +155,7 @@
 							<div class="screen">
 								<!-- PUT CONTENTS HERE -->
 							</div>
-							<div class="button">
+							<div class="button" data-toggle="popover" data-placement="bottom" data-content="Device buttons are perfectly rendered out and can be hooked to links or JavaScript events">
 								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
 							</div>
 						</div>
@@ -185,8 +185,8 @@
 
 
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="bower_components/tether/dist/js/tether.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 		<script>
 			(function (i, s, o, g, r, a, m) {
@@ -203,6 +203,18 @@
 
 			ga('create', 'UA-103554950-1', 'auto');
 			ga('send', 'pageview');
+
+			$(function () {
+				$('[data-toggle="popover"]').popover();
+
+				$('.col-md-4')
+					.on('mouseenter', function() {
+						$('[data-toggle="popover"]').popover('show');
+					})
+					.on('mouseleave', function() {
+						$('[data-toggle="popover"]').popover('hide');
+					});
+			});
 		</script>
 </body>
 
