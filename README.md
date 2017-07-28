@@ -41,9 +41,12 @@ Devices
 
 | Name | Filename | Orientations | Colors |
 | --- | --- | --- | --- |
+| Chromebook | Chromebook | portrait | black |
 | Galaxy S3 | galaxyS3 | portrait, landscape | black, white |
 | Galaxy S5 | galaxyS5 | portrait, landscape | black, white, gold |
 | Galaxy Tab 4 | galaxyTab4 | portrait | black, white |
+| HTC One M8 | HtcOneM8 | portrait, landscape | black |
+| Huawei P8 | HuaweiP8 | portrait, landscape | gold |
 | iMac | iMac | portrait | black |
 | iPad | iPad | portrait, landscape | black, white |
 | iPad Air 2 | iPadAir2 | portrait, landscape | black, white, gold |
@@ -52,20 +55,17 @@ Devices
 | iPhone 6 Plus | iPhone6Plus | portrait, landscape | black, white, gold |
 | iPhone SE | iPhoneSE | portrait, landscape | black, white, gold, pink |
 | iPhone 5 | iPhone5 | portrait, landscape | black, white |
+| iPhone 6 Hand | iPhone6Hand | portrait | black, white |
+| iPhone 7 Hand | iPhone7Hand | portrait | black |
+| iPhone 7 Hand 2 | iPhone7Hand_2 | portrait | black |
+| iPhone 7 | iPhone7 | portrait, landscape | black, white, gold, pink, red |
 | Lumia 930 | Lumia930 | portrait, landscape | black, white |
 | Macbook | Macbook | portrait | black, white, gold |
 | Macbook 2015 | Macbook2015 | portrait | black, white, gold |
 | MacbookPro | Macbook2015 | portrait | black |
 | Samsung TV | SamsungTV | portrait | black |
-| iPhone 6 Hand | iPhone6Hand | portrait | black, white |
-| iPhone 7 Hand | iPhone7Hand | portrait | black |
-| iPhone 7 Hand 2 | iPhone7Hand_2 | portrait | black |
-| Chromebook | Chromebook | portrait | black |
-| HTC One M8 | HtcOneM8 | portrait, landscape | black |
-| Huawei P8 | HuaweiP8 | portrait, landscape | gold |
 | Surface Pro 3 | SurfacePro3 | landscape | black |
 | Surface Studio | SurfaceStudio | portrait | black |
-| iPhone 7 | iPhone7 | portrait, landscape | black, white, gold, pink, red |
 
 ## Integrating to your website:
 
