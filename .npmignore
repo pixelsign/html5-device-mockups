@@ -1,0 +1,12 @@
+**/.*
+node_modules
+bower_components
+test
+tests
+src
+js
+images
+fonts
+css
+index.html
+device-mockups/**/*.psd

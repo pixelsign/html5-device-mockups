@@ -1,7 +1,13 @@
-HTML5 device mockups 2.0
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/html5-device-mockups/Lobby)
+[![GitHub release](https://img.shields.io/github/release/pixelsign/html5-device-mockups.svg)]()
+[![Bower](https://img.shields.io/bower/v/html5-device-mockups.svg)]()
+[![npm](https://img.shields.io/npm/v/html5-device-mockups.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+HTML5 device mockups :iphone::computer:
 ====================
 
-You can view the demo page of all devices here: http://pixelsign.github.io/html5-device-mockups/
+You can view the demo page of all devices here: https://pixelsign.github.io/html5-device-mockups/
 
 Use on...
 * Your website / splash screen
@@ -26,83 +32,73 @@ Features:
 * Maintains the device's aspect ratio when scaled
 * Perfectly aligned screen content containers
 * Some devices have "home button" layer defined for possible click event bindings
-* Lengthy gallery of different devices
 * Multiple color schemes
 * Multiple orientations
-* Two separate ways for integrating the devices to your site
+* 86 different device images
 
-New in 2.0:
-* iPhone 6
-* iPhone 6 Plus
-* iPhone SE
-* iPad Air
-* iPad Air 2
-* iPad Pro
-* Macbook 2015
-* Minified CSS Files
-* NEW PROJECT PAGE
+Devices
+-------
 
-Integrating to your website:
-----------------------------
+| Name | Filename | Orientations | Colors |
+| --- | --- | --- | --- |
+| Chromebook | Chromebook | portrait | black |
+| Galaxy S3 | galaxyS3 | portrait, landscape | black, white |
+| Galaxy S5 | galaxyS5 | portrait, landscape | black, white, gold |
+| Galaxy Tab 4 | galaxyTab4 | portrait | black, white |
+| HTC One M8 | HtcOneM8 | portrait, landscape | black |
+| Huawei P8 | HuaweiP8 | portrait, landscape | gold |
+| iMac | iMac | portrait | black |
+| iPad | iPad | portrait, landscape | black, white |
+| iPad Air 2 | iPadAir2 | portrait, landscape | black, white, gold |
+| iPad Pro | iPadPro | portrait, landscape | black, white, gold |
+| iPhone 6 | iPhone6 | portrait, landscape | black, white, gold |
+| iPhone 6 Plus | iPhone6Plus | portrait, landscape | black, white, gold |
+| iPhone SE | iPhoneSE | portrait, landscape | black, white, gold, pink |
+| iPhone 5 | iPhone5 | portrait, landscape | black, white |
+| iPhone 6 Hand | iPhone6Hand | portrait | black, white |
+| iPhone 7 Hand | iPhone7Hand | portrait | black |
+| iPhone 7 Hand 2 | iPhone7Hand_2 | portrait | black |
+| iPhone 7 | iPhone7 | portrait, landscape | black, white, gold, pink, red |
+| Lumia 930 | Lumia930 | portrait, landscape | black, white |
+| Macbook | Macbook | portrait | black, white, gold |
+| Macbook 2015 | Macbook2015 | portrait | black, white, gold |
+| MacbookPro | Macbook2015 | portrait | black |
+| Samsung TV | SamsungTV | portrait | black |
+| Surface Pro 3 | SurfacePro3 | landscape | black |
+| Surface Studio | SurfaceStudio | portrait | black |
 
-*STEP 1)*
+## Integrating to your website:
 
-        Import either one of the provided CSS file to your project:
+### Bower
+```
+bower install html5-device-mockups
+```
 
-                Import "device-mockups/device-mockups.min.css"
-                        - If you want to define the devices using CSS class names
-                        - <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups.min.css" />
+### npm
+```
+npm i html5-device-mockups
+```
 
-                Import "device-mockups/device-mockups2.min.css"
-                        - If you want to define the devices using HTML tag attributes
-                        - <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups2.min.css" />
+### Old traditional way
+```
+<link rel="stylesheet" type="text/css" href="dist/main.min.css">
+```
+## Usage
 
-*STEP 2)*
+Use this example or grap the code from the HTML generator on our demo site:
 
-        Use the provided HTML generator to generate your devices source code:
-
-                - Open in your browser: "Mockup Device Generator.html"
-
-                - Select the device type
-
-                - Select orientation
-                        - Note: not all devices support multiple orientations
-
-                - Select color
-                        - Note: not all devices support multiple colors
-
-                - Copy / paste the HTML to your projects HTML source code
-
-*STEP 3)*
-
-        If you want to use the CSS class name approach for defining the devices,
-        simply remove the "data-..." tag attributes from the provided HTML code
-        and copy the values of those tags in the CSS classes:
-
-                <div class="device-mockup" data-device="iphone5" data-orientation="portrait" data-color="black">
-                    <div class="device">
-                        <div class="screen">
-                            <!-- PUT CONTENTS HERE -->
-                        </div>
-                        <div class="button">
-                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                        </div>
-                    </div>
-                </div>
-
-        Turns to:
-
-                <div class="device-mockup iphone5 portrait black">
-                    <div class="device">
-                        <div class="screen">
-                            <!-- PUT CONTENTS HERE -->
-                        </div>
-                        <div class="button">
-                            <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                        </div>
-                    </div>
-                </div>
-
+```
+<div class="device-wrapper">
+  <div class="device" data-device="iPhone5" data-orientation="portrait" data-color="black">
+    <div class="screen">
+      <!-- PUT CONTENTS HERE -->
+    </div>
+    <div class="button">
+      <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+    </div>
+  </div>
+</div>
+```
 
 Created by:
 ---
@@ -115,6 +111,10 @@ Created by:
 > Angelos Arnis
 > * angelos.arnis@gmail.com
 > * http://dribbble.com/pixelsign
+
+> Benjamin Bortels
+> * moin@benjaminbortels.de
+> * https://benjaminbortels.de
 
 
 Credits for the original graphical renderings of the devices

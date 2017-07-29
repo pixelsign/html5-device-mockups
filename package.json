@@ -1,0 +1,19 @@
+{
+  "name": "html5-device-mockups",
+  "version": "3.0.0",
+  "description": "HTML5 mockups of popular devices, to showcase your portfolio and spice up your website.",
+  "main": "dist/device-mockups.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-cssmin": "^2.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "less-plugin-autoprefix": "^1.5.1"
+  },
+  "link": "https://github.com/pixelsign/html5-device-mockups"
+}
