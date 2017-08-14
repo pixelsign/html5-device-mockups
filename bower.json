@@ -17,9 +17,5 @@
     "css",
     "index.html",
     "device-mockups/**/*.psd"
-  ],
-  "dependencies": {
-    "bootstrap": "v4.0.0-alpha.6",
-    "jquery": "^3.2.1"
-  }
+  ]
 }
