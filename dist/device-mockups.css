@@ -2,7 +2,7 @@
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
  * Copyright 2013 - 2017 pixelsign
  * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
- * Last Build: Fri Jul 28 2017 18:38:58
+ * Last Build: Wed Sep 20 2017 11:51:58
  */
 .device-wrapper {
   max-width: 300px;
@@ -15,7 +15,6 @@
 .device .screen {
   position: absolute;
   background-size: cover;
-  background-image: url("https://static.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg");
 }
 .device .button {
   position: absolute;
