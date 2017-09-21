@@ -2,7 +2,7 @@
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
  * Copyright 2013 - 2017 pixelsign
  * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
- * Last Build: Wed Sep 20 2017 11:51:58
+ * Last Build: Thu Sep 21 2017 21:24:45
  */
 .device-wrapper {
   max-width: 300px;
@@ -1433,4 +1433,36 @@
   left: 89.74763406940063%;
   width: 7.728706624605679%;
   height: 15.605095541401273%;
+}
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="white"] {
+  padding-bottom: 202.62008733624458%;
+  background-image: url("../device-mockups/Pixel/portrait_white.png");
+}
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 9.698275862068966%;
+  left: 4.366812227074235%;
+  width: 90.39301310043668%;
+  height: 78.66379310344827%;
+}
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="white"] .button {
+  top: 90.51724137931035%;
+  left: 44.97816593886463%;
+  width: 11.353711790393014%;
+  height: 4.310344827586207%;
+}
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 202.62008733624458%;
+  background-image: url("../device-mockups/Pixel/portrait_black.png");
+}
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 9.698275862068966%;
+  left: 4.366812227074235%;
+  width: 90.39301310043668%;
+  height: 78.66379310344827%;
+}
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="black"] .button {
+  top: 90.51724137931035%;
+  left: 44.97816593886463%;
+  width: 11.353711790393014%;
+  height: 4.310344827586207%;
 }

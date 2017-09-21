@@ -63,6 +63,7 @@ Devices
 | Macbook | Macbook | portrait | black, white, gold |
 | Macbook 2015 | Macbook2015 | portrait | black, white, gold |
 | MacbookPro | Macbook2015 | portrait | black |
+| Pixel | Pixel | portrait | black, white |
 | Samsung TV | SamsungTV | portrait | black |
 | Surface Pro 3 | SurfacePro3 | landscape | black |
 | Surface Studio | SurfaceStudio | portrait | black |
