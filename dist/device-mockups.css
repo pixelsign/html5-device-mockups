@@ -2,7 +2,7 @@
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
  * Copyright 2013 - 2017 pixelsign
  * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
- * Last Build: Thu Sep 21 2017 21:24:45
+ * Last Build: Fri Nov 10 2017 21:22:13
  */
 .device-wrapper {
   max-width: 300px;
@@ -1465,4 +1465,21 @@
   left: 44.97816593886463%;
   width: 11.353711790393014%;
   height: 4.310344827586207%;
+}
+.device[data-device="LCD"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 70.83333333333334%;
+  background-image: url("../device-mockups/LCD/portrait_black.png");
+}
+.device[data-device="LCD"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 3.6935704514363885%;
+  left: 4.651162790697675%;
+  width: 91.18217054263566%;
+  height: 69.63064295485636%;
+}
+.device[data-device="LCD"][data-orientation="portrait"][data-color="black"] .button {
+  display: none;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }

@@ -88,7 +88,7 @@ table.showcase {
     table.showcase.hero .tether-target-demo {
       display: inline-block;
       vertical-align: middle;
-      *vertical-align: auto;
+      
       *zoom: 1;
       *display: inline;
       border: 2px dotted #000;
@@ -205,7 +205,7 @@ table.showcase {
           table.showcase.browser-demo .browser-window .browser-titlebar .browser-dots b {
             display: inline-block;
             vertical-align: middle;
-            *vertical-align: auto;
+            
             *zoom: 1;
             *display: inline;
             border-radius: 50%;

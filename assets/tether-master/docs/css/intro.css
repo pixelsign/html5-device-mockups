@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 *, *:after, *:before {
   box-sizing: border-box; }
 
@@ -196,7 +196,7 @@ span.attachment-mark:after, span.tether-marker-dot:after {
   .projects-paragraph a {
     display: inline-block;
     vertical-align: middle;
-    *vertical-align: auto;
+    
     *zoom: 1;
     *display: inline;
     text-align: center;
@@ -205,7 +205,7 @@ span.attachment-mark:after, span.tether-marker-dot:after {
     .projects-paragraph a span {
       display: inline-block;
       vertical-align: middle;
-      *vertical-align: auto;
+      
       *zoom: 1;
       *display: inline;
       margin-bottom: 20px;
