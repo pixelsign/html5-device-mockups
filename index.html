@@ -1,221 +1,221 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>HTML5-device-mockups</title>
-	<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="dist/device-mockups.min.css">
-	<style>
-		body {
-			font-family: 'Open Sans', sans-serif;
-		}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5-device-mockups</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="dist/device-mockups.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
 
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			font-family: 'Nunito', sans-serif;
-		}
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Nunito', sans-serif;
+        }
 
-		h1 {
-			text-transform: uppercase;
-			font-weight: 600;
-			letter-spacing: 2px;
-		}
+        h1 {
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
 
-		.navbar {
-			padding: 0;
-		}
+        .navbar {
+            padding: 0;
+        }
 
-		.navbar-brand {
-			font-size: 30px;
-			font-weight: 700;
-			color: white !important;
-		}
+        .navbar-brand {
+            font-size: 30px;
+            font-weight: 700;
+            color: white !important;
+        }
 
-		.navbar-light .navbar-nav .nav-link {
-			color: white !important;
-		}
+        .navbar-light .navbar-nav .nav-link {
+            color: white !important;
+        }
 
-		.device-wrapper.deviceRight .screen {
-			background-image: url(https://media.giphy.com/media/2eLAwdushm3cI/giphy.gif);
-			background-position: center;
-		}
+        .device-wrapper.deviceRight .screen {
+            background-image: url(https://media.giphy.com/media/2eLAwdushm3cI/giphy.gif);
+            background-position: center;
+        }
 
-		.device-wrapper.deviceLeft .screen {
-			background-image: url(https://images.pexels.com/photos/265067/pexels-photo-265067.jpeg?dl&fit=crop&w=1280&h=853);
-			background-position: center;
-		}
+        .device-wrapper.deviceLeft .screen {
+            background-image: url(https://images.pexels.com/photos/265067/pexels-photo-265067.jpeg?dl&fit=crop&w=1280&h=853);
+            background-position: center;
+        }
 
-		header {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			z-index: 100;
-		}
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
 
-		.intro {
-			height: 100vh;
-			background: url(https://static.pexels.com/photos/213803/pexels-photo-213803.jpeg);
-			background-size: cover;
+        .intro {
+            height: 100vh;
+            background: url(https://static.pexels.com/photos/213803/pexels-photo-213803.jpeg);
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            color: white;
+            margin-bottom: 64px;
+        }
 
-			display: flex;
-			align-items: center;
-			color: white;
+            .intro:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-image: linear-gradient(to bottom right, #000000, #000F00);
+                opacity: .3;
+            }
 
-			margin-bottom: 64px;
-		}
+            .intro .device-wrapper {
+                max-width: 55%;
+                float: left;
+                width: 100%;
+            }
 
-		.intro:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			background-image: linear-gradient(to bottom right, #000000, #000F00);
-			opacity: .3;
-		}
+        .device-wrapper {
+            max-width: none;
+        }
 
-		.intro .device-wrapper {
-			max-width: 55%;
-			float: left;
-			width: 100%;
-		}
+        .intro .device-wrapper.deviceRight {
+            margin-left: -10%;
+        }
 
-		.device-wrapper {
-			max-width: none;
-		}
+        .intro .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: baseline;
+        }
 
-		.intro .device-wrapper.deviceRight {
-			margin-left: -10%;
-		}
+        .btn {
+            margin-top: 4px;
+            line-height: 1.5;
+            text-transform: uppercase;
+        }
 
-		.intro .title {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: baseline;
-		}
-
-		.btn {
-			margin-top: 4px;
-			line-height: 1.5;
-			text-transform: uppercase;
-		}
-
-		footer.container {
-			position: fixed;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			text-align: center;
-			z-index: -1;
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-	</style>
+        footer.container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: -1;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<nav class="navbar navbar-toggleable-md navbar-light">
-						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-						    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-						<a class="navbar-brand" href="#">Pixelsign <img src="images/pixelsign logo.png" alt="" class="logo" width="41"></a>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-toggleable-md navbar-light">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Pixelsign <img src="images/pixelsign logo.png" alt="" class="logo" width="41"></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
-	<div class="intro">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 title">
-					<h1>Create stunning showcases</h1>
-					<h2>Spice up your website with live HTML5 mockups of popular devices</h2>
-					<a class="btn btn-primary" href="https://github.com/pixelsign/html5-device-mockups" role="button">Grab it on Github</a>
-				</div>
-				<div class="col-md-4">
-					<div class="device-wrapper deviceLeft">
-						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="white">
-							<div class="screen">
-								<!-- PUT CONTENTS HERE -->
-							</div>
-							<div class="button" data-toggle="popover" data-placement="bottom" data-content="Device buttons are perfectly rendered out and can be hooked to links or JavaScript events">
-								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
-							</div>
-						</div>
-					</div>
-					<div class="device-wrapper deviceRight">
-						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="pink">
-							<div class="screen">
-								<!-- PUT CONTENTS HERE -->
-							</div>
-							<div class="button">
-								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 title">
+                    <h1>Create stunning showcases</h1>
+                    <h2>Spice up your website with live HTML5 mockups of popular devices</h2>
+                    <a class="btn btn-primary" href="https://github.com/pixelsign/html5-device-mockups" role="button">Grab it on Github</a>
+                </div>
+                <div class="col-md-4">
+                    <div class="device-wrapper deviceLeft">
+                        <div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="white">
+                            <div class="screen">
+                                <!-- PUT CONTENTS HERE -->
+                            </div>
+                            <div class="button" data-toggle="popover" data-placement="bottom" data-content="Device buttons are perfectly rendered out and can be hooked to links or JavaScript events">
+                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="device-wrapper deviceRight">
+                        <div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="pink">
+                            <div class="screen">
+                                <!-- PUT CONTENTS HERE -->
+                            </div>
+                            <div class="button">
+                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<footer class="container">
-		<div class="row">
-			<div class="col">
-				Made by <a href="http://innovaniac.com" target="_blank">Tomi Hiltunen</a>, <a href="http://dribbble.com/pixelsign" target="_blank">Angelos Arnis</a> and <a href="https://benjaminbortels.de" target="_blank">Benjamin Bortels</a>
-			</div>
-		</div>
-		</div>
+    <footer class="container">
+        <div class="row">
+            <div class="col">
+                Made by <a href="http://innovaniac.com" target="_blank">Tomi Hiltunen</a>, <a href="http://dribbble.com/pixelsign" target="_blank">Angelos Arnis</a> and <a href="https://benjaminbortels.de" target="_blank">Benjamin Bortels</a>
+            </div>
+        </div>
+    </footer>
 
 
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="bower_components/tether/dist/js/tether.min.js"></script>
-		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-		<script>
-			(function (i, s, o, g, r, a, m) {
-				i['GoogleAnalyticsObject'] = r;
-				i[r] = i[r] || function () {
-					(i[r].q = i[r].q || []).push(arguments)
-				}, i[r].l = 1 * new Date();
-				a = s.createElement(o),
-					m = s.getElementsByTagName(o)[0];
-				a.async = 1;
-				a.src = g;
-				m.parentNode.insertBefore(a, m)
-			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-			ga('create', 'UA-103554950-1', 'auto');
-			ga('send', 'pageview');
+        ga('create', 'UA-103554950-1', 'auto');
+        ga('send', 'pageview');
 
-			$(function () {
-				$('[data-toggle="popover"]').popover();
+        $(function () {
+            $('[data-toggle="popover"]').popover();
 
-				$('.col-md-4')
-					.on('mouseenter', function() {
-						$('[data-toggle="popover"]').popover('show');
-					})
-					.on('mouseleave', function() {
-						$('[data-toggle="popover"]').popover('hide');
-					});
-			});
-		</script>
+            $('.col-md-4')
+                .on('mouseenter', function () {
+                    $('[data-toggle="popover"]').popover('show');
+                })
+                .on('mouseleave', function () {
+                    $('[data-toggle="popover"]').popover('hide');
+                });
+        });
+    </script>
 </body>
 
 </html>
