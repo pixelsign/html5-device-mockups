@@ -10,7 +10,7 @@ module.exports = function (grunt) {
                     ],
                 },
                 files: {
-                    'dist/device-mockups.css': 'src/device-mockups.less'
+                    'dist/device-mockups.css': 'src/less/device-mockups.less'
                 }
             }
         },
