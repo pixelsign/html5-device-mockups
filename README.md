@@ -103,7 +103,7 @@ Use this example or grap the code from the HTML generator on our demo site:
 
 ## FAQ
 
-"I can not control the height via the CSS height property"
+"I can not control the height of the device"
 
 <https://github.com/pixelsign/html5-device-mockups/issues/47>
 
