@@ -7,7 +7,7 @@
 HTML5 device mockups v3 :iphone::computer:
 ====================
 
-You can view the demo page of all devices here: https://pixelsign.github.io/html5-device-mockups/
+You can view the demo page here: <https://pixelsign.github.io/html5-device-mockups/>
 
 Use on...
 * Your website / splash screen
@@ -100,6 +100,12 @@ Use this example or grap the code from the HTML generator on our demo site:
   </div>
 </div>
 ```
+
+## FAQ
+
+"I can not control the height via the CSS height property"
+
+<https://github.com/pixelsign/html5-device-mockups/issues/47>
 
 Created by:
 ---
