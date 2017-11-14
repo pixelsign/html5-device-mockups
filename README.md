@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/html5-device-mockups.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-HTML5 device mockups :iphone::computer:
+HTML5 device mockups v3 :iphone::computer:
 ====================
 
 You can view the demo page of all devices here: https://pixelsign.github.io/html5-device-mockups/
@@ -82,7 +82,7 @@ npm i html5-device-mockups
 
 ### Old traditional way
 ```
-<link rel="stylesheet" type="text/css" href="dist/main.min.css">
+<link rel="stylesheet" type="text/css" href="dist/device-mockups.min.css">
 ```
 ## Usage
 
