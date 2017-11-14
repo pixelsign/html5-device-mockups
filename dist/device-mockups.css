@@ -15,7 +15,7 @@
 
 .device[data-device="galaxyS3"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 194.71789%;
-  background-image: url(../../device-mockups/galaxyS3/portrait_black.png); }
+  background-image: url(../device-mockups/galaxyS3/portrait_black.png); }
   .device[data-device="galaxyS3"][data-orientation="portrait"][data-color="black"] .screen {
     top: 9.67941%;
     left: 6.60264%;
@@ -29,7 +29,7 @@
 
 .device[data-device="galaxyS3"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 194.71789%;
-  background-image: url(../../device-mockups/galaxyS3/portrait_white.png); }
+  background-image: url(../device-mockups/galaxyS3/portrait_white.png); }
   .device[data-device="galaxyS3"][data-orientation="portrait"][data-color="white"] .screen {
     top: 9.67941%;
     left: 6.60264%;
@@ -43,7 +43,7 @@
 
 .device[data-device="galaxyS3"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 51.418%;
-  background-image: url(../../device-mockups/galaxyS3/landscape_black.png); }
+  background-image: url(../device-mockups/galaxyS3/landscape_black.png); }
   .device[data-device="galaxyS3"][data-orientation="landscape"][data-color="black"] .screen {
     top: 7.07434%;
     left: 9.37115%;
@@ -57,7 +57,7 @@
 
 .device[data-device="galaxyS3"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 51.418%;
-  background-image: url(../../device-mockups/galaxyS3/landscape_white.png); }
+  background-image: url(../device-mockups/galaxyS3/landscape_white.png); }
   .device[data-device="galaxyS3"][data-orientation="landscape"][data-color="white"] .screen {
     top: 7.07434%;
     left: 9.37115%;
@@ -71,7 +71,7 @@
 
 .device[data-device="galaxyS5"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 193.98374%;
-  background-image: url(../../device-mockups/galaxyS5/portrait_black.png); }
+  background-image: url(../device-mockups/galaxyS5/portrait_black.png); }
   .device[data-device="galaxyS5"][data-orientation="portrait"][data-color="black"] .screen {
     top: 9.80721%;
     left: 6.09756%;
@@ -85,7 +85,7 @@
 
 .device[data-device="galaxyS5"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 193.98374%;
-  background-image: url(../../device-mockups/galaxyS5/portrait_white.png); }
+  background-image: url(../device-mockups/galaxyS5/portrait_white.png); }
   .device[data-device="galaxyS5"][data-orientation="portrait"][data-color="white"] .screen {
     top: 9.80721%;
     left: 6.09756%;
@@ -99,7 +99,7 @@
 
 .device[data-device="galaxyS5"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 193.98374%;
-  background-image: url(../../device-mockups/galaxyS5/portrait_gold.png); }
+  background-image: url(../device-mockups/galaxyS5/portrait_gold.png); }
   .device[data-device="galaxyS5"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 9.80721%;
     left: 6.09756%;
@@ -113,7 +113,7 @@
 
 .device[data-device="galaxyS5"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 51.55071%;
-  background-image: url(../../device-mockups/galaxyS5/landscape_black.png); }
+  background-image: url(../device-mockups/galaxyS5/landscape_black.png); }
   .device[data-device="galaxyS5"][data-orientation="landscape"][data-color="black"] .screen {
     top: 6.09756%;
     left: 9.80721%;
@@ -127,7 +127,7 @@
 
 .device[data-device="galaxyS5"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 51.55071%;
-  background-image: url(../../device-mockups/galaxyS5/landscape_white.png); }
+  background-image: url(../device-mockups/galaxyS5/landscape_white.png); }
   .device[data-device="galaxyS5"][data-orientation="landscape"][data-color="white"] .screen {
     top: 6.09756%;
     left: 9.80721%;
@@ -141,7 +141,7 @@
 
 .device[data-device="galaxyS5"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 51.55071%;
-  background-image: url(../../device-mockups/galaxyS5/landscape_gold.png); }
+  background-image: url(../device-mockups/galaxyS5/landscape_gold.png); }
   .device[data-device="galaxyS5"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 6.09756%;
     left: 9.80721%;
@@ -155,7 +155,7 @@
 
 .device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 168.33616%;
-  background-image: url(../../device-mockups/galaxyTab4/portrait_black.png); }
+  background-image: url(../device-mockups/galaxyTab4/portrait_black.png); }
   .device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="black"] .screen {
     top: 8.57287%;
     left: 5.68761%;
@@ -170,7 +170,7 @@
 
 .device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 168.33616%;
-  background-image: url(../../device-mockups/galaxyTab4/portrait_white.png); }
+  background-image: url(../device-mockups/galaxyTab4/portrait_white.png); }
   .device[data-device="galaxyTab4"][data-orientation="portrait"][data-color="white"] .screen {
     top: 8.52244%;
     left: 5.68761%;
@@ -185,7 +185,7 @@
 
 .device[data-device="iMac"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 80.46663%;
-  background-image: url(../../device-mockups/iMac/portrait_black.png); }
+  background-image: url(../device-mockups/iMac/portrait_black.png); }
   .device[data-device="iMac"][data-orientation="portrait"][data-color="black"] .screen {
     top: 5.05732%;
     left: 4.06945%;
@@ -200,7 +200,7 @@
 
 .device[data-device="iPad"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 129.56989%;
-  background-image: url(../../device-mockups/iPad/portrait_black.png); }
+  background-image: url(../device-mockups/iPad/portrait_black.png); }
   .device[data-device="iPad"][data-orientation="portrait"][data-color="black"] .screen {
     top: 9.12863%;
     left: 10.30466%;
@@ -214,7 +214,7 @@
 
 .device[data-device="iPad"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 129.56989%;
-  background-image: url(../../device-mockups/iPad/portrait_white.png); }
+  background-image: url(../device-mockups/iPad/portrait_white.png); }
   .device[data-device="iPad"][data-orientation="portrait"][data-color="white"] .screen {
     top: 9.12863%;
     left: 10.48387%;
@@ -228,7 +228,7 @@
 
 .device[data-device="iPad"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 77.04011%;
-  background-image: url(../../device-mockups/iPad/landscape_black.png); }
+  background-image: url(../device-mockups/iPad/landscape_black.png); }
   .device[data-device="iPad"][data-orientation="landscape"][data-color="black"] .screen {
     top: 10.23339%;
     left: 9.26694%;
@@ -242,7 +242,7 @@
 
 .device[data-device="iPad"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 77.04011%;
-  background-image: url(../../device-mockups/iPad/landscape_white.png); }
+  background-image: url(../device-mockups/iPad/landscape_white.png); }
   .device[data-device="iPad"][data-orientation="landscape"][data-color="white"] .screen {
     top: 10.23339%;
     left: 9.26694%;
@@ -256,7 +256,7 @@
 
 .device[data-device="iPadAir2"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 141.39298%;
-  background-image: url(../../device-mockups/iPadAir2/portrait_black.png); }
+  background-image: url(../device-mockups/iPadAir2/portrait_black.png); }
   .device[data-device="iPadAir2"][data-orientation="portrait"][data-color="black"] .screen {
     top: 9.09091%;
     left: 6.45527%;
@@ -270,7 +270,7 @@
 
 .device[data-device="iPadAir2"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 141.39298%;
-  background-image: url(../../device-mockups/iPadAir2/portrait_white.png); }
+  background-image: url(../device-mockups/iPadAir2/portrait_white.png); }
   .device[data-device="iPadAir2"][data-orientation="portrait"][data-color="white"] .screen {
     top: 9.09091%;
     left: 6.45527%;
@@ -284,7 +284,7 @@
 
 .device[data-device="iPadAir2"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 141.39298%;
-  background-image: url(../../device-mockups/iPadAir2/portrait_gold.png); }
+  background-image: url(../device-mockups/iPadAir2/portrait_gold.png); }
   .device[data-device="iPadAir2"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 9.09091%;
     left: 6.45527%;
@@ -298,7 +298,7 @@
 
 .device[data-device="iPadAir2"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 70.72487%;
-  background-image: url(../../device-mockups/iPadAir2/landscape_black.png); }
+  background-image: url(../device-mockups/iPadAir2/landscape_black.png); }
   .device[data-device="iPadAir2"][data-orientation="landscape"][data-color="black"] .screen {
     top: 6.56852%;
     left: 9.09091%;
@@ -312,7 +312,7 @@
 
 .device[data-device="iPadAir2"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 70.72487%;
-  background-image: url(../../device-mockups/iPadAir2/landscape_white.png); }
+  background-image: url(../device-mockups/iPadAir2/landscape_white.png); }
   .device[data-device="iPadAir2"][data-orientation="landscape"][data-color="white"] .screen {
     top: 6.56852%;
     left: 9.09091%;
@@ -326,7 +326,7 @@
 
 .device[data-device="iPadAir2"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 70.72487%;
-  background-image: url(../../device-mockups/iPadAir2/landscape_gold.png); }
+  background-image: url(../device-mockups/iPadAir2/landscape_gold.png); }
   .device[data-device="iPadAir2"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 6.56852%;
     left: 9.09091%;
@@ -340,7 +340,7 @@
 
 .device[data-device="iPadPro"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 138.62249%;
-  background-image: url(../../device-mockups/iPadPro/portrait_black.png); }
+  background-image: url(../device-mockups/iPadPro/portrait_black.png); }
   .device[data-device="iPadPro"][data-orientation="portrait"][data-color="black"] .screen {
     top: 7.04403%;
     left: 5.36181%;
@@ -354,7 +354,7 @@
 
 .device[data-device="iPadPro"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 138.62249%;
-  background-image: url(../../device-mockups/iPadPro/portrait_white.png); }
+  background-image: url(../device-mockups/iPadPro/portrait_white.png); }
   .device[data-device="iPadPro"][data-orientation="portrait"][data-color="white"] .screen {
     top: 7.04403%;
     left: 5.36181%;
@@ -368,7 +368,7 @@
 
 .device[data-device="iPadPro"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 138.62249%;
-  background-image: url(../../device-mockups/iPadPro/portrait_gold.png); }
+  background-image: url(../device-mockups/iPadPro/portrait_gold.png); }
   .device[data-device="iPadPro"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 7.07547%;
     left: 5.36181%;
@@ -382,7 +382,7 @@
 
 .device[data-device="iPadPro"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 72.13836%;
-  background-image: url(../../device-mockups/iPadPro/landscape_black.png); }
+  background-image: url(../device-mockups/iPadPro/landscape_black.png); }
   .device[data-device="iPadPro"][data-orientation="landscape"][data-color="black"] .screen {
     top: 5.40541%;
     left: 7.04403%;
@@ -396,7 +396,7 @@
 
 .device[data-device="iPadPro"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 72.13836%;
-  background-image: url(../../device-mockups/iPadPro/landscape_white.png); }
+  background-image: url(../device-mockups/iPadPro/landscape_white.png); }
   .device[data-device="iPadPro"][data-orientation="landscape"][data-color="white"] .screen {
     top: 5.40541%;
     left: 7.04403%;
@@ -410,7 +410,7 @@
 
 .device[data-device="iPadPro"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 72.14712%;
-  background-image: url(../../device-mockups/iPadPro/landscape_gold.png); }
+  background-image: url(../device-mockups/iPadPro/landscape_gold.png); }
   .device[data-device="iPadPro"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 5.40305%;
     left: 7.07325%;
@@ -424,7 +424,7 @@
 
 .device[data-device="iPhone6"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 207.62016%;
-  background-image: url(../../device-mockups/iPhone6/portrait_black.png); }
+  background-image: url(../device-mockups/iPhone6/portrait_black.png); }
   .device[data-device="iPhone6"][data-orientation="portrait"][data-color="black"] .screen {
     top: 12.25296%;
     left: 6.09613%;
@@ -438,7 +438,7 @@
 
 .device[data-device="iPhone6"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 207.62016%;
-  background-image: url(../../device-mockups/iPhone6/portrait_white.png); }
+  background-image: url(../device-mockups/iPhone6/portrait_white.png); }
   .device[data-device="iPhone6"][data-orientation="portrait"][data-color="white"] .screen {
     top: 12.25296%;
     left: 6.09613%;
@@ -452,7 +452,7 @@
 
 .device[data-device="iPhone6"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 207.62016%;
-  background-image: url(../../device-mockups/iPhone6/portrait_gold.png); }
+  background-image: url(../device-mockups/iPhone6/portrait_gold.png); }
   .device[data-device="iPhone6"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 12.25296%;
     left: 6.09613%;
@@ -466,7 +466,7 @@
 
 .device[data-device="iPhone6"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 48.16488%;
-  background-image: url(../../device-mockups/iPhone6/landscape_black.png); }
+  background-image: url(../device-mockups/iPhone6/landscape_black.png); }
   .device[data-device="iPhone6"][data-orientation="landscape"][data-color="black"] .screen {
     top: 5.86166%;
     left: 12.30943%;
@@ -480,7 +480,7 @@
 
 .device[data-device="iPhone6"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 48.16488%;
-  background-image: url(../../device-mockups/iPhone6/landscape_white.png); }
+  background-image: url(../device-mockups/iPhone6/landscape_white.png); }
   .device[data-device="iPhone6"][data-orientation="landscape"][data-color="white"] .screen {
     top: 5.86166%;
     left: 12.30943%;
@@ -494,7 +494,7 @@
 
 .device[data-device="iPhone6"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 48.16488%;
-  background-image: url(../../device-mockups/iPhone6/landscape_gold.png); }
+  background-image: url(../device-mockups/iPhone6/landscape_gold.png); }
   .device[data-device="iPhone6"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 5.86166%;
     left: 12.30943%;
@@ -508,7 +508,7 @@
 
 .device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 201.45161%;
-  background-image: url(../../device-mockups/iPhone6Plus/portrait_black.png); }
+  background-image: url(../device-mockups/iPhone6Plus/portrait_black.png); }
   .device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="black"] .screen {
     top: 11.48919%;
     left: 6.53226%;
@@ -522,7 +522,7 @@
 
 .device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 201.45161%;
-  background-image: url(../../device-mockups/iPhone6Plus/portrait_white.png); }
+  background-image: url(../device-mockups/iPhone6Plus/portrait_white.png); }
   .device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="white"] .screen {
     top: 11.48919%;
     left: 6.53226%;
@@ -536,7 +536,7 @@
 
 .device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 201.45161%;
-  background-image: url(../../device-mockups/iPhone6Plus/portrait_gold.png); }
+  background-image: url(../device-mockups/iPhone6Plus/portrait_gold.png); }
   .device[data-device="iPhone6Plus"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 11.48919%;
     left: 6.53226%;
@@ -550,7 +550,7 @@
 
 .device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 49.63971%;
-  background-image: url(../../device-mockups/iPhone6Plus/landscape_black.png); }
+  background-image: url(../device-mockups/iPhone6Plus/landscape_black.png); }
   .device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="black"] .screen {
     top: 6.37097%;
     left: 11.48919%;
@@ -564,7 +564,7 @@
 
 .device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 49.63971%;
-  background-image: url(../../device-mockups/iPhone6Plus/landscape_white.png); }
+  background-image: url(../device-mockups/iPhone6Plus/landscape_white.png); }
   .device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="white"] .screen {
     top: 6.37097%;
     left: 11.48919%;
@@ -578,7 +578,7 @@
 
 .device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 49.63971%;
-  background-image: url(../../device-mockups/iPhone6Plus/landscape_gold.png); }
+  background-image: url(../device-mockups/iPhone6Plus/landscape_gold.png); }
   .device[data-device="iPhone6Plus"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 6.37097%;
     left: 11.48919%;
@@ -592,7 +592,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 209.82962%;
-  background-image: url(../../device-mockups/iPhoneSE/portrait_black.png); }
+  background-image: url(../device-mockups/iPhoneSE/portrait_black.png); }
   .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="black"] .screen {
     top: 14.80325%;
     left: 8.519%;
@@ -606,7 +606,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 209.82962%;
-  background-image: url(../../device-mockups/iPhoneSE/portrait_white.png); }
+  background-image: url(../device-mockups/iPhoneSE/portrait_white.png); }
   .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="white"] .screen {
     top: 14.80325%;
     left: 8.519%;
@@ -620,7 +620,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 209.82962%;
-  background-image: url(../../device-mockups/iPhoneSE/portrait_gold.png); }
+  background-image: url(../device-mockups/iPhoneSE/portrait_gold.png); }
   .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 14.80325%;
     left: 8.519%;
@@ -634,7 +634,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="pink"] {
   padding-bottom: 209.82962%;
-  background-image: url(../../device-mockups/iPhoneSE/portrait_pink.png); }
+  background-image: url(../device-mockups/iPhoneSE/portrait_pink.png); }
   .device[data-device="iPhoneSE"][data-orientation="portrait"][data-color="pink"] .screen {
     top: 14.80325%;
     left: 8.519%;
@@ -648,7 +648,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 47.65771%;
-  background-image: url(../../device-mockups/iPhoneSE/landscape_black.png); }
+  background-image: url(../device-mockups/iPhoneSE/landscape_black.png); }
   .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="black"] .screen {
     top: 7.60157%;
     left: 14.80325%;
@@ -662,7 +662,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 47.65771%;
-  background-image: url(../../device-mockups/iPhoneSE/landscape_white.png); }
+  background-image: url(../device-mockups/iPhoneSE/landscape_white.png); }
   .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="white"] .screen {
     top: 7.60157%;
     left: 14.80325%;
@@ -676,7 +676,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 47.65771%;
-  background-image: url(../../device-mockups/iPhoneSE/landscape_gold.png); }
+  background-image: url(../device-mockups/iPhoneSE/landscape_gold.png); }
   .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 7.60157%;
     left: 14.80325%;
@@ -690,7 +690,7 @@
 
 .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="pink"] {
   padding-bottom: 47.65771%;
-  background-image: url(../../device-mockups/iPhoneSE/landscape_pink.png); }
+  background-image: url(../device-mockups/iPhoneSE/landscape_pink.png); }
   .device[data-device="iPhoneSE"][data-orientation="landscape"][data-color="pink"] .screen {
     top: 7.60157%;
     left: 14.80325%;
@@ -704,7 +704,7 @@
 
 .device[data-device="iPhone5"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 209.46124%;
-  background-image: url(../../device-mockups/iPhone5/portrait_black.png); }
+  background-image: url(../device-mockups/iPhone5/portrait_black.png); }
   .device[data-device="iPhone5"][data-orientation="portrait"][data-color="black"] .screen {
     top: 14.80552%;
     left: 8.27858%;
@@ -718,7 +718,7 @@
 
 .device[data-device="iPhone5"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 209.46124%;
-  background-image: url(../../device-mockups/iPhone5/portrait_white.png); }
+  background-image: url(../device-mockups/iPhone5/portrait_white.png); }
   .device[data-device="iPhone5"][data-orientation="portrait"][data-color="white"] .screen {
     top: 14.80552%;
     left: 8.27858%;
@@ -732,7 +732,7 @@
 
 .device[data-device="iPhone5"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 47.74153%;
-  background-image: url(../../device-mockups/iPhone5/landscape_black.png); }
+  background-image: url(../device-mockups/iPhone5/landscape_black.png); }
   .device[data-device="iPhone5"][data-orientation="landscape"][data-color="black"] .screen {
     top: 7.49014%;
     left: 14.80552%;
@@ -746,7 +746,7 @@
 
 .device[data-device="iPhone5"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 47.74153%;
-  background-image: url(../../device-mockups/iPhone5/landscape_white.png); }
+  background-image: url(../device-mockups/iPhone5/landscape_white.png); }
   .device[data-device="iPhone5"][data-orientation="landscape"][data-color="white"] .screen {
     top: 7.49014%;
     left: 14.80552%;
@@ -760,7 +760,7 @@
 
 .device[data-device="Lumia930"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 192.31288%;
-  background-image: url(../../device-mockups/Lumia930/portrait_black.png); }
+  background-image: url(../device-mockups/Lumia930/portrait_black.png); }
   .device[data-device="Lumia930"][data-orientation="portrait"][data-color="black"] .screen {
     top: 7.11781%;
     left: 5.52933%;
@@ -775,7 +775,7 @@
 
 .device[data-device="Lumia930"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 192.31288%;
-  background-image: url(../../device-mockups/Lumia930/portrait_white.png); }
+  background-image: url(../device-mockups/Lumia930/portrait_white.png); }
   .device[data-device="Lumia930"][data-orientation="portrait"][data-color="white"] .screen {
     top: 7.11781%;
     left: 5.52933%;
@@ -790,7 +790,7 @@
 
 .device[data-device="Lumia930"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 51.9986%;
-  background-image: url(../../device-mockups/Lumia930/landscape_black.png); }
+  background-image: url(../device-mockups/Lumia930/landscape_black.png); }
   .device[data-device="Lumia930"][data-orientation="landscape"][data-color="black"] .screen {
     top: 6.60823%;
     left: 7.11781%;
@@ -805,7 +805,7 @@
 
 .device[data-device="Lumia930"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 51.9986%;
-  background-image: url(../../device-mockups/Lumia930/landscape_white.png); }
+  background-image: url(../device-mockups/Lumia930/landscape_white.png); }
   .device[data-device="Lumia930"][data-orientation="landscape"][data-color="white"] .screen {
     top: 6.60823%;
     left: 7.11781%;
@@ -820,7 +820,7 @@
 
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 57.51566%;
-  background-image: url(../../device-mockups/Macbook/portrait_black.png); }
+  background-image: url(../device-mockups/Macbook/portrait_black.png); }
   .device[data-device="Macbook"][data-orientation="portrait"][data-color="black"] .screen {
     top: 7.25953%;
     left: 12.36952%;
@@ -835,7 +835,7 @@
 
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 57.51566%;
-  background-image: url(../../device-mockups/Macbook/portrait_white.png); }
+  background-image: url(../device-mockups/Macbook/portrait_white.png); }
   .device[data-device="Macbook"][data-orientation="portrait"][data-color="white"] .screen {
     top: 7.25953%;
     left: 12.36952%;
@@ -850,7 +850,7 @@
 
 .device[data-device="Macbook"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 57.51566%;
-  background-image: url(../../device-mockups/Macbook/portrait_gold.png); }
+  background-image: url(../device-mockups/Macbook/portrait_gold.png); }
   .device[data-device="Macbook"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 7.25953%;
     left: 12.36952%;
@@ -865,7 +865,7 @@
 
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 57.51566%;
-  background-image: url(../../device-mockups/Macbook2015/portrait_black.png); }
+  background-image: url(../device-mockups/Macbook2015/portrait_black.png); }
   .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="black"] .screen {
     top: 7.35027%;
     left: 12.42171%;
@@ -880,7 +880,7 @@
 
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 57.51566%;
-  background-image: url(../../device-mockups/Macbook2015/portrait_white.png); }
+  background-image: url(../device-mockups/Macbook2015/portrait_white.png); }
   .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="white"] .screen {
     top: 7.35027%;
     left: 12.42171%;
@@ -895,7 +895,7 @@
 
 .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 57.51566%;
-  background-image: url(../../device-mockups/Macbook2015/portrait_gold.png); }
+  background-image: url(../device-mockups/Macbook2015/portrait_gold.png); }
   .device[data-device="Macbook2015"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 7.35027%;
     left: 12.42171%;
@@ -910,7 +910,7 @@
 
 .device[data-device="MacbookPro"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 57.94702%;
-  background-image: url(../../device-mockups/MacbookPro/portrait_black.png); }
+  background-image: url(../device-mockups/MacbookPro/portrait_black.png); }
   .device[data-device="MacbookPro"][data-orientation="portrait"][data-color="black"] .screen {
     top: 6.71429%;
     left: 11.83775%;
@@ -925,7 +925,7 @@
 
 .device[data-device="SamsungTV"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 64.67803%;
-  background-image: url(../../device-mockups/SamsungTV/portrait_black.png); }
+  background-image: url(../device-mockups/SamsungTV/portrait_black.png); }
   .device[data-device="SamsungTV"][data-orientation="portrait"][data-color="black"] .screen {
     top: 2.19619%;
     left: 1.32576%;
@@ -940,7 +940,7 @@
 
 .device[data-device="Surface"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 62.38125%;
-  background-image: url(../../device-mockups/Surface/portrait_black.png); }
+  background-image: url(../device-mockups/Surface/portrait_black.png); }
   .device[data-device="Surface"][data-orientation="portrait"][data-color="black"] .screen {
     top: 11.06599%;
     left: 6.77644%;
@@ -954,7 +954,7 @@
 
 .device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 89.11784%;
-  background-image: url(../../device-mockups/iPhone6Hand/portrait_black.png); }
+  background-image: url(../device-mockups/iPhone6Hand/portrait_black.png); }
   .device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="black"] .screen {
     top: 10.83815%;
     left: 10.94656%;
@@ -968,7 +968,7 @@
 
 .device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 89.11784%;
-  background-image: url(../../device-mockups/iPhone6Hand/portrait_white.png); }
+  background-image: url(../device-mockups/iPhone6Hand/portrait_white.png); }
   .device[data-device="iPhone6Hand"][data-orientation="portrait"][data-color="white"] .screen {
     top: 10.83815%;
     left: 11.07534%;
@@ -982,7 +982,7 @@
 
 .device[data-device="iPhone7Hand"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 158.39243%;
-  background-image: url(../../device-mockups/iPhone7Hand/portrait_black.png); }
+  background-image: url(../device-mockups/iPhone7Hand/portrait_black.png); }
   .device[data-device="iPhone7Hand"][data-orientation="portrait"][data-color="black"] .screen {
     top: 7.83582%;
     left: 41.25296%;
@@ -996,7 +996,7 @@
 
 .device[data-device="iPhone7Hand_2"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 158.39243%;
-  background-image: url(../../device-mockups/iPhone7Hand_2/portrait_black.png); }
+  background-image: url(../device-mockups/iPhone7Hand_2/portrait_black.png); }
   .device[data-device="iPhone7Hand_2"][data-orientation="portrait"][data-color="black"] .screen {
     top: 7.83582%;
     left: 41.25296%;
@@ -1010,7 +1010,7 @@
 
 .device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 58.97364%;
-  background-image: url(../../device-mockups/Chromebook/portrait_black.png); }
+  background-image: url(../device-mockups/Chromebook/portrait_black.png); }
   .device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] .screen {
     top: 7.89349%;
     left: 12.73135%;
@@ -1025,7 +1025,7 @@
 
 .device[data-device="HtcOneM8"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 209.0625%;
-  background-image: url(../../device-mockups/HtcOneM8/portrait_black.png); }
+  background-image: url(../device-mockups/HtcOneM8/portrait_black.png); }
   .device[data-device="HtcOneM8"][data-orientation="portrait"][data-color="black"] .screen {
     top: 10.76233%;
     left: 5.3125%;
@@ -1040,7 +1040,7 @@
 
 .device[data-device="HtcOneM8"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 47.83259%;
-  background-image: url(../../device-mockups/HtcOneM8/landscape_black.png); }
+  background-image: url(../device-mockups/HtcOneM8/landscape_black.png); }
   .device[data-device="HtcOneM8"][data-orientation="landscape"][data-color="black"] .screen {
     top: 5.625%;
     left: 10.76233%;
@@ -1055,7 +1055,7 @@
 
 .device[data-device="HuaweiP8"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 209.74084%;
-  background-image: url(../../device-mockups/HuaweiP8/portrait_gold.png); }
+  background-image: url(../device-mockups/HuaweiP8/portrait_gold.png); }
   .device[data-device="HuaweiP8"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 9.11802%;
     left: 1.69794%;
@@ -1070,7 +1070,7 @@
 
 .device[data-device="HuaweiP8"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 47.67789%;
-  background-image: url(../../device-mockups/HuaweiP8/landscape_gold.png); }
+  background-image: url(../device-mockups/HuaweiP8/landscape_gold.png); }
   .device[data-device="HuaweiP8"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 2.41287%;
     left: 9.11802%;
@@ -1085,7 +1085,7 @@
 
 .device[data-device="SurfacePro3"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 68.15797%;
-  background-image: url(../../device-mockups/SurfacePro3/landscape_black.png); }
+  background-image: url(../device-mockups/SurfacePro3/landscape_black.png); }
   .device[data-device="SurfacePro3"][data-orientation="landscape"][data-color="black"] .screen {
     top: 7.09076%;
     left: 5.82712%;
@@ -1100,7 +1100,7 @@
 
 .device[data-device="SurfaceStudio"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 86.48036%;
-  background-image: url(../../device-mockups/SurfaceStudio/portrait_black.png); }
+  background-image: url(../device-mockups/SurfaceStudio/portrait_black.png); }
   .device[data-device="SurfaceStudio"][data-orientation="portrait"][data-color="black"] .screen {
     top: 3.75546%;
     left: 3.22256%;
@@ -1115,7 +1115,7 @@
 
 .device[data-device="iPhone7"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 203.10345%;
-  background-image: url(../../device-mockups/iPhone7/portrait_black.png); }
+  background-image: url(../device-mockups/iPhone7/portrait_black.png); }
   .device[data-device="iPhone7"][data-orientation="portrait"][data-color="black"] .screen {
     top: 11.99774%;
     left: 6.2069%;
@@ -1129,7 +1129,7 @@
 
 .device[data-device="iPhone7"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 203.10345%;
-  background-image: url(../../device-mockups/iPhone7/portrait_white.png); }
+  background-image: url(../device-mockups/iPhone7/portrait_white.png); }
   .device[data-device="iPhone7"][data-orientation="portrait"][data-color="white"] .screen {
     top: 11.99774%;
     left: 6.2069%;
@@ -1143,7 +1143,7 @@
 
 .device[data-device="iPhone7"][data-orientation="portrait"][data-color="gold"] {
   padding-bottom: 203.10345%;
-  background-image: url(../../device-mockups/iPhone7/portrait_gold.png); }
+  background-image: url(../device-mockups/iPhone7/portrait_gold.png); }
   .device[data-device="iPhone7"][data-orientation="portrait"][data-color="gold"] .screen {
     top: 11.99774%;
     left: 6.2069%;
@@ -1157,7 +1157,7 @@
 
 .device[data-device="iPhone7"][data-orientation="portrait"][data-color="pink"] {
   padding-bottom: 203.10345%;
-  background-image: url(../../device-mockups/iPhone7/portrait_pink.png); }
+  background-image: url(../device-mockups/iPhone7/portrait_pink.png); }
   .device[data-device="iPhone7"][data-orientation="portrait"][data-color="pink"] .screen {
     top: 11.99774%;
     left: 6.2069%;
@@ -1171,7 +1171,7 @@
 
 .device[data-device="iPhone7"][data-orientation="portrait"][data-color="red"] {
   padding-bottom: 201.91083%;
-  background-image: url(../../device-mockups/iPhone7/portrait_red.png); }
+  background-image: url(../device-mockups/iPhone7/portrait_red.png); }
   .device[data-device="iPhone7"][data-orientation="portrait"][data-color="red"] .screen {
     top: 11.98738%;
     left: 6.6879%;
@@ -1185,7 +1185,7 @@
 
 .device[data-device="iPhone7"][data-orientation="landscape"][data-color="black"] {
   padding-bottom: 49.23599%;
-  background-image: url(../../device-mockups/iPhone7/landscape_black.png); }
+  background-image: url(../device-mockups/iPhone7/landscape_black.png); }
   .device[data-device="iPhone7"][data-orientation="landscape"][data-color="black"] .screen {
     top: 6.43678%;
     left: 11.99774%;
@@ -1199,7 +1199,7 @@
 
 .device[data-device="iPhone7"][data-orientation="landscape"][data-color="white"] {
   padding-bottom: 49.23599%;
-  background-image: url(../../device-mockups/iPhone7/landscape_white.png); }
+  background-image: url(../device-mockups/iPhone7/landscape_white.png); }
   .device[data-device="iPhone7"][data-orientation="landscape"][data-color="white"] .screen {
     top: 6.43678%;
     left: 11.99774%;
@@ -1213,7 +1213,7 @@
 
 .device[data-device="iPhone7"][data-orientation="landscape"][data-color="gold"] {
   padding-bottom: 49.23599%;
-  background-image: url(../../device-mockups/iPhone7/landscape_gold.png); }
+  background-image: url(../device-mockups/iPhone7/landscape_gold.png); }
   .device[data-device="iPhone7"][data-orientation="landscape"][data-color="gold"] .screen {
     top: 6.43678%;
     left: 11.99774%;
@@ -1227,7 +1227,7 @@
 
 .device[data-device="iPhone7"][data-orientation="landscape"][data-color="pink"] {
   padding-bottom: 49.23599%;
-  background-image: url(../../device-mockups/iPhone7/landscape_pink.png); }
+  background-image: url(../device-mockups/iPhone7/landscape_pink.png); }
   .device[data-device="iPhone7"][data-orientation="landscape"][data-color="pink"] .screen {
     top: 6.43678%;
     left: 11.99774%;
@@ -1241,7 +1241,7 @@
 
 .device[data-device="iPhone7"][data-orientation="landscape"][data-color="red"] {
   padding-bottom: 49.52681%;
-  background-image: url(../../device-mockups/iPhone7/landscape_red.png); }
+  background-image: url(../device-mockups/iPhone7/landscape_red.png); }
   .device[data-device="iPhone7"][data-orientation="landscape"][data-color="red"] .screen {
     top: 8.59873%;
     left: 11.98738%;
@@ -1255,7 +1255,7 @@
 
 .device[data-device="Pixel"][data-orientation="portrait"][data-color="white"] {
   padding-bottom: 202.62009%;
-  background-image: url(../../device-mockups/Pixel/portrait_white.png); }
+  background-image: url(../device-mockups/Pixel/portrait_white.png); }
   .device[data-device="Pixel"][data-orientation="portrait"][data-color="white"] .screen {
     top: 9.69828%;
     left: 4.36681%;
@@ -1269,7 +1269,7 @@
 
 .device[data-device="Pixel"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 202.62009%;
-  background-image: url(../../device-mockups/Pixel/portrait_black.png); }
+  background-image: url(../device-mockups/Pixel/portrait_black.png); }
   .device[data-device="Pixel"][data-orientation="portrait"][data-color="black"] .screen {
     top: 9.69828%;
     left: 4.36681%;
