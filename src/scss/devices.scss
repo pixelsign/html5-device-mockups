@@ -1,0 +1,129 @@
+// name   orientation   color   image_width   image_height   screen_top   screen_right   screen_bottom   screen_left   button_top   button_right   button_bottom   bottom_left
+$devicesList: (
+    (galaxyS3,      portrait,    'black',   833,    1622,   157,   59,    185,   55,    1511,   323,   58,    322),
+    (galaxyS3,      portrait,    'white',   833,    1622,   157,   59,    185,   55,    1511,   323,   58,    322),
+
+    (galaxyS3,      landscape,   'black',   1622,   834,    59,    190,   55,    152,   324,    53,    322,   1514),
+    (galaxyS3,      landscape,   'white',   1622,   834,    59,    190,   55,    152,   324,    53,    322,   1514),
+
+    (galaxyS5,      portrait,    'black',   1230,   2386,   234,   75,    232,   75,    2210,   474,   87,    479),
+    (galaxyS5,      portrait,    'white',   1230,   2386,   234,   75,    232,   75,    2210,   474,   87,    479),
+    (galaxyS5,      portrait,    'gold',    1230,   2386,   234,   75,    232,   75,    2210,   474,   87,    479),
+
+    (galaxyS5,      landscape,   'black',   2386,   1230,   75,    232,   75,    234,   474,    87,    479,   2210),
+    (galaxyS5,      landscape,   'white',   2386,   1230,   75,    232,   75,    234,   474,    87,    479,   2210),
+    (galaxyS5,      landscape,   'gold',    2386,   1230,   75,    232,   75,    234,   474,    87,    479,   2210),
+
+    (galaxyTab4,    portrait,    'black',   1178,   1983,   170,   75,    167,   67,    0,      0,     0,     0),
+    (galaxyTab4,    portrait,    'white',   1178,   1983,   169,   75,    167,   67,    0,      0,     0,     0),
+
+    (iMac,          portrait,    'black',   1843,   1483,   75,    75,    456,   75,    0,      0,     0,     0),
+
+    (iPad,          portrait,    'black',   1116,   1446,   132,   117,   137,   115,   1347,   523,   34,    526),
+    (iPad,          portrait,    'white',   1116,   1446,   132,   114,   137,   117,   1347,   523,   34,    526),
+
+    (iPad,          landscape,   'black',   1446,   1114,   114,   136,   115,   134,   521,    34,    526,   1348),
+    (iPad,          landscape,   'white',   1446,   1114,   114,   136,   115,   134,   521,    34,    526,   1348),
+
+    (iPadAir2,      portrait,    'black',   1766,   2497,   227,   116,   222,   114,   2336,   828,   50,    827),
+    (iPadAir2,      portrait,    'white',   1766,   2497,   227,   116,   222,   114,   2336,   828,   50,    827),
+    (iPadAir2,      portrait,    'gold',    1766,   2497,   227,   116,   222,   114,   2336,   828,   50,    827),
+
+    (iPadAir2,      landscape,   'black',   2497,   1766,   116,   222,   114,   227,   828,    50,    827,   2336),
+    (iPadAir2,      landscape,   'white',   2497,   1766,   116,   222,   114,   227,   828,    50,    827,   2336),
+    (iPadAir2,      landscape,   'gold',    2497,   1766,   116,   222,   114,   227,   828,    50,    827,   2336),
+
+    (iPadPro,       portrait,    'black',   2294,   3180,   224,   124,   224,   123,   3019,   1091,  49,    1092),
+    (iPadPro,       portrait,    'white',   2294,   3180,   224,   124,   224,   123,   3019,   1091,  49,    1092),
+    (iPadPro,       portrait,    'gold',    2294,   3180,   225,   124,   224,   123,   3019,   1091,  49,    1092),
+
+    (iPadPro,       landscape,   'black',   3180,   2294,   124,   224,   123,   224,   1091,   49,    1092,  3019),
+    (iPadPro,       landscape,   'white',   3180,   2294,   124,   224,   123,   224,   1091,   49,    1092,  3019),
+    (iPadPro,       landscape,   'gold',    3181,   2295,   124,   224,   123,   225,   1091,   49,    1092,  3019),
+
+    (iPhone6,       portrait,    'black',   853,    1771,   217,   50,    220,   52,    1582,   354,   47,    357),
+    (iPhone6,       portrait,    'white',   853,    1771,   217,   50,    220,   52,    1582,   354,   47,    357),
+    (iPhone6,       portrait,    'gold',    853,    1771,   217,   50,    220,   52,    1582,   354,   47,    357),
+
+    (iPhone6,       landscape,   'black',   1771,   853,    50,    220,   53,    218,   354,    47,    357,   1582),
+    (iPhone6,       landscape,   'white',   1771,   853,    50,    220,   53,    218,   354,    47,    357,   1582),
+    (iPhone6,       landscape,   'gold',    1771,   853,    50,    220,   53,    218,   354,    47,    357,   1582),
+
+    (iPhone6Plus,   portrait,    'black',   1240,   2498,   287,   79,    291,   81,    2259,   537,   73,    537),
+    (iPhone6Plus,   portrait,    'white',   1240,   2498,   287,   79,    291,   81,    2259,   537,   73,    537),
+    (iPhone6Plus,   portrait,    'gold',    1240,   2498,   287,   79,    291,   81,    2259,   537,   73,    537),
+
+    (iPhone6Plus,   landscape,   'black',   2498,   1240,   79,    291,   81,    287,   537,    73,    537,   2259),
+    (iPhone6Plus,   landscape,   'white',   2498,   1240,   79,    291,   81,    287,   537,    73,    537,   2259),
+    (iPhone6Plus,   landscape,   'gold',    2498,   1240,   79,    291,   81,    287,   537,    73,    537,   2259),
+
+    (iPhoneSE,      portrait,    'black',   763,    1601,   237,   58,    228,   65,    1417,   310,   49,    318),
+    (iPhoneSE,      portrait,    'white',   763,    1601,   237,   58,    228,   65,    1417,   310,   49,    318),
+    (iPhoneSE,      portrait,    'gold',    763,    1601,   237,   58,    228,   65,    1417,   310,   49,    318),
+    (iPhoneSE,      portrait,    'pink',    763,    1601,   237,   58,    228,   65,    1417,   310,   49,    318),
+
+    (iPhoneSE,      landscape,   'black',   1601,   763,    58,    228,   65,    237,   310,    49,    318,   1417),
+    (iPhoneSE,      landscape,   'white',   1601,   763,    58,    228,   65,    237,   310,    49,    318,   1417),
+    (iPhoneSE,      landscape,   'gold',    1601,   763,    58,    228,   65,    237,   310,    49,    318,   1417),
+    (iPhoneSE,      landscape,   'pink',    1601,   763,    58,    228,   65,    237,   310,    49,    318,   1417),
+
+    (iPhone5,       portrait,    'black',   761,    1594,   236,   57,    222,   63,    1411,   308,   46,    316),
+    (iPhone5,       portrait,    'white',   761,    1594,   236,   57,    222,   63,    1411,   308,   46,    316),
+
+    (iPhone5,       landscape,   'black',   1594,   761,    57,    222,   63,    236,   308,    46,    316,   1411),
+    (iPhone5,       landscape,   'white',   1594,   761,    57,    222,   63,    236,   308,    46,    316,   1411),
+
+    (Lumia930,      portrait,    'black',   1483,   2852,   203,   98,    335,   82,    0,      0,     0,     0),
+    (Lumia930,      portrait,    'white',   1483,   2852,   203,   98,    335,   82,    0,      0,     0,     0),
+
+    (Lumia930,      landscape,   'black',   2852,   1483,   98,    335,   82,    203,   0,      0,     0,     0),
+    (Lumia930,      landscape,   'white',   2852,   1483,   98,    335,   82,    203,   0,      0,     0,     0),
+
+    (Macbook,       portrait,    'black',   1916,   1102,   80,    237,   120,   237,   0,      0,     0,     0),
+    (Macbook,       portrait,    'white',   1916,   1102,   80,    237,   120,   237,   0,      0,     0,     0),
+    (Macbook,       portrait,    'gold',    1916,   1102,   80,    237,   120,   237,   0,      0,     0,     0),
+
+    (Macbook2015,   portrait,    'black',   1916,   1102,   81,    238,   120,   238,   0,      0,     0,     0),
+    (Macbook2015,   portrait,    'white',   1916,   1102,   81,    238,   120,   238,   0,      0,     0,     0),
+    (Macbook2015,   portrait,    'gold',    1916,   1102,   81,    238,   120,   238,   0,      0,     0,     0),
+
+    (MacbookPro,    portrait,    'black',   1208,   700,    47,    142,   76,    143,   0,      0,     0,     0),
+
+    (SamsungTV,     portrait,    'black',   1056,   683,    15,    15,    86,    14,    0,      0,     0,     0),
+
+    (Surface,       portrait,    'black',   1579,   985,    109,   108,   110,   107,   908,    770,   41,    772),
+
+    (iPhone6Hand,   portrait,    'black',   1553,   1384,   150,   860,   303,   170,   1103,   1075,  187,   385),
+    (iPhone6Hand,   portrait,    'white',   1553,   1384,   150,   860,   303,   172,   1103,   1075,  187,   385),
+
+    (iPhone7Hand,   portrait,    'black',   846,    1340,   105,   140,   602,   349,   753,    286,   521,   494),
+
+    (iPhone7Hand_2, portrait,    'black',   846,    1340,   105,   140,   602,   349,   753,    286,   521,   494),
+
+    (Chromebook,    portrait,    'black',   3566,   2103,   166,   468,   438,   454,   0,      0,     0,     0),
+
+    (HtcOneM8,      portrait,    'black',   320,    669,    72,    18,    91,    17,    0,      0,     0,     0),
+    (HtcOneM8,      landscape,   'black',   669,    320,    18,    91,    17,    72,    0,      0,     0,     0),
+
+    (HuaweiP8,      portrait,    'gold',    1119,   2347,   214,   27,    213,   19,    0,      0,     0,     0),
+    (HuaweiP8,      landscape,   'gold',    2347,   1119,   27,    213,   19,    214,   0,      0,     0,     0),
+
+    (SurfacePro3,   landscape,   'black',   3621,   2468,   175,   211,   160,   211,   0,      0,     0,     0),
+
+    (SurfaceStudio, portrait,    'black',   3972,   3435,   129,   129,   819,   128,   0,      0,     0,     0),
+
+    (iPhone7,       portrait,    'black',   870,    1767,   212,   56,    211,   54,    1582,   365,   48,    368),
+    (iPhone7,       portrait,    'white',   870,    1767,   212,   56,    211,   54,    1582,   365,   48,    368),
+    (iPhone7,       portrait,    'gold',    870,    1767,   212,   56,    211,   54,    1582,   365,   48,    368),
+    (iPhone7,       portrait,    'pink',    870,    1767,   212,   56,    211,   54,    1582,   365,   48,    368),
+    (iPhone7,       portrait,    'red',     314,    634,    76,    27,    79,    21,    569,    132,   16,    133),
+
+    (iPhone7,       landscape,   'black',   1767,   870,    56,    211,   54,    212,   365,    48,    368,   1582),
+    (iPhone7,       landscape,   'white',   1767,   870,    56,    211,   54,    212,   365,    48,    368,   1582),
+    (iPhone7,       landscape,   'gold',    1767,   870,    56,    211,   54,    212,   365,    48,    368,   1582),
+    (iPhone7,       landscape,   'pink',    1767,   870,    56,    211,   54,    212,   365,    48,    368,   1582),
+    (iPhone7,       landscape,   'red',     634,    314,    27,    79,    21,    76,    132,    16,    133,   569),
+
+    (Pixel,         portrait,    'white',   229,    464,    45,    12,    54,    10,    420,    100,    24,   103),
+    (Pixel,         portrait,    'black',   229,    464,    45,    12,    54,    10,    420,    100,    24,   103),
+);

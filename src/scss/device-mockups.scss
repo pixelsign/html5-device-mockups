@@ -1,0 +1,59 @@
+@import "general.scss";
+@import "devices.scss";
+
+.device {
+
+    @each $device, $orientation, $color, $image_width, $image_height, $screen_top, $screen_right, $screen_bottom, $screen_left, $button_top, $button_right, $button_bottom, $bottom_left in $devicesList {
+
+        &[data-device="#{$device}"][data-orientation="#{$orientation}"][data-color="#{$color}"] {
+
+            $paddingCalc: percentage($image_height / ($image_width / 300) / 300);
+            $imageURL: '#{$rel-mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
+
+            padding-bottom: #{$paddingCalc};
+            background-image: url(#{$imageURL});
+
+            .screen {
+
+                $topCalc: percentage($screen_top / $image_height);
+                $leftCalc: percentage($screen_left / $image_width);
+
+                $screenWidth: $image_width - $screen_right - $screen_left;
+                $screenHeight: $image_height - $screen_top - $screen_bottom;
+
+                $widthCalc: percentage($screenWidth / $image_width);
+                $heightCalc: percentage($screenHeight / $image_height);
+
+                top: #{$topCalc};
+                left: #{$leftCalc};
+                width: #{$widthCalc};
+                height: #{$heightCalc};
+
+            }
+
+            .button {
+
+                @if $button_top == 0 and $button_right == 0 and $button_bottom == 0 and $bottom_left == 0 {
+                    display: none;
+                }
+
+                $topCalc: percentage($button_top / $image_height);
+                $leftCalc: percentage($bottom_left / $image_width);
+
+                $buttonWidth: $image_width - $button_right - $bottom_left;
+                $buttonHeight: $image_height - $button_top - $button_bottom;
+
+                $widthCalc: percentage($buttonWidth / $image_width);
+                $heightCalc: percentage($buttonHeight / $image_height);
+
+                top: #{$topCalc};
+                left: #{$leftCalc};
+                width: #{$widthCalc};
+                height: #{$heightCalc};
+
+            }
+
+        }
+    }
+
+}

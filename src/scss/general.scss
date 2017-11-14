@@ -1,0 +1,22 @@
+$rel-mockup-path: '../../device-mockups' !default;
+
+.device-wrapper {
+    max-width: 300px;
+    width: 100%;
+}
+
+.device {
+    position: relative;
+    background-size: cover;
+
+    .screen {
+        position: absolute;
+        background-size: cover;
+        pointer-events: none;
+    }
+
+    .button {
+        position: absolute;
+        cursor: pointer;
+    }
+}
