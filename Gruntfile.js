@@ -2,15 +2,10 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        less: {
-            development: {
-                options: {
-                    plugins: [
-                        new (require('less-plugin-autoprefix'))({browsers: ["last 2 versions"]})
-                    ],
-                },
+        sass: {
+            dist: {
                 files: {
-                    'dist/device-mockups.css': 'src/less/device-mockups.less'
+                    'dist/device-mockups.css': 'src/less/device-mockups.scss'
                 }
             }
         },
@@ -38,7 +33,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-banner');
+    grunt.loadNpmTasks('grunt-sass');
 
-    grunt.registerTask('default', ['less', 'cssmin', 'usebanner']);
+    grunt.registerTask('default', ['sass', 'cssmin', 'usebanner']);
 
 };

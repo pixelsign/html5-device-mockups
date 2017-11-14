@@ -8,7 +8,7 @@
         &[data-device="#{$device}"][data-orientation="#{$orientation}"][data-color="#{$color}"] {
 
             $paddingCalc: percentage($image_height / ($image_width / 300) / 300);
-            $imageURL: '#{$rel-mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
+            $imageURL: '#{$mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
 
             padding-bottom: #{$paddingCalc};
             background-image: url(#{$imageURL});

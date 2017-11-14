@@ -4,10 +4,10 @@
 [![npm](https://img.shields.io/npm/v/html5-device-mockups.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-HTML5 device mockups :iphone::computer:
+HTML5 device mockups v3 :iphone::computer:
 ====================
 
-You can view the demo page of all devices here: https://pixelsign.github.io/html5-device-mockups/
+You can view the demo page here: <https://pixelsign.github.io/html5-device-mockups/>
 
 Use on...
 * Your website / splash screen
@@ -82,7 +82,7 @@ npm i html5-device-mockups
 
 ### Old traditional way
 ```
-<link rel="stylesheet" type="text/css" href="dist/main.min.css">
+<link rel="stylesheet" type="text/css" href="dist/device-mockups.min.css">
 ```
 ## Usage
 
@@ -100,6 +100,12 @@ Use this example or grap the code from the HTML generator on our demo site:
   </div>
 </div>
 ```
+
+## FAQ
+
+"I can not control the height of the device"
+
+<https://github.com/pixelsign/html5-device-mockups/issues/47>
 
 Created by:
 ---
