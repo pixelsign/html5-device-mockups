@@ -25,6 +25,34 @@
     position: absolute;
     cursor: pointer; }
 
+.device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 198.89807163%;
+  background-image: url(../device-mockups/iPhoneX/portrait.png);
+  z-index: initial;
+}
+  .device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] .screen {
+    top: 3.254847645%;
+    left: 7.162534435%;
+    width: 85.67493113%;
+    height: 93.49030471%;
+    border: 0px;
+    z-index: -1;
+  }
+
+.device[data-device="iPhoneX"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 50.27700831%;
+  background-image: url(../device-mockups/iPhoneX/landscape.png);
+  z-index: initial;
+}
+  .device[data-device="iPhoneX"][data-orientation="landscape"][data-color="black"] .screen {
+    top: 7.162534435%;
+    left: 3.254847645%;
+    width: 93.49030471%;
+    height: 85.67493113%;
+    border: 0px;
+    z-index: -1;
+  }
+
 .device[data-device="galaxyS3"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 194.71789%;
   background-image: url(../device-mockups/galaxyS3/portrait_black.png); }
