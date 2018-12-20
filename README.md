@@ -59,6 +59,7 @@ Devices
 | iPhone 7 Hand | iPhone7Hand | portrait | black |
 | iPhone 7 Hand 2 | iPhone7Hand_2 | portrait | black |
 | iPhone 7 | iPhone7 | portrait, landscape | black, white, gold, pink, red |
+| iPhone X | iPhoneX | portrait, landscape | black |
 | Lumia 930 | Lumia930 | portrait, landscape | black, white |
 | Macbook | Macbook | portrait | black, white, gold |
 | Macbook 2015 | Macbook2015 | portrait | black, white, gold |
