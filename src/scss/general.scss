@@ -9,11 +9,20 @@ $mockup-path: '../device-mockups' !default;
     position: relative;
     background-size: cover;
 
+    &::after {
+        position: absolute;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    
     .screen {
         position: absolute;
         background-size: cover;
-        pointer-events: none;
+        pointer-events: auto;
     }
+
 
     .button {
         position: absolute;

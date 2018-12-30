@@ -3,7 +3,7 @@
 
 .device {
 
-    @each $device, $orientation, $color, $image_width, $image_height, $screen_top, $screen_right, $screen_bottom, $screen_left, $button_top, $button_right, $button_bottom, $bottom_left in $devicesList {
+    @each $device, $orientation, $color, $overlay_transparent, $image_width, $image_height, $screen_top, $screen_right, $screen_bottom, $screen_left, $button_top, $button_right, $button_bottom, $bottom_left in $devicesList {
 
         &[data-device="#{$device}"][data-orientation="#{$orientation}"][data-color="#{$color}"] {
 
@@ -11,7 +11,6 @@
             $imageURL: '#{$mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
 
             padding-bottom: #{$paddingCalc};
-            background-image: url(#{$imageURL});
 
             .screen {
 
@@ -29,6 +28,15 @@
                 width: #{$widthCalc};
                 height: #{$heightCalc};
 
+            }
+
+            &::after {
+                content: '';
+                background-image: url(#{$imageURL});
+
+                @if $overlay_transparent == false {
+                    z-index: -1;
+                }
             }
 
             .button {

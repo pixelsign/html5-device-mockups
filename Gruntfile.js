@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         sass: {
             dist: {
                 files: {
-                    'dist/device-mockups.css': 'src/less/device-mockups.scss'
+                    'dist/device-mockups.css': 'src/scss/device-mockups.scss'
                 }
             }
         },
@@ -29,8 +29,6 @@ module.exports = function (grunt) {
             }
         }
     });
-
-    grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-sass');
