@@ -22,7 +22,7 @@ For...
 
 Why?
 * Looks cool
-* Attracts customers
+* Attract customers
 * Makes your site look professional
 * Give people the idea that your app/site works on mobile
 * Give the impression that your illustrations are meant for web/mobile
