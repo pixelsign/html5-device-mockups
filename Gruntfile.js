@@ -1,3 +1,5 @@
+const sass = require('sass');
+
 module.exports = function (grunt) {
 
     grunt.initConfig({
@@ -7,6 +9,9 @@ module.exports = function (grunt) {
                 files: {
                     'dist/device-mockups.css': 'src/scss/device-mockups.scss'
                 }
+            },
+            options: {
+                implementation: sass,
             }
         },
         cssmin: {
