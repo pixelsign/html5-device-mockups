@@ -11,6 +11,7 @@
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="dist/device-mockups.min.css">
 	<style>
+
 		body {
 			font-family: 'Open Sans', sans-serif;
 		}
@@ -126,7 +127,49 @@
 			padding-top: 20px;
 			padding-bottom: 20px;
 		}
+
+		.container .second{
+			display: none;
+		}
+
+		@media (max-width: 766px) {
+
+			h1{
+				font-size: 1.8rem;
+				text-align: center;
+			}
+			h2{
+				font-size: 1.4rem;
+				text-align: center;
+				margin-bottom: 15px;
+			}
+			.container .first{
+				display: none;
+			}
+			.container .second{
+				display: inline-block;
+				text-align: center;
+			}
+			.second{
+				display: inline-block;
+				text-align: center;
+				margin-top: 20px;
+			}
+			.centered{
+				width: 100%;
+				text-align: center;
+			}
+
+		}
+
+		@media (max-width: 475px) {
+			.container .down{
+				margin-bottom: -7px;
+			}
+		}
+
 	</style>
+	
 </head>
 
 <body>
@@ -148,7 +191,7 @@
 				<div class="col-md-8 title">
 					<h1>Create stunning showcases</h1>
 					<h2>Spice up your website with live HTML5 mockups of popular devices</h2>
-					<a class="btn btn-primary" href="https://github.com/pixelsign/html5-device-mockups" role="button">Grab it on Github</a>
+					<a class="btn btn-primary first" href="https://github.com/pixelsign/html5-device-mockups" role="button">Grab it on Github</a>
 				</div>
 				<div class="col-md-4">
 					<div class="device-wrapper deviceLeft">
@@ -171,6 +214,7 @@
 							</div>
 						</div>
 					</div>
+					<div class="centered"><a class="btn btn-primary second" href="https://github.com/pixelsign/html5-device-mockups" role="button">Grab it on Github</a></div>
 				</div>
 			</div>
 		</div>
@@ -178,11 +222,11 @@
 
 	<footer class="container">
 		<div class="row">
-			<div class="col">
+			<div class="col down">
 				Made by <a href="http://innovaniac.com" target="_blank">Tomi Hiltunen</a>, <a href="http://dribbble.com/pixelsign" target="_blank">Angelos Arnis</a> and <a href="https://benjaminbortels.de" target="_blank">Benjamin Bortels</a>
 			</div>
 		</div>
-		</div>
+	</footer>	
 
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
