@@ -9,3 +9,8 @@ fonts
 css
 index.html
 device-mockups/**/*.psd
+*~lock~
+device-mockups/**/*.af
+device-mockups/**/*.ai
+index.previous.html
+scripts

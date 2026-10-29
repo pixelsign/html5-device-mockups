@@ -16,6 +16,12 @@
     "fonts",
     "css",
     "index.html",
-    "device-mockups/**/*.psd"
+    "device-mockups/**/*.psd",
+    "device-mockups/**/*.af",
+    "device-mockups/**/*.ai",
+    "**/*~lock~",
+    "index.previous.html",
+    "package-lock.json",
+    "scripts"
   ]
 }

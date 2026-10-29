@@ -1,4 +1,8 @@
-// name   orientation   color   image_width   overlay_tranparent image_height   screen_top   screen_right   screen_bottom   screen_left   button_top   button_right   button_bottom   bottom_left
+// Devices that only have a portrait PNG.
+// Their landscape orientation is synthesised by rotating the portrait image in CSS.
+$portraitOnlyDevices: (iPhoneXS, iPhoneXSMax);
+
+// name   orientation   color   overlay_transparent   image_width   image_height   screen_top   screen_right   screen_bottom   screen_left   button_top   button_right   button_bottom   bottom_left
 $devicesList: (
     (galaxyS3,      portrait,    'black',   false,  833,    1622,   157,   59,    185,   55,    1511,   323,   58,    322),
     (galaxyS3,      portrait,    'white',   false,  833,    1622,   157,   59,    185,   55,    1511,   323,   58,    322),
@@ -93,13 +97,6 @@ $devicesList: (
     
     (Surface,       portrait,    'black',   false,  1579,   985,    109,   108,   110,   107,   908,    770,   41,    772),
     
-    (iPhone6Hand,   portrait,    'black',   false,  1553,   1384,   150,   860,   303,   170,   1103,   1075,  187,   385),
-    (iPhone6Hand,   portrait,    'white',   false,  1553,   1384,   150,   860,   303,   172,   1103,   1075,  187,   385),
-    
-    (iPhone7Hand,   portrait,    'black',   false,  846,    1340,   105,   140,   602,   349,   753,    286,   521,   494),
-    
-    (iPhone7Hand_2, portrait,    'black',   false,  846,    1340,   105,   140,   602,   349,   753,    286,   521,   494),
-    
     (Chromebook,    portrait,    'black',   false,  3566,   2103,   166,   468,   438,   454,   0,      0,     0,     0),
     
     (HtcOneM8,      portrait,    'black',   false,  320,    669,    72,    18,    91,    17,    0,      0,     0,     0),
@@ -126,6 +123,24 @@ $devicesList: (
     
     (iPhoneX,       portrait,    'black',   true,   726,    1444,   46,    50,    46,    50,    0,      0,     0,     0),
     (iPhoneX,       landscape,   'black',   true,   1444,   726,    46,    50,    46,    50,    0,      0,     0,     0),
+
+    (iPhoneXS,      portrait,    'silver',    false,  979,    1960,   52,    58,    53,    59,    0,      0,     0,     0),
+    (iPhoneXS,      landscape,   'silver',    false,  1960,   979,    58,    53,    59,    52,    0,      0,     0,     0),
+
+    (iPhoneXS,      portrait,    'gold',      false,  979,    1960,   52,    58,    53,    59,    0,      0,     0,     0),
+    (iPhoneXS,      landscape,   'gold',      false,  1960,   979,    58,    53,    59,    52,    0,      0,     0,     0),
+
+    (iPhoneXS,      portrait,    'spacegrey', false,  979,    1960,   52,    58,    53,    59,    0,      0,     0,     0),
+    (iPhoneXS,      landscape,   'spacegrey', false,  1960,   979,    58,    53,    59,    52,    0,      0,     0,     0),
+
+    (iPhoneXSMax,   portrait,    'silver',    false,  1067,   2147,   52,    58,    52,    59,    0,      0,     0,     0),
+    (iPhoneXSMax,   landscape,   'silver',    false,  2147,   1067,   58,    52,    59,    52,    0,      0,     0,     0),
+
+    (iPhoneXSMax,   portrait,    'gold',      false,  1067,   2147,   52,    58,    52,    59,    0,      0,     0,     0),
+    (iPhoneXSMax,   landscape,   'gold',      false,  2147,   1067,   58,    52,    59,    52,    0,      0,     0,     0),
+
+    (iPhoneXSMax,   portrait,    'spacegrey', false,  1067,   2147,   52,    58,    52,    59,    0,      0,     0,     0),
+    (iPhoneXSMax,   landscape,   'spacegrey', false,  2147,   1067,   58,    52,    59,    52,    0,      0,     0,     0),
     
     (Pixel,         portrait,    'white',   false,  229,    464,    45,    12,    54,    10,    420,    100,    24,   103),
     (Pixel,         portrait,    'black',   false,  229,    464,    45,    12,    54,    10,    420,    100,    24,   103),

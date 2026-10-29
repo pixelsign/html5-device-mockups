@@ -50,3 +50,9 @@ docs/.jekyll-metadata
 # Folders to ignore
 #bower_components
 node_modules
+
+# Design-app lock files (contain user and machine names)
+*~lock~
+
+# Local backup of the previous demo page
+index.previous.html

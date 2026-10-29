@@ -34,40 +34,43 @@ Features:
 * Some devices have "home button" layer defined for possible click event bindings
 * Multiple color schemes
 * Multiple orientations
-* 86 different device images
+* 99 device frames across 27 devices
+* Notched iPhones (X, XS, XS Max) clip screen content to the real screen shape, notch and corners included
 
 Devices
 -------
 
-| Name | Filename | Orientations | Colors |
-| --- | --- | --- | --- |
-| Chromebook | Chromebook | portrait | black |
-| Galaxy S3 | galaxyS3 | portrait, landscape | black, white |
-| Galaxy S5 | galaxyS5 | portrait, landscape | black, white, gold |
-| Galaxy Tab 4 | galaxyTab4 | portrait | black, white |
-| HTC One M8 | HtcOneM8 | portrait, landscape | black |
-| Huawei P8 | HuaweiP8 | portrait, landscape | gold |
-| iMac | iMac | portrait | black |
-| iPad | iPad | portrait, landscape | black, white |
-| iPad Air 2 | iPadAir2 | portrait, landscape | black, white, gold |
-| iPad Pro | iPadPro | portrait, landscape | black, white, gold |
-| iPhone 6 | iPhone6 | portrait, landscape | black, white, gold |
-| iPhone 6 Plus | iPhone6Plus | portrait, landscape | black, white, gold |
-| iPhone SE | iPhoneSE | portrait, landscape | black, white, gold, pink |
-| iPhone 5 | iPhone5 | portrait, landscape | black, white |
-| iPhone 6 Hand | iPhone6Hand | portrait | black, white |
-| iPhone 7 Hand | iPhone7Hand | portrait | black |
-| iPhone 7 Hand 2 | iPhone7Hand_2 | portrait | black |
-| iPhone 7 | iPhone7 | portrait, landscape | black, white, gold, pink, red |
-| iPhone X | iPhoneX | portrait, landscape | black |
-| Lumia 930 | Lumia930 | portrait, landscape | black, white |
-| Macbook | Macbook | portrait | black, white, gold |
-| Macbook 2015 | Macbook2015 | portrait | black, white, gold |
-| MacbookPro | Macbook2015 | portrait | black |
-| Pixel | Pixel | portrait | black, white |
-| Samsung TV | SamsungTV | portrait | black |
-| Surface Pro 3 | SurfacePro3 | landscape | black |
-| Surface Studio | SurfaceStudio | portrait | black |
+Devices marked **Obsolete** are long out of support and rarely seen any more. They still work and stay in the package for existing users.
+
+| Name | Filename | Orientations | Colors | Status |
+| --- | --- | --- | --- | --- |
+| Chromebook | Chromebook | portrait | black | Obsolete |
+| Galaxy S3 | galaxyS3 | portrait, landscape | black, white | Obsolete |
+| Galaxy S5 | galaxyS5 | portrait, landscape | black, white, gold | Obsolete |
+| Galaxy Tab 4 | galaxyTab4 | portrait | black, white | Obsolete |
+| HTC One M8 | HtcOneM8 | portrait, landscape | black | Obsolete |
+| Huawei P8 | HuaweiP8 | portrait, landscape | gold | Obsolete |
+| iMac | iMac | portrait | black |  |
+| iPad | iPad | portrait, landscape | black, white | Obsolete |
+| iPad Air 2 | iPadAir2 | portrait, landscape | black, white, gold |  |
+| iPad Pro | iPadPro | portrait, landscape | black, white, gold |  |
+| iPhone 6 | iPhone6 | portrait, landscape | black, white, gold | Obsolete |
+| iPhone 6 Plus | iPhone6Plus | portrait, landscape | black, white, gold | Obsolete |
+| iPhone SE | iPhoneSE | portrait, landscape | black, white, gold, pink |  |
+| iPhone 5 | iPhone5 | portrait, landscape | black, white | Obsolete |
+| iPhone 7 | iPhone7 | portrait, landscape | black, white, gold, pink, red |  |
+| iPhone X | iPhoneX | portrait, landscape | black |  |
+| iPhone XS | iPhoneXS | portrait, landscape | silver, gold, spacegrey |  |
+| iPhone XS Max | iPhoneXSMax | portrait, landscape | silver, gold, spacegrey |  |
+| Lumia 930 | Lumia930 | portrait, landscape | black, white | Obsolete |
+| Macbook | Macbook | portrait | black, white, gold |  |
+| Macbook 2015 | Macbook2015 | portrait | black, white, gold |  |
+| MacBook Pro | MacbookPro | portrait | black |  |
+| Pixel | Pixel | portrait | black, white | Obsolete |
+| Samsung TV | SamsungTV | portrait | black |  |
+| Surface | Surface | portrait | black | Obsolete |
+| Surface Pro 3 | SurfacePro3 | landscape | black |  |
+| Surface Studio | SurfaceStudio | portrait | black |  |
 
 ## Integrating to your website:
 
@@ -87,7 +90,7 @@ npm i html5-device-mockups
 ```
 ## Usage
 
-Use this example or grap the code from the HTML generator on our demo site:
+Use this example or grab the code from the HTML generator on our demo site:
 
 ```
 <div class="device-wrapper">
@@ -102,11 +105,20 @@ Use this example or grap the code from the HTML generator on our demo site:
 </div>
 ```
 
-## FAQ
+## Building from source
 
-"I can not control the height of the device"
+The CSS in `dist/` is compiled from `src/scss/` with [Dart Sass](https://sass-lang.com/dart-sass/):
 
-<https://github.com/pixelsign/html5-device-mockups/issues/47>
+```
+npm install
+npm run build   # writes dist/device-mockups.css and dist/device-mockups.min.css
+npm run watch   # rebuilds dist/device-mockups.css on change
+```
+
+To add a device, add its rows to `$devicesList` in `src/scss/devices.scss` (image size, screen insets
+and home-button insets are in pixels of the source PNG) and run the build.
+
+To preview the demo page locally, serve the folder with any static server, e.g. `python3 -m http.server`.
 
 Created by:
 ---
@@ -118,7 +130,7 @@ Created by:
 
 > Angelos Arnis
 > * angelos.arnis@gmail.com
-> * http://dribbble.com/pixelsign
+> * https://arn.is/
 
 > Benjamin Bortels
 > * moin@benjaminbortels.de

@@ -1,5 +1,30 @@
 $mockup-path: '../device-mockups' !default;
 
+// Screen shape for the notched iPhones (XS, XS Max).
+// Their screen has a notch and large continuous corners, which no border-radius can
+// match. Each model ships an alpha mask traced from its frame PNG (exact notch, ears
+// and corner curve, anti-aliased) cropped to the .screen box, so content is clipped to
+// the real screen at any size. The landscape mask is the portrait one rotated -90deg,
+// matching the rotated frame. All colours share the same screen geometry.
+// Mask and screen insets bleed 5px into the black bezel so no light edge shows when
+// scaled; regenerate both with scripts/screen-masks.py.
+@mixin screen-mask($device) {
+    &[data-device="#{$device}"] .screen {
+        border-radius: 0;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+    }
+
+    @each $orientation in (portrait, landscape) {
+        &[data-device="#{$device}"][data-orientation="#{$orientation}"] .screen {
+            -webkit-mask-image: url(#{$mockup-path}/#{$device}/#{$orientation}_mask.png);
+            mask-image: url(#{$mockup-path}/#{$device}/#{$orientation}_mask.png);
+        }
+    }
+}
+
 .device-wrapper {
     max-width: 300px;
     width: 100%;
@@ -16,13 +41,32 @@ $mockup-path: '../device-mockups' !default;
         height: 100%;
         pointer-events: none;
     }
-    
+
     .screen {
         position: absolute;
         background-size: cover;
         pointer-events: auto;
+        border-radius: 8px;
+        overflow: hidden;
+        isolation: isolate;
     }
 
+    @include screen-mask(iPhoneXS);
+    @include screen-mask(iPhoneXSMax);
+
+    // iPhone X: the frame PNG is a transparent overlay drawn on top (::after), the
+    // phone body is the device background, and the screen sits beneath the overlay.
+    @each $orientation in (portrait, landscape) {
+        &[data-device="iPhoneX"][data-orientation="#{$orientation}"][data-color="black"] {
+            background-image: url(#{$mockup-path}/iPhoneX/#{$orientation}.png);
+            z-index: initial;
+
+            .screen {
+                border: 0;
+                z-index: -1;
+            }
+        }
+    }
 
     .button {
         position: absolute;

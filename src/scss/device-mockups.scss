@@ -1,5 +1,12 @@
-@import "general.scss";
-@import "devices.scss";
+/*!
+ * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
+ * Copyright 2013 pixelsign and contributors
+ * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
+ */
+@use "sass:list";
+@use "sass:math";
+@use "general" as *;
+@use "devices" as *;
 
 .device {
 
@@ -7,21 +14,20 @@
 
         &[data-device="#{$device}"][data-orientation="#{$orientation}"][data-color="#{$color}"] {
 
-            $paddingCalc: percentage($image_height / ($image_width / 300) / 300);
-            $imageURL: '#{$mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
+            $paddingCalc: math.percentage(math.div($image_height, $image_width));
 
             padding-bottom: #{$paddingCalc};
 
             .screen {
 
-                $topCalc: percentage($screen_top / $image_height);
-                $leftCalc: percentage($screen_left / $image_width);
+                $topCalc: math.percentage(math.div($screen_top, $image_height));
+                $leftCalc: math.percentage(math.div($screen_left, $image_width));
 
                 $screenWidth: $image_width - $screen_right - $screen_left;
                 $screenHeight: $image_height - $screen_top - $screen_bottom;
 
-                $widthCalc: percentage($screenWidth / $image_width);
-                $heightCalc: percentage($screenHeight / $image_height);
+                $widthCalc: math.percentage(math.div($screenWidth, $image_width));
+                $heightCalc: math.percentage(math.div($screenHeight, $image_height));
 
                 top: #{$topCalc};
                 left: #{$leftCalc};
@@ -32,7 +38,40 @@
 
             &::after {
                 content: '';
-                background-image: url(#{$imageURL});
+
+                // Portrait-only devices: landscape orientation is synthesised by
+                // rotating the portrait PNG in CSS. The ::after is sized to portrait
+                // proportions (height/width × width/height of the landscape entry),
+                // centered, then rotated -90deg. Because the element and the portrait
+                // image share the same aspect ratio, background-size:cover fills it
+                // exactly — no separate landscape image file required.
+                @if $orientation == 'landscape' and list.index($portraitOnlyDevices, $device) {
+
+                    $portraitImageURL: '#{$mockup-path}/#{$device}/portrait_#{$color}.png';
+
+                    // element dims in the landscape container (W × H_l):
+                    //   width  = H_l / W  = image_height / image_width
+                    //   height = W  / H_l = image_width  / image_height
+                    $elWidth:  math.percentage(math.div($image_height, $image_width));
+                    $elHeight: math.percentage(math.div($image_width, $image_height));
+
+                    // center the element so it rotates in place
+                    $elLeft: math.percentage(math.div(1 - math.div($image_height, $image_width), 2));
+                    $elTop:  math.percentage(math.div(1 - math.div($image_width, $image_height), 2));
+
+                    background-image: url(#{$portraitImageURL});
+                    width:     #{$elWidth};
+                    height:    #{$elHeight};
+                    top:       #{$elTop};
+                    left:      #{$elLeft};
+                    transform: rotate(-90deg);
+
+                } @else {
+
+                    $imageURL: '#{$mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
+                    background-image: url(#{$imageURL});
+
+                }
 
                 @if $overlay_transparent == false {
                     z-index: -1;
@@ -45,14 +84,14 @@
                     display: none;
                 }
 
-                $topCalc: percentage($button_top / $image_height);
-                $leftCalc: percentage($bottom_left / $image_width);
+                $topCalc: math.percentage(math.div($button_top, $image_height));
+                $leftCalc: math.percentage(math.div($bottom_left, $image_width));
 
                 $buttonWidth: $image_width - $button_right - $bottom_left;
                 $buttonHeight: $image_height - $button_top - $button_bottom;
 
-                $widthCalc: percentage($buttonWidth / $image_width);
-                $heightCalc: percentage($buttonHeight / $image_height);
+                $widthCalc: math.percentage(math.div($buttonWidth, $image_width));
+                $heightCalc: math.percentage(math.div($buttonHeight, $image_height));
 
                 top: #{$topCalc};
                 left: #{$leftCalc};

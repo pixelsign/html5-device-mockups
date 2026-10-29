@@ -1,225 +1,2258 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>HTML5-device-mockups</title>
-	<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-	 crossorigin="anonymous">
-	<link rel="stylesheet" href="dist/device-mockups.min.css">
-	<style>
-		body {
-			font-family: 'Open Sans', sans-serif;
-		}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Device Mockups</title>
+  <meta name="description" content="Pure HTML and CSS device frames. Pick a device, orientation and finish, drop in your own screen, and copy the markup.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preload" href="fonts/atkinson-hyperlegible-next-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="dist/device-mockups.min.css">
+  <script>
+    // Apply a saved theme before first paint so there is no flash.
+    try {
+      const saved = localStorage.getItem('dm-theme');
+      if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+    } catch (e) {}
+  </script>
+  <style>
+    /* ─── Fonts (self-hosted, OFL — see fonts/) ─────────────── */
+    @font-face { font-family: 'Atkinson Hyperlegible Mono'; font-style: normal; font-weight: 400 600; font-display: swap; src: url(fonts/atkinson-hyperlegible-mono-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+    @font-face { font-family: 'Atkinson Hyperlegible Mono'; font-style: normal; font-weight: 400 600; font-display: swap; src: url(fonts/atkinson-hyperlegible-mono-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+    @font-face { font-family: 'Atkinson Hyperlegible Next'; font-style: normal; font-weight: 400 800; font-display: swap; src: url(fonts/atkinson-hyperlegible-next-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+    @font-face { font-family: 'Atkinson Hyperlegible Next'; font-style: normal; font-weight: 400 800; font-display: swap; src: url(fonts/atkinson-hyperlegible-next-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			font-family: 'Nunito', sans-serif;
-		}
+    /* ─── Tokens ──────────────────────────────────────────── */
+    :root {
+      --font-ui:   'Atkinson Hyperlegible Next', ui-sans-serif, system-ui, sans-serif;
+      --font-mono: 'Atkinson Hyperlegible Mono', ui-monospace, 'SF Mono', Menlo, monospace;
 
-		h1 {
-			text-transform: uppercase;
-			font-weight: 600;
-			letter-spacing: 2px;
-		}
+      --fs-xs: 0.75rem;
+      --fs-sm: 0.8125rem;
+      --fs-md: 0.9375rem;
+      --fs-lg: 1.125rem;
 
-		.navbar {
-			padding: 0;
-		}
+      --r-sm: 0.5rem;
+      --r-md: 0.75rem;
+      --r-lg: 1.125rem;
+      --r-pill: 999px;
 
-		.navbar-brand {
-			font-size: 30px;
-			font-weight: 700;
-			color: white !important;
-		}
+      --header-h:  3.5rem;
+      --sidebar-w: 19rem;
+      --target:    2.5rem;   /* row / control height on pointer devices */
+      --target-sm: 2rem;
 
-		.navbar-light .navbar-nav .nav-link {
-			color: white !important;
-		}
+      /* Motion tokens (transitions.dev scale) */
+      --duration-stagger:  40ms;
+      --duration-micro:    80ms;
+      --duration-quick:   150ms;
+      --duration-fast:    250ms;
+      --duration-medium:  350ms;
+      --duration-slow:    400ms;
+      --duration-very-slow: 500ms;
+      --duration-rotate:  600ms;
+      --ease-smooth-out: cubic-bezier(0.22, 1, 0.36, 1);
+      --ease-in-out:     ease-in-out;
+      --ease-out:        ease-out;
+      --ease-bounce:     cubic-bezier(0.34, 1.36, 0.64, 1);
+      --distance-micro:  4px;
+      --distance-base:   8px;
+      --distance-medium: 12px;
+      --distance-large:  24px;
+      --scale-large:  0.96;
+      --scale-medium: 0.97;
+      --scale-small:  0.98;
+      --blur-small:  2px;
+      --blur-medium: 3px;
 
-		.device-wrapper.deviceRight .screen {
-			background-image: url(https://media.giphy.com/media/2eLAwdushm3cI/giphy.gif);
-			background-position: center;
-		}
+      /* Light theme */
+      color-scheme: light;
+      --bg:             oklch(96.5% 0.006 80);
+      --surface:        oklch(99% 0.004 80);
+      --surface-2:      oklch(93.5% 0.008 80);
+      --surface-3:      oklch(90% 0.01 78);
+      --line:           oklch(89% 0.01 75);
+      --control-border: oklch(60% 0.012 70);
+      --text:           oklch(21% 0.012 60);
+      --text-2:         oklch(44% 0.012 60);
+      --accent:         oklch(60% 0.19 38);
+      --accent-text:    oklch(50% 0.18 36);
+      --accent-soft:    oklch(60% 0.19 38 / 0.11);
+      --focus:          oklch(50% 0.18 36);
+      --ink:            oklch(21% 0.012 60);
+      --on-ink:         oklch(99% 0.004 80);
+      --stage-top:      oklch(98.5% 0.004 80);
+      --stage-floor:    oklch(90.5% 0.012 75);
+      --stage-spot:     oklch(100% 0 0 / 0.9);
+      --frame-shadow:   oklch(25% 0.02 60 / 0.22);
+      --contact:        oklch(25% 0.02 60 / 0.28);
+      --dock-shadow:    0 1px 2px oklch(25% 0.02 60 / 0.06), 0 12px 32px -8px oklch(25% 0.02 60 / 0.16);
+      --grain-opacity:  0.05;
+      --dot-ring:       oklch(0% 0 0 / 0.2);
+      --scrim:          oklch(21% 0.012 60 / 0.4);
+    }
 
-		.device-wrapper.deviceLeft .screen {
-			background-image: url(https://images.pexels.com/photos/265067/pexels-photo-265067.jpeg?dl&fit=crop&w=1280&h=853);
-			background-position: center;
-		}
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        color-scheme: dark;
+        --bg:             oklch(16.5% 0.006 60);
+        --surface:        oklch(19.5% 0.007 60);
+        --surface-2:      oklch(24% 0.008 60);
+        --surface-3:      oklch(28% 0.009 60);
+        --line:           oklch(29% 0.008 60);
+        --control-border: oklch(54% 0.01 60);
+        --text:           oklch(95% 0.006 80);
+        --text-2:         oklch(75% 0.01 75);
+        --accent:         oklch(72% 0.17 45);
+        --accent-text:    oklch(77% 0.15 48);
+        --accent-soft:    oklch(72% 0.17 45 / 0.15);
+        --focus:          oklch(77% 0.15 48);
+        --ink:            oklch(95% 0.006 80);
+        --on-ink:         oklch(17% 0.006 60);
+        --stage-top:      oklch(22% 0.008 60);
+        --stage-floor:    oklch(13.5% 0.006 60);
+        --stage-spot:     oklch(40% 0.012 70 / 0.55);
+        --frame-shadow:   oklch(0% 0 0 / 0.5);
+        --contact:        oklch(0% 0 0 / 0.55);
+        --dock-shadow:    0 1px 2px oklch(0% 0 0 / 0.3), 0 16px 40px -8px oklch(0% 0 0 / 0.55);
+        --grain-opacity:  0.07;
+      --dot-ring:       oklch(100% 0 0 / 0.32);
+        --scrim:          oklch(0% 0 0 / 0.55);
+      }
+    }
 
-		header {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			z-index: 100;
-		}
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg:             oklch(16.5% 0.006 60);
+      --surface:        oklch(19.5% 0.007 60);
+      --surface-2:      oklch(24% 0.008 60);
+      --surface-3:      oklch(28% 0.009 60);
+      --line:           oklch(29% 0.008 60);
+      --control-border: oklch(54% 0.01 60);
+      --text:           oklch(95% 0.006 80);
+      --text-2:         oklch(75% 0.01 75);
+      --accent:         oklch(72% 0.17 45);
+      --accent-text:    oklch(77% 0.15 48);
+      --accent-soft:    oklch(72% 0.17 45 / 0.15);
+      --focus:          oklch(77% 0.15 48);
+      --ink:            oklch(95% 0.006 80);
+      --on-ink:         oklch(17% 0.006 60);
+      --stage-top:      oklch(22% 0.008 60);
+      --stage-floor:    oklch(13.5% 0.006 60);
+      --stage-spot:     oklch(40% 0.012 70 / 0.55);
+      --frame-shadow:   oklch(0% 0 0 / 0.5);
+      --contact:        oklch(0% 0 0 / 0.55);
+      --dock-shadow:    0 1px 2px oklch(0% 0 0 / 0.3), 0 16px 40px -8px oklch(0% 0 0 / 0.55);
+      --grain-opacity:  0.07;
+      --dot-ring:       oklch(100% 0 0 / 0.32);
+      --scrim:          oklch(0% 0 0 / 0.55);
+    }
 
-		.intro {
-			height: 100vh;
-			background: url(https://static.pexels.com/photos/213803/pexels-photo-213803.jpeg);
-			background-size: cover;
+    @media (pointer: coarse) {
+      :root { --target: 2.75rem; --target-sm: 2.75rem; }
+    }
 
-			display: flex;
-			align-items: center;
-			color: white;
+    /* ─── Base ────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; }
+    * { margin: 0; }
 
-			margin-bottom: 64px;
-		}
+    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 
-		.intro:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			background-image: linear-gradient(to bottom right, #000000, #000F00);
-			opacity: .3;
-		}
+    body {
+      min-height: 100svh;
+      font-family: var(--font-ui);
+      font-size: var(--fs-md);
+      line-height: 1.45;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: background-color var(--duration-fast) var(--ease-in-out), color var(--duration-fast) var(--ease-in-out);
+    }
 
-		.intro .device-wrapper {
-			max-width: 55%;
-			float: left;
-			width: 100%;
-		}
+    button, input, select { font: inherit; color: inherit; }
+    button { cursor: pointer; }
+    svg { display: block; flex-shrink: 0; }
+    [hidden] { display: none !important; }
 
-		.device-wrapper {
-			max-width: none;
-		}
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+      border: 0;
+    }
 
-		.device {
-			z-index: 10;
-		}
+    :focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+    /* Programmatic focus targets (skip link, sheet heading) aren't controls; no ring. */
+    [tabindex="-1"]:focus { outline: none; }
 
-		.intro .device-wrapper.deviceRight {
-			margin-left: -10%;
-		}
+    .skip-link {
+      position: fixed;
+      top: 0.75rem;
+      left: 0.75rem;
+      z-index: 100;
+      padding: 0.625rem 1rem;
+      border-radius: var(--r-sm);
+      background: var(--ink);
+      color: var(--on-ink);
+      font-weight: 600;
+      text-decoration: none;
+      transform: translateY(calc(-100% - 1rem));
+    }
+    .skip-link:focus-visible { transform: none; }
 
-		.intro .title {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: baseline;
-		}
+    /* ─── Top bar ─────────────────────────────────────────── */
+    .topbar {
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 1rem 0 1.25rem;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+      position: relative;
+      z-index: 2;
+    }
 
-		.btn {
-			margin-top: 4px;
-			line-height: 1.5;
-			text-transform: uppercase;
-		}
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+      min-width: 0;
+    }
 
-		footer.container {
-			position: fixed;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			text-align: center;
-			z-index: -1;
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-	</style>
+    .brand-mark { color: var(--accent); }
+
+    .brand h1 {
+      font-size: var(--fs-lg);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .brand-version {
+      font-family: var(--font-mono);
+      font-size: var(--fs-xs);
+      color: var(--text-2);
+      padding: 0.125rem 0.4375rem;
+      border: 1px solid var(--line);
+      border-radius: var(--r-pill);
+    }
+
+    .topbar-meta {
+      font-size: var(--fs-sm);
+      color: var(--text-2);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .topbar-actions {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .icon-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      min-width: var(--target);
+      height: var(--target);
+      padding: 0 0.625rem;
+      border: 0;
+      border-radius: var(--r-sm);
+      background: transparent;
+      color: var(--text-2);
+      font-size: var(--fs-sm);
+      font-weight: 500;
+      text-decoration: none;
+      transition: background-color var(--duration-quick) var(--ease-out), color var(--duration-quick) var(--ease-out);
+    }
+    .icon-btn:hover { background: var(--surface-2); color: var(--text); }
+
+    /* Theme toggle icon swap */
+    .theme-icons { position: relative; width: 18px; height: 18px; }
+    .theme-icons svg {
+      position: absolute;
+      inset: 0;
+      transition: opacity var(--duration-fast) var(--ease-in-out), transform var(--duration-fast) var(--ease-in-out), filter var(--duration-fast) var(--ease-in-out);
+    }
+    .theme-toggle[aria-pressed="true"] .icon-sun,
+    .theme-toggle[aria-pressed="false"] .icon-moon {
+      opacity: 0;
+      transform: scale(0.6) rotate(-30deg);
+      filter: blur(var(--blur-small));
+    }
+
+    /* ─── App layout ──────────────────────────────────────── */
+    .app {
+      display: grid;
+      grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+      height: calc(100svh - var(--header-h));
+    }
+
+    /* ─── Sidebar ─────────────────────────────────────────── */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      background: var(--surface);
+      border-right: 1px solid var(--line);
+    }
+
+    .sidebar-head {
+      padding: 1rem 1rem 0.75rem;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .sidebar-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .sidebar-title {
+      font-size: var(--fs-md);
+      font-weight: 600;
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+
+    .sidebar-title .count {
+      font-size: var(--fs-sm);
+      font-weight: 500;
+      color: var(--text-2);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .sidebar .sheet-grabber, .sidebar .sheet-done { display: none; }
+
+    /* Search */
+    .search {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.75rem;
+      color: var(--text-2);
+      pointer-events: none;
+    }
+
+    .search input {
+      width: 100%;
+      height: var(--target);
+      padding: 0 4.5rem 0 2.375rem;
+      border: 1px solid var(--control-border);
+      border-radius: var(--r-md);
+      background: var(--bg);
+      font-size: var(--fs-md);
+      transition: border-color var(--duration-quick) var(--ease-out), box-shadow var(--duration-quick) var(--ease-out);
+    }
+    .search input::placeholder { color: var(--text-2); opacity: 1; }
+    .search input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+    .search input:hover { border-color: var(--text-2); }
+    .search input:focus-visible {
+      outline: none;
+      border-color: var(--focus);
+      box-shadow: 0 0 0 1px var(--focus);
+    }
+
+    .search-end {
+      position: absolute;
+      right: 0.375rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .search kbd {
+      font-family: var(--font-mono);
+      font-size: var(--fs-xs);
+      color: var(--text-2);
+      padding: 0.125rem 0.375rem;
+      border: 1px solid var(--line);
+      border-radius: 0.3125rem;
+      margin-right: 0.25rem;
+      transition: opacity var(--duration-quick) var(--ease-out);
+    }
+    .search.has-value kbd,
+    .search input:focus ~ .search-end kbd { opacity: 0; }
+
+    .search-clear {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: var(--target-sm);
+      height: var(--target-sm);
+      border: 0;
+      border-radius: var(--r-sm);
+      background: transparent;
+      color: var(--text-2);
+    }
+    .search-clear:hover { background: var(--surface-2); color: var(--text); }
+    .search.has-value .search-clear { display: inline-flex; }
+    .search.has-value kbd { display: none; }
+
+    /* Type chips */
+    .chips {
+      border: 0;
+      padding: 0;
+      min-width: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.375rem;
+    }
+
+    .chip {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      min-height: var(--target-sm);
+      padding: 0 0.75rem;
+      border: 1px solid var(--line);
+      border-radius: var(--r-pill);
+      font-size: var(--fs-sm);
+      font-weight: 500;
+      color: var(--text-2);
+      cursor: pointer;
+      user-select: none;
+      transition: background-color var(--duration-quick) var(--ease-out), color var(--duration-quick) var(--ease-out), border-color var(--duration-quick) var(--ease-out);
+    }
+    .chip:hover { color: var(--text); border-color: var(--control-border); }
+    .chip-count { font-variant-numeric: tabular-nums; opacity: 0.75; }
+    .chip:has(:checked) {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--on-ink);
+    }
+    .chip:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+    /* Device list */
+    .device-list {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding: 0.25rem 0 1.5rem;
+      scrollbar-width: thin;
+      scrollbar-color: var(--surface-3) transparent;
+    }
+
+    .group {
+      border: 0;
+      padding: 0;
+      min-width: 0;
+    }
+
+    .group legend {
+      padding: 1.125rem 1.25rem 0.375rem;
+      font-size: var(--fs-sm);
+      font-weight: 700;
+      color: var(--text-2);
+    }
+
+    .row {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 0.75rem;
+      min-height: var(--target);
+      margin: 0 0.5rem;
+      padding: 0.3125rem 0.75rem;
+      border-radius: var(--r-sm);
+      color: var(--text-2);
+      cursor: pointer;
+      user-select: none;
+      transition: background-color var(--duration-quick) var(--ease-out), color var(--duration-quick) var(--ease-out);
+    }
+    .row:hover { background: var(--surface-2); color: var(--text); }
+
+    .row::before {
+      content: '';
+      position: absolute;
+      left: 0.25rem;
+      top: 0.625rem;
+      bottom: 0.625rem;
+      width: 3px;
+      border-radius: 3px;
+      background: var(--accent);
+      transform: scaleY(0);
+      transition: transform var(--duration-fast) var(--ease-bounce);
+    }
+
+    .row:has(:checked) {
+      background: var(--accent-soft);
+      color: var(--text);
+    }
+    .row:has(:checked)::before { transform: scaleY(1); }
+    .row:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: -2px; }
+
+    .row-name {
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .row-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-2);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      height: 1.25rem;
+      padding: 0 0.4375rem;
+      border: 1px solid var(--control-border);
+      border-radius: var(--r-pill);
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      line-height: 1;
+      color: var(--text-2);
+      white-space: nowrap;
+    }
+
+    /* Fixed width (fits five dots) so badges line up down the list */
+    .row-dots { display: flex; justify-content: flex-end; min-width: 2.375rem; }
+    .row-dots span {
+      width: 0.625rem;
+      height: 0.625rem;
+      border-radius: 50%;
+      background: var(--dot);
+      box-shadow: 0 0 0 1.5px var(--surface), inset 0 0 0 1px var(--dot-ring);
+    }
+    .row-dots span + span { margin-left: -0.1875rem; }
+    .row:hover .row-dots span { box-shadow: 0 0 0 1.5px var(--surface-2), inset 0 0 0 1px var(--dot-ring); }
+
+    .empty {
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      display: grid;
+      justify-items: center;
+      gap: 0.75rem;
+      color: var(--text-2);
+    }
+    .empty strong { color: var(--text); font-weight: 600; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      height: var(--target);
+      padding: 0 1rem;
+      border: 1px solid var(--control-border);
+      border-radius: var(--r-md);
+      background: var(--surface);
+      font-size: var(--fs-sm);
+      font-weight: 600;
+      white-space: nowrap;
+      transition: background-color var(--duration-quick) var(--ease-out), border-color var(--duration-quick) var(--ease-out), transform var(--duration-quick) var(--ease-out);
+    }
+    .btn:hover { background: var(--surface-2); }
+    .btn:active { transform: scale(0.98); }
+
+    .btn-primary {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--on-ink);
+    }
+    .btn-primary:hover { background: color-mix(in oklch, var(--ink) 86%, var(--accent)); }
+
+    /* ─── Stage ───────────────────────────────────────────── */
+    .stage {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto minmax(0, 1fr) auto;
+      min-height: 0;
+      overflow: hidden;
+      isolation: isolate;
+      background:
+        radial-gradient(70% 55% at 50% 8%, var(--stage-spot), transparent 70%),
+        linear-gradient(to bottom, var(--stage-top) 0%, var(--stage-top) 45%, var(--stage-floor) 100%);
+    }
+
+    /* Film grain for a photographic backdrop */
+    .stage::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: var(--grain-opacity);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .stage-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.5rem 1.75rem 0;
+      position: relative;
+      z-index: 3;
+    }
+
+    .stage-title { min-width: 0; }
+
+    .eyebrow {
+      font-size: var(--fs-sm);
+      color: var(--text-2);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 0.5rem;
+    }
+    .eyebrow { align-items: center; }
+    .eyebrow span + span::before {
+      content: '·';
+      margin-right: 0.5rem;
+      opacity: 0.6;
+    }
+
+    .stage-title h2 {
+      font-weight: 700;
+      font-size: clamp(1.75rem, 1.3rem + 1.4vw, 2.5rem);
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+      margin-top: 0.25rem;
+      text-wrap: balance;
+    }
+
+    .stage-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    .picker-btn { display: none; }
+
+    /* Text swap (transitions.dev #04) */
+    .swap {
+      display: inline-block;
+      transition:
+        opacity   var(--duration-quick) var(--ease-in-out),
+        transform var(--duration-quick) var(--ease-in-out),
+        filter    var(--duration-quick) var(--ease-in-out);
+    }
+    .swap[data-swap="out"] {
+      opacity: 0;
+      transform: translateY(calc(var(--distance-micro) * -1));
+      filter: blur(var(--blur-small));
+    }
+    .swap[data-swap="in"] {
+      opacity: 0;
+      transform: translateY(var(--distance-micro));
+      filter: blur(var(--blur-small));
+      transition: none;
+    }
+
+    /* Copy button label swap */
+    .copy-btn { min-width: 8.5rem; }
+    .copy-label {
+      position: relative;
+      display: inline-grid;
+      align-items: center;
+    }
+    .copy-label > span {
+      grid-area: 1 / 1;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition:
+        opacity   var(--duration-fast) var(--ease-in-out),
+        transform var(--duration-fast) var(--ease-in-out),
+        filter    var(--duration-fast) var(--ease-in-out);
+    }
+    .copy-btn .when-done { opacity: 0; transform: translateY(var(--distance-base)); filter: blur(var(--blur-small)); }
+    .copy-btn.is-done .when-idle { opacity: 0; transform: translateY(calc(var(--distance-base) * -1)); filter: blur(var(--blur-small)); }
+    .copy-btn.is-done .when-done { opacity: 1; transform: none; filter: none; }
+
+    /* Canvas */
+    .canvas {
+      position: relative;
+      display: grid;
+      place-items: center;
+      min-height: 0;
+      padding: 1rem;
+    }
+
+    .stage-device {
+      position: relative;
+      transition:
+        opacity   var(--duration-slow) var(--ease-smooth-out),
+        transform var(--duration-slow) var(--ease-smooth-out);
+    }
+    .stage-device[data-phase="leave"] {
+      opacity: 0;
+      transform: translateY(var(--distance-base)) scale(var(--scale-small));
+      transition-duration: var(--duration-quick);
+    }
+    .stage-device[data-phase="pre"] {
+      opacity: 0;
+      transform: translateY(var(--distance-large)) scale(var(--scale-large));
+      transition: none;
+    }
+
+    .rotor { position: relative; transform-origin: 50% 50%; }
+
+    .stage .device-wrapper { max-width: none; }
+    .stage .device { isolation: isolate; }
+    .stage .device::after {
+      filter: drop-shadow(0 2px 3px var(--frame-shadow)) drop-shadow(0 24px 36px var(--frame-shadow));
+    }
+
+    .ghost {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      transition: opacity var(--duration-fast) var(--ease-in-out);
+    }
+    .ghost.is-fading { opacity: 0; }
+
+    .contact-shadow {
+      position: absolute;
+      left: 12%;
+      right: 12%;
+      bottom: -3%;
+      height: 6%;
+      min-height: 10px;
+      border-radius: 50%;
+      background: radial-gradient(closest-side, var(--contact), transparent);
+      z-index: -1;
+      transition: opacity var(--duration-fast) var(--ease-in-out);
+    }
+    .canvas[data-busy] .contact-shadow { opacity: 0; }
+
+    .drop-hint {
+      position: absolute;
+      inset: 0.75rem;
+      display: grid;
+      place-items: center;
+      border: 2px dashed var(--accent);
+      border-radius: var(--r-lg);
+      background: color-mix(in oklch, var(--bg) 70%, transparent);
+      color: var(--text);
+      font-weight: 600;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--duration-quick) var(--ease-out);
+      z-index: 4;
+    }
+    .canvas[data-drop] .drop-hint { opacity: 1; }
+
+    /* Measuring rig, never visible */
+    .measure {
+      position: absolute;
+      left: -10000px;
+      top: 0;
+      width: 1000px;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    /* ─── Dock ────────────────────────────────────────────── */
+    .dock {
+      justify-self: center;
+      position: relative;
+      z-index: 3;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 0.75rem 1.25rem;
+      max-width: calc(100% - 2rem);
+      margin: 0 1rem 1.25rem;
+      padding: 0.625rem 1rem 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      box-shadow: var(--dock-shadow);
+    }
+
+    .ctl {
+      border: 0;
+      padding: 0;
+      min-width: 0;
+      display: grid;
+      gap: 0.3125rem;
+    }
+
+    .ctl legend {
+      padding: 0 0 0.3125rem 0.125rem;
+      font-size: var(--fs-xs);
+      font-weight: 600;
+      color: var(--text-2);
+      display: flex;
+      gap: 0.375rem;
+    }
+
+    .ctl-value {
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .ctl-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .dock-sep {
+      align-self: stretch;
+      width: 1px;
+      background: var(--line);
+    }
+
+    /* Segmented control with sliding pill (transitions.dev #16, radio semantics) */
+    .seg {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+      padding: 3px;
+      border-radius: var(--r-md);
+      background: var(--surface-2);
+    }
+
+    .seg-pill {
+      position: absolute;
+      top: 3px;
+      bottom: 3px;
+      left: 0;
+      width: 0;
+      border-radius: calc(var(--r-md) - 3px);
+      background: var(--surface);
+      box-shadow: 0 1px 2px oklch(0% 0 0 / 0.12), 0 0 0 1px oklch(0% 0 0 / 0.04);
+      transform: translateX(0);
+      transition:
+        transform var(--duration-fast) var(--ease-smooth-out),
+        width     var(--duration-fast) var(--ease-smooth-out);
+      will-change: transform, width;
+      pointer-events: none;
+    }
+
+    .seg-opt {
+      position: relative;
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      height: var(--target-sm);
+      padding: 0 0.75rem;
+      border-radius: calc(var(--r-md) - 3px);
+      font-size: var(--fs-sm);
+      font-weight: 500;
+      color: var(--text-2);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+      transition: color var(--duration-fast) var(--ease-smooth-out);
+    }
+    .seg-opt:hover, .seg-opt:has(:checked) { color: var(--text); }
+    .seg-opt:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 1px; }
+    .seg-opt:has(:disabled) { cursor: not-allowed; color: var(--text-2); opacity: 0.55; }
+    .seg-opt:has(:disabled):hover { color: var(--text-2); }
+
+    /* Finish swatches */
+    .swatches { display: flex; align-items: center; gap: 0.125rem; }
+
+    .swatch {
+      position: relative;
+      display: grid;
+      place-items: center;
+      width: var(--target-sm);
+      height: var(--target-sm);
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .swatch-dot {
+      width: 1.25rem;
+      height: 1.25rem;
+      border-radius: 50%;
+      background: var(--dot);
+      box-shadow: inset 0 0 0 1px var(--dot-ring), inset 0 -3px 6px oklch(0% 0 0 / 0.12), inset 0 2px 3px oklch(100% 0 0 / 0.25);
+      transition: transform var(--duration-fast) var(--ease-bounce);
+    }
+    .swatch::after {
+      content: '';
+      position: absolute;
+      inset: 2px;
+      border-radius: 50%;
+      border: 2px solid var(--text);
+      opacity: 0;
+      transform: scale(0.8);
+      transition: opacity var(--duration-quick) var(--ease-out), transform var(--duration-fast) var(--ease-bounce);
+    }
+    .swatch:hover .swatch-dot { transform: scale(1.1); }
+    .swatch:has(:checked)::after { opacity: 1; transform: scale(1); }
+    .swatch:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 1px; }
+
+    .file-btn {
+      position: relative;
+      cursor: pointer;
+    }
+    .file-btn:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+    /* ─── Code panel (dropdown pattern, transitions.dev #05) ── */
+    .code-panel {
+      position: absolute;
+      top: 5.25rem;
+      right: 1.75rem;
+      z-index: 5;
+      width: min(36rem, calc(100% - 2rem));
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--r-lg);
+      box-shadow: var(--dock-shadow);
+      overflow: hidden;
+      transform-origin: top right;
+      opacity: 0;
+      transform: scale(var(--scale-medium)) translateY(calc(var(--distance-micro) * -1));
+      transition:
+        opacity   var(--duration-fast) var(--ease-smooth-out),
+        transform var(--duration-fast) var(--ease-smooth-out);
+    }
+    .code-panel[data-open] { opacity: 1; transform: none; }
+    .code-panel.is-closing { transition-duration: var(--duration-quick); }
+
+    .code-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.5rem 0.5rem 0.5rem 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .code-head h3 { font-size: var(--fs-sm); font-weight: 600; }
+    .code-head p { font-size: var(--fs-xs); color: var(--text-2); font-family: var(--font-mono); }
+
+    .code-panel pre {
+      margin: 0;
+      padding: 1rem 1.125rem 1.125rem;
+      overflow-x: auto;
+      font-family: var(--font-mono);
+      font-size: var(--fs-sm);
+      line-height: 1.65;
+      tab-size: 2;
+      background: var(--bg);
+    }
+    .tk-tag  { color: var(--accent-text); }
+    .tk-attr { color: var(--text); }
+    .tk-val  { color: var(--text-2); }
+    .tk-com  { color: var(--text-2); }
+
+    .scrim { display: none; }
+
+    /* ─── Screen content ──────────────────────────────────── */
+    .device .screen { background: oklch(16% 0.02 260); }
+
+    .scr {
+      position: absolute;
+      inset: 0;
+      container-type: size;
+      overflow: hidden;
+      font-family: var(--font-ui);
+      color: oklch(97% 0.01 260);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .scr-inner {
+      position: absolute;
+      inset: 0;
+      font-size: min(4.6cqi, 3.2cqb);
+      line-height: 1.25;
+    }
+
+    /* Sample app */
+    .scr-app {
+      background:
+        radial-gradient(90% 50% at 85% 0%, oklch(from var(--tint) l c h / 0.35), transparent 70%),
+        oklch(17% 0.02 260);
+    }
+    .scr-app .scr-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9em;
+      padding: 1.2em 1.1em;
+    }
+    .app-bar { display: flex; justify-content: space-between; align-items: center; font-weight: 600; font-size: 0.85em; opacity: 0.9; }
+    .app-bar i { display: block; width: 1.9em; height: 0.85em; border-radius: 0.25em; border: 0.12em solid currentColor; opacity: 0.8; }
+    .app-title { font-size: 2.1em; font-weight: 800; line-height: 1.05; letter-spacing: -0.025em; }
+    .app-title small { display: block; font-size: 0.4em; font-weight: 600; letter-spacing: 0; opacity: 0.65; margin-bottom: 0.3em; }
+    .app-body { display: grid; gap: 0.75em; align-content: start; min-height: 0; }
+    .app-hero {
+      position: relative;
+      border-radius: 1em;
+      padding: 1em;
+      min-height: 7.5em;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: hidden;
+      background:
+        radial-gradient(80% 90% at 100% 0%, oklch(from var(--tint) calc(l + 0.12) c calc(h + 40)), transparent 65%),
+        linear-gradient(140deg, oklch(from var(--tint) calc(l - 0.08) c h), oklch(from var(--tint) calc(l - 0.28) calc(c * 0.6) calc(h - 30)));
+    }
+    .app-hero b { font-size: 2.1em; font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+    .app-hero span { font-size: 0.85em; opacity: 0.85; }
+    .app-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5em; }
+    .app-stats div { background: oklch(100% 0 0 / 0.07); border-radius: 0.7em; padding: 0.6em 0.7em; }
+    .app-stats b { display: block; font-size: 1.15em; font-weight: 700; }
+    .app-stats span { font-size: 0.72em; opacity: 0.7; }
+    .app-list { display: grid; gap: 0.45em; }
+    .app-list div { display: flex; align-items: center; gap: 0.7em; padding: 0.55em 0.7em; background: oklch(100% 0 0 / 0.05); border-radius: 0.7em; font-size: 0.85em; }
+    .app-list i { width: 1.8em; height: 1.8em; border-radius: 0.55em; background: oklch(from var(--tint) l c calc(h + var(--h, 0))); flex-shrink: 0; }
+    .app-list span { flex: 1; }
+    .app-list em { font-style: normal; opacity: 0.6; }
+
+    @container (aspect-ratio > 1.15) {
+      .scr-app .scr-inner {
+        display: grid;
+        grid-template-columns: 1.15fr 1fr;
+        grid-template-rows: auto 1fr;
+        gap: 0.9em 1.2em;
+        font-size: min(2.6cqi, 4.2cqb);
+      }
+      .app-bar { grid-column: 1 / -1; }
+      .app-title { display: none; }
+      .app-body { grid-row: 2; grid-column: 1; }
+      .app-side { grid-row: 2; grid-column: 2; align-self: start; }
+    }
+
+    /* Lock screen */
+    .scr-lock {
+      background:
+        radial-gradient(60% 45% at 20% 25%, oklch(from var(--tint) calc(l + 0.1) c calc(h - 40) / 0.9), transparent 70%),
+        radial-gradient(70% 55% at 85% 80%, oklch(from var(--tint) l c calc(h + 50) / 0.85), transparent 70%),
+        radial-gradient(50% 40% at 60% 50%, oklch(from var(--tint) calc(l + 0.2) calc(c * 0.5) h / 0.5), transparent 70%),
+        oklch(from var(--tint) calc(l - 0.4) calc(c * 0.5) h);
+    }
+    .scr-lock .scr-inner {
+      display: grid;
+      align-content: start;
+      justify-items: center;
+      text-align: center;
+      padding-top: 14%;
+    }
+    .lock-date { font-size: 1em; font-weight: 500; opacity: 0.85; }
+    .lock-time { font-size: 5em; font-weight: 600; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+    @container (aspect-ratio > 1.15) {
+      .scr-lock .scr-inner { padding-top: 8%; }
+      .lock-time { font-size: 4em; }
+    }
+
+    /* User image */
+    .scr-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    .scr-empty {
+      background: repeating-linear-gradient(135deg, oklch(22% 0.015 260) 0 10px, oklch(19% 0.015 260) 10px 20px);
+    }
+    .scr-empty .scr-inner {
+      display: grid;
+      place-content: center;
+      justify-items: center;
+      gap: 0.6em;
+      text-align: center;
+      padding: 1.5em;
+      color: oklch(85% 0.01 260);
+    }
+    .scr-empty svg { width: 2.4em; height: 2.4em; opacity: 0.7; }
+
+    /* ─── Intro choreography ──────────────────────────────── */
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(var(--distance-medium)); filter: blur(var(--blur-medium)); }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .is-intro .row,
+      .is-intro .group legend {
+        animation: rise var(--duration-very-slow) var(--ease-smooth-out) both;
+        animation-delay: calc(min(var(--i, 0), 16) * var(--duration-stagger) + 80ms);
+      }
+      .is-intro .stage-title,
+      .is-intro .stage-actions {
+        animation: rise var(--duration-very-slow) var(--ease-smooth-out) both;
+        animation-delay: 120ms;
+      }
+      .is-intro .dock {
+        animation: rise var(--duration-very-slow) var(--ease-smooth-out) both;
+        animation-delay: 320ms;
+      }
+    }
+
+    /* ─── Reduced motion: keep state changes, drop travel ── */
+    @media (prefers-reduced-motion: reduce) {
+      .stage-device[data-phase] { transform: none; }
+      .swap[data-swap] { transform: none; filter: none; }
+      .seg-pill, .seg-opt { transition: none !important; }
+      .row::before, .swatch-dot, .swatch::after { transition: none; }
+      .swatch:hover .swatch-dot { transform: none; }
+      .code-panel { transform: none; }
+      .copy-label > span { transform: none !important; filter: none !important; }
+      .theme-icons svg { transform: none !important; filter: none !important; }
+      .btn:active { transform: none; }
+    }
+
+    /* ─── Windows high contrast ───────────────────────────── */
+    @media (forced-colors: active) {
+      .row:has(:checked),
+      .chip:has(:checked),
+      .seg-opt:has(:checked) { outline: 2px solid Highlight; outline-offset: -2px; }
+      .seg-pill { display: none; }
+      .swatch:has(:checked)::after { border-color: Highlight; }
+      .row:has(:focus-visible),
+      .seg-opt:has(:focus-visible),
+      .swatch:has(:focus-visible),
+      .chip:has(:focus-visible) { outline: 3px solid CanvasText; }
+      .row-dots, .swatch-dot { forced-color-adjust: none; }
+    }
+
+    /* ─── Small screens: list becomes a bottom sheet ──────── */
+    @media (max-width: 55.98rem) {
+      :root { --header-h: 3.25rem; }
+
+      .topbar-meta { display: none; }
+      .gh-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+      .app {
+        grid-template-columns: minmax(0, 1fr);
+        height: auto;
+        min-height: calc(100svh - var(--header-h));
+      }
+
+      .stage { min-height: calc(100svh - var(--header-h)); }
+      .stage-head { padding: 1rem 1rem 0; flex-wrap: wrap; }
+      .stage-actions { width: 100%; flex-wrap: wrap; }
+      .picker-btn { display: inline-flex; margin-right: auto; }
+      .copy-btn { min-width: 0; }
+      #code-toggle { padding: 0 0.625rem; min-width: var(--target); }
+      #code-toggle .btn-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+      .canvas { min-height: 18rem; }
+
+      .dock { gap: 0.625rem 0.875rem; padding: 0.625rem 0.75rem 0.75rem; margin-bottom: 1rem; }
+      .dock-sep { display: none; }
+
+      .code-panel { top: 9rem; right: 1rem; }
+
+      .sidebar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 60;
+        height: min(80svh, 42rem);
+        border: 1px solid var(--line);
+        border-bottom: 0;
+        border-radius: var(--r-lg) var(--r-lg) 0 0;
+        box-shadow: var(--dock-shadow);
+        transform: translateY(100%);
+        visibility: hidden;
+        transition:
+          transform var(--duration-medium) var(--ease-smooth-out),
+          visibility 0s linear var(--duration-medium);
+      }
+      .sidebar[data-open] {
+        transform: none;
+        visibility: visible;
+        transition: transform var(--duration-slow) var(--ease-smooth-out), visibility 0s;
+      }
+
+      .sidebar .sheet-grabber {
+        display: block;
+        justify-self: center;
+        width: 2.5rem;
+        height: 0.3125rem;
+        border-radius: var(--r-pill);
+        background: var(--surface-3);
+        margin: -0.25rem 0 0.25rem;
+      }
+      .sidebar .sheet-done { display: inline-flex; }
+
+      .scrim {
+        display: block;
+        position: fixed;
+        inset: 0;
+        z-index: 55;
+        background: var(--scrim);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity var(--duration-medium) var(--ease-smooth-out), visibility 0s linear var(--duration-medium);
+      }
+      .scrim[data-open] {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity var(--duration-slow) var(--ease-smooth-out), visibility 0s;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .sidebar { transform: none; opacity: 0; transition: opacity var(--duration-fast) var(--ease-in-out), visibility 0s linear var(--duration-fast); }
+        .sidebar[data-open] { opacity: 1; transition: opacity var(--duration-fast) var(--ease-in-out), visibility 0s; }
+      }
+    }
+
+    /* Desktop: fixed panes, page itself never scrolls */
+    @media (min-width: 56rem) and (min-height: 30rem) {
+      body { height: 100svh; overflow: hidden; }
+    }
+  </style>
 </head>
+<body class="is-intro">
 
-<body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<nav class="navbar navbar-toggleable-md navbar-light">
-						<a class="navbar-brand" href="#">Pixelsign <img src="img/pixelsign logo.png" alt="" class="logo" width="41"></a>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
+  <a class="skip-link" href="#main">Skip to preview</a>
 
-	<div class="intro">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 title">
-					<h1>Create stunning showcases</h1>
-					<h2>Spice up your website with live HTML5 mockups of popular devices</h2>
-					<a class="btn btn-primary" href="https://github.com/pixelsign/html5-device-mockups" role="button">Grab it on Github</a>
-				</div>
-				<div class="col-md-4">
-					<div class="device-wrapper deviceLeft">
-						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="white">
-							<div class="screen">
-								<!-- PUT CONTENTS HERE -->
-							</div>
-							<div class="button" data-toggle="popover" data-placement="bottom" data-content="Device buttons are perfectly rendered and can be hooked to links or JavaScript events">
-								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
-							</div>
-						</div>
-					</div>
-					<div class="device-wrapper deviceRight">
-						<div class="device" data-device="iPhoneSE" data-orientation="portrait" data-color="pink">
-							<div class="screen">
-								<!-- PUT CONTENTS HERE -->
-							</div>
-							<div class="button">
-								<!-- You can hook the "home button" to some JavaScript events or just remove it -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <rect x="6" y="2.5" width="12" height="19" rx="3" stroke="currentColor" stroke-width="1.75"/>
+        <rect x="2.5" y="8" width="7" height="11" rx="1.75" fill="currentColor" opacity=".35"/>
+        <path d="M10.5 18.5h3" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+      <h1>Device Mockups</h1>
+      <span class="brand-version">v3.2</span>
+    </div>
+    <p class="topbar-meta" id="topbar-meta"></p>
+    <div class="topbar-actions">
+      <button type="button" class="icon-btn theme-toggle" id="theme-toggle" aria-pressed="false" aria-label="Dark mode">
+        <span class="theme-icons" aria-hidden="true">
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+        </span>
+      </button>
+      <a class="icon-btn" href="https://github.com/pixelsign/html5-device-mockups">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.56 9.56 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+        <span class="gh-text">GitHub</span>
+      </a>
+    </div>
+  </header>
 
-	<footer class="container">
-		<div class="row">
-			<div class="col">
-				Made by <a href="http://innovaniac.com" target="_blank">Tomi Hiltunen</a>, <a href="http://dribbble.com/pixelsign" target="_blank">Angelos Arnis</a> and <a href="https://benjaminbortels.de" target="_blank">Benjamin Bortels</a>
-			</div>
-		</div>
-		</div>
+  <div class="app">
 
+    <aside class="sidebar" id="sidebar" aria-labelledby="devices-heading">
+      <div class="sidebar-head">
+        <span class="sheet-grabber" aria-hidden="true"></span>
+        <div class="sidebar-title-row">
+          <h2 class="sidebar-title" id="devices-heading" tabindex="-1">Devices <span class="count" id="device-count"></span></h2>
+          <button type="button" class="btn sheet-done" id="sheet-done">Done</button>
+        </div>
 
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		 crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-		 crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-		 crossorigin="anonymous"></script>
+        <div class="search" id="search-wrap">
+          <label for="search" class="sr-only">Search devices</label>
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <input type="search" id="search" placeholder="Search devices" autocomplete="off" spellcheck="false" enterkeyhint="search">
+          <span class="search-end">
+            <kbd id="search-kbd" aria-hidden="true">⌘K</kbd>
+            <button type="button" class="search-clear" id="search-clear" aria-label="Clear search">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+            </button>
+          </span>
+        </div>
 
-		<script>
-			(function (i, s, o, g, r, a, m) {
-				i['GoogleAnalyticsObject'] = r;
-				i[r] = i[r] || function () {
-					(i[r].q = i[r].q || []).push(arguments)
-				}, i[r].l = 1 * new Date();
-				a = s.createElement(o),
-					m = s.getElementsByTagName(o)[0];
-				a.async = 1;
-				a.src = g;
-				m.parentNode.insertBefore(a, m)
-			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        <fieldset class="chips" id="chips">
+          <legend class="sr-only">Device type</legend>
+        </fieldset>
+      </div>
 
-			ga('create', 'UA-103554950-1', 'auto');
-			ga('send', 'pageview');
+      <div class="device-list" id="device-list">
+        <div class="empty" id="empty" hidden>
+          <p><strong>No devices match.</strong><br>Try another name or type.</p>
+          <button type="button" class="btn" id="reset-filters">Show all devices</button>
+        </div>
+      </div>
+    </aside>
 
-			$(function () {
-				$('[data-toggle="popover"]').popover();
+    <div class="scrim" id="scrim"></div>
 
-				$('.col-md-4')
-					.on('mouseenter', function() {
-						$('[data-toggle="popover"]').popover('show');
-					})
-					.on('mouseleave', function() {
-						$('[data-toggle="popover"]').popover('hide');
-					});
-			});
-		</script>
+    <main class="stage" id="main" tabindex="-1" aria-labelledby="device-title">
+      <div class="stage-head">
+        <div class="stage-title">
+          <p class="eyebrow" id="device-meta"></p>
+          <h2 id="device-title"><span class="swap" id="device-title-text">&nbsp;</span></h2>
+        </div>
+        <div class="stage-actions">
+          <button type="button" class="btn picker-btn" id="picker-btn" aria-haspopup="dialog" aria-expanded="false" aria-controls="sidebar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="6.5" y="3" width="11" height="18" rx="2.5"/><path d="M10.5 18h3"/></svg>
+            Change device
+          </button>
+          <button type="button" class="btn" id="code-toggle" aria-expanded="false" aria-controls="code-panel">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8.5 7-5 5 5 5M15.5 7l5 5-5 5"/></svg>
+            <span class="btn-text">Code</span>
+          </button>
+          <button type="button" class="btn btn-primary copy-btn" id="copy-btn">
+            <span class="copy-label">
+              <span class="when-idle">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="8.5" y="8.5" width="12" height="12" rx="2.5"/><path d="M15.5 8.5V6a2.5 2.5 0 0 0-2.5-2.5H6A2.5 2.5 0 0 0 3.5 6v7A2.5 2.5 0 0 0 6 15.5h2.5"/></svg>
+                Copy HTML
+              </span>
+              <span class="when-done" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>
+                Copied
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="code-panel" id="code-panel" role="region" aria-labelledby="code-title" hidden>
+        <div class="code-head">
+          <div>
+            <h3 id="code-title">HTML</h3>
+            <p>Needs dist/device-mockups.min.css</p>
+          </div>
+          <button type="button" class="icon-btn" id="code-close" aria-label="Close code">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          </button>
+        </div>
+        <pre tabindex="0" role="region" aria-label="HTML markup"><code id="code-out"></code></pre>
+      </div>
+
+      <div class="canvas" id="canvas">
+        <div class="stage-device" id="stage-device" role="img" aria-label="">
+          <div class="rotor" id="rotor">
+            <div class="device-wrapper" id="device-wrapper">
+              <div class="device" id="device">
+                <div class="screen" id="screen"></div>
+                <div class="button" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-shadow" aria-hidden="true"></div>
+        </div>
+        <div class="drop-hint" aria-hidden="true">Drop to put the image on screen</div>
+      </div>
+
+      <div class="dock" role="group" aria-label="Mockup options">
+        <fieldset class="ctl">
+          <legend>Orientation</legend>
+          <div class="seg" id="seg-orientation">
+            <span class="seg-pill" aria-hidden="true"></span>
+            <label class="seg-opt">
+              <input class="sr-only" type="radio" name="orientation" value="portrait">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="6.5" y="3" width="11" height="18" rx="2.5"/></svg>
+              Portrait
+            </label>
+            <label class="seg-opt">
+              <input class="sr-only" type="radio" name="orientation" value="landscape">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="6.5" width="18" height="11" rx="2.5"/></svg>
+              Landscape
+            </label>
+          </div>
+        </fieldset>
+
+        <span class="dock-sep" aria-hidden="true"></span>
+
+        <fieldset class="ctl">
+          <legend>Finish <span class="ctl-value" id="finish-name"></span></legend>
+          <div class="swatches" id="swatches"></div>
+        </fieldset>
+
+        <span class="dock-sep" aria-hidden="true"></span>
+
+        <fieldset class="ctl">
+          <legend>Screen</legend>
+          <div class="ctl-row">
+            <div class="seg" id="seg-screen">
+              <span class="seg-pill" aria-hidden="true"></span>
+              <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="app" checked>App</label>
+              <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="lock">Lock screen</label>
+              <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="image">Your image</label>
+            </div>
+            <label class="btn file-btn" id="file-btn" hidden>
+              <input class="sr-only" type="file" id="file-input" accept="image/*">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15.5V4M7.5 8.5 12 4l4.5 4.5M4.5 15v3a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-3"/></svg>
+              <span id="file-btn-text">Choose image</span>
+            </label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="measure" aria-hidden="true">
+        <div class="device-wrapper" style="max-width:none;width:1000px">
+          <div class="device" id="measure-device"><div class="screen"></div></div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <div class="sr-only" role="status" id="announcer"></div>
+
+  <template id="tpl-app">
+    <div class="scr scr-app">
+      <div class="scr-inner">
+        <div class="app-bar"><span>9:41</span><i></i></div>
+        <div class="app-title"><small data-date></small>Today</div>
+        <div class="app-body">
+          <div class="app-hero"><span>Morning run</span><b>5.2 km</b></div>
+          <div class="app-stats">
+            <div><b>8,412</b><span>Steps</span></div>
+            <div><b>7h 20</b><span>Sleep</span></div>
+            <div><b>3h</b><span>Focus</span></div>
+          </div>
+        </div>
+        <div class="app-side">
+          <div class="app-list">
+            <div><i></i><span>Design review</span><em>10:00</em></div>
+            <div><i style="--h:60"></i><span>Lunch with Sam</span><em>12:30</em></div>
+            <div><i style="--h:120"></i><span>Ship v3.2</span><em>16:00</em></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <template id="tpl-lock">
+    <div class="scr scr-lock">
+      <div class="scr-inner">
+        <div class="lock-date" data-date></div>
+        <div class="lock-time">9:41</div>
+      </div>
+    </div>
+  </template>
+
+  <template id="tpl-empty">
+    <div class="scr scr-empty">
+      <div class="scr-inner">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="9" cy="10" r="1.75"/><path d="m21 16-5-5-9 9"/></svg>
+        <div>Drop, paste or choose an image</div>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    // ─── Device registry ───────────────────────────────────────────────────────
+    // Only combinations that dist/device-mockups.css actually defines.
+    // `synthLandscape`: landscape is drawn by rotating the portrait PNG in CSS.
+    // `obsolete`: kept for existing users, but the device is long out of support and use.
+    const CATALOG = [
+      { group: 'iPhone', brand: 'Apple', devices: [
+        { id: 'iPhoneXSMax',   label: 'iPhone XS Max',      type: 'phone',   orientations: ['portrait','landscape'], colors: ['spacegrey','silver','gold'], synthLandscape: true },
+        { id: 'iPhoneXS',      label: 'iPhone XS',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['spacegrey','silver','gold'], synthLandscape: true },
+        { id: 'iPhoneX',       label: 'iPhone X',           type: 'phone',   orientations: ['portrait','landscape'], colors: ['black'] },
+        { id: 'iPhone7',       label: 'iPhone 7',           type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white','gold','pink','red'] },
+        { id: 'iPhoneSE',      label: 'iPhone SE',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white','gold','pink'] },
+        { id: 'iPhone6Plus',   label: 'iPhone 6 Plus',      type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white','gold'], obsolete: true },
+        { id: 'iPhone6',       label: 'iPhone 6',           type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white','gold'], obsolete: true },
+        { id: 'iPhone5',       label: 'iPhone 5',           type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
+      ]},
+      { group: 'iPad', brand: 'Apple', devices: [
+        { id: 'iPadPro',       label: 'iPad Pro',           type: 'tablet',  orientations: ['portrait','landscape'], colors: ['black','white','gold'] },
+        { id: 'iPadAir2',      label: 'iPad Air 2',         type: 'tablet',  orientations: ['portrait','landscape'], colors: ['black','white','gold'] },
+        { id: 'iPad',          label: 'iPad',               type: 'tablet',  orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
+      ]},
+      { group: 'Mac', brand: 'Apple', devices: [
+        { id: 'MacbookPro',    label: 'MacBook Pro',        type: 'laptop',  orientations: ['portrait'],             colors: ['black'] },
+        { id: 'Macbook2015',   label: 'MacBook (2015)',     type: 'laptop',  orientations: ['portrait'],             colors: ['black','white','gold'] },
+        { id: 'Macbook',       label: 'MacBook',            type: 'laptop',  orientations: ['portrait'],             colors: ['black','white','gold'] },
+        { id: 'iMac',          label: 'iMac',               type: 'desktop', orientations: ['portrait'],             colors: ['black'] },
+      ]},
+      { group: 'Samsung', brand: 'Samsung', devices: [
+        { id: 'galaxyS5',      label: 'Galaxy S5',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white','gold'], obsolete: true },
+        { id: 'galaxyS3',      label: 'Galaxy S3',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
+        { id: 'galaxyTab4',    label: 'Galaxy Tab 4',       type: 'tablet',  orientations: ['portrait'],             colors: ['black','white'], obsolete: true },
+        { id: 'SamsungTV',     label: 'Samsung TV',         type: 'desktop', orientations: ['portrait'],             colors: ['black'] },
+      ]},
+      { group: 'Google', brand: 'Google', devices: [
+        { id: 'Pixel',         label: 'Pixel',              type: 'phone',   orientations: ['portrait'],             colors: ['black','white'], obsolete: true },
+        { id: 'Chromebook',    label: 'Chromebook',         type: 'laptop',  orientations: ['portrait'],             colors: ['black'], obsolete: true },
+      ]},
+      { group: 'Microsoft', brand: 'Microsoft', devices: [
+        { id: 'SurfaceStudio', label: 'Surface Studio',     type: 'desktop', orientations: ['portrait'],             colors: ['black'] },
+        { id: 'SurfacePro3',   label: 'Surface Pro 3',      type: 'laptop',  orientations: ['landscape'],            colors: ['black'] },
+        { id: 'Surface',       label: 'Surface',            type: 'tablet',  orientations: ['portrait'],             colors: ['black'], obsolete: true },
+        { id: 'Lumia930',      label: 'Lumia 930',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
+      ]},
+      { group: 'More Android', brand: null, devices: [
+        { id: 'HtcOneM8',      label: 'HTC One M8',         type: 'phone',   orientations: ['portrait','landscape'], colors: ['black'], brand: 'HTC', obsolete: true },
+        { id: 'HuaweiP8',      label: 'Huawei P8',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['gold'],  brand: 'Huawei', obsolete: true },
+      ]},
+    ];
+
+    CATALOG.forEach(g => g.devices.forEach(d => { d.brand = d.brand || g.brand; }));
+    const ALL_DEVICES = CATALOG.flatMap(g => g.devices);
+    // Null prototype: ids arrive from the URL, so '__proto__' or 'constructor' must not resolve.
+    const DEVICE_MAP  = Object.assign(Object.create(null), Object.fromEntries(ALL_DEVICES.map(d => [d.id, d])));
+
+    const TYPES = [
+      { id: 'all',     label: 'All' },
+      { id: 'phone',   label: 'Phones' },
+      { id: 'tablet',  label: 'Tablets' },
+      { id: 'laptop',  label: 'Laptops' },
+      { id: 'desktop', label: 'Desktop & TV' },
+    ];
+    const TYPE_NOUN = { phone: 'Phone', tablet: 'Tablet', laptop: 'Laptop', desktop: 'Desktop' };
+
+    const FINISH = {
+      black:     { name: 'Black',      dot: '#1d1d1f', tint: 'oklch(62% 0.14 255)' },
+      white:     { name: 'White',      dot: '#ececee', tint: 'oklch(66% 0.11 195)' },
+      silver:    { name: 'Silver',     dot: '#d6d7d9', tint: 'oklch(66% 0.11 215)' },
+      spacegrey: { name: 'Space grey', dot: '#5c5f63', tint: 'oklch(60% 0.14 285)' },
+      gold:      { name: 'Gold',       dot: '#e3c79c', tint: 'oklch(70% 0.13 70)' },
+      pink:      { name: 'Rose gold',  dot: '#e9b9ad', tint: 'oklch(66% 0.14 10)' },
+      red:       { name: 'Red',        dot: '#b3202d', tint: 'oklch(60% 0.19 25)' },
+    };
+
+    // ─── State ────────────────────────────────────────────────────────────────
+    const state = {
+      id: null,
+      orientation: null,
+      color: null,
+      screen: 'app',
+      imageUrl: null,
+      type: 'all',
+      query: '',
+    };
+
+    // ─── DOM ──────────────────────────────────────────────────────────────────
+    const $ = id => document.getElementById(id);
+    const root          = document.documentElement;
+    const sidebar       = $('sidebar');
+    const listEl        = $('device-list');
+    const emptyEl       = $('empty');
+    const chipsEl       = $('chips');
+    const searchEl      = $('search');
+    const searchWrap    = $('search-wrap');
+    const canvas        = $('canvas');
+    const stageDevice   = $('stage-device');
+    const rotor         = $('rotor');
+    const wrapper       = $('device-wrapper');
+    const deviceEl      = $('device');
+    const screenEl      = $('screen');
+    const measureEl     = $('measure-device');
+    const titleText     = $('device-title-text');
+    const metaEl        = $('device-meta');
+    const swatchesEl    = $('swatches');
+    const finishName    = $('finish-name');
+    const segOrient     = $('seg-orientation');
+    const segScreen     = $('seg-screen');
+    const fileBtn       = $('file-btn');
+    const fileInput     = $('file-input');
+    const codePanel     = $('code-panel');
+    const codeToggle    = $('code-toggle');
+    const codeOut       = $('code-out');
+    const copyBtn       = $('copy-btn');
+    const announcer     = $('announcer');
+    const pickerBtn     = $('picker-btn');
+    const scrim         = $('scrim');
+
+    const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    const mobileMQ     = matchMedia('(max-width: 55.98rem)');
+
+    const ms = name => parseFloat(getComputedStyle(root).getPropertyValue(name)) || 0;
+    const wait = t => new Promise(r => setTimeout(r, t));
+    const nextFrame = () => new Promise(r => requestAnimationFrame(() => r()));
+
+    function announce(msg) {
+      announcer.textContent = '';
+      setTimeout(() => { announcer.textContent = msg; }, 60);
+    }
+
+    // ─── Frame helpers ────────────────────────────────────────────────────────
+    function frameUrl(id, o, c) {
+      const d = DEVICE_MAP[id];
+      const file = (o === 'landscape' && d.synthLandscape) ? `portrait_${c}` : `${o}_${c}`;
+      return `device-mockups/${id}/${file}.png`;
+    }
+
+    const preloaded = new Map();
+    function preload(url) {
+      if (!preloaded.has(url)) {
+        const img = new Image();
+        img.src = url;
+        preloaded.set(url, (img.decode ? img.decode() : Promise.resolve()).catch(() => {}));
+      }
+      return preloaded.get(url);
+    }
+
+    const ratios = new Map();
+    function ratioOf(id, o, c) {
+      const key = `${id}/${o}/${c}`;
+      if (!ratios.has(key)) {
+        Object.assign(measureEl.dataset, { device: id, orientation: o, color: c });
+        ratios.set(key, measureEl.offsetHeight / 1000 || 2);
+      }
+      return ratios.get(key);
+    }
+
+    function fitWidth(id, o, c) {
+      const ratio = ratioOf(id, o, c);
+      const cs = getComputedStyle(canvas);
+      const padX = Math.max(24, canvas.clientWidth * 0.06);
+      const padY = Math.max(24, canvas.clientHeight * 0.07);
+      const availW = canvas.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight) - padX;
+      const availH = canvas.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom) - padY;
+      return Math.max(80, Math.floor(Math.min(availW, availH / ratio, 1200)));
+    }
+
+    function applyFrame() {
+      const { id, orientation: o, color: c } = state;
+      Object.assign(deviceEl.dataset, { device: id, orientation: o, color: c });
+      deviceEl.style.setProperty('--tint', FINISH[c]?.tint || FINISH.black.tint);
+      wrapper.style.width = fitWidth(id, o, c) + 'px';
+      updateLabel();
+      updateCode();
+      writeHash();
+    }
+
+    function updateLabel() {
+      const d = DEVICE_MAP[state.id];
+      const screenDesc = {
+        app: 'a sample app',
+        lock: 'a lock screen',
+        image: state.imageUrl ? 'your image' : 'an empty screen',
+      }[state.screen];
+      stageDevice.setAttribute('aria-label',
+        `${d.label}, ${FINISH[state.color].name.toLowerCase()}, ${state.orientation}, showing ${screenDesc}`);
+    }
+
+    // ─── Motion: device swap, rotation, finish crossfade ──────────────────────
+    let op = 0;          // latest operation id; older ones bail at their next await
+    let hasShown = false;
+
+    function settle() {
+      rotor.style.transition = 'none';
+      rotor.style.transform = '';
+      stageDevice.querySelectorAll('.ghost').forEach(g => g.remove());
+      delete canvas.dataset.busy;
+    }
+
+    async function showDevice() {
+      const my = ++op;
+      await preload(frameUrl(state.id, state.orientation, state.color));
+      if (my !== op) return;
+
+      if (hasShown) {
+        stageDevice.dataset.phase = 'leave';
+        await wait(ms('--duration-quick'));
+        if (my !== op) return;
+      }
+      settle();
+      applyFrame();
+      stageDevice.dataset.phase = 'pre';
+      void stageDevice.offsetWidth;
+      await nextFrame();
+      if (my !== op) return;
+      delete stageDevice.dataset.phase;
+      hasShown = true;
+    }
+
+    async function crossfade(mutate) {
+      const my = ++op;
+      settle();
+      delete stageDevice.dataset.phase;
+      const ghost = rotor.cloneNode(true);
+      ghost.removeAttribute('id');
+      ghost.querySelectorAll('[id]').forEach(n => n.removeAttribute('id'));
+      ghost.classList.add('ghost');
+      ghost.setAttribute('aria-hidden', 'true');
+
+      mutate();
+      await preload(frameUrl(state.id, state.orientation, state.color));
+      if (my !== op) return;
+
+      stageDevice.appendChild(ghost);
+      applyFrame();
+      void ghost.offsetWidth;
+      ghost.classList.add('is-fading');
+      await wait(ms('--duration-fast'));
+      ghost.remove();
+    }
+
+    async function rotateTo(next) {
+      if (next === state.orientation) return;
+      if (reduceMotion.matches || !hasShown) {
+        return crossfade(() => { state.orientation = next; });
+      }
+      const my = ++op;
+      settle();
+      delete stageDevice.dataset.phase;
+      // Commit the choice now: if a finish or device change interrupts the turn,
+      // that operation renders this orientation instead of the stale one.
+      state.orientation = next;
+      await preload(frameUrl(state.id, next, state.color));
+      if (my !== op) return;
+
+      const currentH = wrapper.offsetHeight;
+      const targetW = fitWidth(state.id, next, state.color);
+      const deg = next === 'landscape' ? -90 : 90;
+      const scale = targetW / currentH;
+
+      canvas.dataset.busy = '';
+      void rotor.offsetWidth;
+      rotor.style.transition = `transform ${ms('--duration-rotate')}ms var(--ease-smooth-out)`;
+      rotor.style.transform = `rotate(${deg}deg) scale(${scale})`;
+      await wait(ms('--duration-rotate'));
+      if (my !== op) return;
+
+      rotor.style.transition = 'none';
+      applyFrame();
+      rotor.style.transform = '';
+      void rotor.offsetWidth;
+      rotor.style.transition = '';
+      delete canvas.dataset.busy;
+    }
+
+    // Keep the device fitted to the canvas as the window changes.
+    let fitQueued = false;
+    new ResizeObserver(() => {
+      if (fitQueued || !state.id) return;
+      fitQueued = true;
+      requestAnimationFrame(() => {
+        fitQueued = false;
+        if (canvas.dataset.busy === undefined) wrapper.style.width = fitWidth(state.id, state.orientation, state.color) + 'px';
+      });
+    }).observe(canvas);
+
+    // ─── Text swap ────────────────────────────────────────────────────────────
+    const swapTokens = new WeakMap();
+    async function swapText(el, text) {
+      if (el.textContent === text) return;
+      if (reduceMotion.matches || !hasShown) { el.textContent = text; return; }
+      const token = {};
+      swapTokens.set(el, token);
+      el.dataset.swap = 'out';
+      await wait(ms('--duration-quick'));
+      if (swapTokens.get(el) !== token) return;
+      el.textContent = text;
+      el.dataset.swap = 'in';
+      void el.offsetWidth;
+      delete el.dataset.swap;
+    }
+
+    // ─── Segmented pill ───────────────────────────────────────────────────────
+    function placePill(seg, animate) {
+      const pill = seg.querySelector('.seg-pill');
+      const opt = seg.querySelector('input:checked')?.closest('.seg-opt');
+      if (!opt) { pill.style.width = '0px'; return; }
+      const apply = () => {
+        pill.style.transform = `translateX(${opt.offsetLeft}px)`;
+        pill.style.width = `${opt.offsetWidth}px`;
+      };
+      if (animate && !reduceMotion.matches) { apply(); return; }
+      const prev = pill.style.transition;
+      pill.style.transition = 'none';
+      apply();
+      void pill.offsetWidth;
+      pill.style.transition = prev;
+    }
+
+    // ─── Sidebar ──────────────────────────────────────────────────────────────
+    function buildChips() {
+      TYPES.forEach(t => {
+        const n = t.id === 'all' ? ALL_DEVICES.length : ALL_DEVICES.filter(d => d.type === t.id).length;
+        const label = document.createElement('label');
+        label.className = 'chip';
+        label.innerHTML = `<input class="sr-only" type="radio" name="type" value="${t.id}"${t.id === 'all' ? ' checked' : ''}>${t.label} <span class="chip-count">${n}</span>`;
+        chipsEl.appendChild(label);
+      });
+      chipsEl.addEventListener('change', e => {
+        state.type = e.target.value;
+        applyFilter(true);
+      });
+    }
+
+    function buildList() {
+      let i = 0;
+      CATALOG.forEach(({ group, devices }) => {
+        const fs = document.createElement('fieldset');
+        fs.className = 'group';
+        const lg = document.createElement('legend');
+        lg.textContent = group;
+        lg.style.setProperty('--i', i);
+        fs.appendChild(lg);
+
+        devices.forEach(d => {
+          const row = document.createElement('label');
+          row.className = 'row';
+          row.dataset.id = d.id;
+          row.style.setProperty('--i', ++i);
+
+          const input = document.createElement('input');
+          input.type = 'radio';
+          input.name = 'device';
+          input.value = d.id;
+          input.className = 'sr-only';
+
+          const name = document.createElement('span');
+          name.className = 'row-name';
+          name.textContent = d.label;
+
+          const meta = document.createElement('span');
+          meta.className = 'row-meta';
+          const facts = [`${d.colors.length} ${d.colors.length === 1 ? 'finish' : 'finishes'}`];
+          if (d.orientations.length > 1) facts.push('rotates');
+          meta.innerHTML =
+            (d.obsolete ? `<span class="badge"><span class="sr-only">, </span>Obsolete</span>` : '') +
+            `<span class="sr-only">, ${facts.join(', ')}</span>` +
+            `<span class="row-dots" aria-hidden="true">${d.colors.map(c => `<span style="--dot:${FINISH[c].dot}"></span>`).join('')}</span>`;
+
+          row.append(input, name, meta);
+          fs.appendChild(row);
+        });
+        listEl.insertBefore(fs, emptyEl);
+      });
+
+      listEl.addEventListener('change', e => {
+        if (e.target.name === 'device') selectDevice(e.target.value);
+      });
+
+      // A real pointer click picks and closes the mobile sheet; arrow keys just preview.
+      listEl.addEventListener('click', e => {
+        if (e.detail > 0 && e.target.closest('.row') && sidebar.dataset.open !== undefined) {
+          setTimeout(closeSheet, 180);
+        }
+      });
+    }
+
+    let countTimer;
+    function applyFilter(fromUser) {
+      const q = state.query.trim().toLowerCase();
+      let visible = 0;
+      listEl.querySelectorAll('.group').forEach(fs => {
+        let groupVisible = 0;
+        fs.querySelectorAll('.row').forEach(row => {
+          const d = DEVICE_MAP[row.dataset.id];
+          const hay = `${d.label} ${d.id} ${d.brand} ${d.type} ${d.obsolete ? 'obsolete' : ''}`.toLowerCase();
+          const show = (state.type === 'all' || d.type === state.type) && (!q || hay.includes(q));
+          row.hidden = !show;
+          if (show) groupVisible++;
+        });
+        fs.hidden = groupVisible === 0;
+        visible += groupVisible;
+      });
+      emptyEl.hidden = visible > 0;
+      $('device-count').textContent = visible === ALL_DEVICES.length ? ALL_DEVICES.length : `${visible} of ${ALL_DEVICES.length}`;
+      searchWrap.classList.toggle('has-value', state.query.length > 0);
+
+      if (fromUser) {
+        clearTimeout(countTimer);
+        countTimer = setTimeout(() => {
+          announce(visible === 0 ? 'No devices match' : `${visible} ${visible === 1 ? 'device' : 'devices'} shown`);
+        }, 450);
+      }
+    }
+
+    function resetFilters() {
+      state.query = '';
+      searchEl.value = '';
+      state.type = 'all';
+      chipsEl.querySelector('input[value="all"]').checked = true;
+      applyFilter(true);
+    }
+
+    // ─── Controls ─────────────────────────────────────────────────────────────
+    function renderControls(d) {
+      segOrient.querySelectorAll('input').forEach(input => {
+        input.disabled = !d.orientations.includes(input.value);
+        input.checked = input.value === state.orientation;
+      });
+      placePill(segOrient, false);
+
+      swatchesEl.innerHTML = '';
+      d.colors.forEach(c => {
+        const label = document.createElement('label');
+        label.className = 'swatch';
+        label.style.setProperty('--dot', FINISH[c].dot);
+        label.innerHTML = `<input class="sr-only" type="radio" name="finish" value="${c}"${c === state.color ? ' checked' : ''} aria-label="${FINISH[c].name}"><span class="swatch-dot" aria-hidden="true"></span>`;
+        swatchesEl.appendChild(label);
+      });
+      finishName.textContent = FINISH[state.color].name;
+    }
+
+    function renderMeta(d) {
+      const parts = [d.brand, TYPE_NOUN[d.type]];
+      parts.push(d.orientations.length > 1 ? 'Portrait & landscape' : `${d.orientations[0][0].toUpperCase()}${d.orientations[0].slice(1)} only`);
+      metaEl.innerHTML = (d.obsolete ? '<strong class="badge">Obsolete</strong>' : '') + parts.map(p => `<span>${p}</span>`).join('');
+    }
+
+    function selectDevice(id) {
+      const d = DEVICE_MAP[id];
+      if (!d) return;
+      const isNew = id !== state.id;
+      state.id = id;
+      // Carry orientation and finish across devices when the new one supports them.
+      if (!d.orientations.includes(state.orientation)) state.orientation = d.orientations[0];
+      if (!d.colors.includes(state.color)) state.color = d.colors[0];
+
+      const input = listEl.querySelector(`input[value="${id}"]`);
+      if (input && !input.checked) input.checked = true;
+
+      swapText(titleText, d.label);
+      renderMeta(d);
+      renderControls(d);
+      if (isNew) showDevice();
+    }
+
+    segOrient.addEventListener('change', e => {
+      placePill(segOrient, true);
+      rotateTo(e.target.value);
+    });
+
+    swatchesEl.addEventListener('change', e => {
+      const c = e.target.value;
+      finishName.textContent = FINISH[c].name;
+      crossfade(() => { state.color = c; });
+    });
+
+    // ─── Screen content ───────────────────────────────────────────────────────
+    const dateText = new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' });
+
+    function renderScreen() {
+      let node;
+      if (state.screen === 'image' && state.imageUrl) {
+        node = document.createElement('img');
+        node.className = 'scr-img';
+        node.src = state.imageUrl;
+        node.alt = '';
+      } else {
+        const tpl = { app: 'tpl-app', lock: 'tpl-lock', image: 'tpl-empty' }[state.screen];
+        node = $(tpl).content.cloneNode(true);
+        node.querySelectorAll('[data-date]').forEach(el => { el.textContent = dateText; });
+      }
+      screenEl.replaceChildren(node);
+      fileBtn.hidden = state.screen !== 'image';
+      $('file-btn-text').textContent = state.imageUrl ? 'Replace image' : 'Choose image';
+      if (state.id) updateLabel();
+    }
+
+    function setScreen(mode, animate) {
+      state.screen = mode;
+      const input = segScreen.querySelector(`input[value="${mode}"]`);
+      if (!input.checked) input.checked = true;
+      placePill(segScreen, animate);
+      if (animate && hasShown) crossfade(renderScreen);
+      else renderScreen();
+    }
+
+    segScreen.addEventListener('change', e => setScreen(e.target.value, true));
+
+    function placeImage(file) {
+      if (!file || !file.type.startsWith('image/')) {
+        announce('That file isn’t an image. Try a PNG, JPG, GIF, WebP or SVG.');
+        return;
+      }
+      if (state.imageUrl) URL.revokeObjectURL(state.imageUrl);
+      state.imageUrl = URL.createObjectURL(file);
+      setScreen('image', true);
+      announce(`${file.name || 'Image'} placed on the screen`);
+    }
+
+    fileInput.addEventListener('change', () => {
+      placeImage(fileInput.files[0]);
+      fileInput.value = '';
+    });
+
+    // Drag and drop onto the stage
+    let dragDepth = 0;
+    const hasFiles = e => [...(e.dataTransfer?.types || [])].includes('Files');
+    canvas.addEventListener('dragenter', e => {
+      if (!hasFiles(e)) return;
+      e.preventDefault();
+      dragDepth++;
+      canvas.dataset.drop = '';
+    });
+    canvas.addEventListener('dragover', e => { if (hasFiles(e)) e.preventDefault(); });
+    canvas.addEventListener('dragleave', () => {
+      if (--dragDepth <= 0) { dragDepth = 0; delete canvas.dataset.drop; }
+    });
+    canvas.addEventListener('drop', e => {
+      e.preventDefault();
+      dragDepth = 0;
+      delete canvas.dataset.drop;
+      placeImage(e.dataTransfer.files[0]);
+    });
+
+    // A file dropped beside the stage would otherwise make the browser open it and leave the page.
+    document.addEventListener('dragover', e => { if (hasFiles(e)) e.preventDefault(); });
+    document.addEventListener('drop', e => { if (hasFiles(e)) e.preventDefault(); });
+
+    // Paste an image from the clipboard anywhere outside a text field
+    document.addEventListener('paste', e => {
+      if (e.target.closest?.('input[type="search"]')) return;
+      const item = [...(e.clipboardData?.items || [])].find(i => i.type.startsWith('image/'));
+      if (item) {
+        e.preventDefault();
+        placeImage(item.getAsFile());
+      }
+    });
+
+    // ─── Code panel + copy ────────────────────────────────────────────────────
+    function snippet() {
+      return [
+        `<div class="device-wrapper">`,
+        `  <div class="device" data-device="${state.id}" data-orientation="${state.orientation}" data-color="${state.color}">`,
+        `    <div class="screen">`,
+        `      <!-- Your content goes here -->`,
+        `    </div>`,
+        `    <div class="button">`,
+        `      <!-- Optional: hook the home button to a click handler -->`,
+        `    </div>`,
+        `  </div>`,
+        `</div>`,
+      ].join('\n');
+    }
+
+    function highlight(src) {
+      const esc = src.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      // Attributes first, so later passes never re-match the spans they insert.
+      return esc
+        .replace(/([a-z-]+)=("[^"]*")/g, '<span class="tk-attr">$1</span>=<span class="tk-val">$2</span>')
+        .replace(/(&lt;\/?)([a-z]+)/g, '$1<span class="tk-tag">$2</span>')
+        .replace(/(&lt;!--.*?--&gt;)/g, '<span class="tk-com">$1</span>');
+    }
+
+    function updateCode() {
+      codeOut.innerHTML = highlight(snippet());
+    }
+
+    let codeTimer;
+    function setCodeOpen(open, { returnFocus = false } = {}) {
+      clearTimeout(codeTimer);
+      codeToggle.setAttribute('aria-expanded', String(open));
+      if (open) {
+        codePanel.classList.remove('is-closing');
+        codePanel.hidden = false;
+        void codePanel.offsetWidth;
+        codePanel.dataset.open = '';
+      } else {
+        codePanel.classList.add('is-closing');
+        delete codePanel.dataset.open;
+        codeTimer = setTimeout(() => {
+          codePanel.hidden = true;
+          codePanel.classList.remove('is-closing');
+        }, ms('--duration-quick'));
+        if (returnFocus) codeToggle.focus();
+      }
+    }
+
+    codeToggle.addEventListener('click', () => setCodeOpen(codeToggle.getAttribute('aria-expanded') !== 'true'));
+    $('code-close').addEventListener('click', () => setCodeOpen(false, { returnFocus: true }));
+    codePanel.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { e.stopPropagation(); setCodeOpen(false, { returnFocus: true }); }
+    });
+
+    let copyTimer;
+    copyBtn.addEventListener('click', async () => {
+      const label = DEVICE_MAP[state.id].label;
+      try {
+        await navigator.clipboard.writeText(snippet());
+        clearTimeout(copyTimer);
+        copyBtn.classList.add('is-done');
+        copyTimer = setTimeout(() => copyBtn.classList.remove('is-done'), 2000);
+        announce(`Copied HTML for ${label}`);
+      } catch (err) {
+        // Clipboard blocked (e.g. file:// or permissions): show the code and select it.
+        setCodeOpen(true);
+        const range = document.createRange();
+        range.selectNodeContents(codeOut);
+        const sel = getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        announce('Couldn’t reach the clipboard. The code is selected, press Command or Control C to copy.');
+      }
+    });
+
+    // ─── Mobile sheet ─────────────────────────────────────────────────────────
+    function syncSheetMode() {
+      if (mobileMQ.matches) {
+        sidebar.setAttribute('role', 'dialog');
+        sidebar.setAttribute('aria-modal', 'true');
+        if (sidebar.dataset.open === undefined) sidebar.inert = true;
+      } else {
+        sidebar.removeAttribute('role');
+        sidebar.removeAttribute('aria-modal');
+        sidebar.inert = false;
+        delete sidebar.dataset.open;
+        delete scrim.dataset.open;
+        document.querySelector('.topbar').inert = false;
+        $('main').inert = false;
+        pickerBtn.setAttribute('aria-expanded', 'false');
+      }
+    }
+
+    function openSheet() {
+      sidebar.inert = false;
+      sidebar.dataset.open = '';
+      scrim.dataset.open = '';
+      document.querySelector('.topbar').inert = true;
+      $('main').inert = true;
+      pickerBtn.setAttribute('aria-expanded', 'true');
+      const checked = listEl.querySelector('input[name="device"]:checked');
+      const target = checked && !checked.closest('.row').hidden ? checked : $('devices-heading');
+      target.focus({ preventScroll: true });
+      target.closest('.row')?.scrollIntoView({ block: 'center' });
+    }
+
+    function closeSheet() {
+      if (sidebar.dataset.open === undefined) return;
+      delete sidebar.dataset.open;
+      delete scrim.dataset.open;
+      document.querySelector('.topbar').inert = false;
+      $('main').inert = false;
+      sidebar.inert = true;
+      pickerBtn.setAttribute('aria-expanded', 'false');
+      pickerBtn.focus();
+    }
+
+    pickerBtn.addEventListener('click', openSheet);
+    $('sheet-done').addEventListener('click', closeSheet);
+    scrim.addEventListener('click', closeSheet);
+    mobileMQ.addEventListener('change', syncSheetMode);
+
+    // ─── Search + keyboard ────────────────────────────────────────────────────
+    searchEl.addEventListener('input', () => {
+      state.query = searchEl.value;
+      applyFilter(true);
+    });
+
+    searchEl.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && searchEl.value) {
+        e.stopPropagation();
+        searchEl.value = '';
+        state.query = '';
+        applyFilter(true);
+      }
+      // Enter jumps to the first match so the list is reachable without tabbing.
+      if (e.key === 'Enter') {
+        const first = listEl.querySelector('.group:not([hidden]) .row:not([hidden]) input');
+        if (first) {
+          e.preventDefault();
+          first.checked = true;
+          first.focus();
+          selectDevice(first.value);
+        }
+      }
+    });
+
+    $('search-clear').addEventListener('click', () => {
+      searchEl.value = '';
+      state.query = '';
+      applyFilter(true);
+      searchEl.focus();
+    });
+
+    $('reset-filters').addEventListener('click', () => {
+      resetFilters();
+      searchEl.focus();
+    });
+
+    const isMac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent);
+    $('search-kbd').textContent = isMac ? '⌘K' : 'Ctrl K';
+    searchEl.setAttribute('aria-keyshortcuts', isMac ? 'Meta+K' : 'Control+K');
+
+    document.addEventListener('keydown', e => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        if (mobileMQ.matches && sidebar.dataset.open === undefined) openSheet();
+        searchEl.focus();
+        searchEl.select();
+        return;
+      }
+      if (e.key === 'Escape') {
+        if (sidebar.dataset.open !== undefined) closeSheet();
+        else if (codeToggle.getAttribute('aria-expanded') === 'true') setCodeOpen(false, { returnFocus: true });
+      }
+    });
+
+    // ─── Theme ────────────────────────────────────────────────────────────────
+    const themeBtn = $('theme-toggle');
+    const systemDark = matchMedia('(prefers-color-scheme: dark)');
+    const isDark = () => root.dataset.theme ? root.dataset.theme === 'dark' : systemDark.matches;
+    const syncThemeBtn = () => themeBtn.setAttribute('aria-pressed', String(isDark()));
+
+    themeBtn.addEventListener('click', () => {
+      const next = isDark() ? 'light' : 'dark';
+      root.dataset.theme = next;
+      try { localStorage.setItem('dm-theme', next); } catch (e) {}
+      syncThemeBtn();
+    });
+    systemDark.addEventListener('change', syncThemeBtn);
+
+    // ─── URL state: #iPhone7/landscape/gold ───────────────────────────────────
+    function writeHash() {
+      const h = `#${state.id}/${state.orientation}/${state.color}`;
+      if (location.hash !== h) history.replaceState(null, '', h);
+    }
+
+    function readHash() {
+      let raw;
+      try { raw = decodeURIComponent(location.hash.slice(1)); } catch (e) { return null; }
+      const [id, o, c] = raw.split('/');
+      const d = DEVICE_MAP[id];
+      if (!d) return null;
+      return {
+        id,
+        orientation: d.orientations.includes(o) ? o : d.orientations[0],
+        color: d.colors.includes(c) ? c : d.colors[0],
+      };
+    }
+
+    window.addEventListener('hashchange', () => {
+      const s = readHash();
+      if (!s) return;
+      if (s.id !== state.id) {
+        state.orientation = s.orientation;
+        state.color = s.color;
+        selectDevice(s.id);
+      } else if (s.orientation !== state.orientation || s.color !== state.color) {
+        crossfade(() => { state.orientation = s.orientation; state.color = s.color; });
+        renderControls(DEVICE_MAP[s.id]);
+      }
+    });
+
+    // ─── Init ─────────────────────────────────────────────────────────────────
+    const frameCount = ALL_DEVICES.reduce((n, d) => n + d.orientations.length * d.colors.length, 0);
+    $('topbar-meta').textContent = `${ALL_DEVICES.length} devices · ${frameCount} frames`;
+
+    buildChips();
+    buildList();
+    applyFilter(false);
+    syncThemeBtn();
+    syncSheetMode();
+    renderScreen();
+    placePill(segScreen, false);
+
+    const initial = readHash() || { id: 'iPhoneXS', orientation: 'portrait', color: 'spacegrey' };
+    state.orientation = initial.orientation;
+    state.color = initial.color;
+    selectDevice(initial.id);
+    listEl.querySelector(`input[value="${initial.id}"]`)?.closest('.row').scrollIntoView({ block: 'nearest' });
+
+    // Fonts change label widths, so re-seat the pills once they load.
+    document.fonts?.ready.then(() => {
+      placePill(segOrient, false);
+      placePill(segScreen, false);
+    });
+    new ResizeObserver(() => {
+      placePill(segOrient, false);
+      placePill(segScreen, false);
+    }).observe(document.querySelector('.dock'));
+
+    setTimeout(() => document.body.classList.remove('is-intro'), 1400);
+  </script>
+
 </body>
-
 </html>

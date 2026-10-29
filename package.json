@@ -3,16 +3,21 @@
   "version": "3.2.1",
   "description": "HTML5 mockups of popular devices, to showcase your portfolio and spice up your website.",
   "main": "dist/device-mockups.min.css",
+  "style": "dist/device-mockups.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:css && npm run build:min",
+    "build:css": "sass --no-source-map src/scss/device-mockups.scss dist/device-mockups.css",
+    "build:min": "sass --no-source-map --style=compressed src/scss/device-mockups.scss dist/device-mockups.min.css",
+    "watch": "sass --no-source-map --watch src/scss/device-mockups.scss dist/device-mockups.css"
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-banner": "^0.6.0",
-    "grunt-contrib-cssmin": "^2.1.0",
-    "grunt-sass": "^2.0.0"
+  "homepage": "https://pixelsign.github.io/html5-device-mockups",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelsign/html5-device-mockups.git"
   },
-  "link": "https://github.com/pixelsign/html5-device-mockups"
+  "devDependencies": {
+    "sass": "1.105.1"
+  }
 }
