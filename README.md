@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/html5-device-mockups.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-HTML5 device mockups v3 :iphone::computer:
+HTML5 device mockups v4 :iphone::computer:
 ====================
 
 You can view the demo page here: <https://pixelsign.github.io/html5-device-mockups/>
@@ -80,9 +80,15 @@ bower install html5-device-mockups
 ```
 
 ### npm
+
+Version 4 is not on the npm registry yet: `npm i html5-device-mockups` still installs
+3.2.1 from 2018. Until 4.0.0 is published there, install it straight from GitHub:
+
 ```
-npm i html5-device-mockups
+npm i github:pixelsign/html5-device-mockups#4.0.0
 ```
+
+The files end up in `node_modules/html5-device-mockups/` as usual, so nothing else changes.
 
 ### Old traditional way
 ```
