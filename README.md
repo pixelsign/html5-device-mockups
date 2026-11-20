@@ -34,13 +34,19 @@ Features:
 * Some devices have "home button" layer defined for possible click event bindings
 * Multiple color schemes
 * Multiple orientations
-* 27 legacy devices plus the modern SVG phone catalog. See the [coverage tracker](catalog/COVERAGE.md) for the exact models and backlog.
-* Notched iPhones (X, XS, XS Max) clip screen content to the real screen shape, notch and corners included
+* 136 devices: 27 legacy PNG frames plus 109 SVG frames (51 phones, 45 tablets, 9 laptops and 4 TVs)
+* SVG devices and the notched iPhones (X, XS, XS Max) clip screen content to the real screen shape, including rounded corners, notches, camera cutouts and punch holes
 
 Devices
 -------
 
-The [complete phone catalog](catalog/COVERAGE.md) lists modern device IDs. The table below covers the legacy library.
+The SVG devices are listed with their IDs and finishes in three catalogs:
+
+* [Phones](catalog/COVERAGE.md), with the backlog of models not yet drawn
+* [Tablets and laptops](catalog/TABLETS-LAPTOPS.md)
+* [TVs](catalog/TVS.md)
+
+The manufacturer specifications each SVG frame is measured from are listed in [catalog/SOURCES.md](catalog/SOURCES.md). The table below covers the legacy PNG library.
 
 Devices marked **Obsolete** are long out of support and rarely seen any more. They still work and stay in the package for existing users.
 
@@ -102,7 +108,7 @@ Use this example or grab the code from the HTML generator on our demo site:
 
 ```
 <div class="device-wrapper">
-  <div class="device" data-device="iPhone5" data-orientation="portrait" data-color="black">
+  <div class="device" data-device="iPhone17" data-orientation="portrait" data-color="black">
     <div class="screen">
       <!-- PUT CONTENTS HERE -->
     </div>
@@ -113,14 +119,17 @@ Use this example or grab the code from the HTML generator on our demo site:
 </div>
 ```
 
+All three `data-` attributes are required; a device without them has no height. Laptops and TVs only support `data-orientation="landscape"`. Devices without a home button hide `.button` automatically.
+
 ## Building from source
 
 The CSS in `dist/` is compiled from `src/scss/` with [Dart Sass](https://sass-lang.com/dart-sass/):
 
 ```
 npm install
-npm run build   # writes dist/device-mockups.css and dist/device-mockups.min.css
-npm run watch   # rebuilds dist/device-mockups.css on change
+npm run build   # generates the SVG frames from catalog/, then writes dist/device-mockups.css and dist/device-mockups.min.css
+npm test        # checks the catalogs and generated frames
+npm run watch   # rebuilds dist/device-mockups.css on change; run npm run build after catalog changes
 ```
 
 ### TV pack
@@ -141,7 +150,7 @@ Run `npm run bundle:modern` (Node, Dart Sass from `npm install`, and Python 3). 
 
 ### Adding the next phone
 
-Start with a record in `catalog/families/*.json` (`catalog/modern.json` is generated), not a new Sass selector. Its `width` and `height` are the complete portrait artwork bounds (including buttons); `screen` uses that same coordinate system. Edit the finish list, frame geometry and reference/license information. Use an original illustration or obtain explicit rights to redistribute the source art; the library license is not a substitute for those rights. `npm run build` generates the SVGs, both screen masks, responsive Sass geometry, and demo metadata. Run `npm test` and check both orientations with interactive screen content before adding the model to the coverage tracker. No downloaded manufacturer art is required by the build.
+Start with a record in `catalog/families/*.json` (`catalog/modern.json` is generated), not a new Sass selector. Its `width` and `height` are the complete portrait artwork bounds (including buttons); `screen` uses that same coordinate system. Edit the finish list, frame geometry, manufacturer sources and the `provenance.artwork` licence statement (`npm test` fails without it). Use an original illustration or obtain explicit rights to redistribute the source art; the library license is not a substitute for those rights. `npm run build` generates the SVGs, both screen masks, responsive Sass geometry, and demo metadata. Run `npm test` and check both orientations with interactive screen content before adding the model to the coverage tracker. No downloaded manufacturer art is required by the build.
 
 Legacy PNGs keep their existing geometry in `$devicesList` (`src/scss/devices.scss`) and their existing demo entries. Their build and public identifiers remain compatible.
 
@@ -169,6 +178,7 @@ Created by:
 > * https://benjaminbortels.de
 
 
-Credits for the original graphical renderings of the devices
-used in this package are found in a separate file which is
-provided with this package.
+Credits for the third-party renderings behind the legacy PNG
+devices are in CREDITS.txt, provided with this package. The SVG
+devices are original illustrations under the MIT licence; their
+measurement sources are listed in catalog/SOURCES.md.
