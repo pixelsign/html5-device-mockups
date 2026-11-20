@@ -7,10 +7,10 @@
     "width": 715.0,
     "height": 1496.0,
     "screen": {
-      "x": 24.539,
-      "y": 24.1,
-      "width": 665.922,
-      "height": 1447.8
+      "x": 24.4,
+      "y": 24.4,
+      "width": 665.7,
+      "height": 1447.9
     },
     "colors": ["black", "white", "mist-blue", "sage", "lavender"],
     "finishes": {
@@ -29,9 +29,10 @@
       "bodyRadius": 112,
       "screenRadius": 93,
       "camera": {
-        "width": 112,
-        "height": 33,
-        "top": 13
+        "width": 207.4,
+        "height": 60.7,
+        "top": 23.15,
+        "centerX": 332.8
       },
       "buttons": [
         {
@@ -62,8 +63,8 @@
       ]
     },
     "provenance": {
-      "sources": ["https://support.apple.com/en-us/125089"],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "sources": ["https://support.apple.com/en-us/125089", "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-17.pdf"],
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
     }
   },

@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const defaultRoot = fileURLToPath(new URL('../', import.meta.url));
+const n = v => Number(v.toFixed(3));
 const native = r => r.type === 'tablet' ? 'portrait' : 'landscape';
 const escape = s => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 function svg(width, height, title, content) {
@@ -15,10 +16,21 @@ function rect({ x, y, width, height }, radius, fill) {
 const bounds = r => ({ x: 0, y: 0, width: r.width, height: r.height });
 // The camera housing may straddle ANY edge of the display. Paint the notch
 // last rather than XORing paths (which would expose glass outside the screen).
+// The frame's opening is a hair smaller than the screen box. Browsers round the two
+// to pixels independently, and an exact fit leaves a hairline seam of page background.
+export const bleed = s => n(Math.max(1.5, Math.min(s.width, s.height) * .003));
+// screenCorners "top": rounded top, square bottom (Apple: "rounded corners at the top").
+function display({ x, y, width: w, height: h }, radius, corners, fill, inset = 0) {
+  x += inset; y += inset; w -= 2*inset; h -= 2*inset;
+  const r = Math.max(0, radius-inset), turn = `A${n(r)} ${n(r)} 0 0 1`;
+  if (corners !== 'top' || !r) return rect({ x: n(x), y: n(y), width: n(w), height: n(h) }, n(r), fill);
+  return `<path d="M${n(x)} ${n(y+h)}V${n(y+r)}${turn} ${n(x+r)} ${n(y)}H${n(x+w-r)}${turn} ${n(x+w)} ${n(y+r)}V${n(y+h)}Z" fill="${fill}"/>`;
+}
 function stencil(r, frame) {
-  const box = bounds(r), notch = r.geometry.notch;
+  const box = bounds(r), g = r.geometry, notch = g.notch;
   return `<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="${box.width}" height="${box.height}">\n` +
-    (frame ? rect(box, 0, 'white') : '') + rect(r.screen, r.geometry.screenRadius, frame ? 'black' : 'white') +
+    (frame ? rect(box, 0, 'white') : '') +
+    display(r.screen, g.screenRadius, g.screenCorners, frame ? 'black' : 'white', frame ? bleed(r.screen) : 0) +
     (notch ? rect(notch, notch.r, frame ? 'white' : 'black') : '') + '\n</mask>';
 }
 export function renderMask(r, orientation = native(r)) {
@@ -37,18 +49,28 @@ const materials = `<linearGradient id="brushed" x2="100%" y2="24%">
   <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
 </radialGradient>`;
 function circle({ x, y, r }, fill) { return `<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}"/>`; }
-function front(r, box, color) {
-  const g = r.geometry, edge = Math.min(box.width, box.height) * .009;
+function front(r, box, color, sheen = 'url(#brushed)', rim = .009) {
+  const g = r.geometry, edge = Math.min(box.width, box.height) * rim;
   const inner = { x: box.x+edge, y: box.y+edge, width: box.width-2*edge, height: box.height-2*edge };
   const shell = rect(box, g.bodyRadius, 'white');
   const home = g.home ? circle(g.home, color) + circle({ ...g.home, r: g.home.r*.84 }, '#222429') : '';
   return `<defs><clipPath id="shell">${shell}</clipPath></defs>
 <g clip-path="url(#shell)">
-${rect(box, 0, color)}${rect(box, 0, 'url(#brushed)')}
+${rect(box, 0, color)}${rect(box, 0, sheen)}
 ${rect(inner, Math.max(0, g.bodyRadius-edge), '#111317')}
 ${home}${circle(g.webcam, 'url(#lens)')}
 </g>`;
 }
+// Lit from above, so both sides of a laptop match; the diagonal tablet sheen made one edge dark.
+const notebookMaterials = `<linearGradient id="lid" x2="0" y2="1">
+  <stop stop-color="white" stop-opacity=".4"/><stop offset=".03" stop-color="white" stop-opacity=".08"/>
+  <stop offset=".6" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="#0d1017" stop-opacity=".16"/>
+</linearGradient>
+<linearGradient id="deck" x2="0" y2="1">
+  <stop stop-color="white" stop-opacity=".75"/><stop offset=".12" stop-color="white" stop-opacity=".22"/>
+  <stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".75" stop-color="#0d1017" stop-opacity=".14"/>
+  <stop offset="1" stop-color="#0d1017" stop-opacity=".42"/>
+</linearGradient>`;
 function notebook(r, color) {
   const s = r.screen, g = r.geometry;
   const chin = r.height-s.y-s.height;
@@ -56,20 +78,51 @@ function notebook(r, color) {
   const inset = Math.min(s.x, r.width-s.x-s.width)*.65;
   const lid = g.lid ?? { x: inset, y: 0, width: r.width-2*inset, height: seam };
   const deck = g.deck ?? { x: 0, y: seam, width: r.width, height: r.height-seam };
-  // The barrel bridges the two parts, including a gap between their boxes.
-  const end = lid.y+lid.height, barrel = lid.height*.019;
-  const hinge = { x: lid.x+lid.width*.19, width: lid.width*.62, y: end-barrel,
-    height: Math.max(barrel, deck.y-end+barrel*1.5) };
-  // Local unit square: sloping shoulders, a rolled lower edge and a thumb recess.
-  return `${front(r, lid, color)}\n${rect(hinge, barrel*.35, '#34383e')}
-<g transform="translate(${deck.x} ${deck.y}) scale(${deck.width} ${deck.height})">
-  <defs><clipPath id="base"><path d="M.007 0H.993Q1 0 1 .12V.45Q.98 .92 .90 1H.10Q.02 .92 0 .45V.12Q0 0 .007 0Z"/></clipPath></defs>
-  <g clip-path="url(#base)">
-    <rect width="1" height="1" fill="${color}"/><rect width="1" height="1" fill="url(#brushed)"/>
-    <path d="M0 .52Q.5 .64 1 .52V1H0Z" fill="#212633" opacity=".36"/>
-    <path d="M.405 0H.595Q.59 .25 .575 .26H.425Q.41 .25 .405 0Z" fill="#161a22" opacity=".57"/>
-  </g>
-</g>`;
+  // Front elevation: the hinge is only visible in the gap between lid and base, never over the bezel.
+  const end = lid.y+lid.height;
+  const hinge = deck.y > end
+    ? rect({ x: lid.x+g.bodyRadius, y: end, width: lid.width-2*g.bodyRadius, height: deck.y-end }, 0, '#1b1d22') : '';
+  const base = deck.profile === 'taper' ? taperedDeck(deck, color) : roundedDeck(deck, color);
+  return `<defs>${notebookMaterials}</defs>
+${front(r, lid, color, 'url(#lid)', .005)}
+${hinge}
+${base}`;
+}
+// Apple's thumb recess is a wide, shallow, flat-bottomed scoop, not a bowl hanging off the hinge.
+function scoop(deck, depth, fill, share = .08) {
+  if (deck.recess === false) return '';
+  const half = deck.width*(deck.recess ?? share), k = depth*1.4, cx = deck.x+deck.width/2, y = deck.y;
+  return `<path d="M${n(cx-half)} ${n(y)}Q${n(cx-half+k*.15)} ${n(y+depth)} ${n(cx-half+k)} ${n(y+depth)}` +
+    `H${n(cx+half-k)}Q${n(cx+half-k*.15)} ${n(y+depth)} ${n(cx+half)} ${n(y)}Z" ${fill}/>`;
+}
+// The MacBook Pro base: crisp top corners and a rounded underside.
+function roundedDeck(deck, color) {
+  const x0 = deck.x, x1 = deck.x+deck.width, y0 = deck.y, y1 = deck.y+deck.height, h = deck.height;
+  const top = Math.min(h*.25, 3), under = deck.r ?? h*.42, run = under*2.5;
+  const face = `M${n(x0+top)} ${n(y0)}H${n(x1-top)}Q${n(x1)} ${n(y0)} ${n(x1)} ${n(y0+top)}V${n(y1-under)}` +
+    `Q${n(x1)} ${n(y1)} ${n(x1-run)} ${n(y1)}H${n(x0+run)}Q${n(x0)} ${n(y1)} ${n(x0)} ${n(y1-under)}V${n(y0+top)}Q${n(x0)} ${n(y0)} ${n(x0+top)} ${n(y0)}Z`;
+  return `<path d="${face}" fill="${color}"/><path d="${face}" fill="url(#deck)"/>
+${scoop(deck, h*.32, 'fill="#20232a" opacity=".2"')}`;
+}
+// The wedge MacBook base (deck.profile "taper"): a bright top strip over a darker underside that sweeps up
+// into the corners, a polished thumb scoop and two rubber feet.
+function taperedDeck(deck, color) {
+  const { x, y, width: w, height: h } = deck, x1 = x+w, y1 = y+h, lip = h*.34, run = w*.09;
+  const under = `M${n(x)} ${n(y)}H${n(x1)}V${n(y+lip)}Q${n(x1-run*.5)} ${n(y1)} ${n(x1-run)} ${n(y1)}` +
+    `H${n(x+run)}Q${n(x+run*.5)} ${n(y1)} ${n(x)} ${n(y+lip)}Z`;
+  const feet = [x+w*.094, x1-w*.094].map(cx =>
+    `<ellipse cx="${n(cx)}" cy="${n(y+lip+(h-lip)*.55)}" rx="${n(w*.006)}" ry="${n(h*.06)}" fill="#000" opacity=".35"/>`).join('');
+  const strip = { x, y, width: w, height: lip };
+  return `<defs><linearGradient id="underside" x2="0" y2="1">
+  <stop stop-color="#0d1017" stop-opacity=".3"/><stop offset="1" stop-color="#0d1017" stop-opacity=".5"/>
+</linearGradient>
+<linearGradient id="strip">
+  <stop stop-color="#0d1017" stop-opacity=".35"/><stop offset=".07" stop-color="white" stop-opacity=".3"/>
+  <stop offset=".93" stop-color="white" stop-opacity=".3"/><stop offset="1" stop-color="#0d1017" stop-opacity=".35"/>
+</linearGradient></defs>
+<path d="${under}" fill="${color}"/><path d="${under}" fill="url(#underside)"/>${feet}
+${rect(strip, 0, color)}${rect(strip, 0, 'url(#strip)')}
+${scoop(deck, h*.42, `fill="${color}"`, .095)}${scoop(deck, h*.42, 'fill="url(#strip)"', .095)}`;
 }
 function television(r, color) {
   const {width:w,height:h,geometry:{panelHeight:p,stand,span}}=r;

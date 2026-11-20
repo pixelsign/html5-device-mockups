@@ -1,0 +1,178 @@
+{
+  "iPhone11": {
+    "date": "2019-09-20",
+    "source": "https://www.apple.com/newsroom/2019/09/apple-introduces-dual-camera-iphone-11/"
+  },
+  "iPhone11Pro": {
+    "date": "2019-09-20",
+    "source": "https://www.apple.com/newsroom/2019/09/iphone-11-pro-and-iphone-11-pro-max-the-most-powerful-and-advanced-smartphones/"
+  },
+  "iPhone11ProMax": {
+    "date": "2019-09-20",
+    "source": "https://www.apple.com/newsroom/2019/09/iphone-11-pro-and-iphone-11-pro-max-the-most-powerful-and-advanced-smartphones/"
+  },
+  "iPhone12": {
+    "date": "2020-10-23",
+    "source": "https://www.apple.com/newsroom/2020/10/apple-announces-iphone-12-and-iphone-12-mini-a-new-era-for-iphone-with-5g/"
+  },
+  "iPhone12Pro": {
+    "date": "2020-10-23",
+    "source": "https://www.apple.com/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/"
+  },
+  "iPhone12ProMax": {
+    "date": "2020-11-13",
+    "source": "https://www.apple.com/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/"
+  },
+  "iPhone12mini": {
+    "date": "2020-11-13",
+    "source": "https://www.apple.com/newsroom/2020/10/apple-announces-iphone-12-and-iphone-12-mini-a-new-era-for-iphone-with-5g/"
+  },
+  "iPhone13": {
+    "date": "2021-09-24",
+    "source": "https://www.apple.com/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/"
+  },
+  "iPhone13Pro": {
+    "date": "2021-09-24",
+    "source": "https://www.apple.com/newsroom/2021/09/apple-unveils-iphone-13-pro-and-iphone-13-pro-max-more-pro-than-ever-before/"
+  },
+  "iPhone13ProMax": {
+    "date": "2021-09-24",
+    "source": "https://www.apple.com/newsroom/2021/09/apple-unveils-iphone-13-pro-and-iphone-13-pro-max-more-pro-than-ever-before/"
+  },
+  "iPhone13mini": {
+    "date": "2021-09-24",
+    "source": "https://www.apple.com/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/"
+  },
+  "iPhone14": {
+    "date": "2022-09-16",
+    "source": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/"
+  },
+  "iPhone14Plus": {
+    "date": "2022-10-07",
+    "source": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/"
+  },
+  "iPhone14Pro": {
+    "date": "2022-09-16",
+    "source": "https://www.apple.com/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/"
+  },
+  "iPhone14ProMax": {
+    "date": "2022-09-16",
+    "source": "https://www.apple.com/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/"
+  },
+  "iPhone15": {
+    "date": "2023-09-22",
+    "source": "https://www.apple.com/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/"
+  },
+  "iPhone15Plus": {
+    "date": "2023-09-22",
+    "source": "https://www.apple.com/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/"
+  },
+  "iPhone15Pro": {
+    "date": "2023-09-22",
+    "source": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/"
+  },
+  "iPhone15ProMax": {
+    "date": "2023-09-22",
+    "source": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/"
+  },
+  "iPhone16": {
+    "date": "2024-09-20",
+    "source": "https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/"
+  },
+  "iPhone16Plus": {
+    "date": "2024-09-20",
+    "source": "https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/"
+  },
+  "iPhone16Pro": {
+    "date": "2024-09-20",
+    "source": "https://www.apple.com/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/"
+  },
+  "iPhone16ProMax": {
+    "date": "2024-09-20",
+    "source": "https://www.apple.com/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/"
+  },
+  "iPhone16e": {
+    "date": "2025-02-28",
+    "source": "https://www.apple.com/newsroom/2025/02/apple-debuts-iphone-16e-a-powerful-new-member-of-the-iphone-16-family/"
+  },
+  "iPhone17": {
+    "date": "2025-09-19",
+    "source": "https://www.apple.com/newsroom/2025/09/apple-debuts-iphone-17/"
+  },
+  "iPhone17Pro": {
+    "date": "2025-09-19",
+    "source": "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/"
+  },
+  "iPhone17ProMax": {
+    "date": "2025-09-19",
+    "source": "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/"
+  },
+  "iPhone17e": {
+    "date": "2026-03-11",
+    "source": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/"
+  },
+  "iPhone18Pro": {
+    "date": "2026-09-18",
+    "source": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+  },
+  "iPhone18ProMax": {
+    "date": "2026-09-18",
+    "source": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+  },
+  "iPhone5": {
+    "date": "2012-09-21",
+    "source": "https://www.apple.com/newsroom/2012/09/12Apple-Introduces-iPhone-5/"
+  },
+  "iPhone6": {
+    "date": "2014-09-19",
+    "source": "https://www.apple.com/newsroom/2014/09/09Apple-Announces-iPhone-6-iPhone-6-Plus-The-Biggest-Advancements-in-iPhone-History/"
+  },
+  "iPhone6Plus": {
+    "date": "2014-09-19",
+    "source": "https://www.apple.com/newsroom/2014/09/09Apple-Announces-iPhone-6-iPhone-6-Plus-The-Biggest-Advancements-in-iPhone-History/"
+  },
+  "iPhone7": {
+    "date": "2016-09-16",
+    "source": "https://www.apple.com/newsroom/2016/09/apple-introduces-iphone-7-iphone-7-plus/"
+  },
+  "iPhoneAir": {
+    "date": "2025-09-19",
+    "source": "https://www.apple.com/newsroom/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/"
+  },
+  "iPhoneDuoCover": {
+    "date": "2026-10-23",
+    "source": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+  },
+  "iPhoneDuoOpen": {
+    "date": "2026-10-23",
+    "source": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+  },
+  "iPhoneSE": {
+    "date": "2016-03-31",
+    "source": "https://www.apple.com/newsroom/2016/03/21Apple-Introduces-iPhone-SE-The-Most-Powerful-Phone-with-a-Four-inch-Display/"
+  },
+  "iPhoneSE2": {
+    "date": "2020-04-24",
+    "source": "https://www.apple.com/newsroom/2020/04/iphone-se-a-powerful-new-smartphone-in-a-popular-design/"
+  },
+  "iPhoneSE3": {
+    "date": "2022-03-18",
+    "source": "https://www.apple.com/newsroom/2022/03/apple-announces-the-new-iphone-se-a-powerful-smartphone-in-an-iconic-design/"
+  },
+  "iPhoneX": {
+    "date": "2017-11-03",
+    "source": "https://www.apple.com/newsroom/2017/09/the-future-is-here-iphone-x/"
+  },
+  "iPhoneXR": {
+    "date": "2018-10-26",
+    "source": "https://www.apple.com/newsroom/2018/09/apple-introduces-iphone-xr/"
+  },
+  "iPhoneXS": {
+    "date": "2018-09-21",
+    "source": "https://www.apple.com/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/"
+  },
+  "iPhoneXSMax": {
+    "date": "2018-09-21",
+    "source": "https://www.apple.com/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/"
+  }
+}

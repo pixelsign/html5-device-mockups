@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="768" height="480" viewBox="0 0 768 480">
 <title>Dell XPS 13 (DX13260, 2.5K touch) landscape screen mask</title>
-<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="808" height="523">
-<rect x="20" y="13" width="768" height="480" rx="2" fill="white"/>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="901.07" height="542.59">
+<rect x="66.54" y="15.79" width="768" height="480" rx="3.38" fill="white"/>
 </mask></defs>
-<g transform="translate(-20 -13)"><g mask="url(#aperture)"><rect x="20" y="13" width="768" height="480" rx="0" fill="white"/></g></g>
+<g transform="translate(-66.54 -15.79)"><g mask="url(#aperture)"><rect x="66.54" y="15.79" width="768" height="480" rx="0" fill="white"/></g></g>
 </svg>

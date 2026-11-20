@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="808" height="523" viewBox="0 0 808 523">
+<svg xmlns="http://www.w3.org/2000/svg" width="901.07" height="542.59" viewBox="0 0 901.07 542.59">
 <title>Dell XPS 13 (DX13260, 2.5K touch) — sky</title>
-<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. US catalog, 2026-11-20. Reference SKU: DX13260, offer dx13260_so_42 (Sky, Core 5 320, 8GB/256GB). 13.4-inch InfinityEdge touchscreen, 30–120 Hz; native 2560 × 1600 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative. Sources: https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260</desc>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. US catalog, 2026-11-20. Reference SKU: DX13260, offer dx13260_so_42 (Sky, Core 5 320, 8GB/256GB). 13.4-inch InfinityEdge touchscreen, 30–120 Hz; native 2560 × 1600 px. Finish swatches are illustrative. The manufacturer front view is a measurement reference only; no manufacturer image is included. Sources: https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260; https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-dx13260/media-gallery/sky/laptop-xps-13-sky-dx13260-silver-gallery-11.psd?wid=1600&amp;fmt=png-alpha</desc>
 <defs><linearGradient id="brushed" x2="100%" y2="24%">
   <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
   <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
@@ -10,22 +10,25 @@
   <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
   <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
 </radialGradient>
-<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="808" height="523">
-<rect x="0" y="0" width="808" height="523" rx="0" fill="white"/><rect x="20" y="13" width="768" height="480" rx="2" fill="black"/>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="901.07" height="542.59">
+<rect x="0" y="0" width="901.07" height="542.59" rx="0" fill="white"/><rect x="68.04" y="17.29" width="765" height="477" rx="1.88" fill="black"/>
 </mask></defs>
-<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="13" y="0" width="782" height="509" rx="10" fill="white"/></clipPath></defs>
+<g mask="url(#aperture)"><defs><linearGradient id="lid" x2="0" y2="1">
+  <stop stop-color="white" stop-opacity=".4"/><stop offset=".03" stop-color="white" stop-opacity=".08"/>
+  <stop offset=".6" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="#0d1017" stop-opacity=".16"/>
+</linearGradient>
+<linearGradient id="deck" x2="0" y2="1">
+  <stop stop-color="white" stop-opacity=".75"/><stop offset=".12" stop-color="white" stop-opacity=".22"/>
+  <stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".75" stop-color="#0d1017" stop-opacity=".14"/>
+  <stop offset="1" stop-color="#0d1017" stop-opacity=".42"/>
+</linearGradient></defs>
+<defs><clipPath id="shell"><rect x="56.39" y="0" width="788.3" height="512.14" rx="13.53" fill="white"/></clipPath></defs>
 <g clip-path="url(#shell)">
-<rect x="13" y="0" width="782" height="509" rx="0" fill="#bcccd6"/><rect x="13" y="0" width="782" height="509" rx="0" fill="url(#brushed)"/>
-<rect x="17.581" y="4.5809999999999995" width="772.838" height="499.838" rx="5.4190000000000005" fill="#111317"/>
-<circle cx="404" cy="6.5" r="1.6" fill="url(#lens)"/>
+<rect x="56.39" y="0" width="788.3" height="512.14" rx="0" fill="#bcccd6"/><rect x="56.39" y="0" width="788.3" height="512.14" rx="0" fill="url(#lid)"/>
+<rect x="58.9507" y="2.5607" width="783.1786" height="507.0186" rx="10.969299999999999" fill="#111317"/>
+<circle cx="450.54" cy="8.46" r="2.54" fill="url(#lens)"/>
 </g>
-<rect x="161.58" y="499.329" width="484.84" height="14.506499999999999" rx="3.3848499999999997" fill="#34383e"/>
-<g transform="translate(0 509) scale(808 14)">
-  <defs><clipPath id="base"><path d="M.007 0H.993Q1 0 1 .12V.45Q.98 .92 .90 1H.10Q.02 .92 0 .45V.12Q0 0 .007 0Z"/></clipPath></defs>
-  <g clip-path="url(#base)">
-    <rect width="1" height="1" fill="#bcccd6"/><rect width="1" height="1" fill="url(#brushed)"/>
-    <path d="M0 .52Q.5 .64 1 .52V1H0Z" fill="#212633" opacity=".36"/>
-    <path d="M.405 0H.595Q.59 .25 .575 .26H.425Q.41 .25 .405 0Z" fill="#161a22" opacity=".57"/>
-  </g>
-</g></g>
+<rect x="69.92" y="512.14" width="761.24" height="2.259999999999991" rx="0" fill="#1b1d22"/>
+<path d="M3 514.4H898.07Q901.07 514.4 901.07 517.4V526.8Q901.07 542.59 861.595 542.59H39.475Q0 542.59 0 526.8V517.4Q0 514.4 3 514.4Z" fill="#bcccd6"/><path d="M3 514.4H898.07Q901.07 514.4 901.07 517.4V526.8Q901.07 542.59 861.595 542.59H39.475Q0 542.59 0 526.8V517.4Q0 514.4 3 514.4Z" fill="url(#deck)"/>
+<path d="M270.321 514.4Q272.215 523.421 282.95 523.421H618.12Q628.855 523.421 630.749 514.4Z" fill="#20232a" opacity=".2"/></g>
 </svg>

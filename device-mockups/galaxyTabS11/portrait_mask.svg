@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1480.82" height="2369.31" viewBox="0 0 1480.82 2369.31">
+<svg xmlns="http://www.w3.org/2000/svg" width="1473.93" height="2358.28" viewBox="0 0 1473.93 2358.28">
 <title>Galaxy Tab S11 portrait screen mask</title>
 <defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1653" height="2538">
-<rect x="86.09" y="84.35" width="1480.82" height="2369.31" rx="41" fill="white"/>
+<rect x="89.54" y="89.86" width="1473.93" height="2358.28" rx="41" fill="white"/>
 </mask></defs>
-<g transform="translate(-86.09 -84.35)"><g mask="url(#aperture)"><rect x="86.09" y="84.35" width="1480.82" height="2369.31" rx="0" fill="white"/></g></g>
+<g transform="translate(-89.54 -89.86)"><g mask="url(#aperture)"><rect x="89.54" y="89.86" width="1473.93" height="2358.28" rx="0" fill="white"/></g></g>
 </svg>

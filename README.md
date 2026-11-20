@@ -154,6 +154,8 @@ Start with a record in `catalog/families/*.json` (`catalog/modern.json` is gener
 
 Legacy PNGs keep their existing geometry in `$devicesList` (`src/scss/devices.scss`) and their existing demo entries. Their build and public identifiers remain compatible.
 
+Laptop and TV samples follow the selected model’s platform, not the visitor’s browser. Switch between Desktop and Lock screen on laptops, or Home and Ambient on TVs. The unidentified legacy Samsung TV uses a generic smart-TV sample. These optional SVG illustrations in `screens/` are original MIT artwork, not manufacturer screenshots. The ZIP examples let you click the screen to switch views. No preview is injected into your embeds: put your own content inside `.screen` as before.
+
 To preview the demo page locally, serve the folder with any static server, e.g. `python3 -m http.server`.
 
 Trademarks

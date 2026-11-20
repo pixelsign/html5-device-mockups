@@ -5,11 +5,12 @@
     "type": "laptop",
     "group": "Mac",
     "brand": "Apple",
-    "width": 802.4,
-    "height": 512.8,
+    "previewOS": "macOS",
+    "width": 896.6,
+    "height": 546.5,
     "screen": {
-      "x": 40,
-      "y": 23,
+      "x": 87.1,
+      "y": 23.82,
       "width": 722.4,
       "height": 451.8
     },
@@ -20,33 +21,45 @@
       "indigo": "#50566f"
     },
     "geometry": {
-      "bodyRadius": 15,
-      "screenRadius": 0,
+      "bodyRadius": 32.45,
+      "screenRadius": 8.54,
       "lid": {
-        "x": 18,
+        "x": 63.19,
         "y": 0,
-        "width": 766.4,
-        "height": 499.8
+        "width": 770.22,
+        "height": 514.05
       },
       "deck": {
         "x": 0,
-        "y": 499.8,
-        "width": 802.4,
-        "height": 13
+        "y": 514.05,
+        "width": 896.6,
+        "height": 27.32,
+        "r": 11.1,
+        "recess": 0.0914
       },
       "webcam": {
-        "x": 401.2,
-        "y": 11.5,
-        "r": 1.6
-      }
+        "x": 448.3,
+        "y": 11.95,
+        "r": 2.05
+      },
+      "screenCorners": "top"
     },
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://www.apple.com/macbook-neo/specs/",
-        "https://www.apple.com/shop/buy-mac/macbook-neo"
+        "https://www.apple.com/shop/buy-mac/macbook-neo",
+        "https://www.apple.com/v/macbook-neo/c/images/specs/display__gjwmz6l3m262_large_2x.jpg",
+        "https://www.apple.com/v/macbook-neo/c/images/specs/hero__cp2jyjh3uumq_large_2x.jpg"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: MHFA4LL/A (Silver, 256GB). 13.0-inch Liquid Retina IPS LCD; native 2408 × 1506 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: MHFA4LL/A (Silver, 256GB). 13.0-inch Liquid Retina IPS LCD; native 2408 × 1506 px. Apple display reference (1054 × 644 px), front elevation: deck/lid/display widths ≈ 1050/902/846 px; lid top y=3, display bottom y≈560, deck starts y≈605, metal ends y≈637, feet end y≈643 (exclusive ends). Native aspect retained; lid meets deck at the visible seam. Camera in the upper bezel; no notch. Corner radii, lens, recess and underside curves are approximations; feet clearance included without drawing the feet. Finish swatches are illustrative."
+    },
+    "measurements": {
+      "bodyMm": [
+        297.5,
+        206.4,
+        12.7
+      ]
     }
   },
   {
@@ -55,12 +68,13 @@
     "type": "laptop",
     "group": "Mac",
     "brand": "Apple",
-    "width": 824.0,
-    "height": 544.2,
+    "previewOS": "macOS",
+    "width": 963.59,
+    "height": 583.18,
     "screen": {
-      "x": 28,
-      "y": 10,
-      "width": 768.0,
+      "x": 97.79,
+      "y": 19.38,
+      "width": 768,
       "height": 499.2
     },
     "finishes": {
@@ -70,40 +84,52 @@
       "midnight": "#303b48"
     },
     "geometry": {
-      "bodyRadius": 15,
-      "screenRadius": 9,
+      "bodyRadius": 26.92,
+      "screenRadius": 8.97,
       "lid": {
-        "x": 16,
+        "x": 79.85,
         "y": 0,
-        "width": 792.0,
-        "height": 532.2
+        "width": 803.89,
+        "height": 554.47
       },
       "deck": {
         "x": 0,
-        "y": 532.2,
-        "width": 824.0,
-        "height": 12
+        "y": 554.47,
+        "width": 963.59,
+        "height": 25.12,
+        "r": 12.56,
+        "recess": 0.0903
       },
       "notch": {
-        "x": 386.0,
-        "y": 10,
-        "width": 52,
-        "height": 11,
-        "r": 4
+        "x": 436.04,
+        "y": 15.79,
+        "width": 91.51,
+        "height": 20.99,
+        "r": 3.59
       },
       "webcam": {
-        "x": 412.0,
-        "y": 15.5,
-        "r": 1.6
-      }
+        "x": 481.79,
+        "y": 19.74,
+        "r": 2.15
+      },
+      "screenCorners": "top"
     },
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://www.apple.com/macbook-air/specs/",
-        "https://www.apple.com/shop/buy-mac/macbook-air"
+        "https://www.apple.com/shop/buy-mac/macbook-air",
+        "https://www.apple.com/v/macbook-air/specs/c/images/specs/13-inch/mba_13_display__cnk2rprvaas2_large_2x.jpg",
+        "https://www.apple.com/v/macbook-air/specs/c/images/specs/13-inch/mba_13_hero__c067qisf51oy_large_2x.jpg"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: MDH74LL/A (Silver, M5). 13.6-inch Liquid Retina IPS LCD; native 2560 × 1664 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: MDH74LL/A (Silver, M5). 13.6-inch Liquid Retina IPS LCD; native 2560 × 1664 px. Apple display reference (1080 × 656 px), front elevation: deck/lid/display widths ≈ 1074/896/856 px; lid top y=3, display bottom y≈581, deck starts y≈621, metal ends y≈649, feet end y≈653 (exclusive ends). Native aspect retained; lid meets deck at the visible seam. Attached housing approx. 102 px wide, ending at row 44; rounded top screen corners only. Corner radii, lens, recess and underside curves are approximations; feet clearance included without drawing the feet. Finish swatches are illustrative."
+    },
+    "measurements": {
+      "bodyMm": [
+        304.1,
+        215,
+        11.3
+      ]
     }
   },
   {
@@ -112,12 +138,13 @@
     "type": "laptop",
     "group": "Mac",
     "brand": "Apple",
-    "width": 920.0,
-    "height": 604.2,
+    "previewOS": "macOS",
+    "width": 1055.57,
+    "height": 641.16,
     "screen": {
-      "x": 28,
-      "y": 10,
-      "width": 864.0,
+      "x": 95.78,
+      "y": 18.43,
+      "width": 864,
       "height": 559.2
     },
     "finishes": {
@@ -127,40 +154,52 @@
       "midnight": "#303b48"
     },
     "geometry": {
-      "bodyRadius": 15,
-      "screenRadius": 9,
+      "bodyRadius": 28.34,
+      "screenRadius": 9.77,
       "lid": {
-        "x": 16,
+        "x": 77.21,
         "y": 0,
-        "width": 888.0,
-        "height": 592.2
+        "width": 901.14,
+        "height": 612.81
       },
       "deck": {
         "x": 0,
-        "y": 592.2,
-        "width": 920.0,
-        "height": 12
+        "y": 612.81,
+        "width": 1055.57,
+        "height": 24.43,
+        "r": 11.73,
+        "recess": 0.0796
       },
       "notch": {
-        "x": 434.0,
-        "y": 10,
-        "width": 52,
-        "height": 11,
-        "r": 4
+        "x": 483.8,
+        "y": 14.52,
+        "width": 87.96,
+        "height": 22.62,
+        "r": 3.91
       },
       "webcam": {
-        "x": 460.0,
-        "y": 15.5,
-        "r": 1.6
-      }
+        "x": 527.78,
+        "y": 19.55,
+        "r": 2.35
+      },
+      "screenCorners": "top"
     },
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://support.apple.com/en-us/126321",
-        "https://www.apple.com/shop/buy-mac/macbook-air"
+        "https://www.apple.com/shop/buy-mac/macbook-air",
+        "https://www.apple.com/v/macbook-air/specs/c/images/specs/15-inch/mba_15_display__oz47vz6kmuai_large_2x.jpg",
+        "https://www.apple.com/v/macbook-air/specs/c/images/specs/15-inch/mba_15_hero__gkshp5bw2f6m_large_2x.jpg"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: MDV94LL/A (Silver, M5). 15.3-inch Liquid Retina IPS LCD; native 2880 × 1864 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: MDV94LL/A (Silver, M5). 15.3-inch Liquid Retina IPS LCD; native 2880 × 1864 px. Apple display reference (1084 × 660 px), front elevation: deck/lid/display widths ≈ 1080/922/884 px; lid top y=2, display bottom y≈593, deck starts y≈629, metal ends y≈654, feet end y≈658 (exclusive ends). Native aspect retained; lid meets deck at the visible seam. Attached housing approx. 90 px wide, ending at row 40; rounded top screen corners only. Corner radii, lens, recess and underside curves are approximations; feet clearance included without drawing the feet. Finish swatches are illustrative."
+    },
+    "measurements": {
+      "bodyMm": [
+        340.4,
+        237.6,
+        11.5
+      ]
     }
   },
   {
@@ -169,11 +208,12 @@
     "type": "laptop",
     "group": "Mac",
     "brand": "Apple",
-    "width": 859.36,
-    "height": 570.46,
+    "previewOS": "macOS",
+    "width": 1008.64,
+    "height": 608.89,
     "screen": {
-      "x": 29,
-      "y": 9,
+      "x": 103.64,
+      "y": 15.32,
       "width": 801.36,
       "height": 520.46
     },
@@ -182,40 +222,52 @@
       "silver": "#d5d5d3"
     },
     "geometry": {
-      "bodyRadius": 15,
-      "screenRadius": 9,
+      "bodyRadius": 24.06,
+      "screenRadius": 9.25,
       "lid": {
-        "x": 19,
+        "x": 88.83,
         "y": 0,
-        "width": 821.36,
-        "height": 552.46
+        "width": 830.97,
+        "height": 567.24
       },
       "deck": {
         "x": 0,
-        "y": 552.46,
-        "width": 859.36,
-        "height": 18
+        "y": 567.24,
+        "width": 1008.64,
+        "height": 37.01,
+        "r": 20.36,
+        "recess": 0.0862
       },
       "notch": {
-        "x": 403.18,
-        "y": 9,
-        "width": 53,
-        "height": 11,
-        "r": 4
+        "x": 456.2,
+        "y": 11.62,
+        "width": 96.24,
+        "height": 22.62,
+        "r": 3.7
       },
       "webcam": {
-        "x": 429.68,
-        "y": 14.5,
-        "r": 1.6
-      }
+        "x": 504.32,
+        "y": 18.51,
+        "r": 2.22
+      },
+      "screenCorners": "top"
     },
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://www.apple.com/macbook-pro/specs/",
-        "https://www.apple.com/shop/buy-mac/macbook-pro"
+        "https://www.apple.com/shop/buy-mac/macbook-pro",
+        "https://www.apple.com/v/macbook-pro/liquid-retina-xdr-display/specs/e/images/specs/14-inch/display_14_inch__db0ppp7h83ma_large_2x.jpg",
+        "https://www.apple.com/v/macbook-pro/liquid-retina-xdr-display/specs/e/images/specs/14-inch/macbook_pro_14_inch__fjlrd633eki2_large_2x.jpg"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: MHWT4LL/A (Space Black). 14.2-inch Liquid Retina XDR; native 3024 × 1964 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: MHWT4LL/A (Space Black). 14.2-inch Liquid Retina XDR; native 3024 × 1964 px. Apple display reference (1092 × 668 px), front elevation: deck/lid/display widths ≈ 1090/898/866 px; lid top y=5, display bottom y≈584, deck starts y≈618, metal ends y≈658, feet end y≈663 (exclusive ends). Native aspect retained; lid meets deck at the visible seam. Attached housing approx. 104 px wide, ending at row 42; rounded top screen corners only. Corner radii, lens, recess and underside curves are approximations; feet clearance included without drawing the feet. Finish swatches are illustrative."
+    },
+    "measurements": {
+      "bodyMm": [
+        312.6,
+        221.2,
+        15.5
+      ]
     }
   },
   {
@@ -224,11 +276,12 @@
     "type": "laptop",
     "group": "Mac",
     "brand": "Apple",
-    "width": 973.84,
-    "height": 642.01,
+    "previewOS": "macOS",
+    "width": 1118.57,
+    "height": 682.88,
     "screen": {
-      "x": 29,
-      "y": 9,
+      "x": 101.36,
+      "y": 15.29,
       "width": 915.84,
       "height": 592.01
     },
@@ -237,40 +290,52 @@
       "silver": "#d5d5d3"
     },
     "geometry": {
-      "bodyRadius": 15,
-      "screenRadius": 9,
+      "bodyRadius": 23.12,
+      "screenRadius": 8.0,
       "lid": {
-        "x": 19,
+        "x": 86.25,
         "y": 0,
-        "width": 935.84,
-        "height": 624.01
+        "width": 946.07,
+        "height": 638.42
       },
       "deck": {
         "x": 0,
-        "y": 624.01,
-        "width": 973.84,
-        "height": 18
+        "y": 638.42,
+        "width": 1118.57,
+        "height": 40.01,
+        "r": 20.45,
+        "recess": 0.0763
       },
       "notch": {
-        "x": 460.42,
-        "y": 9,
-        "width": 53,
-        "height": 11,
-        "r": 4
+        "x": 511.27,
+        "y": 11.73,
+        "width": 96.03,
+        "height": 22.06,
+        "r": 3.56
       },
       "webcam": {
-        "x": 486.92,
-        "y": 14.5,
-        "r": 1.6
-      }
+        "x": 559.28,
+        "y": 17.78,
+        "r": 2.13
+      },
+      "screenCorners": "top"
     },
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://www.apple.com/macbook-pro/specs/",
-        "https://www.apple.com/shop/buy-mac/macbook-pro"
+        "https://www.apple.com/shop/buy-mac/macbook-pro",
+        "https://www.apple.com/v/macbook-pro/liquid-retina-xdr-display/specs/e/images/specs/16-inch/display_16_inch__bn4z91heotxy_large_2x.jpg",
+        "https://www.apple.com/v/macbook-pro/liquid-retina-xdr-display/specs/e/images/specs/16-inch/macbook_pro_16_inch__cqvg4x5ohjv6_large_2x.jpg"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: MGE74LL/A (Silver). 16.2-inch Liquid Retina XDR; native 3456 × 2234 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: MGE74LL/A (Silver). 16.2-inch Liquid Retina XDR; native 3456 × 2234 px. Apple display reference (1260 × 772 px), front elevation: deck/lid/display widths ≈ 1258/1064/1030 px; lid top y=2, display bottom y≈685, deck starts y≈720, metal ends y≈765, feet end y≈770 (exclusive ends). Native aspect retained; lid meets deck at the visible seam. Attached housing approx. 108 px wide, ending at row 40; rounded top screen corners only. Corner radii, lens, recess and underside curves are approximations; feet clearance included without drawing the feet. Finish swatches are illustrative."
+    },
+    "measurements": {
+      "bodyMm": [
+        355.7,
+        248.1,
+        16.8
+      ]
     }
   },
   {
@@ -279,11 +344,12 @@
     "type": "laptop",
     "group": "Mac",
     "brand": "Apple",
-    "width": 847.36,
-    "height": 563.29,
+    "previewOS": "macOS",
+    "width": 971.78,
+    "height": 596.49,
     "screen": {
-      "x": 23,
-      "y": 6,
+      "x": 85.21,
+      "y": 13.09,
       "width": 801.36,
       "height": 526.29
     },
@@ -292,31 +358,33 @@
       "silver": "#d5d5d3"
     },
     "geometry": {
-      "bodyRadius": 14,
-      "screenRadius": 9,
+      "bodyRadius": 28.1,
+      "screenRadius": 15.41,
       "lid": {
-        "x": 16,
+        "x": 72.52,
         "y": 0,
-        "width": 815.36,
-        "height": 548.29
+        "width": 826.74,
+        "height": 555.69
       },
       "deck": {
         "x": 0,
-        "y": 548.29,
-        "width": 847.36,
-        "height": 15
+        "y": 555.69,
+        "width": 971.78,
+        "height": 34.45,
+        "r": 20.85,
+        "recess": 0.0868
       },
       "notch": {
-        "x": 420.18,
-        "y": 9,
-        "width": 7,
-        "height": 7,
-        "r": 3.5
+        "x": 482.27,
+        "y": 19.94,
+        "width": 7.25,
+        "height": 7.25,
+        "r": 3.63
       },
       "webcam": {
-        "x": 423.68,
-        "y": 12.5,
-        "r": 1.6
+        "x": 485.89,
+        "y": 23.57,
+        "r": 1.81
       }
     },
     "provenance": {
@@ -324,9 +392,18 @@
       "sources": [
         "https://www.apple.com/macbook-pro/proled-xdr-display/specs/",
         "https://www.apple.com/shop/buy-mac/macbook-pro-proled-xdr",
-        "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+        "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+        "https://www.apple.com/v/macbook-pro/proled-xdr-display/b/images/specs/display_14_inch__dj3gn87hqg02_large_2x.jpg",
+        "https://www.apple.com/v/macbook-pro/proled-xdr-display/b/images/specs/macbook_pro_proled_14_inch__cvrly0a7oqc2_large_2x.jpg"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: MJ2G4LL/A (Silver, standard display). 14.2-inch tandem OLED touchscreen; native 3024 × 1986 px. The circular cutout represents the camera, not the expanded Dynamic Island UI. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: MJ2G4LL/A (Silver, standard display). 14.2-inch tandem OLED touchscreen; native 3024 × 1986 px. The circular cutout represents the camera, not the expanded Dynamic Island UI. Apple display reference (1094 × 664 px), front elevation: deck/lid/display widths ≈ 1072/912/884 px; lid top y=4, display bottom y≈599, deck starts y≈617, metal ends y≈655, feet end y≈662 (exclusive ends). Native aspect retained; lid meets deck at the visible seam. Four rounded screen corners; centered round camera opening estimated inside the visible pill, not a mask for the software island. Corner radii, lens, recess and underside curves are approximations; feet clearance included without drawing the feet. Finish swatches are illustrative."
+    },
+    "measurements": {
+      "bodyMm": [
+        310.8,
+        216.3,
+        15
+      ]
     }
   },
   {
@@ -335,11 +412,12 @@
     "type": "laptop",
     "group": "Mac",
     "brand": "Apple",
-    "width": 966.08,
-    "height": 637.49,
+    "previewOS": "macOS",
+    "width": 1110.44,
+    "height": 673.32,
     "screen": {
-      "x": 23,
-      "y": 6,
+      "x": 95.18,
+      "y": 12.02,
       "width": 920.08,
       "height": 600.49
     },
@@ -348,31 +426,33 @@
       "silver": "#d5d5d3"
     },
     "geometry": {
-      "bodyRadius": 14,
-      "screenRadius": 9,
+      "bodyRadius": 28.2,
+      "screenRadius": 15.86,
       "lid": {
-        "x": 16,
+        "x": 82.84,
         "y": 0,
-        "width": 934.08,
-        "height": 622.49
+        "width": 944.76,
+        "height": 628.37
       },
       "deck": {
         "x": 0,
-        "y": 622.49,
-        "width": 966.08,
-        "height": 15
+        "y": 628.37,
+        "width": 1110.44,
+        "height": 38.78,
+        "r": 21.15,
+        "recess": 0.0762
       },
       "notch": {
-        "x": 479.54,
-        "y": 9,
-        "width": 7,
-        "height": 7,
-        "r": 3.5
+        "x": 551.7,
+        "y": 19.39,
+        "width": 7.05,
+        "height": 7.05,
+        "r": 3.53
       },
       "webcam": {
-        "x": 483.04,
-        "y": 12.5,
-        "r": 1.6
+        "x": 555.22,
+        "y": 22.91,
+        "r": 1.76
       }
     },
     "provenance": {
@@ -380,9 +460,18 @@
       "sources": [
         "https://www.apple.com/macbook-pro/proled-xdr-display/specs/",
         "https://www.apple.com/shop/buy-mac/macbook-pro-proled-xdr",
-        "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+        "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+        "https://www.apple.com/v/macbook-pro/proled-xdr-display/b/images/specs/display_16_inch__d25b08sjpqs2_large_2x.jpg",
+        "https://www.apple.com/v/macbook-pro/proled-xdr-display/b/images/specs/macbook_pro_proled_16_inch__d1f4ok655iye_large_2x.jpg"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: MJ2W4LL/A (Silver, standard display). 16.3-inch tandem OLED touchscreen; native 3472 × 2266 px. The circular cutout represents the camera, not the expanded Dynamic Island UI. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: MJ2W4LL/A (Silver, standard display). 16.3-inch tandem OLED touchscreen; native 3472 × 2266 px. The circular cutout represents the camera, not the expanded Dynamic Island UI. Apple display reference (1262 × 768 px), front elevation: deck/lid/display widths ≈ 1260/1072/1044 px; lid top y=3, display bottom y≈698, deck starts y≈716, metal ends y≈760, feet end y≈767 (exclusive ends). Native aspect retained; lid meets deck at the visible seam. Four rounded screen corners; centered round camera opening estimated inside the visible pill, not a mask for the software island. Corner radii, lens, recess and underside curves are approximations; feet clearance included without drawing the feet. Finish swatches are illustrative."
+    },
+    "measurements": {
+      "bodyMm": [
+        355.5,
+        244.2,
+        16
+      ]
     }
   },
   {
@@ -391,11 +480,12 @@
     "type": "laptop",
     "group": "Windows laptops",
     "brand": "Microsoft",
-    "width": 825.84,
-    "height": 567.56,
+    "previewOS": "Windows",
+    "width": 931.95,
+    "height": 581.78,
     "screen": {
-      "x": 27,
-      "y": 21,
+      "x": 80.06,
+      "y": 18.88,
       "width": 771.84,
       "height": 514.56
     },
@@ -406,33 +496,74 @@
       "jade": "#a8bcb3"
     },
     "geometry": {
-      "bodyRadius": 13,
-      "screenRadius": 8,
+      "bodyRadius": 24.92,
+      "screenRadius": 15.1,
       "lid": {
-        "x": 14,
+        "x": 68.73,
         "y": 0,
-        "width": 797.84,
-        "height": 550.56
+        "width": 794.5,
+        "height": 558.36
       },
       "deck": {
         "x": 0,
-        "y": 550.56,
-        "width": 825.84,
-        "height": 17
+        "y": 560.63,
+        "width": 931.95,
+        "height": 21.15,
+        "r": 9.06,
+        "recess": false
       },
       "webcam": {
-        "x": 412.92,
-        "y": 10.5,
-        "r": 1.6
+        "x": 465.98,
+        "y": 8.31,
+        "r": 3.02
       }
     },
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
-        "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=8MZBMMCJZPMF&market=US&languages=en-us"
+        "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=8MZBMMCJZPMF&market=US&languages=en-us",
+        "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/b00-Surface-Laptop-Snapdragon-8Ed-HC-Front?wid=1600&fmt=png-alpha"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: EP2-59034 (Platinum, Snapdragon X2 Plus, 16GB/512GB). 13.8-inch HDR PixelSense LCD touchscreen, 120 Hz; native 2304 × 1536 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: EP2-59034 (Platinum, Snapdragon X2 Plus, 16GB/512GB). 13.8-inch HDR PixelSense LCD touchscreen, 120 Hz; native 2304 × 1536 px. Finish swatches are illustrative. The manufacturer front view is a measurement reference only; no manufacturer image is included.",
+      "visualCalibration": {
+        "imageUrl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/b00-Surface-Laptop-Snapdragon-8Ed-HC-Front?wid=1600&fmt=png-alpha",
+        "manufacturerCaption": "A front view of a 13.8-inch Surface Laptop in the color Platinum.",
+        "canvasPx": [
+          1600,
+          1200
+        ],
+        "method": "Pixels of the linked PNG at wid=1600. Bounds use alpha > 230 to suppress soft shadow; [left, top, right, bottom) in image coordinates. Interior landmarks are approximate RGB transitions, not CAD dimensions.",
+        "outlineBoundsPx": [
+          183,
+          174,
+          1417,
+          1028
+        ],
+        "lidSpanAtMidHeightPx": [
+          274,
+          1326
+        ],
+        "activeSpanAtMidHeightPx": [
+          289,
+          1311
+        ],
+        "activeTopBottomPx": [
+          199,
+          882
+        ],
+        "cameraCenterApproxPx": [
+          800,
+          185
+        ],
+        "deckBeginsApproxYpx": 918,
+        "frontLipBeginsApproxYpx": 1000,
+        "outlineWidthOverHeight": 1.445,
+        "lidWidthOverDeckWidth": 0.8525,
+        "observations": "Rounded lid and active corners; the bottom black bezel is deeper than the top. A centered lens and faint adjacent apertures sit above the screen. The dark hinge line is low and continuous; no exposed barrels. The deck flares toward a thin silver lip, with the keyboard and touchpad visible above it.",
+        "mapping": "Use the measured relative widths and bezel offsets. Omit the projected keyboard surface (roughly rows 918–999) for the catalog front elevation; model only the lip and underside, not an 82 px thick slab. The result is intentionally shorter than the photographed silhouette. No physical base thickness is inferred.",
+        "estimates": "The hinge is the small gap between lid and deck filled by the renderer. Corner radii, lens radius, underside curvature and exact seam boundaries are illustrative; the single lens simplifies the sensor cluster."
+      }
     }
   },
   {
@@ -441,44 +572,94 @@
     "type": "laptop",
     "group": "Windows laptops",
     "brand": "Dell",
-    "width": 808.0,
-    "height": 523.0,
+    "previewOS": "Windows",
+    "width": 901.07,
+    "height": 542.59,
     "screen": {
-      "x": 20,
-      "y": 13,
-      "width": 768.0,
-      "height": 480.0
+      "x": 66.54,
+      "y": 15.79,
+      "width": 768,
+      "height": 480
     },
     "finishes": {
       "sky": "#bcccd6"
     },
     "geometry": {
-      "bodyRadius": 10,
-      "screenRadius": 2,
+      "bodyRadius": 13.53,
+      "screenRadius": 3.38,
       "lid": {
-        "x": 13,
+        "x": 56.39,
         "y": 0,
-        "width": 782.0,
-        "height": 509.0
+        "width": 788.3,
+        "height": 512.14
       },
       "deck": {
         "x": 0,
-        "y": 509.0,
-        "width": 808.0,
-        "height": 14
+        "y": 514.4,
+        "width": 901.07,
+        "height": 28.19,
+        "r": 15.79,
+        "recess": 0.2
       },
       "webcam": {
-        "x": 404.0,
-        "y": 6.5,
-        "r": 1.6
+        "x": 450.54,
+        "y": 8.46,
+        "r": 2.54
       }
     },
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260"
+        "https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260",
+        "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-dx13260/media-gallery/sky/laptop-xps-13-sky-dx13260-silver-gallery-11.psd?wid=1600&fmt=png-alpha"
       ],
-      "notes": "US catalog, 2026-11-20. Reference SKU: DX13260, offer dx13260_so_42 (Sky, Core 5 320, 8GB/256GB). 13.4-inch InfinityEdge touchscreen, 30–120 Hz; native 2560 × 1600 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+      "notes": "US catalog, 2026-11-20. Reference SKU: DX13260, offer dx13260_so_42 (Sky, Core 5 320, 8GB/256GB). 13.4-inch InfinityEdge touchscreen, 30–120 Hz; native 2560 × 1600 px. Finish swatches are illustrative. The manufacturer front view is a measurement reference only; no manufacturer image is included.",
+      "visualCalibration": {
+        "imageUrl": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-dx13260/media-gallery/sky/laptop-xps-13-sky-dx13260-silver-gallery-11.psd?wid=1600&fmt=png-alpha",
+        "manufacturerCaption": "View forward-facing DX13260 Roma Dell XPS 13 Laptop Sky Configuration",
+        "canvasPx": [
+          1600,
+          974
+        ],
+        "method": "Pixels of the linked PNG at wid=1600. Bounds use alpha > 230 to suppress soft shadow; [left, top, right, bottom) in image coordinates. Interior landmarks are approximate RGB transitions, not CAD dimensions.",
+        "outlineBoundsPx": [
+          1,
+          1,
+          1599,
+          967
+        ],
+        "lidSpanAtMidHeightPx": [
+          101,
+          1499
+        ],
+        "activeSpanAtMidHeightPx": [
+          119,
+          1481
+        ],
+        "activeTopBottomPx": [
+          29,
+          883
+        ],
+        "cameraCenterApproxPx": [
+          800,
+          16
+        ],
+        "deckBeginsApproxYpx": 917,
+        "frontLipBeginsApproxYpx": 917,
+        "outlineWidthOverHeight": 1.6542,
+        "lidWidthOverDeckWidth": 0.8748,
+        "observations": "Nearly level view: the base projects symmetrically past the lid. No keyboard surface is visible. A broad shallow recess interrupts the silver front lip above its rounded underside. The slim side bezels widen at the chin; a faint camera/sensor cluster lies inside the uninterrupted top bezel. There are no visible hinge barrels.",
+        "mapping": "Use gallery 11, not the elevated gallery 1 keyboard view. Scale horizontal spans to the existing active width; fit the native 16:10 aperture and retain the measured top bezel, chin and base strip. The near-level silhouette is preserved.",
+        "estimates": "The hinge is the small gap between lid and deck filled by the renderer. Corner radii, lens radius, underside curvature and exact seam boundaries are illustrative; the single lens simplifies the sensor cluster.",
+        "secondaryFrontViewUrl": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-dx13260/media-gallery/sky/laptop-xps-13-sky-dx13260-silver-gallery-1.psd?wid=1600&fmt=png-alpha"
+      }
+    },
+    "measurements": {
+      "bodyMm": [
+        296.9,
+        200.66,
+        12.7
+      ]
     }
   }
 ]

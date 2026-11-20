@@ -3,6 +3,7 @@
     "id": "samsungFrame55LS03F",
     "label": "Samsung The Frame LS03F (55-inch)",
     "brand": "Samsung",
+    "previewOS": "Tizen",
     "group": "TVs",
     "type": "tv",
     "width": 1237.9,
@@ -35,6 +36,7 @@
     "id": "lgOLED55C5",
     "label": "LG OLED evo C5 (55-inch)",
     "brand": "LG",
+    "previewOS": "webOS",
     "group": "TVs",
     "type": "tv",
     "width": 1222,
@@ -67,6 +69,7 @@
     "id": "sonyBravia8II55",
     "label": "Sony BRAVIA 8 II (55-inch)",
     "brand": "Sony",
+    "previewOS": "Google TV",
     "group": "TVs",
     "type": "tv",
     "width": 1224,
@@ -82,7 +85,7 @@
       "bodyRadius": 1.5,
       "screenRadius": 0,
       "stand": "blades",
-      "span": 1170
+      "span": 1223
     },
     "finishes": {
       "black": "#292a2d"
@@ -99,6 +102,7 @@
     "id": "tcl55C7K",
     "label": "TCL C7K QD-Mini LED (55-inch)",
     "brand": "TCL",
+    "previewOS": "Google TV",
     "group": "TVs",
     "type": "tv",
     "width": 1226,

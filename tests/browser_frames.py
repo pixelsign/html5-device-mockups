@@ -146,11 +146,17 @@ def matrix(page, base, model, color, spec, shots):
                     near([aspect],[h/w],.01,'catalog aspect')
                     near(insets,(x/w,y/h,(w-x-sw)/w,(h-y-sh)/h),.005,'catalog screen insets')
                     c = spec['geometry']['camera']
-                    near(camera,(.5,(c['top']+c['height']/2)/sh,c['width']/sw,c['height']/sw),.015,'catalog camera geometry')
+                    near(camera[:2],(.5,(c['top']+c['height']/2)/sh),.015,'catalog camera position')
+                    # hole() returns integer bounding-box spans; each antialiased
+                    # end can round by a pixel at DPR 1 (e.g. a 5px punch hole).
+                    span_px=width*sw/(w if orient=='portrait' else h)
+                    near(camera[2:],(c['width']/sw,c['height']/sw),max(.015,2/span_px),'catalog camera span')
                 if first is None: first = aspect,insets,camera
                 near([aspect],[first[0]],.02,'frame aspect changed')
                 if not control or orient=='portrait': near(insets,first[1],.009,'screen insets changed')
-                if camera: near(camera,first[2],.012,'camera position/size changed')
+                if camera:
+                    near(camera[:2],first[2][:2],.012,'camera position changed')
+                    near(camera[2:],first[2][2:],max(.012,2/span_px) if spec else .012,'camera span changed')
             except Exception as exc:
                 raise AssertionError(f'{orient} {width}px: {exc}') from exc
 

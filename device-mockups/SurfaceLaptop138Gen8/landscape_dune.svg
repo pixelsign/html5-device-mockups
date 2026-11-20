@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="825.84" height="567.56" viewBox="0 0 825.84 567.56">
+<svg xmlns="http://www.w3.org/2000/svg" width="931.95" height="581.78" viewBox="0 0 931.95 581.78">
 <title>Surface Laptop 13.8-inch (8th Edition, Snapdragon) — dune</title>
-<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. US catalog, 2026-11-20. Reference SKU: EP2-59034 (Platinum, Snapdragon X2 Plus, 16GB/512GB). 13.8-inch HDR PixelSense LCD touchscreen, 120 Hz; native 2304 × 1536 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative. Sources: https://www.microsoft.com/en-us/surface/devices/surface-laptop; https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=8MZBMMCJZPMF&amp;market=US&amp;languages=en-us</desc>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. US catalog, 2026-11-20. Reference SKU: EP2-59034 (Platinum, Snapdragon X2 Plus, 16GB/512GB). 13.8-inch HDR PixelSense LCD touchscreen, 120 Hz; native 2304 × 1536 px. Finish swatches are illustrative. The manufacturer front view is a measurement reference only; no manufacturer image is included. Sources: https://www.microsoft.com/en-us/surface/devices/surface-laptop; https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=8MZBMMCJZPMF&amp;market=US&amp;languages=en-us; https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/b00-Surface-Laptop-Snapdragon-8Ed-HC-Front?wid=1600&amp;fmt=png-alpha</desc>
 <defs><linearGradient id="brushed" x2="100%" y2="24%">
   <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
   <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
@@ -10,22 +10,25 @@
   <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
   <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
 </radialGradient>
-<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="825.84" height="567.56">
-<rect x="0" y="0" width="825.84" height="567.56" rx="0" fill="white"/><rect x="27" y="21" width="771.84" height="514.56" rx="8" fill="black"/>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="931.95" height="581.78">
+<rect x="0" y="0" width="931.95" height="581.78" rx="0" fill="white"/><rect x="81.604" y="20.424" width="768.752" height="511.472" rx="13.556" fill="black"/>
 </mask></defs>
-<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="14" y="0" width="797.84" height="550.56" rx="13" fill="white"/></clipPath></defs>
+<g mask="url(#aperture)"><defs><linearGradient id="lid" x2="0" y2="1">
+  <stop stop-color="white" stop-opacity=".4"/><stop offset=".03" stop-color="white" stop-opacity=".08"/>
+  <stop offset=".6" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="#0d1017" stop-opacity=".16"/>
+</linearGradient>
+<linearGradient id="deck" x2="0" y2="1">
+  <stop stop-color="white" stop-opacity=".75"/><stop offset=".12" stop-color="white" stop-opacity=".22"/>
+  <stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".75" stop-color="#0d1017" stop-opacity=".14"/>
+  <stop offset="1" stop-color="#0d1017" stop-opacity=".42"/>
+</linearGradient></defs>
+<defs><clipPath id="shell"><rect x="68.73" y="0" width="794.5" height="558.36" rx="24.92" fill="white"/></clipPath></defs>
 <g clip-path="url(#shell)">
-<rect x="14" y="0" width="797.84" height="550.56" rx="0" fill="#c7b8a6"/><rect x="14" y="0" width="797.84" height="550.56" rx="0" fill="url(#brushed)"/>
-<rect x="18.95504" y="4.9550399999999994" width="787.92992" height="540.64992" rx="8.04496" fill="#111317"/>
-<circle cx="412.92" cy="10.5" r="1.6" fill="url(#lens)"/>
+<rect x="68.73" y="0" width="794.5" height="558.36" rx="0" fill="#c7b8a6"/><rect x="68.73" y="0" width="794.5" height="558.36" rx="0" fill="url(#lid)"/>
+<rect x="71.5218" y="2.7918000000000003" width="788.9164" height="552.7764" rx="22.1282" fill="#111317"/>
+<circle cx="465.98" cy="8.31" r="3.02" fill="url(#lens)"/>
 </g>
-<rect x="165.58960000000002" y="540.0993599999999" width="494.6608" height="15.690959999999997" rx="3.661223999999999" fill="#34383e"/>
-<g transform="translate(0 550.56) scale(825.84 17)">
-  <defs><clipPath id="base"><path d="M.007 0H.993Q1 0 1 .12V.45Q.98 .92 .90 1H.10Q.02 .92 0 .45V.12Q0 0 .007 0Z"/></clipPath></defs>
-  <g clip-path="url(#base)">
-    <rect width="1" height="1" fill="#c7b8a6"/><rect width="1" height="1" fill="url(#brushed)"/>
-    <path d="M0 .52Q.5 .64 1 .52V1H0Z" fill="#212633" opacity=".36"/>
-    <path d="M.405 0H.595Q.59 .25 .575 .26H.425Q.41 .25 .405 0Z" fill="#161a22" opacity=".57"/>
-  </g>
-</g></g>
+<rect x="93.65" y="558.36" width="744.66" height="2.269999999999982" rx="0" fill="#1b1d22"/>
+<path d="M3 560.63H928.95Q931.95 560.63 931.95 563.63V572.72Q931.95 581.78 909.3 581.78H22.65Q0 581.78 0 572.72V563.63Q0 560.63 3 560.63Z" fill="#c7b8a6"/><path d="M3 560.63H928.95Q931.95 560.63 931.95 563.63V572.72Q931.95 581.78 909.3 581.78H22.65Q0 581.78 0 572.72V563.63Q0 560.63 3 560.63Z" fill="url(#deck)"/>
+</g>
 </svg>

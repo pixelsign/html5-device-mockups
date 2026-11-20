@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="673" height="1384" viewBox="0 0 673 1384">
   <title>iPhone SE (3rd generation) — midnight</title>
-  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and Touch ID Home button are approximate. Measurements: https://support.apple.com/en-us/111866</desc>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and Touch ID Home button are approximate. Measurements: https://support.apple.com/en-us/111866; https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-se-3rd-generation.pdf</desc>
   <defs>
     <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
       <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
@@ -16,7 +16,7 @@
     <rect x="665" y="298" width="8" height="63" rx="3"/>
   </g>
   <g fill-rule="evenodd">
-    <path fill="#101114" d="M94 6H579a85 85 0 0 1 85 85V1293a85 85 0 0 1 -85 85H94a85 85 0 0 1 -85 -85V91a85 85 0 0 1 85 -85Z M44.322 172.313h584.356v1039.374h-584.356Z"/>
+    <path fill="#101114" d="M94 6H579a85 85 0 0 1 85 85V1293a85 85 0 0 1 -85 85H94a85 85 0 0 1 -85 -85V91a85 85 0 0 1 85 -85Z M43.8 171.9h585v1040.5h-585Z"/>
     <path fill="#303944" d="M94 1H579a90 90 0 0 1 90 90V1293a90 90 0 0 1 -90 90H94a90 90 0 0 1 -90 -90V91a90 90 0 0 1 90 -90Z M94 10H579a81 81 0 0 1 81 81V1293a81 81 0 0 1 -81 81H94a81 81 0 0 1 -81 -81V91a81 81 0 0 1 81 -81Z"/>
     <path fill="url(#polish)" d="M94 1H579a90 90 0 0 1 90 90V1293a90 90 0 0 1 -90 90H94a90 90 0 0 1 -90 -90V91a90 90 0 0 1 90 -90Z M94 10H579a81 81 0 0 1 81 81V1293a81 81 0 0 1 -81 81H94a81 81 0 0 1 -81 -81V91a81 81 0 0 1 81 -81Z"/>
   </g>

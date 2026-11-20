@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2085" height="3263" viewBox="0 0 2085 3263">
 <title>Galaxy Tab S12 Ultra — silver</title>
-<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. Sources: https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth</desc>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 369.9 mm full-rectangle diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. Sources: https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth; https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/</desc>
 <defs><linearGradient id="brushed" x2="100%" y2="24%">
   <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
   <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
@@ -11,12 +11,12 @@
   <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
 </radialGradient>
 <mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="2085" height="3263">
-<rect x="0" y="0" width="2085" height="3263" rx="0" fill="white"/><rect x="60.54" y="58.66" width="1963.92" height="3145.67" rx="47" fill="black"/><rect x="1992.46" y="1598.5" width="40" height="66" rx="18" fill="white"/>
+<rect x="0" y="0" width="2085" height="3263" rx="0" fill="white"/><rect x="68.907" y="68.527" width="1947.186" height="3125.946" rx="41.123" fill="black"/><rect x="1989.97" y="1598.5" width="40" height="66" rx="18" fill="white"/>
 </mask></defs>
 <g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="2085" height="3263" rx="79" fill="white"/></clipPath></defs>
 <g clip-path="url(#shell)">
 <rect x="0" y="0" width="2085" height="3263" rx="0" fill="#d4d6d9"/><rect x="0" y="0" width="2085" height="3263" rx="0" fill="url(#brushed)"/>
 <rect x="18.764999999999997" y="18.764999999999997" width="2047.47" height="3225.47" rx="60.235" fill="#111317"/>
-<circle cx="2017.46" cy="1631.5" r="10" fill="url(#lens)"/>
+<circle cx="2014.97" cy="1631.5" r="10" fill="url(#lens)"/>
 </g></g>
 </svg>

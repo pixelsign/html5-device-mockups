@@ -28,7 +28,7 @@ const laptop = {
   ...tablet, id: 'Notebook', label: 'Notebook', type: 'laptop', width: 320, height: 200,
   screen: { x: 37, y: 13, width: 242, height: 153 }, finishes: { silver: '#dcdeda' },
   geometry: { bodyRadius: 10, screenRadius: 0, webcam: { x: 150, y: 8, r: 2 },
-    lid: { x: 26, y: 2, width: 268, height: 176 }, deck: { x: 3, y: 178, width: 314, height: 20 } },
+    lid: { x: 26, y: 2, width: 268, height: 176 }, deck: { x: 3, y: 180, width: 314, height: 18 } },
 };
 function fixture(t) {
   const root = mkdtempSync(join(tmpdir(), 'large art #'));
@@ -50,11 +50,18 @@ test('side notch uses artwork coordinates and rotates CCW with the rounded scree
     assert.ok(Math.abs(p.alpha(x,y) - l.alpha(y,w-1-x)) < 12, `rotated pixel ${x},${y}`);
 });
 for (const r of [tablet, laptop]) test(`${r.type} exposes exactly the usable screen and retains enclosure details`, raster, async t => {
-  const { renderMask, renderFrame } = await import(pathToFileURL(join(fixture(t), 'scripts/render-large.mjs')));
+  const { renderMask, renderFrame, bleed } = await import(pathToFileURL(join(fixture(t), 'scripts/render-large.mjs')));
   const frame = pixels(renderFrame(r, 'silver'), r.width, r.height);
-  const s = r.screen, mask = pixels(renderMask(r), s.width, s.height);
-  for (let y = 0; y < s.height; y++) for (let x = 0; x < s.width; x++)
-    assert.ok(Math.abs(frame.alpha(x+s.x,y+s.y) + mask.alpha(x,y) - 255) <= 2, `frame vs mask at ${x},${y}`);
+  const s = r.screen, mask = pixels(renderMask(r), s.width, s.height), band = Math.ceil(bleed(s)) + 1;
+  for (let y = 0; y < s.height; y++) for (let x = 0; x < s.width; x++) {
+    const dx = Math.min(x, s.width-1-x), dy = Math.min(y, s.height-1-y), corner = r.geometry.screenRadius + band;
+    const inner = Math.min(dx, dy) >= band && !(dx < corner && dy < corner);
+    // Inside, frame and mask are exact complements; at the edge the frame overlaps the content.
+    if (inner) assert.ok(Math.abs(frame.alpha(x+s.x,y+s.y) + mask.alpha(x,y) - 255) <= 2, `frame vs mask at ${x},${y}`);
+    else assert.ok(frame.alpha(x+s.x,y+s.y) >= 255 - mask.alpha(x,y) - 2, `frame overlaps content edge at ${x},${y}`);
+  }
+  for (const [x, y] of [[0, s.height/2], [s.width-1, s.height/2], [s.width/2, s.height-1]])
+    assert.equal(frame.alpha(Math.floor(x+s.x), Math.floor(y+s.y)), 255, 'no seam between frame and content');
   const cam = r.geometry.webcam;
   assert.equal(frame.alpha(cam.x, cam.y), 255);
   assert.notEqual(frame.rgb(cam.x, cam.y), frame.rgb(cam.x, cam.y-4));
@@ -67,10 +74,19 @@ for (const r of [tablet, laptop]) test(`${r.type} exposes exactly the usable scr
   } else {
     for (const [x,y] of [[0, 100], [26, 2], [319, 180], [3, 197]]) assert.equal(frame.alpha(x,y), 0, `outside shell ${x},${y}`);
     for (const [x,y] of [[30, 90], [20, 182], [150, 194]]) assert.equal(frame.alpha(x,y), 255);
-    assert.notEqual(frame.rgb(150, 177), frame.rgb(45, 177), 'hinge under lid');
+    assert.equal(frame.rgb(150, 177), frame.rgb(45, 177), 'nothing drawn over the bottom bezel');
+    assert.equal(frame.alpha(150, 179), 255, 'hinge fills the gap between lid and base');
+    assert.notEqual(frame.rgb(150, 179), frame.rgb(150, 190), 'hinge reads apart from the base');
     assert.notEqual(frame.rgb(150, 181), frame.rgb(45, 181), 'centered opening lip');
     for (const x of [0, s.width-1]) for (const y of [0, s.height-1]) assert.equal(mask.alpha(x, y), 255);
   }
+});
+test('top-only display corners round the top and keep the bottom square', raster, async t => {
+  const { renderMask } = await import(pathToFileURL(join(fixture(t), 'scripts/render-large.mjs')));
+  const r = { ...laptop, geometry: { ...laptop.geometry, screenRadius: 12, screenCorners: 'top' } };
+  const { width: w, height: h } = r.screen, mask = pixels(renderMask(r), w, h);
+  assert.equal(mask.alpha(0, 0), 0); assert.equal(mask.alpha(w-1, 0), 0);
+  assert.equal(mask.alpha(0, h-1), 255); assert.equal(mask.alpha(w-1, h-1), 255);
 });
 test('laptop without explicit lid or deck still surrounds its aperture', raster, async t => {
   const { renderFrame } = await import(pathToFileURL(join(fixture(t), 'scripts/render-large.mjs')));

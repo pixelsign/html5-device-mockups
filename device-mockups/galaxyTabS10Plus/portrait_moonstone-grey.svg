@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1854" height="2854" viewBox="0 0 1854 2854">
 <title>Galaxy Tab S10+ — moonstone-grey</title>
-<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 185.4 × 285.4 mm; centered display derived from 12.4 in diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Sources: https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet</desc>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 185.4 × 285.4 mm; centered display derived from 315 mm full-rectangle diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Sources: https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet; https://www.samsung.com/uk/business/tablets/galaxy-tab-s/galaxy-tab-s10-plus-grey-256gb-wi-fi-sm-x820nzareub/</desc>
 <defs><linearGradient id="brushed" x2="100%" y2="24%">
   <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
   <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
@@ -11,12 +11,12 @@
   <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
 </radialGradient>
 <mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1854" height="2854">
-<rect x="0" y="0" width="1854" height="2854" rx="0" fill="white"/><rect x="91.67" y="92" width="1670.66" height="2670" rx="44" fill="black"/>
+<rect x="0" y="0" width="1854" height="2854" rx="0" fill="white"/><rect x="96.583" y="96.843" width="1660.844" height="2660.314" rx="38.987" fill="black"/>
 </mask></defs>
 <g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1854" height="2854" rx="78" fill="white"/></clipPath></defs>
 <g clip-path="url(#shell)">
 <rect x="0" y="0" width="1854" height="2854" rx="0" fill="#636771"/><rect x="0" y="0" width="1854" height="2854" rx="0" fill="url(#brushed)"/>
 <rect x="16.686" y="16.686" width="1820.628" height="2820.628" rx="61.314" fill="#111317"/>
-<circle cx="1808.16" cy="1427" r="11" fill="url(#lens)"/>
+<circle cx="1808.22" cy="1427" r="11" fill="url(#lens)"/>
 </g></g>
 </svg>

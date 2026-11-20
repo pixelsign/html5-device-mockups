@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2086" height="3264" viewBox="0 0 2086 3264">
 <title>Galaxy Tab S10 Ultra — platinum-silver</title>
-<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 208.6 × 326.4 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. One lens marker represents the dual-camera housing. Sources: https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet</desc>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 208.6 × 326.4 mm; centered display derived from 369.9 mm full-rectangle diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. One lens marker represents the dual-camera housing. Sources: https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet; https://www.samsung.com/au/tablets/galaxy-tab-s/galaxy-tab-s10-ultra-gray-256gb-wifi-sm-x920nzaaxsa/</desc>
 <defs><linearGradient id="brushed" x2="100%" y2="24%">
   <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
   <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
@@ -11,12 +11,12 @@
   <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
 </radialGradient>
 <mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="2086" height="3264">
-<rect x="0" y="0" width="2086" height="3264" rx="0" fill="white"/><rect x="61.04" y="59.16" width="1963.92" height="3145.67" rx="43" fill="black"/><rect x="1994.96" y="1555.5" width="38" height="153" rx="10" fill="white"/>
+<rect x="0" y="0" width="2086" height="3264" rx="0" fill="white"/><rect x="69.407" y="69.027" width="1947.186" height="3125.946" rx="37.123" fill="black"/><rect x="1992.47" y="1555.5" width="38" height="153" rx="10" fill="white"/>
 </mask></defs>
 <g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="2086" height="3264" rx="77" fill="white"/></clipPath></defs>
 <g clip-path="url(#shell)">
 <rect x="0" y="0" width="2086" height="3264" rx="0" fill="#d6d7dc"/><rect x="0" y="0" width="2086" height="3264" rx="0" fill="url(#brushed)"/>
 <rect x="18.773999999999997" y="18.773999999999997" width="2048.452" height="3226.452" rx="58.226" fill="#111317"/>
-<circle cx="2017.96" cy="1603" r="10" fill="url(#lens)"/>
+<circle cx="2015.47" cy="1603" r="10" fill="url(#lens)"/>
 </g></g>
 </svg>

@@ -20,6 +20,11 @@ def check(page, d, base):
         for width in (300,640):
             page.goto(base+'/fixture'); frame=page.locator('.device'); color=colors[0 if width==300 else -1]
             frame.evaluate('(e,[d,o,c,w])=>{Object.assign(e.dataset,{device:d,orientation:o,color:c});e.parentNode.style.width=w+"px"}', [id_,orient,color,width])
+            # Embeds inherit alignment from the host page (e.g. centered gallery cards).
+            if d['type']=='laptop':
+                frame.evaluate("e=>e.parentNode.style.textAlign='center'")
+                origin=frame.evaluate("e=>{const s=getComputedStyle(e,'::after');return [s.left,s.top]}")
+                assert origin==['0px','0px'], f'frame not anchored to the live screen: {origin}'
             frame.evaluate('''async e=>{for(const url of [getComputedStyle(e,'::after').backgroundImage,getComputedStyle(e.querySelector('.screen')).maskImage]) {const i=new Image(); i.src=url.slice(4,-1).replaceAll('"',''); await i.decode()}}''')
             box=frame.bounding_box(); screen=page.locator('.screen').bounding_box(); k=width/vw
             near([box['width'],box['height']],[width,vh*k],1,'body')

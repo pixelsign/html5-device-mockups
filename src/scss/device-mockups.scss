@@ -30,7 +30,16 @@ $svgDevices: ();
 
 .device {
 
+    // Align the backing to the aperture, not the chassis. The bleed is below
+    // both the live content and the opaque bezel; neither hit area changes.
+    @if $include-phones { @include modern-screen-beds; }
+    @if $include-large { @include large-screen-beds; }
+    @if $include-tvs { @include tv-screen-beds; }
     @each $id in $svgDevices {
+        &[data-device="#{$id}"]::before {
+            content: ''; position: absolute; pointer-events: none;
+            background: #0a0b0c; box-shadow: 0 0 0 1px #0a0b0c;
+        }
         @if list.index($nativeLandscape, $id) { @include screen-mask($id, svg, (landscape,)); }
         @else { @include screen-mask($id, svg); }
     }

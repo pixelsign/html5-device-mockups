@@ -512,6 +512,8 @@
       text-overflow: ellipsis;
     }
 
+    .row-release { display:block; font-size:.75rem; font-weight:400; color:var(--text-2); }
+
     .row-meta {
       display: flex;
       align-items: center;
@@ -1006,6 +1008,8 @@
       flex-direction: column;
       gap: 0.9em;
       padding: 1.2em 1.1em;
+      padding-top: max(1.2em, calc(var(--sample-inset-top, 0px) + .35em));
+      padding-left: max(1.1em, calc(var(--sample-inset-left, 0px) + .35em));
     }
     .app-bar { display: flex; justify-content: space-between; align-items: center; font-weight: 600; font-size: 0.85em; opacity: 0.9; }
     .app-bar i { display: block; width: 1.9em; height: 0.85em; border-radius: 0.25em; border: 0.12em solid currentColor; opacity: 0.8; }
@@ -1385,8 +1389,8 @@
           <div class="ctl-row">
             <div class="seg" id="seg-screen">
               <span class="seg-pill" aria-hidden="true"></span>
-              <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="app" checked>App</label>
-              <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="lock">Lock screen</label>
+              <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="app" checked><span id="app-mode-text">App</span></label>
+              <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="lock"><span id="lock-mode-text">Lock screen</span></label>
               <label class="seg-opt"><input class="sr-only" type="radio" name="screen" value="image">Your image</label>
             </div>
             <label class="btn file-btn" id="file-btn" hidden>
@@ -1474,24 +1478,24 @@
         { id: 'iPad',          label: 'iPad',               type: 'tablet',  orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
       ]},
       { group: 'Mac', brand: 'Apple', devices: [
-        { id: 'MacbookPro',    label: 'MacBook Pro',        type: 'laptop',  orientations: ['portrait'],             colors: ['black'] },
-        { id: 'Macbook2015',   label: 'MacBook (2015)',     type: 'laptop',  orientations: ['portrait'],             colors: ['black','white','gold'] },
-        { id: 'Macbook',       label: 'MacBook',            type: 'laptop',  orientations: ['portrait'],             colors: ['black','white','gold'] },
+        { id: 'MacbookPro', previewOS: 'macOS',    label: 'MacBook Pro',        type: 'laptop',  orientations: ['portrait'],             colors: ['black'] },
+        { id: 'Macbook2015', previewOS: 'macOS',   label: 'MacBook (2015)',     type: 'laptop',  orientations: ['portrait'],             colors: ['black','white','gold'] },
+        { id: 'Macbook', previewOS: 'macOS',       label: 'MacBook',            type: 'laptop',  orientations: ['portrait'],             colors: ['black','white','gold'] },
         { id: 'iMac',          label: 'iMac',               type: 'desktop', orientations: ['portrait'],             colors: ['black'] },
       ]},
       { group: 'Samsung', brand: 'Samsung', devices: [
         { id: 'galaxyS5',      label: 'Galaxy S5',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white','gold'], obsolete: true },
         { id: 'galaxyS3',      label: 'Galaxy S3',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
         { id: 'galaxyTab4',    label: 'Galaxy Tab 4',       type: 'tablet',  orientations: ['portrait'],             colors: ['black','white'], obsolete: true },
-        { id: 'SamsungTV',     label: 'Samsung TV',         type: 'tv', orientations: ['portrait'],             colors: ['black'] },
+        { id: 'SamsungTV', previewOS: 'Smart TV',     label: 'Samsung TV',         type: 'tv', orientations: ['portrait'],             colors: ['black'] },
       ]},
       { group: 'Google', brand: 'Google', devices: [
         { id: 'Pixel',         label: 'Pixel',              type: 'phone',   orientations: ['portrait'],             colors: ['black','white'], obsolete: true },
-        { id: 'Chromebook',    label: 'Chromebook',         type: 'laptop',  orientations: ['portrait'],             colors: ['black'], obsolete: true },
+        { id: 'Chromebook', previewOS: 'ChromeOS',    label: 'Chromebook',         type: 'laptop',  orientations: ['portrait'],             colors: ['black'], obsolete: true },
       ]},
       { group: 'Microsoft', brand: 'Microsoft', devices: [
         { id: 'SurfaceStudio', label: 'Surface Studio',     type: 'desktop', orientations: ['portrait'],             colors: ['black'] },
-        { id: 'SurfacePro3',   label: 'Surface Pro 3',      type: 'laptop',  orientations: ['landscape'],            colors: ['black'] },
+        { id: 'SurfacePro3', previewOS: 'Windows',   label: 'Surface Pro 3',      type: 'laptop',  orientations: ['landscape'],            colors: ['black'] },
         { id: 'Surface',       label: 'Surface',            type: 'tablet',  orientations: ['portrait'],             colors: ['black'], obsolete: true },
         { id: 'Lumia930',      label: 'Lumia 930',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
       ]},
@@ -1507,7 +1511,22 @@
       group.devices.unshift(d);
     }
     CATALOG.forEach(g => g.devices.forEach(d => { d.brand = d.brand || g.brand; }));
-    const ALL_DEVICES = CATALOG.flatMap(g => g.devices);
+    function releaseLabel(date) {
+      if (!date) return 'Release date unknown';
+      const [y,m,d] = date.split('-').map(Number);
+      if (!m) return String(y);
+      return new Intl.DateTimeFormat('en-GB', {year:'numeric',month:'short',...(d && {day:'numeric'}),timeZone:'UTC'}).format(new Date(Date.UTC(y,m-1,d || 1)));
+    }
+    const ALL_DEVICES = CATALOG.flatMap(g => g.devices).map(d => {
+      const family = d.brand === 'Apple' ? ({phone:'iPhone',tablet:'iPad'}[d.type] || 'Mac') : d.brand;
+      const date = RELEASE_DATES[d.id]?.date || String(RELEASE_YEARS[d.id] || '');
+      return {...d, family, date, releaseLabel:releaseLabel(date)};
+    }).sort((a,b) => b.date.localeCompare(a.date) || a.label.localeCompare(b.label,'en',{numeric:true}) || a.id.localeCompare(b.id));
+    const FAMILY_GROUPS = [...new Set(ALL_DEVICES.map(d=>d.family))].sort((a,b)=>{
+      const order=['iPhone','iPad','Mac','Samsung'];
+      const rank=g=>order.includes(g)?order.indexOf(g):order.length;
+      return rank(a)-rank(b) || a.localeCompare(b,'en');
+    });
     // Null prototype: ids arrive from the URL, so '__proto__' or 'constructor' must not resolve.
     const DEVICE_MAP  = Object.assign(Object.create(null), Object.fromEntries(ALL_DEVICES.map(d => [d.id, d])));
 
@@ -1632,7 +1651,11 @@
 
     function applyFrame() {
       const { id, orientation: o, color: c } = state;
+      if (deviceEl.dataset.device !== id) renderScreen();
       Object.assign(deviceEl.dataset, { device: id, orientation: o, color: c });
+      const clearance = DEVICE_MAP[id].statusClearance || 0;
+      deviceEl.style.setProperty('--sample-inset-top', (o === 'portrait' ? clearance : 0) + 'cqb');
+      deviceEl.style.setProperty('--sample-inset-left', (o === 'landscape' ? clearance : 0) + 'cqi');
       deviceEl.style.setProperty('--tint', FINISH[c]?.tint || FINISH.black.tint);
       wrapper.style.width = fitWidth(id, o, c) + 'px';
       updateLabel();
@@ -1643,8 +1666,8 @@
     function updateLabel() {
       const d = DEVICE_MAP[state.id];
       const screenDesc = {
-        app: 'a sample app',
-        lock: 'a lock screen',
+        app: d.previewOS ? `the ${d.previewOS} ${d.type === 'tv' ? 'home screen' : 'desktop'}` : 'a sample app',
+        lock: d.previewOS ? `the ${d.previewOS} ${d.type === 'tv' ? 'ambient screen' : 'lock screen'}` : 'a lock screen',
         image: state.imageUrl ? 'your image' : 'an empty screen',
       }[state.screen];
       stageDevice.setAttribute('aria-label',
@@ -1799,7 +1822,8 @@
 
     function buildList() {
       let i = 0;
-      CATALOG.forEach(({ group, devices }) => {
+      FAMILY_GROUPS.forEach(group => {
+        const devices = ALL_DEVICES.filter(d => d.family === group);
         const fs = document.createElement('fieldset');
         fs.className = 'group';
         const lg = document.createElement('legend');
@@ -1821,7 +1845,12 @@
 
           const name = document.createElement('span');
           name.className = 'row-name';
-          name.textContent = d.label;
+          name.textContent = d.label.replace(/ · \d{4}$/, '');
+          const release = document.createElement(d.date ? 'time' : 'small');
+          release.className = 'row-release';
+          if (d.date) release.dateTime = d.date;
+          release.textContent = d.releaseLabel;
+          name.appendChild(release);
 
           const meta = document.createElement('span');
           meta.className = 'row-meta';
@@ -1858,7 +1887,7 @@
         let groupVisible = 0;
         fs.querySelectorAll('.row').forEach(row => {
           const d = DEVICE_MAP[row.dataset.id];
-          const hay = `${d.label} ${d.id} ${d.brand} ${d.type} ${d.obsolete ? 'obsolete' : ''}`.toLowerCase();
+          const hay = `${d.label} ${d.id} ${d.brand} ${d.type} ${d.family} ${d.date} ${d.releaseLabel} ${d.obsolete ? 'obsolete' : ''}`.toLowerCase();
           const show = (state.type === 'all' || d.type === state.type) && (!q || hay.includes(q));
           row.hidden = !show;
           if (show) groupVisible++;
@@ -1906,7 +1935,7 @@
     }
 
     function renderMeta(d) {
-      const parts = [d.brand, TYPE_NOUN[d.type]];
+      const parts = [d.brand, TYPE_NOUN[d.type], d.releaseLabel];
       parts.push(d.orientations.length > 1 ? 'Portrait & landscape' : `${d.orientations[0][0].toUpperCase()}${d.orientations[0].slice(1)} only`);
       metaEl.innerHTML = (d.obsolete ? '<strong class="badge">Obsolete</strong>' : '') + parts.map(p => `<span>${p}</span>`).join('');
     }
@@ -1945,7 +1974,18 @@
 
     function renderScreen() {
       let node;
-      if (state.screen === 'image' && state.imageUrl) {
+      const d = DEVICE_MAP[state.id];
+      const preview = d?.previewOS;
+      const tv = d?.type === 'tv';
+      $('app-mode-text').textContent = preview ? (tv ? 'Home' : 'Desktop') : 'App';
+      $('lock-mode-text').textContent = tv ? 'Ambient' : 'Lock screen';
+      if (preview && state.screen !== 'image') {
+        node = document.createElement('img');
+        node.className = 'scr-img';
+        node.style.objectFit = 'fill';
+        node.src = `screens/${preview.replaceAll(' ', '-')}-${state.screen}.svg`;
+        node.alt = `${preview} ${state.screen === 'app' ? (tv ? 'home' : 'desktop') : (tv ? 'ambient' : 'lock')} preview`;
+      } else if (state.screen === 'image' && state.imageUrl) {
         node = document.createElement('img');
         node.className = 'scr-img';
         node.src = state.imageUrl;
@@ -2258,7 +2298,8 @@
     renderScreen();
     placePill(segScreen, false);
 
-    const initial = readHash() || { id: MODERN_PHONES[0].id, orientation: 'portrait', color: MODERN_PHONES[0].colors[0] };
+    const first = ALL_DEVICES[0];
+    const initial = readHash() || { id: first.id, orientation: first.orientations[0], color: first.colors[0] };
     state.orientation = initial.orientation;
     state.color = initial.color;
     selectDevice(initial.id);

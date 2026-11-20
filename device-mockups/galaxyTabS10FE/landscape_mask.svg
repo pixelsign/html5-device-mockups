@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2347.77" height="1467.36" viewBox="0 0 2347.77 1467.36">
+<svg xmlns="http://www.w3.org/2000/svg" width="2348.96" height="1468.1" viewBox="0 0 2348.96 1468.1">
 <title>Galaxy Tab S10 FE landscape screen mask</title>
 <defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1658" height="2543">
-<rect x="95.32" y="97.62" width="1467.36" height="2347.77" rx="42" fill="white"/>
+<rect x="94.95" y="97.02" width="1468.1" height="2348.96" rx="42" fill="white"/>
 </mask></defs>
-<g transform="translate(0 1467.36) rotate(-90) translate(-95.32 -97.62)"><g mask="url(#aperture)"><rect x="95.32" y="97.62" width="1467.36" height="2347.77" rx="0" fill="white"/></g></g>
+<g transform="translate(0 1468.1) rotate(-90) translate(-94.95 -97.02)"><g mask="url(#aperture)"><rect x="94.95" y="97.02" width="1468.1" height="2348.96" rx="0" fill="white"/></g></g>
 </svg>

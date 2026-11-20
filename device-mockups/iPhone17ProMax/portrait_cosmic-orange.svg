@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="780" height="1634" viewBox="0 0 780 1634">
   <title>iPhone 17 Pro Max — cosmic-orange</title>
-  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/125091</desc>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/125091; https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-17-pro-max.pdf</desc>
   <defs>
     <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
       <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
@@ -17,11 +17,11 @@
     <rect x="772" y="1082" width="8" height="75" rx="3"/>
   </g>
   <g fill-rule="evenodd">
-    <path fill="#101114" d="M111 6H669a102 102 0 0 1 102 102V1526a102 102 0 0 1 -102 102H111a102 102 0 0 1 -102 -102V108a102 102 0 0 1 102 -102Z M110.565 25.183H669.435a85 85 0 0 1 85 85V1523.818a85 85 0 0 1 -85 85H110.565a85 85 0 0 1 -85 -85V110.183a85 85 0 0 1 85 -85Z"/>
+    <path fill="#101114" d="M111 6H669a102 102 0 0 1 102 102V1526a102 102 0 0 1 -102 102H111a102 102 0 0 1 -102 -102V108a102 102 0 0 1 102 -102Z M110.6 25.6H669.2a85 85 0 0 1 85 85V1523.7a85 85 0 0 1 -85 85H110.6a85 85 0 0 1 -85 -85V110.6a85 85 0 0 1 85 -85Z"/>
     <path fill="#d78142" d="M111 1H669a107 107 0 0 1 107 107V1526a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H669a98 98 0 0 1 98 98V1526a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
     <path fill="url(#polish)" d="M111 1H669a107 107 0 0 1 107 107V1526a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H669a98 98 0 0 1 98 98V1526a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
   </g>
-  <path fill="#050608" d="M350.5 38.183H429.5a16.5 16.5 0 0 1 16.5 16.5V54.683a16.5 16.5 0 0 1 -16.5 16.5H350.5a16.5 16.5 0 0 1 -16.5 -16.5V54.683a16.5 16.5 0 0 1 16.5 -16.5Z"/>
-  <circle cx="429.5" cy="54.683" r="10.56" fill="url(#optic)"/>
-  <circle cx="427.5" cy="52.683" r="1.5" fill="#9ab5d1" opacity=".5"/>
+  <path fill="#050608" d="M316.45 48.75H463.35a30.35 30.35 0 0 1 30.35 30.35V79.1a30.35 30.35 0 0 1 -30.35 30.35H316.45a30.35 30.35 0 0 1 -30.35 -30.35V79.1a30.35 30.35 0 0 1 30.35 -30.35Z"/>
+  <circle cx="463.35" cy="79.1" r="19.424" fill="url(#optic)"/>
+  <circle cx="461.35" cy="77.1" r="1.5" fill="#9ab5d1" opacity=".5"/>
 </svg>

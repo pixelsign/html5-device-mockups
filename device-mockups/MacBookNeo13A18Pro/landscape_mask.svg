@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="722.4" height="451.8" viewBox="0 0 722.4 451.8">
 <title>MacBook Neo 13-inch (A18 Pro) landscape screen mask</title>
-<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="802.4" height="512.8">
-<rect x="40" y="23" width="722.4" height="451.8" rx="0" fill="white"/>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="896.6" height="546.5">
+<path d="M87.1 475.62V32.36A8.54 8.54 0 0 1 95.64 23.82H800.96A8.54 8.54 0 0 1 809.5 32.36V475.62Z" fill="white"/>
 </mask></defs>
-<g transform="translate(-40 -23)"><g mask="url(#aperture)"><rect x="40" y="23" width="722.4" height="451.8" rx="0" fill="white"/></g></g>
+<g transform="translate(-87.1 -23.82)"><g mask="url(#aperture)"><rect x="87.1" y="23.82" width="722.4" height="451.8" rx="0" fill="white"/></g></g>
 </svg>

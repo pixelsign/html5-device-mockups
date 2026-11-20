@@ -398,10 +398,10 @@
     "width": 673.0,
     "height": 1384.0,
     "screen": {
-      "x": 44.322,
-      "y": 172.313,
-      "width": 584.356,
-      "height": 1039.374
+      "x": 43.8,
+      "y": 171.9,
+      "width": 585.0,
+      "height": 1040.5
     },
     "colors": [
       "product-red",
@@ -463,9 +463,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111866"
+        "https://support.apple.com/en-us/111866",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-se-3rd-generation.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and Touch ID Home button are approximate."
     }
   },
@@ -477,10 +478,10 @@
     "width": 642.0,
     "height": 1315.0,
     "screen": {
-      "x": 32.849,
-      "y": 33.172,
-      "width": 576.303,
-      "height": 1248.655
+      "x": 32.7,
+      "y": 32.7,
+      "width": 576.7,
+      "height": 1249.6
     },
     "colors": [
       "black",
@@ -514,8 +515,8 @@
       "screenRadius": 65,
       "camera": {
         "kind": "notch",
-        "width": 347,
-        "height": 54,
+        "width": 348.3,
+        "height": 53.0,
         "top": 0
       },
       "buttons": [
@@ -543,9 +544,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111877"
+        "https://support.apple.com/en-us/111877",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-12-mini.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -557,10 +559,10 @@
     "width": 715.0,
     "height": 1467.0,
     "screen": {
-      "x": 34.478,
-      "y": 34.448,
-      "width": 646.043,
-      "height": 1398.104
+      "x": 34.7,
+      "y": 34.7,
+      "width": 645.8,
+      "height": 1397.7
     },
     "colors": [
       "black",
@@ -594,8 +596,8 @@
       "screenRadius": 72,
       "camera": {
         "kind": "notch",
-        "width": 347,
-        "height": 54,
+        "width": 348.3,
+        "height": 53.0,
         "top": 0
       },
       "buttons": [
@@ -623,9 +625,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111876"
+        "https://support.apple.com/en-us/111876",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-12.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -637,10 +640,10 @@
     "width": 715.0,
     "height": 1467.0,
     "screen": {
-      "x": 34.478,
-      "y": 34.448,
-      "width": 646.043,
-      "height": 1398.104
+      "x": 34.7,
+      "y": 34.7,
+      "width": 645.8,
+      "height": 1397.7
     },
     "colors": [
       "silver",
@@ -670,8 +673,8 @@
       "screenRadius": 72,
       "camera": {
         "kind": "notch",
-        "width": 347,
-        "height": 54,
+        "width": 348.3,
+        "height": 53.0,
         "top": 0
       },
       "buttons": [
@@ -699,9 +702,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111875"
+        "https://support.apple.com/en-us/111875",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-12-pro.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -713,10 +717,10 @@
     "width": 781.0,
     "height": 1608.0,
     "screen": {
-      "x": 34.456,
-      "y": 33.681,
-      "width": 712.087,
-      "height": 1540.638
+      "x": 34.7,
+      "y": 34.7,
+      "width": 711.3,
+      "height": 1539.0
     },
     "colors": [
       "silver",
@@ -746,8 +750,8 @@
       "screenRadius": 79,
       "camera": {
         "kind": "notch",
-        "width": 347,
-        "height": 54,
+        "width": 348.3,
+        "height": 53.2,
         "top": 0
       },
       "buttons": [
@@ -775,9 +779,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111874"
+        "https://support.apple.com/en-us/111874",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-12-pro-max.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -789,10 +794,10 @@
     "width": 642.0,
     "height": 1315.0,
     "screen": {
-      "x": 32.849,
-      "y": 33.172,
-      "width": 576.303,
-      "height": 1248.655
+      "x": 32.7,
+      "y": 32.7,
+      "width": 576.7,
+      "height": 1249.6
     },
     "colors": [
       "product-red",
@@ -826,8 +831,8 @@
       "screenRadius": 65,
       "camera": {
         "kind": "notch",
-        "width": 267,
-        "height": 58,
+        "width": 267.8,
+        "height": 57.7,
         "top": 0
       },
       "buttons": [
@@ -855,9 +860,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111873"
+        "https://support.apple.com/en-us/111873",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-13-mini.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -869,10 +875,10 @@
     "width": 715.0,
     "height": 1467.0,
     "screen": {
-      "x": 34.478,
-      "y": 34.448,
-      "width": 646.043,
-      "height": 1398.104
+      "x": 34.7,
+      "y": 34.7,
+      "width": 645.8,
+      "height": 1397.7
     },
     "colors": [
       "product-red",
@@ -906,8 +912,8 @@
       "screenRadius": 72,
       "camera": {
         "kind": "notch",
-        "width": 267,
-        "height": 58,
+        "width": 267.9,
+        "height": 55.8,
         "top": 0
       },
       "buttons": [
@@ -935,9 +941,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111872"
+        "https://support.apple.com/en-us/111872",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-13.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -949,10 +956,10 @@
     "width": 715.0,
     "height": 1467.0,
     "screen": {
-      "x": 34.478,
-      "y": 34.448,
-      "width": 646.043,
-      "height": 1398.104
+      "x": 34.7,
+      "y": 34.7,
+      "width": 645.8,
+      "height": 1397.7
     },
     "colors": [
       "graphite",
@@ -984,8 +991,8 @@
       "screenRadius": 72,
       "camera": {
         "kind": "notch",
-        "width": 267,
-        "height": 58,
+        "width": 267.9,
+        "height": 55.8,
         "top": 0
       },
       "buttons": [
@@ -1013,9 +1020,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111871"
+        "https://support.apple.com/en-us/111871",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-13-pro.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -1027,10 +1035,10 @@
     "width": 781.0,
     "height": 1608.0,
     "screen": {
-      "x": 34.456,
-      "y": 33.681,
-      "width": 712.087,
-      "height": 1540.638
+      "x": 34.7,
+      "y": 34.7,
+      "width": 711.3,
+      "height": 1539.0
     },
     "colors": [
       "graphite",
@@ -1062,8 +1070,8 @@
       "screenRadius": 79,
       "camera": {
         "kind": "notch",
-        "width": 267,
-        "height": 58,
+        "width": 268.3,
+        "height": 56.0,
         "top": 0
       },
       "buttons": [
@@ -1091,9 +1099,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111870"
+        "https://support.apple.com/en-us/111870",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-13-pro-max.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -1105,10 +1114,10 @@
     "width": 715.0,
     "height": 1467.0,
     "screen": {
-      "x": 34.478,
-      "y": 34.448,
-      "width": 646.043,
-      "height": 1398.104
+      "x": 34.7,
+      "y": 34.7,
+      "width": 645.8,
+      "height": 1397.7
     },
     "colors": [
       "midnight",
@@ -1142,8 +1151,8 @@
       "screenRadius": 72,
       "camera": {
         "kind": "notch",
-        "width": 267,
-        "height": 58,
+        "width": 267.9,
+        "height": 55.8,
         "top": 0
       },
       "buttons": [
@@ -1171,9 +1180,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111850"
+        "https://support.apple.com/en-us/111850",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-14.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   },
@@ -1185,10 +1195,10 @@
     "width": 781.0,
     "height": 1608.0,
     "screen": {
-      "x": 34.456,
-      "y": 33.681,
-      "width": 712.087,
-      "height": 1540.638
+      "x": 34.7,
+      "y": 34.7,
+      "width": 711.3,
+      "height": 1539.0
     },
     "colors": [
       "midnight",
@@ -1222,8 +1232,8 @@
       "screenRadius": 79,
       "camera": {
         "kind": "notch",
-        "width": 267,
-        "height": 58,
+        "width": 268.3,
+        "height": 56.0,
         "top": 0
       },
       "buttons": [
@@ -1251,9 +1261,10 @@
     },
     "provenance": {
       "sources": [
-        "https://support.apple.com/en-us/111854"
+        "https://support.apple.com/en-us/111854",
+        "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-14-plus.pdf"
       ],
-      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "method": "10 SVG units/mm. Chassis uses published tech specs; screen uses the dimensioned display active area and housing insets on sheet 1 of the model drawing. The mask follows the front-view exclusion, not expanded software UI.",
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
     }
   }

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1510.748" height="695.739" viewBox="0 0 1510.748 695.739">
+<svg xmlns="http://www.w3.org/2000/svg" width="1510.3" height="695.5" viewBox="0 0 1510.3 695.5">
   <title>iPhone Air landscape screen mask</title>
   <desc>White is visible content; corners and camera are transparent.</desc>
-  <path transform="translate(0 695.739) rotate(-90)" fill="white" fill-rule="evenodd" d="M85 0H610.739a85 85 0 0 1 85 85V1425.748a85 85 0 0 1 -85 85H85a85 85 0 0 1 -85 -85V85a85 85 0 0 1 85 -85Z M308.37 13H387.37a16.5 16.5 0 0 1 16.5 16.5V29.5a16.5 16.5 0 0 1 -16.5 16.5H308.37a16.5 16.5 0 0 1 -16.5 -16.5V29.5a16.5 16.5 0 0 1 16.5 -16.5Z"/>
+  <path transform="translate(0 695.5) rotate(-90)" fill="white" fill-rule="evenodd" d="M85 0H610.5a85 85 0 0 1 85 85V1425.3a85 85 0 0 1 -85 85H85a85 85 0 0 1 -85 -85V85a85 85 0 0 1 85 -85Z M274.25 33.05H421.15a30.35 30.35 0 0 1 30.35 30.35V63.4a30.35 30.35 0 0 1 -30.35 30.35H274.25a30.35 30.35 0 0 1 -30.35 -30.35V63.4a30.35 30.35 0 0 1 30.35 -30.35Z"/>
 </svg>

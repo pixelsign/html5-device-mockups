@@ -1,0 +1,142 @@
+{
+  "DellXPS13DX13260": {
+    "date": "2026-06-16",
+    "source": "https://www.dell.com/ja-jp/blog/xps-1-xps-13"
+  },
+  "HtcOneM8": {
+    "date": "2014-03-25",
+    "source": "https://www.htc.com/us/newsroom/2014-03-25/"
+  },
+  "HuaweiP8": {
+    "date": "2015-04-23",
+    "source": "https://m.gsmarena.com/huaweis_p8_smartphone_sells_out_at_launch-news-12026.php"
+  },
+  "Lumia930": {
+    "date": "2014-07",
+    "source": "https://blogs.windows.com/devices/2014/07/07/lumia-930-sale-week"
+  },
+  "MacBookAir13M5": {
+    "date": "2026-03-11",
+    "source": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/"
+  },
+  "MacBookAir15M5": {
+    "date": "2026-03-11",
+    "source": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/"
+  },
+  "MacBookNeo13A18Pro": {
+    "date": "2026-03-11",
+    "source": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/"
+  },
+  "MacBookPro14M6": {
+    "date": "2026-11-06",
+    "source": "https://apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6"
+  },
+  "MacBookPro14ProledM5Pro": {
+    "date": "2026-11-06",
+    "source": "https://apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display"
+  },
+  "MacBookPro16M5Max": {
+    "date": "2026-03-11",
+    "source": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/"
+  },
+  "MacBookPro16ProledM5Pro": {
+    "date": "2026-11-06",
+    "source": "https://apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display"
+  },
+  "Macbook2015": {
+    "date": "2015-04-10",
+    "source": "https://www.apple.com/newsroom/2015/03/09Apple-Unveils-All-New-MacBook"
+  },
+  "NothingPhone3": {
+    "date": "2025-07-12",
+    "source": "https://nothing.community/d/36008-phone-3-london-drops-win-a-3-year-supply-of-nothing"
+  },
+  "NothingPhone3a": {
+    "date": "2025-03",
+    "source": "https://nothing.community/en/d/27670-phone-3a-series-soho-store-drops"
+  },
+  "NothingPhone3aLite": {
+    "date": "2025-10-29",
+    "source": "https://nothing.community/d/45822-introducing-phone-3a-lite"
+  },
+  "NothingPhone3aPro": {
+    "date": "2025-03-08",
+    "source": "https://nothing.community/en/d/27670-phone-3a-series-soho-store-drops"
+  },
+  "Pixel": {
+    "date": "2016-10-20",
+    "source": "https://www.prnewswire.com/news-releases/order-pixel-phone-by-google-with-verizon-lte-advanced-from-verizon-today-300348194.html"
+  },
+  "Pixel10": {
+    "date": "2025-08-28",
+    "source": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-pro-xl/"
+  },
+  "Pixel10Pro": {
+    "date": "2025-08-28",
+    "source": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-pro-xl/"
+  },
+  "Pixel10ProFoldCover": {
+    "date": "2025-10-09",
+    "source": "https://blog.google/intl/en-in/products/hardware/pixel-10-pro-fold-and-pixel-buds-2a-are-available-now"
+  },
+  "Pixel10ProFoldOpen": {
+    "date": "2025-10-09",
+    "source": "https://blog.google/intl/en-in/products/hardware/pixel-10-pro-fold-and-pixel-buds-2a-are-available-now"
+  },
+  "Pixel10ProXL": {
+    "date": "2025-08-28",
+    "source": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-pro-xl/"
+  },
+  "Pixel10a": {
+    "date": "2026-03-05",
+    "source": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-10a/"
+  },
+  "SurfaceLaptop138Gen8": {
+    "date": "2026-06-16",
+    "source": "https://blogs.windows.com/devices/2026/06/16/introducing-the-next-surface-pro-and-surface-laptop-built-for-performance-and-flexibility/"
+  },
+  "SurfaceStudio": {
+    "date": "2016-11",
+    "source": "https://www.theverge.com/2016/11/24/13740906/microsoft-surface-studio-shipping-support-line"
+  },
+  "galaxyS25": {
+    "date": "2025-02-07",
+    "source": "https://news.samsung.com/global/samsung-galaxy-s25-series-arrives-worldwide"
+  },
+  "galaxyS25Edge": {
+    "date": "2025-05-23",
+    "source": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EA%B0%A4%EB%9F%AD%EC%8B%9C-s25-%EC%97%A3%EC%A7%80-%EA%B5%AD%EB%82%B4-%EC%B6%9C%EC%8B%9C"
+  },
+  "galaxyS25FE": {
+    "date": "2025-09-04",
+    "source": "https://news.samsung.com/global/meet-samsung-galaxy-s25-fe-the-gateway-to-the-galaxy-ai-and-flagship-essentials"
+  },
+  "galaxyS25Plus": {
+    "date": "2025-02-07",
+    "source": "https://news.samsung.com/global/samsung-galaxy-s25-series-arrives-worldwide"
+  },
+  "galaxyS25Ultra": {
+    "date": "2025-02-07",
+    "source": "https://news.samsung.com/global/samsung-galaxy-s25-series-arrives-worldwide"
+  },
+  "galaxyS3": {
+    "date": "2012-05",
+    "source": "https://www.theverge.com/2012/5/22/3036260/samsung-galaxy-s-iii-now-on-sale-in-dubai"
+  },
+  "galaxyS5": {
+    "date": "2014-03-27",
+    "source": "https://www.theverge.com/2014/3/27/5552346/samsung-galaxy-s5-goes-on-sale-early-in-korea"
+  },
+  "lgOLED55C5": {
+    "date": "2025-03",
+    "source": "https://lg.com/us/newsroom/media-entertainment/lg-announces-us-rollout-of-2025-oled-evo-tv-lineup"
+  },
+  "samsungFrame55LS03F": {
+    "date": "2025-04",
+    "source": "https://news.samsung.com/us/samsung-expands-2025-art-tv-lineup-the-frame-and-the-frame-pro"
+  },
+  "tcl55C7K": {
+    "date": "2025-03",
+    "source": "https://notebookcheck.net/TCL-launches-new-premium-QD-Mini-LED-TV-with-gaming-features.985121.0.html"
+  }
+}

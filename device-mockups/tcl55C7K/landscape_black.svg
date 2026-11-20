@@ -11,7 +11,7 @@
   <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
 </radialGradient>
 <mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1226" height="760">
-<rect x="0" y="0" width="1226" height="760" rx="0" fill="white"/><rect x="7" y="11.865" width="1212" height="681.75" rx="0" fill="black"/>
+<rect x="0" y="0" width="1226" height="760" rx="0" fill="white"/><rect x="9.045" y="13.91" width="1207.91" height="677.66" rx="0" fill="black"/>
 </mask></defs>
 <g mask="url(#aperture)"><g fill="#44474b"><path d="M563.96 709h98.08l18.5 35H545.46Z"/><path d="M483.5 742.5h259L798 756v4H428v-4Z"/></g><rect x="0" y="0" width="1226" height="710" rx="1.5" fill="#44474b"/><rect x="1" y="1" width="1224" height="708" rx="1" fill="url(#brushed)"/></g>
 </svg>

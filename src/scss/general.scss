@@ -38,6 +38,10 @@ $legacy-specials: true !default;
 
     &::after {
         position: absolute;
+        // Anchor all frame overlays, irrespective of the embedding page's text alignment.
+        // Synthesized landscape frames override these offsets after rotation.
+        top: 0;
+        left: 0;
         background-size: cover;
         width: 100%;
         height: 100%;

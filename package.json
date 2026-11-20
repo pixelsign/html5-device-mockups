@@ -5,7 +5,7 @@
   "main": "dist/device-mockups.min.css",
   "style": "dist/device-mockups.css",
   "scripts": {
-    "generate": "node scripts/catalog.mjs && node scripts/render-frames.mjs && node scripts/render-large.mjs && node scripts/render-large.mjs --tvs",
+    "generate": "node scripts/catalog.mjs && node scripts/render-frames.mjs && node scripts/render-large.mjs && node scripts/render-large.mjs --tvs && python3 scripts/render-screens.py",
     "build": "npm run generate && npm run build:css && npm run build:min",
     "test": "node --test tests/*.test.mjs",
     "bundle:modern": "npm run generate && sass --no-source-map --style=compressed src/scss/modern-only.scss dist/modern-only.min.css && python3 scripts/bundle-modern.py",

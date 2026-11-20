@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1763.52" height="2821.63" viewBox="0 0 1763.52 2821.63">
+<svg xmlns="http://www.w3.org/2000/svg" width="1763.84" height="2822.14" viewBox="0 0 1763.84 2822.14">
 <title>Galaxy Tab S10 FE+ portrait screen mask</title>
 <defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1947" height="3006">
-<rect x="91.74" y="92.18" width="1763.52" height="2821.63" rx="45" fill="white"/>
+<rect x="91.58" y="91.93" width="1763.84" height="2822.14" rx="45" fill="white"/>
 </mask></defs>
-<g transform="translate(-91.74 -92.18)"><g mask="url(#aperture)"><rect x="91.74" y="92.18" width="1763.52" height="2821.63" rx="0" fill="white"/></g></g>
+<g transform="translate(-91.58 -91.93)"><g mask="url(#aperture)"><rect x="91.58" y="91.93" width="1763.84" height="2822.14" rx="0" fill="white"/></g></g>
 </svg>

@@ -8,10 +8,10 @@
     "width": 1878.0,
     "height": 2895.0,
     "screen": {
-      "x": 90.2,
-      "y": 90.97,
-      "width": 1697.6,
-      "height": 2713.06
+      "x": 89.24,
+      "y": 89.44,
+      "width": 1699.51,
+      "height": 2716.11
     },
     "finishes": {
       "gray": "#626670",
@@ -21,7 +21,7 @@
       "bodyRadius": 79,
       "screenRadius": 48,
       "webcam": {
-        "x": 1832.9,
+        "x": 1833.38,
         "y": 1447.5,
         "r": 11
       }
@@ -29,9 +29,10 @@
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth"
+        "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+        "https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s12-plus-silver-256gb-sm-x840nzsreub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 187.8 × 289.5 mm; centered display derived from 12.6 in diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+      "notes": "Portrait, 10 units/mm. Body 187.8 × 289.5 mm; centered display derived from 320.4 mm full-rectangle diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
     }
   },
   {
@@ -43,10 +44,10 @@
     "width": 2085.0,
     "height": 3263.0,
     "screen": {
-      "x": 60.54,
-      "y": 58.66,
-      "width": 1963.92,
-      "height": 3145.67
+      "x": 63.03,
+      "y": 62.65,
+      "width": 1958.94,
+      "height": 3137.7
     },
     "finishes": {
       "gray": "#626670",
@@ -56,14 +57,14 @@
       "bodyRadius": 79,
       "screenRadius": 47,
       "notch": {
-        "x": 1992.46,
+        "x": 1989.97,
         "y": 1598.5,
         "width": 40,
         "height": 66,
         "r": 18
       },
       "webcam": {
-        "x": 2017.46,
+        "x": 2014.97,
         "y": 1631.5,
         "r": 10
       }
@@ -71,9 +72,10 @@
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth"
+        "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+        "https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s12-ultra-grey-256gb-sm-x940nzareub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame."
+      "notes": "Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 369.9 mm full-rectangle diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame."
     }
   },
   {
@@ -85,10 +87,10 @@
     "width": 1653.0,
     "height": 2538.0,
     "screen": {
-      "x": 86.09,
-      "y": 84.35,
-      "width": 1480.82,
-      "height": 2369.31
+      "x": 89.54,
+      "y": 89.86,
+      "width": 1473.93,
+      "height": 2358.28
     },
     "finishes": {
       "gray": "#626670",
@@ -98,7 +100,7 @@
       "bodyRadius": 76,
       "screenRadius": 41,
       "webcam": {
-        "x": 1609.95,
+        "x": 1608.23,
         "y": 1269.0,
         "r": 11
       }
@@ -106,9 +108,10 @@
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet"
+        "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet",
+        "https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s11-silver-128gb-wi-fi-sm-x730nzsreub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 165.3 × 253.8 mm; centered display derived from 11 in diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+      "notes": "Portrait, 10 units/mm. Body 165.3 × 253.8 mm; centered display derived from 278.1 mm full-rectangle diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
     }
   },
   {
@@ -120,10 +123,10 @@
     "width": 2085.0,
     "height": 3263.0,
     "screen": {
-      "x": 60.54,
-      "y": 58.66,
-      "width": 1963.92,
-      "height": 3145.67
+      "x": 63.03,
+      "y": 62.65,
+      "width": 1958.94,
+      "height": 3137.7
     },
     "finishes": {
       "gray": "#626670",
@@ -133,14 +136,14 @@
       "bodyRadius": 79,
       "screenRadius": 47,
       "notch": {
-        "x": 1992.46,
+        "x": 1989.97,
         "y": 1598.5,
         "width": 40,
         "height": 66,
         "r": 18
       },
       "webcam": {
-        "x": 2017.46,
+        "x": 2014.97,
         "y": 1631.5,
         "r": 10
       }
@@ -148,9 +151,10 @@
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet"
+        "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet",
+        "https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s11-ultra-grey-256gb-wi-fi-sm-x930nzareub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame."
+      "notes": "Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 369.9 mm full-rectangle diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame."
     }
   },
   {
@@ -162,10 +166,10 @@
     "width": 1854.0,
     "height": 2854.0,
     "screen": {
-      "x": 91.67,
-      "y": 92.0,
-      "width": 1670.66,
-      "height": 2670.0
+      "x": 91.57,
+      "y": 91.83,
+      "width": 1670.87,
+      "height": 2670.34
     },
     "finishes": {
       "moonstone-grey": "#636771",
@@ -175,7 +179,7 @@
       "bodyRadius": 78,
       "screenRadius": 44,
       "webcam": {
-        "x": 1808.16,
+        "x": 1808.22,
         "y": 1427.0,
         "r": 11
       }
@@ -183,9 +187,10 @@
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet"
+        "https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet",
+        "https://www.samsung.com/uk/business/tablets/galaxy-tab-s/galaxy-tab-s10-plus-grey-256gb-wi-fi-sm-x820nzareub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 185.4 × 285.4 mm; centered display derived from 12.4 in diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+      "notes": "Portrait, 10 units/mm. Body 185.4 × 285.4 mm; centered display derived from 315 mm full-rectangle diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
     }
   },
   {
@@ -197,10 +202,10 @@
     "width": 2086.0,
     "height": 3264.0,
     "screen": {
-      "x": 61.04,
-      "y": 59.16,
-      "width": 1963.92,
-      "height": 3145.67
+      "x": 63.53,
+      "y": 63.15,
+      "width": 1958.94,
+      "height": 3137.7
     },
     "finishes": {
       "moonstone-grey": "#636771",
@@ -210,14 +215,14 @@
       "bodyRadius": 77,
       "screenRadius": 43,
       "notch": {
-        "x": 1994.96,
+        "x": 1992.47,
         "y": 1555.5,
         "width": 38,
         "height": 153,
         "r": 10
       },
       "webcam": {
-        "x": 2017.96,
+        "x": 2015.47,
         "y": 1603.0,
         "r": 10
       }
@@ -225,9 +230,10 @@
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet"
+        "https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet",
+        "https://www.samsung.com/au/tablets/galaxy-tab-s/galaxy-tab-s10-ultra-gray-256gb-wifi-sm-x920nzaaxsa/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 208.6 × 326.4 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. One lens marker represents the dual-camera housing."
+      "notes": "Portrait, 10 units/mm. Body 208.6 × 326.4 mm; centered display derived from 369.9 mm full-rectangle diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. One lens marker represents the dual-camera housing."
     }
   },
   {
@@ -239,10 +245,10 @@
     "width": 1658.0,
     "height": 2543.0,
     "screen": {
-      "x": 95.32,
-      "y": 97.62,
-      "width": 1467.36,
-      "height": 2347.77
+      "x": 94.95,
+      "y": 97.02,
+      "width": 1468.1,
+      "height": 2348.96
     },
     "finishes": {
       "gray": "#626670",
@@ -253,7 +259,7 @@
       "bodyRadius": 78,
       "screenRadius": 42,
       "webcam": {
-        "x": 1610.34,
+        "x": 1610.52,
         "y": 1271.5,
         "r": 11
       }
@@ -262,9 +268,10 @@
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
-        "https://www.samsung.com/us/support/answer/ANS10005059/"
+        "https://www.samsung.com/us/support/answer/ANS10005059/",
+        "https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s10-fe-grey-128gb-wi-fi-sm-x520nzareub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 10.9 in diagonal and 1440 × 2304 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+      "notes": "Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 277 mm full-rectangle diagonal and 1440 × 2304 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
     }
   },
   {
@@ -276,10 +283,10 @@
     "width": 1947.0,
     "height": 3006.0,
     "screen": {
-      "x": 91.74,
-      "y": 92.18,
-      "width": 1763.52,
-      "height": 2821.63
+      "x": 91.58,
+      "y": 91.93,
+      "width": 1763.84,
+      "height": 2822.14
     },
     "finishes": {
       "gray": "#626670",
@@ -290,7 +297,7 @@
       "bodyRadius": 80,
       "screenRadius": 45,
       "webcam": {
-        "x": 1901.13,
+        "x": 1901.21,
         "y": 1503.0,
         "r": 11
       }
@@ -299,9 +306,10 @@
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
         "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
-        "https://www.samsung.com/us/support/answer/ANS10005059/"
+        "https://www.samsung.com/us/support/answer/ANS10005059/",
+        "https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-silver-256gb-wi-fi-sm-x620nzspeub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 194.7 × 300.6 mm; centered display derived from 13.1 in diagonal and 1800 × 2880 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+      "notes": "Portrait, 10 units/mm. Body 194.7 × 300.6 mm; centered display derived from 332.8 mm full-rectangle diagonal and 1800 × 2880 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
     }
   },
   {
@@ -313,10 +321,10 @@
     "width": 1658.0,
     "height": 2543.0,
     "screen": {
-      "x": 95.32,
-      "y": 97.62,
-      "width": 1467.36,
-      "height": 2347.77
+      "x": 94.95,
+      "y": 97.02,
+      "width": 1468.1,
+      "height": 2348.96
     },
     "finishes": {
       "gray": "#626670",
@@ -327,7 +335,7 @@
       "bodyRadius": 78,
       "screenRadius": 40,
       "webcam": {
-        "x": 1610.34,
+        "x": 1610.52,
         "y": 1271.5,
         "r": 11
       }
@@ -335,9 +343,10 @@
     "provenance": {
       "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
       "sources": [
-        "https://news.samsung.com/global/galaxy-tab-s10-lite-a-value-packed-tablet-for-everyday-needs"
+        "https://news.samsung.com/global/galaxy-tab-s10-lite-a-value-packed-tablet-for-everyday-needs",
+        "https://www.samsung.com/uk/tablets/galaxy-tab-s/galaxy-tab-s10-lite-grey-128gb-wi-fi-sm-x400nzareub/"
       ],
-      "notes": "Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 10.9 in diagonal and 1320 × 2112 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+      "notes": "Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 277 mm full-rectangle diagonal and 1320 × 2112 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
     }
   },
   {

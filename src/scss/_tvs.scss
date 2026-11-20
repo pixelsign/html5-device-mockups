@@ -6,3 +6,9 @@ $tvRows: (
     (sonyBravia8II55, landscape, 'black', true, 1224, 722, 11.077, 7, 30.298000000000002, 7, 0, 0, 0, 0),
     (tcl55C7K, landscape, 'black', true, 1226, 760, 11.865, 7, 66.38499999999999, 7, 0, 0, 0, 0)
 );
+@mixin tv-screen-beds {
+  &[data-device="samsungFrame55LS03F"][data-orientation="landscape"]::before { inset: 1.658596% 1.21173% 6.944613% 1.21173%; border-radius: 0% / 0%; }
+  &[data-device="lgOLED55C5"][data-orientation="landscape"]::before { inset: 1.241347% 0.490998% 8.84782% 0.490998%; border-radius: 0% / 0%; }
+  &[data-device="sonyBravia8II55"][data-orientation="landscape"]::before { inset: 1.534211% 0.571895% 4.196399% 0.571895%; border-radius: 0% / 0%; }
+  &[data-device="tcl55C7K"][data-orientation="landscape"]::before { inset: 1.561184% 0.570962% 8.734868% 0.570962%; border-radius: 0% / 0%; }
+}

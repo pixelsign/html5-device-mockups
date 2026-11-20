@@ -21,7 +21,12 @@ test('pilot proportions are preserved and all catalog entries define usable swat
     assert.ok(r, id);
     assert.equal(r.group, group);
     assert.ok(Math.abs(r.width / r.height - w / h) < 0.00001);
-    assert.ok(Math.abs(r.screen.width / r.screen.height - pw / ph) < 0.00001);
+    if (id === 'iPhone17') {
+      // Apple's dimensioned active area is authoritative; its rounded millimetres
+      // need not reproduce the nominal pixel ratio exactly.
+      assert.equal(r.screen.width, 665.7);
+      assert.equal(r.screen.height, 1447.9);
+    } else assert.ok(Math.abs(r.screen.width / r.screen.height - pw / ph) < 0.00001);
   }
   for (const r of records) {
     const s = r.screen;

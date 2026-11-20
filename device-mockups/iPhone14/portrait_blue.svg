@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="715" height="1467" viewBox="0 0 715 1467">
   <title>iPhone 14 — blue</title>
-  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate. Measurements: https://support.apple.com/en-us/111850</desc>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate. Measurements: https://support.apple.com/en-us/111850; https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-14.pdf</desc>
   <defs>
     <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
       <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
@@ -16,12 +16,12 @@
     <rect x="707" y="390" width="8" height="102" rx="3"/>
   </g>
   <g fill-rule="evenodd">
-    <path fill="#101114" d="M106 6H609a97 97 0 0 1 97 97V1364a97 97 0 0 1 -97 97H106a97 97 0 0 1 -97 -97V103a97 97 0 0 1 97 -97Z M106.478 34.448H608.521a72 72 0 0 1 72 72V1360.552a72 72 0 0 1 -72 72H106.478a72 72 0 0 1 -72 -72V106.448a72 72 0 0 1 72 -72Z"/>
+    <path fill="#101114" d="M106 6H609a97 97 0 0 1 97 97V1364a97 97 0 0 1 -97 97H106a97 97 0 0 1 -97 -97V103a97 97 0 0 1 97 -97Z M106.7 34.7H608.5a72 72 0 0 1 72 72V1360.4a72 72 0 0 1 -72 72H106.7a72 72 0 0 1 -72 -72V106.7a72 72 0 0 1 72 -72Z"/>
     <path fill="#a7becf" d="M106 1H609a102 102 0 0 1 102 102V1364a102 102 0 0 1 -102 102H106a102 102 0 0 1 -102 -102V103a102 102 0 0 1 102 -102Z M106 10H609a93 93 0 0 1 93 93V1364a93 93 0 0 1 -93 93H106a93 93 0 0 1 -93 -93V103a93 93 0 0 1 93 -93Z"/>
     <path fill="url(#polish)" d="M106 1H609a102 102 0 0 1 102 102V1364a102 102 0 0 1 -102 102H106a102 102 0 0 1 -102 -102V103a102 102 0 0 1 102 -102Z M106 10H609a93 93 0 0 1 93 93V1364a93 93 0 0 1 -93 93H106a93 93 0 0 1 -93 -93V103a93 93 0 0 1 93 -93Z"/>
   </g>
-  <rect x="224" y="30.448" width="267" height="8" fill="#050608"/>
-  <path fill="#050608" d="M224 34.448h267v29q0 29 -29 29h-209q-29 0 -29 -29Z"/>
-  <circle cx="462" cy="63.448" r="18.56" fill="url(#optic)"/>
-  <circle cx="460" cy="61.448" r="1.5" fill="#9ab5d1" opacity=".5"/>
+  <rect x="223.65" y="30.7" width="267.9" height="8" fill="#050608"/>
+  <path fill="#050608" d="M223.65 34.7h267.9v27.9q0 27.9 -27.9 27.9h-212.1q-27.9 0 -27.9 -27.9Z"/>
+  <circle cx="463.65" cy="62.6" r="17.856" fill="url(#optic)"/>
+  <circle cx="461.65" cy="60.6" r="1.5" fill="#9ab5d1" opacity=".5"/>
 </svg>

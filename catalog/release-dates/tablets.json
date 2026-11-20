@@ -1,0 +1,206 @@
+{
+  "Surface": {
+    "date": "2012-10-26",
+    "source": "https://news.microsoft.com/source/2012/10/26/microsoft-surface-now-available-at-microsoft-retail-stores"
+  },
+  "SurfacePro3": {
+    "date": "2014-06-20",
+    "source": "https://blogs.microsoft.com/blog/2014/06/20/launch-day-surface-pro-3-is-now-available-in-the-us-and-canada/"
+  },
+  "galaxyTab4": {
+    "date": "2014-05-01",
+    "source": "https://www.androidauthority.com/galaxy-tab-4-us-may-1-372110/"
+  },
+  "galaxyTabA11": {
+    "date": "2025-09",
+    "source": "https://www.gsmarena.com/samsung_galaxy_tab_a11-14141.php"
+  },
+  "galaxyTabA11Plus": {
+    "date": "2025-11-02",
+    "source": "https://www.gsmarena.com/samsung_galaxy_tab_a11+-14192.php"
+  },
+  "galaxyTabS10FE": {
+    "date": "2025-04-03",
+    "source": "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design"
+  },
+  "galaxyTabS10FEPlus": {
+    "date": "2025-04-03",
+    "source": "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design"
+  },
+  "galaxyTabS10Lite": {
+    "date": "2025-09-05",
+    "source": "https://news.samsung.com/global/galaxy-tab-s10-lite-a-value-packed-tablet-for-everyday-needs"
+  },
+  "galaxyTabS10Plus": {
+    "date": "2024-10-03",
+    "source": "https://news.samsung.com/global/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet"
+  },
+  "galaxyTabS10Ultra": {
+    "date": "2024-10-03",
+    "source": "https://news.samsung.com/global/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet"
+  },
+  "galaxyTabS11": {
+    "date": "2025-09-04",
+    "source": "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet"
+  },
+  "galaxyTabS11Ultra": {
+    "date": "2025-09-04",
+    "source": "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet"
+  },
+  "galaxyTabS12Plus": {
+    "date": "2026-10-07",
+    "source": "https://news.samsung.com/us/productivity-powered-galaxy-tab-s12-series-now-available/"
+  },
+  "galaxyTabS12Ultra": {
+    "date": "2026-10-07",
+    "source": "https://news.samsung.com/us/productivity-powered-galaxy-tab-s12-series-now-available/"
+  },
+  "galaxyTabS9": {
+    "date": "2023-08-11",
+    "source": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series"
+  },
+  "galaxyTabS9Plus": {
+    "date": "2023-08-11",
+    "source": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series"
+  },
+  "galaxyTabS9Ultra": {
+    "date": "2023-08-11",
+    "source": "https://news.samsung.com/global/samsung-announces-global-launch-of-galaxy-z-flip5-galaxy-z-fold5-galaxy-watch6-series-and-galaxy-tab-s9-series"
+  },
+  "iPad": {
+    "date": "2011-03-11",
+    "source": "https://www.apple.com/newsroom/2011/03/02Apple-Launches-iPad-2/"
+  },
+  "iPadA16": {
+    "date": "2025-03-12",
+    "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/"
+  },
+  "iPadAir11M2": {
+    "date": "2024-05-15",
+    "source": "https://www.apple.com/newsroom/2024/05/the-redesigned-ipad-air-and-new-ipad-pro-are-available-today/"
+  },
+  "iPadAir11M3": {
+    "date": "2025-03-12",
+    "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/"
+  },
+  "iPadAir11M4": {
+    "date": "2026-03-11",
+    "source": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/"
+  },
+  "iPadAir13M2": {
+    "date": "2024-05-15",
+    "source": "https://www.apple.com/newsroom/2024/05/the-redesigned-ipad-air-and-new-ipad-pro-are-available-today/"
+  },
+  "iPadAir13M3": {
+    "date": "2025-03-12",
+    "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/"
+  },
+  "iPadAir13M4": {
+    "date": "2026-03-11",
+    "source": "https://www.apple.com/newsroom/2026/03/macbook-neo-iphone-17e-ipad-air-with-m4-and-more-are-now-available/"
+  },
+  "iPadAir2": {
+    "date": "2014-10-22",
+    "source": "https://www.cultofmac.com/news/ipad-air-2-ipad-mini-3-now-available-apple-stores"
+  },
+  "iPadAirGen4": {
+    "date": "2020-10-23",
+    "source": "https://www.apple.com/newsroom/2020/10/all-new-ipad-air-with-advanced-a14-bionic-chip-available-to-order-starting-today/"
+  },
+  "iPadAirGen5": {
+    "date": "2022-03-18",
+    "source": "https://www.apple.com/newsroom/2022/03/apple-introduces-the-most-powerful-and-versatile-ipad-air-ever/"
+  },
+  "iPadGen10": {
+    "date": "2022-10-26",
+    "source": "https://www.apple.com/newsroom/2022/10/apple-unveils-completely-redesigned-ipad-in-four-vibrant-colors/"
+  },
+  "iPadGen8": {
+    "date": "2020-09-18",
+    "source": "https://www.apple.com/newsroom/2020/09/apple-introduces-eighth-generation-ipad-with-a-huge-jump-in-performance/"
+  },
+  "iPadGen9": {
+    "date": "2021-09-24",
+    "source": "https://www.apple.com/newsroom/2021/09/iphone-13-lineup-new-ipad-mini-and-ninth-generation-ipad-arrive-worldwide/"
+  },
+  "iPadMiniA17Pro": {
+    "date": "2024-10-23",
+    "source": "https://www.apple.com/newsroom/2024/10/the-new-ipad-mini-is-available-today/"
+  },
+  "iPadMiniA20Pro": {
+    "date": "2026-11-06",
+    "source": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/"
+  },
+  "iPadMiniGen6": {
+    "date": "2021-09-24",
+    "source": "https://www.apple.com/newsroom/2021/09/iphone-13-lineup-new-ipad-mini-and-ninth-generation-ipad-arrive-worldwide/"
+  },
+  "iPadPro": {
+    "date": "2015-11-11",
+    "source": "https://www.macrumors.com/2015/11/11/ipad-pro-now-available-for-purchase/"
+  },
+  "iPadPro11Gen2": {
+    "date": "2020-03-25",
+    "source": "https://www.macrumors.com/2020/03/20/apple-shipping-first-ipad-pro-orders/"
+  },
+  "iPadPro11Gen3": {
+    "date": "2021-05-21",
+    "source": "https://www.apple.com/newsroom/2021/05/imac-ipad-pro-and-apple-tv-4k-in-stores-friday/"
+  },
+  "iPadPro11Gen4": {
+    "date": "2022-10-26",
+    "source": "https://apple.com/newsroom/2022/10/apple-introduces-next-generation-ipad-pro-supercharged-by-the-m2-chip"
+  },
+  "iPadPro11M4": {
+    "date": "2024-05-15",
+    "source": "https://www.apple.com/newsroom/2024/05/the-redesigned-ipad-air-and-new-ipad-pro-are-available-today/"
+  },
+  "iPadPro11M5": {
+    "date": "2025-10-22",
+    "source": "https://www.apple.com/newsroom/2025/10/new-ipad-pro-14-inch-macbook-pro-and-apple-vision-pro-now-available/"
+  },
+  "iPadPro129Gen4": {
+    "date": "2020-03-25",
+    "source": "https://www.macrumors.com/2020/03/20/apple-shipping-first-ipad-pro-orders/"
+  },
+  "iPadPro129Gen5": {
+    "date": "2021-05-21",
+    "source": "https://www.apple.com/newsroom/2021/05/imac-ipad-pro-and-apple-tv-4k-in-stores-friday/"
+  },
+  "iPadPro129Gen6": {
+    "date": "2022-10-26",
+    "source": "https://apple.com/newsroom/2022/10/apple-introduces-next-generation-ipad-pro-supercharged-by-the-m2-chip"
+  },
+  "iPadPro13M4": {
+    "date": "2024-05-15",
+    "source": "https://www.apple.com/newsroom/2024/05/the-redesigned-ipad-air-and-new-ipad-pro-are-available-today/"
+  },
+  "iPadPro13M5": {
+    "date": "2025-10-22",
+    "source": "https://www.apple.com/newsroom/2025/10/new-ipad-pro-14-inch-macbook-pro-and-apple-vision-pro-now-available/"
+  },
+  "lenovoLegionTabGen5": {
+    "date": "2026-03",
+    "source": "https://notebookcheck.net/Lenovo-releases-new-compact-gaming-tablet-in-Europe.1246021.0.html"
+  },
+  "onePlusPad4": {
+    "date": "2026-05-05",
+    "source": "https://timesofindia.indiatimes.com/technology/mobiles-tabs/oneplus-pad-4-with-13380mah-battery-snapdragon-elite-gen-5-chipset-launched-in-india-price-specs-and-more/articleshow/130627451.cms"
+  },
+  "onePlusPadGo2": {
+    "date": "2025-12-18",
+    "source": "https://www.hindustantimes.com/technology/oneplus-pad-go-2-with-mediatek-dimensity-7300-ultra-soc-launched-in-india-price-and-availability-101766031238516.html"
+  },
+  "pixelTablet": {
+    "date": "2023-06-20",
+    "source": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-tablet/"
+  },
+  "redmiPad2Pro": {
+    "date": "2025-09-24",
+    "source": "https://mi.com/uk/support/terms/xiaomi-15t-series-first-sale"
+  },
+  "xiaomiPad8Pro": {
+    "date": "2025-09-25",
+    "source": "https://android.tgbus.com/news/236798"
+  }
+}
