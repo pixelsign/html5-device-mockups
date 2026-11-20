@@ -40,13 +40,146 @@ Features:
 Devices
 -------
 
-The SVG devices are listed with their IDs and finishes in three catalogs:
+All 136 devices are listed below. Use the filename as `data-device`, one of the orientations as `data-orientation` and one of the colors as `data-color`. Within each brand, newer models come first.
+
+The SVG devices also have their own catalogs, with manufacturer references for each frame:
 
 * [Phones](catalog/COVERAGE.md), with the backlog of models not yet drawn
 * [Tablets and laptops](catalog/TABLETS-LAPTOPS.md)
 * [TVs](catalog/TVS.md)
 
-The manufacturer specifications each SVG frame is measured from are listed in [catalog/SOURCES.md](catalog/SOURCES.md). The table below covers the legacy PNG library.
+The manufacturer specifications each SVG frame is measured from are listed in [catalog/SOURCES.md](catalog/SOURCES.md).
+
+### Phones (51)
+
+| Name | Filename | Orientations | Colors |
+| --- | --- | --- | --- |
+| iPhone 17e | iPhone17e | portrait, landscape | black, white, soft-pink |
+| iPhone 18 Pro | iPhone18Pro | portrait, landscape | black, silver, glacier, burgundy |
+| iPhone 18 Pro Max | iPhone18ProMax | portrait, landscape | black, silver, glacier, burgundy |
+| iPhone Duo (cover) | iPhoneDuoCover | portrait, landscape | night-sky, star-white |
+| iPhone Duo (open) | iPhoneDuoOpen | portrait, landscape | night-sky, star-white |
+| iPhone 16e | iPhone16e | portrait, landscape | black, white |
+| iPhone 17 | iPhone17 | portrait, landscape | black, white, mist-blue, sage, lavender |
+| iPhone 17 Pro | iPhone17Pro | portrait, landscape | silver, cosmic-orange, deep-blue |
+| iPhone 17 Pro Max | iPhone17ProMax | portrait, landscape | silver, cosmic-orange, deep-blue |
+| iPhone Air | iPhoneAir | portrait, landscape | space-black, cloud-white, light-gold, sky-blue |
+| iPhone 16 | iPhone16 | portrait, landscape | black, white, pink, teal, ultramarine |
+| iPhone 16 Plus | iPhone16Plus | portrait, landscape | black, white, pink, teal, ultramarine |
+| iPhone 16 Pro | iPhone16Pro | portrait, landscape | black-titanium, white-titanium, natural-titanium, desert-titanium |
+| iPhone 16 Pro Max | iPhone16ProMax | portrait, landscape | black-titanium, white-titanium, natural-titanium, desert-titanium |
+| iPhone 15 | iPhone15 | portrait, landscape | black, blue, green, yellow, pink |
+| iPhone 15 Plus | iPhone15Plus | portrait, landscape | black, blue, green, yellow, pink |
+| iPhone 15 Pro | iPhone15Pro | portrait, landscape | black-titanium, white-titanium, blue-titanium, natural-titanium |
+| iPhone 15 Pro Max | iPhone15ProMax | portrait, landscape | black-titanium, white-titanium, blue-titanium, natural-titanium |
+| iPhone 14 | iPhone14 | portrait, landscape | midnight, purple, starlight, product-red, blue, yellow |
+| iPhone 14 Plus | iPhone14Plus | portrait, landscape | midnight, purple, starlight, product-red, blue, yellow |
+| iPhone 14 Pro | iPhone14Pro | portrait, landscape | space-black, silver, gold, deep-purple |
+| iPhone 14 Pro Max | iPhone14ProMax | portrait, landscape | space-black, silver, gold, deep-purple |
+| iPhone SE (3rd generation) | iPhoneSE3 | portrait, landscape | product-red, starlight, midnight |
+| iPhone 13 | iPhone13 | portrait, landscape | product-red, starlight, midnight, blue, pink, green |
+| iPhone 13 mini | iPhone13mini | portrait, landscape | product-red, starlight, midnight, blue, pink, green |
+| iPhone 13 Pro | iPhone13Pro | portrait, landscape | graphite, gold, silver, sierra-blue, alpine-green |
+| iPhone 13 Pro Max | iPhone13ProMax | portrait, landscape | graphite, gold, silver, sierra-blue, alpine-green |
+| iPhone 12 | iPhone12 | portrait, landscape | black, white, product-red, green, blue, purple |
+| iPhone 12 mini | iPhone12mini | portrait, landscape | black, white, product-red, green, blue, purple |
+| iPhone 12 Pro | iPhone12Pro | portrait, landscape | silver, graphite, gold, pacific-blue |
+| iPhone 12 Pro Max | iPhone12ProMax | portrait, landscape | silver, graphite, gold, pacific-blue |
+| iPhone SE (2nd generation) | iPhoneSE2 | portrait, landscape | black, white, product-red |
+| iPhone 11 | iPhone11 | portrait, landscape | black, green, yellow, purple, product-red, white |
+| iPhone 11 Pro | iPhone11Pro | portrait, landscape | gold, space-gray, silver, midnight-green |
+| iPhone 11 Pro Max | iPhone11ProMax | portrait, landscape | gold, space-gray, silver, midnight-green |
+| iPhone XR | iPhoneXR | portrait, landscape | product-red, yellow, white, coral, black, blue |
+| Galaxy S25 | galaxyS25 | portrait, landscape | navy, icyblue, mint, silver-shadow, blueblack, coralred, pinkgold |
+| Galaxy S25 Edge | galaxyS25Edge | portrait, landscape | titanium-silver, titanium-jetblack, titanium-icyblue |
+| Galaxy S25 FE | galaxyS25FE | portrait, landscape | navy, jetblack, icyblue, white |
+| Galaxy S25 Ultra | galaxyS25Ultra | portrait, landscape | titanium-silverblue, titanium-black, titanium-grey, titanium-whitesilver, titanium-jetblack, titanium-jadegreen, titanium-pinkgold |
+| Galaxy S25+ | galaxyS25Plus | portrait, landscape | navy, icyblue, mint, silver-shadow, blueblack, coralred, pinkgold |
+| Pixel 10a | Pixel10a | portrait, landscape | lavender, berry, fog, obsidian |
+| Pixel 10 | Pixel10 | portrait, landscape | obsidian, indigo, frost, lemongrass |
+| Pixel 10 Pro | Pixel10Pro | portrait, landscape | moonstone, jade, porcelain, obsidian |
+| Pixel 10 Pro Fold (cover) | Pixel10ProFoldCover | portrait, landscape | moonstone, jade |
+| Pixel 10 Pro Fold (open) | Pixel10ProFoldOpen | portrait, landscape | moonstone, jade |
+| Pixel 10 Pro XL | Pixel10ProXL | portrait, landscape | moonstone, jade, porcelain, obsidian |
+| Nothing Phone (3) | NothingPhone3 | portrait, landscape | black, white |
+| Nothing Phone (3a) | NothingPhone3a | portrait, landscape | black, white, blue |
+| Nothing Phone (3a) Lite | NothingPhone3aLite | portrait, landscape | black, white, blue |
+| Nothing Phone (3a) Pro | NothingPhone3aPro | portrait, landscape | grey, black |
+
+### Tablets (45)
+
+| Name | Filename | Orientations | Colors |
+| --- | --- | --- | --- |
+| iPad Air 11-inch (M4) | iPadAir11M4 | portrait, landscape | blue, purple, starlight, space-gray |
+| iPad Air 13-inch (M4) | iPadAir13M4 | portrait, landscape | blue, purple, starlight, space-gray |
+| iPad mini (A20 Pro) | iPadMiniA20Pro | portrait, landscape | midnight, starlight |
+| iPad (A16) | iPadA16 | portrait, landscape | silver, blue, pink, yellow |
+| iPad Air 11-inch (M3) | iPadAir11M3 | portrait, landscape | blue, purple, starlight, space-gray |
+| iPad Air 13-inch (M3) | iPadAir13M3 | portrait, landscape | blue, purple, starlight, space-gray |
+| iPad Pro 11-inch (M5) | iPadPro11M5 | portrait, landscape | silver, space-black |
+| iPad Pro 13-inch (M5) | iPadPro13M5 | portrait, landscape | silver, space-black |
+| iPad Air 11-inch (M2) | iPadAir11M2 | portrait, landscape | blue, purple, starlight, space-gray |
+| iPad Air 13-inch (M2) | iPadAir13M2 | portrait, landscape | blue, purple, starlight, space-gray |
+| iPad mini (A17 Pro) | iPadMiniA17Pro | portrait, landscape | blue, purple, starlight, space-gray |
+| iPad Pro 11-inch (M4) | iPadPro11M4 | portrait, landscape | silver, space-black |
+| iPad Pro 13-inch (M4) | iPadPro13M4 | portrait, landscape | silver, space-black |
+| iPad (10th generation) | iPadGen10 | portrait, landscape | silver, blue, pink, yellow |
+| iPad Air (5th generation) | iPadAirGen5 | portrait, landscape | space-gray, starlight, pink, purple, blue |
+| iPad Pro 11-inch (4th generation) | iPadPro11Gen4 | portrait, landscape | silver, space-gray |
+| iPad Pro 12.9-inch (6th generation) | iPadPro129Gen6 | portrait, landscape | silver, space-gray |
+| iPad (9th generation) | iPadGen9 | portrait, landscape | silver, space-gray |
+| iPad mini (6th generation) | iPadMiniGen6 | portrait, landscape | space-gray, pink, purple, starlight |
+| iPad Pro 11-inch (3rd generation) | iPadPro11Gen3 | portrait, landscape | silver, space-gray |
+| iPad Pro 12.9-inch (5th generation) | iPadPro129Gen5 | portrait, landscape | silver, space-gray |
+| iPad (8th generation) | iPadGen8 | portrait, landscape | silver, space-gray, gold |
+| iPad Air (4th generation) | iPadAirGen4 | portrait, landscape | silver, space-gray, rose-gold, green, sky-blue |
+| iPad Pro 11-inch (2nd generation) | iPadPro11Gen2 | portrait, landscape | silver, space-gray |
+| iPad Pro 12.9-inch (4th generation) | iPadPro129Gen4 | portrait, landscape | silver, space-gray |
+| Galaxy Tab S12 Ultra | galaxyTabS12Ultra | portrait, landscape | gray, silver |
+| Galaxy Tab S12+ | galaxyTabS12Plus | portrait, landscape | gray, silver |
+| Galaxy Tab A11 | galaxyTabA11 | portrait, landscape | grey, silver |
+| Galaxy Tab A11+ | galaxyTabA11Plus | portrait, landscape | grey, silver |
+| Galaxy Tab S10 FE | galaxyTabS10FE | portrait, landscape | gray, silver, blue |
+| Galaxy Tab S10 FE+ | galaxyTabS10FEPlus | portrait, landscape | gray, silver, blue |
+| Galaxy Tab S10 Lite | galaxyTabS10Lite | portrait, landscape | gray, silver, coralred |
+| Galaxy Tab S11 | galaxyTabS11 | portrait, landscape | gray, silver |
+| Galaxy Tab S11 Ultra | galaxyTabS11Ultra | portrait, landscape | gray, silver |
+| Galaxy Tab S10 Ultra | galaxyTabS10Ultra | portrait, landscape | moonstone-grey, platinum-silver |
+| Galaxy Tab S10+ | galaxyTabS10Plus | portrait, landscape | moonstone-grey, platinum-silver |
+| Galaxy Tab S9 | galaxyTabS9 | portrait, landscape | graphite, beige |
+| Galaxy Tab S9 Ultra | galaxyTabS9Ultra | portrait, landscape | graphite, beige |
+| Galaxy Tab S9+ | galaxyTabS9Plus | portrait, landscape | graphite, beige |
+| Pixel Tablet | pixelTablet | portrait, landscape | porcelain, hazel, rose |
+| OnePlus Pad 4 | onePlusPad4 | portrait, landscape | dune-glow, sage-mist |
+| OnePlus Pad Go 2 | onePlusPadGo2 | portrait, landscape | shadow-black, lavender-drift |
+| Redmi Pad 2 Pro | redmiPad2Pro | portrait, landscape | graphite-gray, silver, lavender-purple |
+| Xiaomi Pad 8 Pro | xiaomiPad8Pro | portrait, landscape | pine-green, blue, gray |
+| Lenovo Legion Tab Gen 5 | lenovoLegionTabGen5 | portrait, landscape | eclipse-black, glacier-white, aurora, surge |
+
+### Laptops (9)
+
+| Name | Filename | Orientations | Colors |
+| --- | --- | --- | --- |
+| MacBook Air 13-inch (M5) | MacBookAir13M5 | landscape | sky-blue, silver, starlight, midnight |
+| MacBook Air 15-inch (M5) | MacBookAir15M5 | landscape | sky-blue, silver, starlight, midnight |
+| MacBook Neo 13-inch (A18 Pro) | MacBookNeo13A18Pro | landscape | silver, blush, citrus, indigo |
+| MacBook Pro 14-inch (M5 Pro, PROLED XDR) | MacBookPro14ProledM5Pro | landscape | space-black, silver |
+| MacBook Pro 14-inch (M6, Liquid Retina XDR) | MacBookPro14M6 | landscape | space-black, silver |
+| MacBook Pro 16-inch (M5 Max, Liquid Retina XDR) | MacBookPro16M5Max | landscape | space-black, silver |
+| MacBook Pro 16-inch (M5 Pro, PROLED XDR) | MacBookPro16ProledM5Pro | landscape | space-black, silver |
+| Surface Laptop 13.8-inch (8th Edition, Snapdragon) | SurfaceLaptop138Gen8 | landscape | platinum, black, dune, jade |
+| Dell XPS 13 (DX13260, 2.5K touch) | DellXPS13DX13260 | landscape | sky |
+
+### TVs (4)
+
+| Name | Filename | Orientations | Colors |
+| --- | --- | --- | --- |
+| Samsung The Frame LS03F (55-inch) | samsungFrame55LS03F | landscape | black |
+| LG OLED evo C5 (55-inch) | lgOLED55C5 | landscape | black |
+| Sony BRAVIA 8 II (55-inch) | sonyBravia8II55 | landscape | black |
+| TCL C7K QD-Mini LED (55-inch) | tcl55C7K | landscape | black |
+
+### Legacy PNG devices (27)
 
 Devices marked **Obsolete** are long out of support and rarely seen any more. They still work and stay in the package for existing users.
 
