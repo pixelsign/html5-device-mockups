@@ -1,0 +1,60 @@
+# Tablets and laptops
+
+Original front views. Display ratios and references are in `catalog/large/*.json`; bezel details, finishes and laptop deck projections are illustrative. Tablets rotate. Laptops are open, front-facing landscape views.
+
+| Device | ID | Finishes | Manufacturer references |
+|---|---|---|---|
+| Galaxy Tab S12+ | `galaxyTabS12Plus` | gray, silver | [source 1](https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth) |
+| Galaxy Tab S12 Ultra | `galaxyTabS12Ultra` | gray, silver | [source 1](https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth) |
+| Galaxy Tab S11 | `galaxyTabS11` | gray, silver | [source 1](https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet) |
+| Galaxy Tab S11 Ultra | `galaxyTabS11Ultra` | gray, silver | [source 1](https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet) |
+| Galaxy Tab S10+ | `galaxyTabS10Plus` | moonstone-grey, platinum-silver | [source 1](https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet) |
+| Galaxy Tab S10 Ultra | `galaxyTabS10Ultra` | moonstone-grey, platinum-silver | [source 1](https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet) |
+| Galaxy Tab S10 FE | `galaxyTabS10FE` | gray, silver, blue | [source 1](https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design) · [source 2](https://www.samsung.com/us/support/answer/ANS10005059/) |
+| Galaxy Tab S10 FE+ | `galaxyTabS10FEPlus` | gray, silver, blue | [source 1](https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design) · [source 2](https://www.samsung.com/us/support/answer/ANS10005059/) |
+| Galaxy Tab S10 Lite | `galaxyTabS10Lite` | gray, silver, coralred | [source 1](https://news.samsung.com/global/galaxy-tab-s10-lite-a-value-packed-tablet-for-everyday-needs) |
+| Galaxy Tab S9 | `galaxyTabS9` | graphite, beige | [source 1](https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-serie) |
+| Galaxy Tab S9+ | `galaxyTabS9Plus` | graphite, beige | [source 1](https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-serie) |
+| Galaxy Tab S9 Ultra | `galaxyTabS9Ultra` | graphite, beige | [source 1](https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-serie) |
+| Galaxy Tab A11 | `galaxyTabA11` | grey, silver | [source 1](https://www.samsung.com/uk/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/) |
+| Galaxy Tab A11+ | `galaxyTabA11Plus` | grey, silver | [source 1](https://www.samsung.com/uk/tablets/galaxy-tab-a/galaxy-tab-a11-plus-silver-128gb-wi-fi-sm-x230nzsreub/) |
+| Pixel Tablet | `pixelTablet` | porcelain, hazel, rose | [source 1](https://support.google.com/googlepixeltablet/answer/13555146?hl=en) |
+| OnePlus Pad 4 | `onePlusPad4` | dune-glow, sage-mist | [source 1](https://www.oneplus.com/global/pad-4/specs) |
+| OnePlus Pad Go 2 | `onePlusPadGo2` | shadow-black, lavender-drift | [source 1](https://www.oneplus.com/global/oneplus-pad-go-2/specs) |
+| Xiaomi Pad 8 Pro | `xiaomiPad8Pro` | pine-green, blue, gray | [source 1](https://www.mi.com/global/product/xiaomi-pad-8-pro/specs) |
+| Redmi Pad 2 Pro | `redmiPad2Pro` | graphite-gray, silver, lavender-purple | [source 1](https://www.mi.com/global/product/redmi-pad-2-pro/specs/) |
+| Lenovo Legion Tab Gen 5 | `lenovoLegionTabGen5` | eclipse-black, glacier-white, aurora, surge | [source 1](https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Legion_Tab_8_8_5/Legion_Tab_8_8_5_Spec.PDF) |
+| iPad (A16) · 2025 | `iPadA16` | silver, blue, pink, yellow | [source 1](https://support.apple.com/en-us/122240) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad (10th generation) · 2022 | `iPadGen10` | silver, blue, pink, yellow | [source 1](https://support.apple.com/en-us/111840) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad (9th generation) · 2021 | `iPadGen9` | silver, space-gray | [source 1](https://support.apple.com/en-us/111898) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad (8th generation) · 2020 | `iPadGen8` | silver, space-gray, gold | [source 1](https://support.apple.com/en-us/118451) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad mini (A20 Pro) · 2026 | `iPadMiniA20Pro` | midnight, starlight | [source 1](https://support.apple.com/en-us/149482) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad mini (A17 Pro) · 2024 | `iPadMiniA17Pro` | blue, purple, starlight, space-gray | [source 1](https://support.apple.com/en-us/121456) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad mini (6th generation) · 2021 | `iPadMiniGen6` | space-gray, pink, purple, starlight | [source 1](https://support.apple.com/en-us/111886) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air 11-inch (M4) · 2026 | `iPadAir11M4` | blue, purple, starlight, space-gray | [source 1](https://support.apple.com/en-us/126471) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air 13-inch (M4) · 2026 | `iPadAir13M4` | blue, purple, starlight, space-gray | [source 1](https://support.apple.com/en-us/126472) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air 11-inch (M3) · 2025 | `iPadAir11M3` | blue, purple, starlight, space-gray | [source 1](https://support.apple.com/en-us/122241) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air 13-inch (M3) · 2025 | `iPadAir13M3` | blue, purple, starlight, space-gray | [source 1](https://support.apple.com/en-us/122242) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air 11-inch (M2) · 2024 | `iPadAir11M2` | blue, purple, starlight, space-gray | [source 1](https://support.apple.com/en-us/119894) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air 13-inch (M2) · 2024 | `iPadAir13M2` | blue, purple, starlight, space-gray | [source 1](https://support.apple.com/en-us/119893) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air (5th generation) · 2022 | `iPadAirGen5` | space-gray, starlight, pink, purple, blue | [source 1](https://support.apple.com/en-us/111887) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Air (4th generation) · 2020 | `iPadAirGen4` | silver, space-gray, rose-gold, green, sky-blue | [source 1](https://support.apple.com/en-us/111905) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 11-inch (M5) · 2025 | `iPadPro11M5` | silver, space-black | [source 1](https://support.apple.com/en-us/125406) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 13-inch (M5) · 2025 | `iPadPro13M5` | silver, space-black | [source 1](https://support.apple.com/en-us/125407) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 11-inch (M4) · 2024 | `iPadPro11M4` | silver, space-black | [source 1](https://support.apple.com/en-us/119892) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 13-inch (M4) · 2024 | `iPadPro13M4` | silver, space-black | [source 1](https://support.apple.com/en-us/119891) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 11-inch (4th generation) · 2022 | `iPadPro11Gen4` | silver, space-gray | [source 1](https://support.apple.com/en-us/111842) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 12.9-inch (6th generation) · 2022 | `iPadPro129Gen6` | silver, space-gray | [source 1](https://support.apple.com/en-us/111841) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 11-inch (3rd generation) · 2021 | `iPadPro11Gen3` | silver, space-gray | [source 1](https://support.apple.com/en-us/111897) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 12.9-inch (5th generation) · 2021 | `iPadPro129Gen5` | silver, space-gray | [source 1](https://support.apple.com/en-us/111896) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 11-inch (2nd generation) · 2020 | `iPadPro11Gen2` | silver, space-gray | [source 1](https://support.apple.com/en-us/118452) · [source 2](https://support.apple.com/en-us/108043) |
+| iPad Pro 12.9-inch (4th generation) · 2020 | `iPadPro129Gen4` | silver, space-gray | [source 1](https://support.apple.com/en-us/111977) · [source 2](https://support.apple.com/en-us/108043) |
+| MacBook Neo 13-inch (A18 Pro) | `MacBookNeo13A18Pro` | silver, blush, citrus, indigo | [source 1](https://www.apple.com/macbook-neo/specs/) · [source 2](https://www.apple.com/shop/buy-mac/macbook-neo) |
+| MacBook Air 13-inch (M5) | `MacBookAir13M5` | sky-blue, silver, starlight, midnight | [source 1](https://www.apple.com/macbook-air/specs/) · [source 2](https://www.apple.com/shop/buy-mac/macbook-air) |
+| MacBook Air 15-inch (M5) | `MacBookAir15M5` | sky-blue, silver, starlight, midnight | [source 1](https://support.apple.com/en-us/126321) · [source 2](https://www.apple.com/shop/buy-mac/macbook-air) |
+| MacBook Pro 14-inch (M6, Liquid Retina XDR) | `MacBookPro14M6` | space-black, silver | [source 1](https://www.apple.com/macbook-pro/specs/) · [source 2](https://www.apple.com/shop/buy-mac/macbook-pro) |
+| MacBook Pro 16-inch (M5 Max, Liquid Retina XDR) | `MacBookPro16M5Max` | space-black, silver | [source 1](https://www.apple.com/macbook-pro/specs/) · [source 2](https://www.apple.com/shop/buy-mac/macbook-pro) |
+| MacBook Pro 14-inch (M5 Pro, PROLED XDR) | `MacBookPro14ProledM5Pro` | space-black, silver | [source 1](https://www.apple.com/macbook-pro/proled-xdr-display/specs/) · [source 2](https://www.apple.com/shop/buy-mac/macbook-pro-proled-xdr) · [source 3](https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/) |
+| MacBook Pro 16-inch (M5 Pro, PROLED XDR) | `MacBookPro16ProledM5Pro` | space-black, silver | [source 1](https://www.apple.com/macbook-pro/proled-xdr-display/specs/) · [source 2](https://www.apple.com/shop/buy-mac/macbook-pro-proled-xdr) · [source 3](https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/) |
+| Surface Laptop 13.8-inch (8th Edition, Snapdragon) | `SurfaceLaptop138Gen8` | platinum, black, dune, jade | [source 1](https://www.microsoft.com/en-us/surface/devices/surface-laptop) · [source 2](https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=8MZBMMCJZPMF&market=US&languages=en-us) |
+| Dell XPS 13 (DX13260, 2.5K touch) | `DellXPS13DX13260` | sky | [source 1](https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260) |

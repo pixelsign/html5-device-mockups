@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="801.36" height="520.46" viewBox="0 0 801.36 520.46">
+<title>MacBook Pro 14-inch (M6, Liquid Retina XDR) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="859.36" height="570.46">
+<rect x="29" y="9" width="801.36" height="520.46" rx="9" fill="white"/><rect x="403.18" y="9" width="53" height="11" rx="4" fill="black"/>
+</mask></defs>
+<g transform="translate(-29 -9)"><g mask="url(#aperture)"><rect x="29" y="9" width="801.36" height="520.46" rx="0" fill="white"/></g></g>
+</svg>

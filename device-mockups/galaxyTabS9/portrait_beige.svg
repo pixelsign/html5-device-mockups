@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1658" height="2543" viewBox="0 0 1658 2543">
+<title>Galaxy Tab S9 — beige</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 278.1 mm diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Sources: https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-serie</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1658" height="2543">
+<rect x="0" y="0" width="1658" height="2543" rx="0" fill="white"/><rect x="92.03" y="92.36" width="1473.93" height="2358.28" rx="39" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1658" height="2543" rx="74" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="1658" height="2543" rx="0" fill="#dfd5c2"/><rect x="0" y="0" width="1658" height="2543" rx="0" fill="url(#brushed)"/>
+<rect x="14.921999999999999" y="14.921999999999999" width="1628.156" height="2513.156" rx="59.078" fill="#111317"/>
+<circle cx="1611.98" cy="1271.5" r="11" fill="url(#lens)"/>
+</g></g>
+</svg>

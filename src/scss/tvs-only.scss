@@ -1,0 +1,2 @@
+@use 'general' with ($legacy-specials: false);
+@use 'device-mockups' with ($include-legacy: false, $include-phones: false, $include-large: false, $include-tvs: true);

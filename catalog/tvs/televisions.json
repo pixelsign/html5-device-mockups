@@ -1,0 +1,130 @@
+[
+  {
+    "id": "samsungFrame55LS03F",
+    "label": "Samsung The Frame LS03F (55-inch)",
+    "brand": "Samsung",
+    "group": "TVs",
+    "type": "tv",
+    "width": 1237.9,
+    "height": 743.4,
+    "screen": {
+      "x": 15,
+      "y": 12.33,
+      "width": 1207.9,
+      "height": 679.44375
+    },
+    "geometry": {
+      "panelHeight": 708.8,
+      "bodyRadius": 1.5,
+      "screenRadius": 0,
+      "stand": "feet",
+      "span": 897.2
+    },
+    "finishes": {
+      "black": "#353335"
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.samsung.com/at/lifestyle-tvs/the-frame/ls03f-55-inch-art-store-black-qe55ls03fauxxn/"
+      ],
+      "notes": "Front elevation in mm using published outer dimensions with and without tabletop stand. The 16:9 aperture, stand silhouette, bezel and colour are illustrative; no manufacturer artwork used."
+    }
+  },
+  {
+    "id": "lgOLED55C5",
+    "label": "LG OLED evo C5 (55-inch)",
+    "brand": "LG",
+    "group": "TVs",
+    "type": "tv",
+    "width": 1222,
+    "height": 757,
+    "screen": {
+      "x": 6,
+      "y": 9.397,
+      "width": 1210,
+      "height": 680.625
+    },
+    "geometry": {
+      "panelHeight": 703,
+      "bodyRadius": 1.5,
+      "screenRadius": 0,
+      "stand": "pedestal",
+      "span": 470
+    },
+    "finishes": {
+      "black": "#35373a"
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.lg.com/eastafrica/tvs/lg-oled55c56la"
+      ],
+      "notes": "Front elevation in mm using published outer dimensions with and without tabletop stand. The 16:9 aperture, stand silhouette, bezel and colour are illustrative; no manufacturer artwork used."
+    }
+  },
+  {
+    "id": "sonyBravia8II55",
+    "label": "Sony BRAVIA 8 II (55-inch)",
+    "brand": "Sony",
+    "group": "TVs",
+    "type": "tv",
+    "width": 1224,
+    "height": 722,
+    "screen": {
+      "x": 7,
+      "y": 11.077,
+      "width": 1210,
+      "height": 680.625
+    },
+    "geometry": {
+      "panelHeight": 707,
+      "bodyRadius": 1.5,
+      "screenRadius": 0,
+      "stand": "blades",
+      "span": 1170
+    },
+    "finishes": {
+      "black": "#292a2d"
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://sony.co.uk/bravia/products/bravia-8m2/spec?sku=k55xr8m25bp.uka"
+      ],
+      "notes": "Front elevation in mm using published outer dimensions with and without tabletop stand. The 16:9 aperture, stand silhouette, bezel and colour are illustrative; no manufacturer artwork used."
+    }
+  },
+  {
+    "id": "tcl55C7K",
+    "label": "TCL C7K QD-Mini LED (55-inch)",
+    "brand": "TCL",
+    "group": "TVs",
+    "type": "tv",
+    "width": 1226,
+    "height": 760,
+    "screen": {
+      "x": 7,
+      "y": 11.865,
+      "width": 1212,
+      "height": 681.75
+    },
+    "geometry": {
+      "panelHeight": 710,
+      "bodyRadius": 1.5,
+      "screenRadius": 0,
+      "stand": "pedestal",
+      "span": 370
+    },
+    "finishes": {
+      "black": "#44474b"
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://static-obg.tcl.com/content/dam/brandsite/region/australia/products/tv/c-series/c7k/downloads/55C7K_Specs.pdf"
+      ],
+      "notes": "Front elevation in mm using published outer dimensions with and without tabletop stand. The 16:9 aperture, stand silhouette, bezel and colour are illustrative; no manufacturer artwork used."
+    }
+  }
+]

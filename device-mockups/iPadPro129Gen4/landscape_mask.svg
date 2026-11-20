@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2629" height="1970" viewBox="0 0 2629 1970">
+<title>iPad Pro 12.9-inch (4th generation) · 2020 landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="2149" height="2806">
+<rect x="89.5" y="88.5" width="1970" height="2629" rx="38" fill="white"/>
+</mask></defs>
+<g transform="translate(0 1970) rotate(-90) translate(-89.5 -88.5)"><g mask="url(#aperture)"><rect x="89.5" y="88.5" width="1970" height="2629" rx="0" fill="white"/></g></g>
+</svg>

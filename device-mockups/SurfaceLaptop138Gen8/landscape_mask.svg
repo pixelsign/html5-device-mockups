@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="771.84" height="514.56" viewBox="0 0 771.84 514.56">
+<title>Surface Laptop 13.8-inch (8th Edition, Snapdragon) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="825.84" height="567.56">
+<rect x="27" y="21" width="771.84" height="514.56" rx="8" fill="white"/>
+</mask></defs>
+<g transform="translate(-27 -21)"><g mask="url(#aperture)"><rect x="27" y="21" width="771.84" height="514.56" rx="0" fill="white"/></g></g>
+</svg>

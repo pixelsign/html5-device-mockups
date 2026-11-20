@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="859.36" height="570.46" viewBox="0 0 859.36 570.46">
+<title>MacBook Pro 14-inch (M6, Liquid Retina XDR) — space-black</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. US catalog, 2026-11-20. Reference SKU: MHWT4LL/A (Space Black). 14.2-inch Liquid Retina XDR; native 3024 × 1964 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative. Sources: https://www.apple.com/macbook-pro/specs/; https://www.apple.com/shop/buy-mac/macbook-pro</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="859.36" height="570.46">
+<rect x="0" y="0" width="859.36" height="570.46" rx="0" fill="white"/><rect x="29" y="9" width="801.36" height="520.46" rx="9" fill="black"/><rect x="403.18" y="9" width="53" height="11" rx="4" fill="white"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="19" y="0" width="821.36" height="552.46" rx="15" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="19" y="0" width="821.36" height="552.46" rx="0" fill="#444446"/><rect x="19" y="0" width="821.36" height="552.46" rx="0" fill="url(#brushed)"/>
+<rect x="23.97214" y="4.97214" width="811.41572" height="542.51572" rx="10.02786" fill="#111317"/>
+<circle cx="429.68" cy="14.5" r="1.6" fill="url(#lens)"/>
+</g>
+<rect x="175.0584" y="541.96326" width="509.2432" height="15.74511" rx="3.673859" fill="#34383e"/>
+<g transform="translate(0 552.46) scale(859.36 18)">
+  <defs><clipPath id="base"><path d="M.007 0H.993Q1 0 1 .12V.45Q.98 .92 .90 1H.10Q.02 .92 0 .45V.12Q0 0 .007 0Z"/></clipPath></defs>
+  <g clip-path="url(#base)">
+    <rect width="1" height="1" fill="#444446"/><rect width="1" height="1" fill="url(#brushed)"/>
+    <path d="M0 .52Q.5 .64 1 .52V1H0Z" fill="#212633" opacity=".36"/>
+    <path d="M.405 0H.595Q.59 .25 .575 .26H.425Q.41 .25 .405 0Z" fill="#161a22" opacity=".57"/>
+  </g>
+</g></g>
+</svg>

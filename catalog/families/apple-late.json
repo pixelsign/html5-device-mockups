@@ -1,0 +1,1469 @@
+[
+  {
+    "id": "iPhone14Pro",
+    "label": "iPhone 14 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1475.0,
+    "screen": {
+      "x": 31.993,
+      "y": 31.822,
+      "width": 651.013,
+      "height": 1411.357
+    },
+    "colors": [
+      "space-black",
+      "silver",
+      "gold",
+      "deep-purple"
+    ],
+    "finishes": {
+      "space-black": "#424144",
+      "silver": "#e2e2df",
+      "gold": "#e8d6b1",
+      "deep-purple": "#645d70"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        147.5
+      ],
+      "displayPx": [
+        1179,
+        2556
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 103,
+      "screenRadius": 71,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 257,
+          "height": 38
+        },
+        {
+          "side": "left",
+          "y": 344,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 431,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 420,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111849"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone14ProMax",
+    "label": "iPhone 14 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 776.0,
+    "height": 1607.0,
+    "screen": {
+      "x": 31.848,
+      "y": 31.561,
+      "width": 712.304,
+      "height": 1543.878
+    },
+    "colors": [
+      "space-black",
+      "silver",
+      "gold",
+      "deep-purple"
+    ],
+    "finishes": {
+      "space-black": "#424144",
+      "silver": "#e2e2df",
+      "gold": "#e8d6b1",
+      "deep-purple": "#645d70"
+    },
+    "measurements": {
+      "bodyMm": [
+        77.6,
+        160.7
+      ],
+      "displayPx": [
+        1290,
+        2796
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 103,
+      "screenRadius": 71,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 280,
+          "height": 38
+        },
+        {
+          "side": "left",
+          "y": 374,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 469,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 458,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111846"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone15",
+    "label": "iPhone 15",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 716.0,
+    "height": 1476.0,
+    "screen": {
+      "x": 32.493,
+      "y": 32.322,
+      "width": 651.013,
+      "height": 1411.357
+    },
+    "colors": [
+      "black",
+      "blue",
+      "green",
+      "yellow",
+      "pink"
+    ],
+    "finishes": {
+      "black": "#414644",
+      "blue": "#c8d9e1",
+      "green": "#ceddc6",
+      "yellow": "#eee6bd",
+      "pink": "#ebd2d3"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.6,
+        147.6
+      ],
+      "displayPx": [
+        1179,
+        2556
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 79,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 257,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 344,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 431,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 421,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111831"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone15Plus",
+    "label": "iPhone 15 Plus",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 778.0,
+    "height": 1609.0,
+    "screen": {
+      "x": 32.848,
+      "y": 32.561,
+      "width": 712.304,
+      "height": 1543.878
+    },
+    "colors": [
+      "black",
+      "blue",
+      "green",
+      "yellow",
+      "pink"
+    ],
+    "finishes": {
+      "black": "#414644",
+      "blue": "#c8d9e1",
+      "green": "#ceddc6",
+      "yellow": "#eee6bd",
+      "pink": "#ebd2d3"
+    },
+    "measurements": {
+      "bodyMm": [
+        77.8,
+        160.9
+      ],
+      "displayPx": [
+        1290,
+        2796
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 78,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 280,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 375,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 470,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 459,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111830"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone15Pro",
+    "label": "iPhone 15 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 706.0,
+    "height": 1466.0,
+    "screen": {
+      "x": 27.493,
+      "y": 27.322,
+      "width": 651.013,
+      "height": 1411.357
+    },
+    "colors": [
+      "black-titanium",
+      "white-titanium",
+      "blue-titanium",
+      "natural-titanium"
+    ],
+    "finishes": {
+      "black-titanium": "#494949",
+      "white-titanium": "#e4e1d9",
+      "blue-titanium": "#596478",
+      "natural-titanium": "#b8b1a4"
+    },
+    "measurements": {
+      "bodyMm": [
+        70.6,
+        146.6
+      ],
+      "displayPx": [
+        1179,
+        2556
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 84,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 255,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 342,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 428,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 418,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111829"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone15ProMax",
+    "label": "iPhone 15 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 767.0,
+    "height": 1599.0,
+    "screen": {
+      "x": 27.348,
+      "y": 27.561,
+      "width": 712.304,
+      "height": 1543.878
+    },
+    "colors": [
+      "black-titanium",
+      "white-titanium",
+      "blue-titanium",
+      "natural-titanium"
+    ],
+    "finishes": {
+      "black-titanium": "#494949",
+      "white-titanium": "#e4e1d9",
+      "blue-titanium": "#596478",
+      "natural-titanium": "#b8b1a4"
+    },
+    "measurements": {
+      "bodyMm": [
+        76.7,
+        159.9
+      ],
+      "displayPx": [
+        1290,
+        2796
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 84,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 278,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 373,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 467,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 456,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111828"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone16",
+    "label": "iPhone 16",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 716.0,
+    "height": 1476.0,
+    "screen": {
+      "x": 32.493,
+      "y": 32.322,
+      "width": 651.013,
+      "height": 1411.357
+    },
+    "colors": [
+      "black",
+      "white",
+      "pink",
+      "teal",
+      "ultramarine"
+    ],
+    "finishes": {
+      "black": "#363739",
+      "white": "#f1f0eb",
+      "pink": "#e999c0",
+      "teal": "#79aca8",
+      "ultramarine": "#8491e8"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.6,
+        147.6
+      ],
+      "displayPx": [
+        1179,
+        2556
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 79,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 257,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 344,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 431,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 421,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 977,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/121029"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone16Plus",
+    "label": "iPhone 16 Plus",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 778.0,
+    "height": 1609.0,
+    "screen": {
+      "x": 32.848,
+      "y": 32.561,
+      "width": 712.304,
+      "height": 1543.878
+    },
+    "colors": [
+      "black",
+      "white",
+      "pink",
+      "teal",
+      "ultramarine"
+    ],
+    "finishes": {
+      "black": "#363739",
+      "white": "#f1f0eb",
+      "pink": "#e999c0",
+      "teal": "#79aca8",
+      "ultramarine": "#8491e8"
+    },
+    "measurements": {
+      "bodyMm": [
+        77.8,
+        160.9
+      ],
+      "displayPx": [
+        1290,
+        2796
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 78,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 280,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 375,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 470,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 459,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 1065,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/121030"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone16Pro",
+    "label": "iPhone 16 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1496.0,
+    "screen": {
+      "x": 24.539,
+      "y": 24.1,
+      "width": 665.922,
+      "height": 1447.8
+    },
+    "colors": [
+      "black-titanium",
+      "white-titanium",
+      "natural-titanium",
+      "desert-titanium"
+    ],
+    "finishes": {
+      "black-titanium": "#444440",
+      "white-titanium": "#e4e1d9",
+      "natural-titanium": "#b8b2a8",
+      "desert-titanium": "#c9aa90"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        149.6
+      ],
+      "displayPx": [
+        1206,
+        2622
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 86,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 260,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 349,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 437,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 426,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 990,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/121031"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone16ProMax",
+    "label": "iPhone 16 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 776.0,
+    "height": 1630.0,
+    "screen": {
+      "x": 23.565,
+      "y": 23.183,
+      "width": 728.87,
+      "height": 1583.635
+    },
+    "colors": [
+      "black-titanium",
+      "white-titanium",
+      "natural-titanium",
+      "desert-titanium"
+    ],
+    "finishes": {
+      "black-titanium": "#444440",
+      "white-titanium": "#e4e1d9",
+      "natural-titanium": "#b8b2a8",
+      "desert-titanium": "#c9aa90"
+    },
+    "measurements": {
+      "bodyMm": [
+        77.6,
+        163.0
+      ],
+      "displayPx": [
+        1320,
+        2868
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 87,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 284,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 380,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 476,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 465,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 1079,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/121032"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone16e",
+    "label": "iPhone 16e",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1467.0,
+    "screen": {
+      "x": 34.478,
+      "y": 34.448,
+      "width": 646.043,
+      "height": 1398.104
+    },
+    "colors": [
+      "black",
+      "white"
+    ],
+    "finishes": {
+      "black": "#393a39",
+      "white": "#f1efed"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        146.7
+      ],
+      "displayPx": [
+        1170,
+        2532
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 89,
+      "screenRadius": 55,
+      "camera": {
+        "kind": "notch",
+        "width": 210,
+        "height": 43,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 255,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 342,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 428,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 418,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/122208"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone17e",
+    "label": "iPhone 17e",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1467.0,
+    "screen": {
+      "x": 34.478,
+      "y": 34.448,
+      "width": 646.043,
+      "height": 1398.104
+    },
+    "colors": [
+      "black",
+      "white",
+      "soft-pink"
+    ],
+    "finishes": {
+      "black": "#393a39",
+      "white": "#f1efed",
+      "soft-pink": "#f3dedc"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        146.7
+      ],
+      "displayPx": [
+        1170,
+        2532
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 89,
+      "screenRadius": 55,
+      "camera": {
+        "kind": "notch",
+        "width": 210,
+        "height": 43,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 255,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 342,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 428,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 418,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/126470"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone17Pro",
+    "label": "iPhone 17 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 719.0,
+    "height": 1500.0,
+    "screen": {
+      "x": 26.539,
+      "y": 26.1,
+      "width": 665.922,
+      "height": 1447.8
+    },
+    "colors": [
+      "silver",
+      "cosmic-orange",
+      "deep-blue"
+    ],
+    "finishes": {
+      "silver": "#dedfdd",
+      "cosmic-orange": "#d78142",
+      "deep-blue": "#444f6c"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.9,
+        150.0
+      ],
+      "displayPx": [
+        1206,
+        2622
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 84,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 261,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 350,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 438,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 427,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 993,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/125090"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone17ProMax",
+    "label": "iPhone 17 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 780.0,
+    "height": 1634.0,
+    "screen": {
+      "x": 25.565,
+      "y": 25.183,
+      "width": 728.87,
+      "height": 1583.635
+    },
+    "colors": [
+      "silver",
+      "cosmic-orange",
+      "deep-blue"
+    ],
+    "finishes": {
+      "silver": "#dedfdd",
+      "cosmic-orange": "#d78142",
+      "deep-blue": "#444f6c"
+    },
+    "measurements": {
+      "bodyMm": [
+        78.0,
+        163.4
+      ],
+      "displayPx": [
+        1320,
+        2868
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 85,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 284,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 381,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 477,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 466,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 1082,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/125091"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhoneAir",
+    "label": "iPhone Air",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 747.0,
+    "height": 1562.0,
+    "screen": {
+      "x": 25.63,
+      "y": 25.626,
+      "width": 695.739,
+      "height": 1510.748
+    },
+    "colors": [
+      "space-black",
+      "cloud-white",
+      "light-gold",
+      "sky-blue"
+    ],
+    "finishes": {
+      "space-black": "#3a3a3a",
+      "cloud-white": "#efeee8",
+      "light-gold": "#e9dcc4",
+      "sky-blue": "#cad9e4"
+    },
+    "measurements": {
+      "bodyMm": [
+        74.7,
+        156.2
+      ],
+      "displayPx": [
+        1260,
+        2736
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 85,
+      "camera": {
+        "kind": "island",
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 272,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 364,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 456,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 445,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 1034,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/125092"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone18Pro",
+    "label": "iPhone 18 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 719.0,
+    "height": 1500.0,
+    "screen": {
+      "x": 26.539,
+      "y": 26.1,
+      "width": 665.922,
+      "height": 1447.8
+    },
+    "colors": [
+      "black",
+      "silver",
+      "glacier",
+      "burgundy"
+    ],
+    "finishes": {
+      "black": "#353535",
+      "silver": "#d9dcde",
+      "glacier": "#abc1ce",
+      "burgundy": "#74404a"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.9,
+        150.0
+      ],
+      "displayPx": [
+        1206,
+        2622
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 84,
+      "camera": {
+        "kind": "island",
+        "width": 79,
+        "height": 31,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 261,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 350,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 438,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 427,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 993,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/148590",
+        "https://support.apple.com/en-us/108044"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhone18ProMax",
+    "label": "iPhone 18 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 780.0,
+    "height": 1634.0,
+    "screen": {
+      "x": 25.565,
+      "y": 25.183,
+      "width": 728.87,
+      "height": 1583.635
+    },
+    "colors": [
+      "black",
+      "silver",
+      "glacier",
+      "burgundy"
+    ],
+    "finishes": {
+      "black": "#353535",
+      "silver": "#d9dcde",
+      "glacier": "#abc1ce",
+      "burgundy": "#74404a"
+    },
+    "measurements": {
+      "bodyMm": [
+        78.0,
+        163.4
+      ],
+      "displayPx": [
+        1320,
+        2868
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 111,
+      "screenRadius": 85,
+      "camera": {
+        "kind": "island",
+        "width": 79,
+        "height": 31,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 284,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 381,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 477,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 466,
+          "height": 103
+        },
+        {
+          "side": "right",
+          "y": 1082,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/148591",
+        "https://support.apple.com/en-us/108044"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhoneDuoCover",
+    "label": "iPhone Duo (cover)",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 841.0,
+    "height": 1178.0,
+    "screen": {
+      "x": 34.53,
+      "y": 27.439,
+      "width": 771.939,
+      "height": 1123.122
+    },
+    "colors": [
+      "night-sky",
+      "star-white"
+    ],
+    "finishes": {
+      "night-sky": "#474c58",
+      "star-white": "#eae9e3"
+    },
+    "measurements": {
+      "bodyMm": [
+        84.1,
+        117.8
+      ],
+      "displayPx": [
+        1398,
+        2034
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 74,
+      "screenRadius": 39,
+      "camera": {
+        "kind": "punch",
+        "width": 46,
+        "height": 46,
+        "top": 42,
+        "centerX": 702.465
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 336,
+          "height": 94
+        },
+        {
+          "side": "right",
+          "y": 780,
+          "height": 75
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/148588",
+        "https://support.apple.com/guide/iphone/iphone-duo-iphde2xz6efm/ios",
+        "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo.md"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density. Closed body with outer display in portrait; the circular aperture is shown without expanded Dynamic Island UI. Only side-edge controls are represented; volume buttons are on the top edge.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "iPhoneDuoOpen",
+    "label": "iPhone Duo (open)",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 1646.0,
+    "height": 1178.0,
+    "screen": {
+      "x": 34.419,
+      "y": 34.335,
+      "width": 1577.163,
+      "height": 1109.33
+    },
+    "colors": [
+      "night-sky",
+      "star-white"
+    ],
+    "finishes": {
+      "night-sky": "#474c58",
+      "star-white": "#eae9e3"
+    },
+    "measurements": {
+      "bodyMm": [
+        164.6,
+        117.8
+      ],
+      "displayPx": [
+        2670,
+        1878
+      ],
+      "ppi": 430
+    },
+    "geometry": {
+      "bodyRadius": 74,
+      "screenRadius": 40,
+      "camera": {
+        "kind": "none",
+        "width": 0,
+        "height": 0,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 336,
+          "height": 94
+        },
+        {
+          "side": "right",
+          "y": 780,
+          "height": 75
+        }
+      ],
+      "hingeX": 823.0
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/148588",
+        "https://support.apple.com/guide/iphone/iphone-duo-iphde2xz6efm/ios",
+        "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo.md"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density. Open body with inner display in landscape; the inactive under-display camera has no cutout. Only side-edge controls are represented; volume buttons are on the top edge.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  }
+]

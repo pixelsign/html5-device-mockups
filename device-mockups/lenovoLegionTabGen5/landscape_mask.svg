@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1894.32" height="1186.45" viewBox="0 0 1894.32 1186.45">
+<title>Lenovo Legion Tab Gen 5 landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1285" height="2064.6">
+<rect x="49.27" y="85.14" width="1186.45" height="1894.32" rx="40" fill="white"/>
+</mask></defs>
+<g transform="translate(0 1186.45) rotate(-90) translate(-49.27 -85.14)"><g mask="url(#aperture)"><rect x="49.27" y="85.14" width="1186.45" height="1894.32" rx="0" fill="white"/></g></g>
+</svg>

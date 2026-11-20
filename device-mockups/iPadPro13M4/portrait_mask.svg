@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1986" height="2648" viewBox="0 0 1986 2648">
+<title>iPad Pro 13-inch (M4) · 2024 portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="2155" height="2816">
+<rect x="84.5" y="84" width="1986" height="2648" rx="38" fill="white"/>
+</mask></defs>
+<g transform="translate(-84.5 -84)"><g mask="url(#aperture)"><rect x="84.5" y="84" width="1986" height="2648" rx="0" fill="white"/></g></g>
+</svg>

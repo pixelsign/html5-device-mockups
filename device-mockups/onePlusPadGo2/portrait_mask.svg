@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1768.48" height="2500.89" viewBox="0 0 1768.48 2500.89">
+<title>OnePlus Pad Go 2 portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1927.7" height="2660.1">
+<rect x="79.61" y="79.61" width="1768.48" height="2500.89" rx="60" fill="white"/>
+</mask></defs>
+<g transform="translate(-79.61 -79.61)"><g mask="url(#aperture)"><rect x="79.61" y="79.61" width="1768.48" height="2500.89" rx="0" fill="white"/></g></g>
+</svg>

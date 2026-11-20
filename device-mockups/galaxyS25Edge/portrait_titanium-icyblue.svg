@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="756" height="1582" viewBox="0 0 756 1582">
+  <title>Galaxy S25 Edge — titanium-icyblue</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations. Measurements: https://www.samsung.com/au/smartphones/galaxy-s25-edge/specs/</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#c6d7e2" stroke="#303237" stroke-width="1">
+    <rect x="748" y="341" width="8" height="115" rx="3"/>
+    <rect x="748" y="496" width="8" height="64" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M72 6H684a63 63 0 0 1 63 63V1513a63 63 0 0 1 -63 63H72a63 63 0 0 1 -63 -63V69a63 63 0 0 1 63 -63Z M75.686 23.32H680.313a52 52 0 0 1 52 52V1506.679a52 52 0 0 1 -52 52H75.686a52 52 0 0 1 -52 -52V75.32a52 52 0 0 1 52 -52Z"/>
+    <path fill="#c6d7e2" d="M72 1H684a68 68 0 0 1 68 68V1513a68 68 0 0 1 -68 68H72a68 68 0 0 1 -68 -68V69a68 68 0 0 1 68 -68Z M72 10H684a59 59 0 0 1 59 59V1513a59 59 0 0 1 -59 59H72a59 59 0 0 1 -59 -59V69a59 59 0 0 1 59 -59Z"/>
+    <path fill="url(#polish)" d="M72 1H684a68 68 0 0 1 68 68V1513a68 68 0 0 1 -68 68H72a68 68 0 0 1 -68 -68V69a68 68 0 0 1 68 -68Z M72 10H684a59 59 0 0 1 59 59V1513a59 59 0 0 1 -59 59H72a59 59 0 0 1 -59 -59V69a59 59 0 0 1 59 -59Z"/>
+  </g>
+  <path fill="#050608" d="M377.999 36.32H377.999a13.5 13.5 0 0 1 13.5 13.5V49.82a13.5 13.5 0 0 1 -13.5 13.5H377.999a13.5 13.5 0 0 1 -13.5 -13.5V49.82a13.5 13.5 0 0 1 13.5 -13.5Z"/>
+  <circle cx="377.999" cy="49.82" r="8.64" fill="url(#optic)"/>
+  <circle cx="375.999" cy="47.82" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

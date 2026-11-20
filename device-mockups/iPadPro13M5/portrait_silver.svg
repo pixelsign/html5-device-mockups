@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2155" height="2816" viewBox="0 0 2155 2816">
+<title>iPad Pro 13-inch (M5) · 2025 — silver</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. 2025 release; M5. The M4 and M5 Pro share this OLED front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2752 × 2064 at 264 ppi. Corner radii, control geometry and swatches are approximate. Sources: https://support.apple.com/en-us/125407; https://support.apple.com/en-us/108043</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="2155" height="2816">
+<rect x="0" y="0" width="2155" height="2816" rx="0" fill="white"/><rect x="84.5" y="84" width="1986" height="2648" rx="38" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="2155" height="2816" rx="90" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="2155" height="2816" rx="0" fill="#d8d9da"/><rect x="0" y="0" width="2155" height="2816" rx="0" fill="url(#brushed)"/>
+<rect x="19.395" y="19.395" width="2116.21" height="2777.21" rx="70.605" fill="#111317"/>
+<circle cx="2112.75" cy="1408" r="14" fill="url(#lens)"/>
+</g></g>
+</svg>

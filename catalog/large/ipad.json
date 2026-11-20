@@ -1,0 +1,939 @@
+[
+  {
+    "id": "iPadA16",
+    "label": "iPad (A16) · 2025",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1795,
+    "height": 2486,
+    "screen": {
+      "x": 108.5,
+      "y": 107.5,
+      "width": 1578,
+      "height": 2271
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "blue": "#76aaca",
+      "pink": "#e69ab0",
+      "yellow": "#eed566"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1740.75,
+        "y": 1243.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/122240",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2025 release; A16. The 10th-generation iPad and iPad (A16) share this front outline. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadGen10",
+    "label": "iPad (10th generation) · 2022",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1795,
+    "height": 2486,
+    "screen": {
+      "x": 108.5,
+      "y": 107.5,
+      "width": 1578,
+      "height": 2271
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "blue": "#76aaca",
+      "pink": "#e69ab0",
+      "yellow": "#eed566"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1740.75,
+        "y": 1243.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111840",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2022 release; A14 Bionic. The 10th-generation iPad and iPad (A16) share this front outline. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadGen9",
+    "label": "iPad (9th generation) · 2021",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1741,
+    "height": 2506,
+    "screen": {
+      "x": 91.0,
+      "y": 214.0,
+      "width": 1559,
+      "height": 2078
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 98,
+      "screenRadius": 0,
+      "webcam": {
+        "x": 870.5,
+        "y": 107.0,
+        "r": 14
+      },
+      "home": {
+        "x": 870.5,
+        "y": 2399.0,
+        "r": 52
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111898",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2021 release; A13 Bionic. Same front outline as the other 10.2-inch Home-button model. Original front view at 10 units/mm; centered aperture derived from 2160 × 1620 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadGen8",
+    "label": "iPad (8th generation) · 2020",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1741,
+    "height": 2506,
+    "screen": {
+      "x": 91.0,
+      "y": 214.0,
+      "width": 1559,
+      "height": 2078
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e",
+      "gold": "#e4c8b4"
+    },
+    "geometry": {
+      "bodyRadius": 98,
+      "screenRadius": 0,
+      "webcam": {
+        "x": 870.5,
+        "y": 107.0,
+        "r": 14
+      },
+      "home": {
+        "x": 870.5,
+        "y": 2399.0,
+        "r": 52
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/118451",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2020 release; A12 Bionic. Same front outline as the other 10.2-inch Home-button model. Finish swatches describe the enclosure, not the black or white front bezel. Original front view at 10 units/mm; centered aperture derived from 2160 × 1620 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadMiniA20Pro",
+    "label": "iPad mini (A20 Pro) · 2026",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1326,
+    "height": 1953,
+    "screen": {
+      "x": 74.0,
+      "y": 74.5,
+      "width": 1178,
+      "height": 1804
+    },
+    "finishes": {
+      "midnight": "#303640",
+      "starlight": "#e4ded1"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 33,
+      "webcam": {
+        "x": 1289.0,
+        "y": 976.5,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/149482",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2026 release; A20 Pro. The 8.5-inch OLED mini has a narrower body and moves the camera to the long edge. Original front view at 10 units/mm; centered aperture derived from 2316 × 1512 at 326 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadMiniA17Pro",
+    "label": "iPad mini (A17 Pro) · 2024",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1348,
+    "height": 1954,
+    "screen": {
+      "x": 94.5,
+      "y": 94.0,
+      "width": 1159,
+      "height": 1766
+    },
+    "finishes": {
+      "blue": "#bacfdf",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 33,
+      "webcam": {
+        "x": 674.0,
+        "y": 47.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/121456",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2024 release; A17 Pro. The 6th-generation and A17 Pro minis share this front outline. Original front view at 10 units/mm; centered aperture derived from 2266 × 1488 at 326 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadMiniGen6",
+    "label": "iPad mini (6th generation) · 2021",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1348,
+    "height": 1954,
+    "screen": {
+      "x": 94.5,
+      "y": 94.0,
+      "width": 1159,
+      "height": 1766
+    },
+    "finishes": {
+      "space-gray": "#797a7e",
+      "pink": "#dec4d0",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 33,
+      "webcam": {
+        "x": 674.0,
+        "y": 47.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111886",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2021 release; A15 Bionic. The 6th-generation and A17 Pro minis share this front outline. Original front view at 10 units/mm; centered aperture derived from 2266 × 1488 at 326 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAir11M4",
+    "label": "iPad Air 11-inch (M4) · 2026",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 103.5,
+      "y": 102.5,
+      "width": 1578,
+      "height": 2271
+    },
+    "finishes": {
+      "blue": "#bacfdf",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1733.25,
+        "y": 1238.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/126471",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2026 release; M4. The M2, M3 and M4 Air share this front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAir13M4",
+    "label": "iPad Air 13-inch (M4) · 2026",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2149,
+    "height": 2806,
+    "screen": {
+      "x": 89.5,
+      "y": 88.5,
+      "width": 1970,
+      "height": 2629
+    },
+    "finishes": {
+      "blue": "#bacfdf",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 2104.25,
+        "y": 1403.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/126472",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2026 release; M4. The M2, M3 and M4 Air share this front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2732 × 2048 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAir11M3",
+    "label": "iPad Air 11-inch (M3) · 2025",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 103.5,
+      "y": 102.5,
+      "width": 1578,
+      "height": 2271
+    },
+    "finishes": {
+      "blue": "#bacfdf",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1733.25,
+        "y": 1238.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/122241",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2025 release; M3. The M2, M3 and M4 Air share this front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAir13M3",
+    "label": "iPad Air 13-inch (M3) · 2025",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2149,
+    "height": 2806,
+    "screen": {
+      "x": 89.5,
+      "y": 88.5,
+      "width": 1970,
+      "height": 2629
+    },
+    "finishes": {
+      "blue": "#bacfdf",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 2104.25,
+        "y": 1403.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/122242",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2025 release; M3. The M2, M3 and M4 Air share this front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2732 × 2048 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAir11M2",
+    "label": "iPad Air 11-inch (M2) · 2024",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 103.5,
+      "y": 102.5,
+      "width": 1578,
+      "height": 2271
+    },
+    "finishes": {
+      "blue": "#bacfdf",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1733.25,
+        "y": 1238.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/119894",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2024 release; M2. The M2, M3 and M4 Air share this front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAir13M2",
+    "label": "iPad Air 13-inch (M2) · 2024",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2149,
+    "height": 2806,
+    "screen": {
+      "x": 89.5,
+      "y": 88.5,
+      "width": 1970,
+      "height": 2629
+    },
+    "finishes": {
+      "blue": "#bacfdf",
+      "purple": "#c8c2d9",
+      "starlight": "#e4ded1",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 2104.25,
+        "y": 1403.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/119893",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2024 release; M2. The M2, M3 and M4 Air share this front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2732 × 2048 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAirGen5",
+    "label": "iPad Air (5th generation) · 2022",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 103.5,
+      "y": 102.5,
+      "width": 1578,
+      "height": 2271
+    },
+    "finishes": {
+      "space-gray": "#797a7e",
+      "starlight": "#e4ded1",
+      "pink": "#dec4d0",
+      "purple": "#c8c2d9",
+      "blue": "#8caec2"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 892.5,
+        "y": 51.25,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111887",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2022 release; M1. The 4th- and 5th-generation Air share this front outline. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadAirGen4",
+    "label": "iPad Air (4th generation) · 2020",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 103.5,
+      "y": 102.5,
+      "width": 1578,
+      "height": 2271
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e",
+      "rose-gold": "#e6c4bd",
+      "green": "#c7d9ca",
+      "sky-blue": "#b8cbd7"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 892.5,
+        "y": 51.25,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111905",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2020 release; A14 Bionic. The 4th- and 5th-generation Air share this front outline. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro11M5",
+    "label": "iPad Pro 11-inch (M5) · 2025",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1775,
+    "height": 2497,
+    "screen": {
+      "x": 85.0,
+      "y": 84.5,
+      "width": 1605,
+      "height": 2328
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-black": "#414244"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1732.5,
+        "y": 1248.5,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/125406",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2025 release; M5. The M4 and M5 Pro share this OLED front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2420 × 1668 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro13M5",
+    "label": "iPad Pro 13-inch (M5) · 2025",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2155,
+    "height": 2816,
+    "screen": {
+      "x": 84.5,
+      "y": 84.0,
+      "width": 1986,
+      "height": 2648
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-black": "#414244"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 2112.75,
+        "y": 1408.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/125407",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2025 release; M5. The M4 and M5 Pro share this OLED front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2752 × 2064 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro11M4",
+    "label": "iPad Pro 11-inch (M4) · 2024",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1775,
+    "height": 2497,
+    "screen": {
+      "x": 85.0,
+      "y": 84.5,
+      "width": 1605,
+      "height": 2328
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-black": "#414244"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1732.5,
+        "y": 1248.5,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/119892",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2024 release; M4. The M4 and M5 Pro share this OLED front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2420 × 1668 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro13M4",
+    "label": "iPad Pro 13-inch (M4) · 2024",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2155,
+    "height": 2816,
+    "screen": {
+      "x": 84.5,
+      "y": 84.0,
+      "width": 1986,
+      "height": 2648
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-black": "#414244"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 2112.75,
+        "y": 1408.0,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/119891",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2024 release; M4. The M4 and M5 Pro share this OLED front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2752 × 2064 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro11Gen4",
+    "label": "iPad Pro 11-inch (4th generation) · 2022",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 90.0,
+      "y": 89.0,
+      "width": 1605,
+      "height": 2298
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 892.5,
+        "y": 44.5,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111842",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2022 release; M2. The 2020, 2021 and 2022 Pro share this front outline at this size; panel and internal changes are not depicted. Original front view at 10 units/mm; centered aperture derived from 2388 × 1668 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro129Gen6",
+    "label": "iPad Pro 12.9-inch (6th generation) · 2022",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2149,
+    "height": 2806,
+    "screen": {
+      "x": 89.5,
+      "y": 88.5,
+      "width": 1970,
+      "height": 2629
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1074.5,
+        "y": 44.25,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111841",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2022 release; M2. The 2020, 2021 and 2022 Pro share this front outline at this size; panel and internal changes are not depicted. Original front view at 10 units/mm; centered aperture derived from 2732 × 2048 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro11Gen3",
+    "label": "iPad Pro 11-inch (3rd generation) · 2021",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 90.0,
+      "y": 89.0,
+      "width": 1605,
+      "height": 2298
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 892.5,
+        "y": 44.5,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111897",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2021 release; M1. The 2020, 2021 and 2022 Pro share this front outline at this size; panel and internal changes are not depicted. Original front view at 10 units/mm; centered aperture derived from 2388 × 1668 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro129Gen5",
+    "label": "iPad Pro 12.9-inch (5th generation) · 2021",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2149,
+    "height": 2806,
+    "screen": {
+      "x": 89.5,
+      "y": 88.5,
+      "width": 1970,
+      "height": 2629
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1074.5,
+        "y": 44.25,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111896",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2021 release; M1. The 2020, 2021 and 2022 Pro share this front outline at this size; panel and internal changes are not depicted. Original front view at 10 units/mm; centered aperture derived from 2732 × 2048 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro11Gen2",
+    "label": "iPad Pro 11-inch (2nd generation) · 2020",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 1785,
+    "height": 2476,
+    "screen": {
+      "x": 90.0,
+      "y": 89.0,
+      "width": 1605,
+      "height": 2298
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 892.5,
+        "y": 44.5,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/118452",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2020 release; A12Z Bionic. The 2020, 2021 and 2022 Pro share this front outline at this size; panel and internal changes are not depicted. Original front view at 10 units/mm; centered aperture derived from 2388 × 1668 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  },
+  {
+    "id": "iPadPro129Gen4",
+    "label": "iPad Pro 12.9-inch (4th generation) · 2020",
+    "type": "tablet",
+    "group": "iPad",
+    "brand": "Apple",
+    "width": 2149,
+    "height": 2806,
+    "screen": {
+      "x": 89.5,
+      "y": 88.5,
+      "width": 1970,
+      "height": 2629
+    },
+    "finishes": {
+      "silver": "#d8d9da",
+      "space-gray": "#797a7e"
+    },
+    "geometry": {
+      "bodyRadius": 90,
+      "screenRadius": 38,
+      "webcam": {
+        "x": 1074.5,
+        "y": 44.25,
+        "r": 14
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/111977",
+        "https://support.apple.com/en-us/108043"
+      ],
+      "notes": "2020 release; A12Z Bionic. The 2020, 2021 and 2022 Pro share this front outline at this size; panel and internal changes are not depicted. Original front view at 10 units/mm; centered aperture derived from 2732 × 2048 at 264 ppi. Corner radii, control geometry and swatches are approximate."
+    }
+  }
+]

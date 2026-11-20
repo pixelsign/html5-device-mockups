@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1285" height="2064.6" viewBox="0 0 1285 2064.6">
+<title>Lenovo Legion Tab Gen 5 — glacier-white</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 128.5 × 206.46 mm; centered display derived from 8.8 in diagonal and 1904 × 3040 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Sources: https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Legion_Tab_8_8_5/Legion_Tab_8_8_5_Spec.PDF</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1285" height="2064.6">
+<rect x="0" y="0" width="1285" height="2064.6" rx="0" fill="white"/><rect x="49.27" y="85.14" width="1186.45" height="1894.32" rx="40" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1285" height="2064.6" rx="67" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="1285" height="2064.6" rx="0" fill="#e3e5e7"/><rect x="0" y="0" width="1285" height="2064.6" rx="0" fill="url(#brushed)"/>
+<rect x="11.565" y="11.565" width="1261.87" height="2041.4699999999998" rx="55.435" fill="#111317"/>
+<circle cx="1260.36" cy="1032.3" r="11" fill="url(#lens)"/>
+</g></g>
+</svg>

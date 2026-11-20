@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1559" height="2078" viewBox="0 0 1559 2078">
+<title>iPad (9th generation) · 2021 portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1741" height="2506">
+<rect x="91" y="214" width="1559" height="2078" rx="0" fill="white"/>
+</mask></defs>
+<g transform="translate(-91 -214)"><g mask="url(#aperture)"><rect x="91" y="214" width="1559" height="2078" rx="0" fill="white"/></g></g>
+</svg>

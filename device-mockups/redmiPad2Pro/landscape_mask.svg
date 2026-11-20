@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2606.24" height="1628.9" viewBox="0 0 2606.24 1628.9">
+<title>Redmi Pad 2 Pro landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1816.5" height="2798">
+<rect x="93.8" y="95.88" width="1628.9" height="2606.24" rx="48" fill="white"/>
+</mask></defs>
+<g transform="translate(0 1628.9) rotate(-90) translate(-93.8 -95.88)"><g mask="url(#aperture)"><rect x="93.8" y="95.88" width="1628.9" height="2606.24" rx="0" fill="white"/></g></g>
+</svg>

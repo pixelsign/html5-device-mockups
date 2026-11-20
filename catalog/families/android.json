@@ -1,0 +1,654 @@
+[
+  {
+    "id": "galaxyS25Ultra",
+    "label": "Galaxy S25 Ultra",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 776.0,
+    "height": 1628.0,
+    "screen": {
+      "x": 23.0,
+      "y": 23.167,
+      "width": 729.999,
+      "height": 1581.665
+    },
+    "colors": ["titanium-silverblue", "titanium-black", "titanium-grey", "titanium-whitesilver", "titanium-jetblack", "titanium-jadegreen", "titanium-pinkgold"],
+    "finishes": {
+      "titanium-silverblue": "#a7b4c4",
+      "titanium-black": "#49494c",
+      "titanium-grey": "#aca59c",
+      "titanium-whitesilver": "#e1e1dd",
+      "titanium-jetblack": "#303032",
+      "titanium-jadegreen": "#b5c7ba",
+      "titanium-pinkgold": "#dabfb4"
+    },
+    "measurements": {
+      "bodyMm": [77.6, 162.8],
+      "displayPx": [1440, 3120],
+      "fullDiagonalMm": 174.2
+    },
+    "geometry": {
+      "bodyRadius": 48,
+      "screenRadius": 31,
+      "camera": {
+        "width": 26,
+        "height": 26,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 359,
+          "height": 115
+        },
+        {
+          "side": "right",
+          "y": 513,
+          "height": 65
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://www.samsung.com/au/smartphones/galaxy-s25-ultra/specs/"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published full-rectangle diagonal. Display centered on body.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "galaxyS25Plus",
+    "label": "Galaxy S25+",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 758.0,
+    "height": 1584.0,
+    "screen": {
+      "x": 24.686,
+      "y": 24.32,
+      "width": 708.627,
+      "height": 1535.359
+    },
+    "colors": ["navy", "icyblue", "mint", "silver-shadow", "blueblack", "coralred", "pinkgold"],
+    "finishes": {
+      "navy": "#3d4e65",
+      "icyblue": "#cbdce9",
+      "mint": "#c6d9ce",
+      "silver-shadow": "#adb0b0",
+      "blueblack": "#313740",
+      "coralred": "#e98378",
+      "pinkgold": "#e8cfc4"
+    },
+    "measurements": {
+      "bodyMm": [75.8, 158.4],
+      "displayPx": [1440, 3120],
+      "fullDiagonalMm": 169.1
+    },
+    "geometry": {
+      "bodyRadius": 80,
+      "screenRadius": 60,
+      "camera": {
+        "width": 26,
+        "height": 26,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 343,
+          "height": 115
+        },
+        {
+          "side": "right",
+          "y": 501,
+          "height": 64
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://www.samsung.com/au/smartphones/galaxy-s25/specs/", "https://samsung.com/au/smartphones/galaxy-s25/buy?modelCode=SM-S731BDBEATS"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published full-rectangle diagonal. Display centered on body.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "galaxyS25Edge",
+    "label": "Galaxy S25 Edge",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 756.0,
+    "height": 1582.0,
+    "screen": {
+      "x": 23.686,
+      "y": 23.32,
+      "width": 708.627,
+      "height": 1535.359
+    },
+    "colors": ["titanium-silver", "titanium-jetblack", "titanium-icyblue"],
+    "finishes": {
+      "titanium-silver": "#c8c9ca",
+      "titanium-jetblack": "#303032",
+      "titanium-icyblue": "#c6d7e2"
+    },
+    "measurements": {
+      "bodyMm": [75.6, 158.2],
+      "displayPx": [1440, 3120],
+      "fullDiagonalMm": 169.1
+    },
+    "geometry": {
+      "bodyRadius": 72,
+      "screenRadius": 52,
+      "camera": {
+        "width": 27,
+        "height": 27,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 341,
+          "height": 115
+        },
+        {
+          "side": "right",
+          "y": 496,
+          "height": 64
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://www.samsung.com/au/smartphones/galaxy-s25-edge/specs/"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published full-rectangle diagonal. Display centered on body.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "galaxyS25FE",
+    "label": "Galaxy S25 FE",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 766.0,
+    "height": 1613.0,
+    "screen": {
+      "x": 24.496,
+      "y": 24.541,
+      "width": 717.009,
+      "height": 1553.519
+    },
+    "colors": ["navy", "jetblack", "icyblue", "white"],
+    "finishes": {
+      "navy": "#354158",
+      "jetblack": "#303032",
+      "icyblue": "#cbdce9",
+      "white": "#eaeae6"
+    },
+    "measurements": {
+      "bodyMm": [76.6, 161.3],
+      "displayPx": [1080, 2340],
+      "fullDiagonalMm": 171.1
+    },
+    "geometry": {
+      "bodyRadius": 81,
+      "screenRadius": 58,
+      "camera": {
+        "width": 28,
+        "height": 28,
+        "top": 15
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 354,
+          "height": 117
+        },
+        {
+          "side": "right",
+          "y": 512,
+          "height": 65
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://www.samsung.com/au/smartphones/galaxy-s/galaxy-s25-fe-icyblue-256gb-sm-s731blbeats/", "https://www.samsung.com/us/smartphones/galaxy-s25-fe/"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published full-rectangle diagonal. Horizontally centered; shifted upward by 0.52 mm to reflect Samsung’s reported 1.04 mm difference between lower and upper bezels.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "Pixel10ProXL",
+    "label": "Pixel 10 Pro XL",
+    "group": "Google",
+    "brand": "Google",
+    "width": 766.0,
+    "height": 1628.0,
+    "screen": {
+      "x": 31.79,
+      "y": 32.14,
+      "width": 702.42,
+      "height": 1563.72
+    },
+    "colors": ["moonstone", "jade", "porcelain", "obsidian"],
+    "finishes": {
+      "moonstone": "#929aaa",
+      "jade": "#bdc8a6",
+      "porcelain": "#eeeae2",
+      "obsidian": "#3b3c3b"
+    },
+    "measurements": {
+      "bodyMm": [76.6, 162.8],
+      "displayPx": [1344, 2992],
+      "ppi": 486
+    },
+    "geometry": {
+      "bodyRadius": 112,
+      "screenRadius": 85,
+      "camera": {
+        "width": 34,
+        "height": 34,
+        "top": 16
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 404,
+          "height": 61
+        },
+        {
+          "side": "right",
+          "y": 548,
+          "height": 111
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://store.google.com/gb/product/pixel_10_pro_specs?hl=en-GB"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Display centered on body.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "Pixel10Pro",
+    "label": "Pixel 10 Pro",
+    "group": "Google",
+    "brand": "Google",
+    "width": 720,
+    "height": 1528.0,
+    "screen": {
+      "x": 31.596,
+      "y": 31.248,
+      "width": 656.808,
+      "height": 1465.503
+    },
+    "colors": ["moonstone", "jade", "porcelain", "obsidian"],
+    "finishes": {
+      "moonstone": "#929aaa",
+      "jade": "#bdc8a6",
+      "porcelain": "#eeeae2",
+      "obsidian": "#3b3c3b"
+    },
+    "measurements": {
+      "bodyMm": [72, 152.8],
+      "displayPx": [1280, 2856],
+      "ppi": 495
+    },
+    "geometry": {
+      "bodyRadius": 105,
+      "screenRadius": 76,
+      "camera": {
+        "width": 34,
+        "height": 34,
+        "top": 16
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 381,
+          "height": 61
+        },
+        {
+          "side": "right",
+          "y": 519,
+          "height": 111
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://store.google.com/gb/product/pixel_10_pro_specs?hl=en-GB"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Display centered on body.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "Pixel10a",
+    "label": "Pixel 10a",
+    "group": "Google",
+    "brand": "Google",
+    "width": 730,
+    "height": 1539.0,
+    "screen": {
+      "x": 40.13,
+      "y": 40.348,
+      "width": 649.739,
+      "height": 1458.304
+    },
+    "colors": ["lavender", "berry", "fog", "obsidian"],
+    "finishes": {
+      "lavender": "#afb2e1",
+      "berry": "#d96573",
+      "fog": "#e0e4d5",
+      "obsidian": "#3b3c3b"
+    },
+    "measurements": {
+      "bodyMm": [73, 153.9],
+      "displayPx": [1080, 2424],
+      "ppi": 422.2
+    },
+    "geometry": {
+      "bodyRadius": 107,
+      "screenRadius": 68,
+      "camera": {
+        "width": 31,
+        "height": 31,
+        "top": 17
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 385,
+          "height": 61
+        },
+        {
+          "side": "right",
+          "y": 522,
+          "height": 111
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://store.google.com/gb/product/pixel_10a_specs?hl=en-GB"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Display centered on body.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "Pixel10ProFoldCover",
+    "label": "Pixel 10 Pro Fold (cover)",
+    "group": "Google",
+    "brand": "Google",
+    "width": 763.0,
+    "height": 1552.0,
+    "screen": {
+      "x": 55.324,
+      "y": 40.147,
+      "width": 672.353,
+      "height": 1471.706
+    },
+    "colors": ["moonstone", "jade"],
+    "finishes": {
+      "moonstone": "#929aaa",
+      "jade": "#bdc8a6"
+    },
+    "measurements": {
+      "bodyMm": [76.3, 155.2],
+      "displayPx": [1080, 2364],
+      "ppi": 408
+    },
+    "geometry": {
+      "bodyRadius": 91,
+      "screenRadius": 71,
+      "camera": {
+        "width": 31,
+        "height": 31,
+        "top": 16
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 381,
+          "height": 64
+        },
+        {
+          "side": "right",
+          "y": 511,
+          "height": 113
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://store.google.com/gb/product/pixel_10_pro_fold_specs?hl=en-GB"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Cover display on folded body. Opening offset 1 mm right to approximate the left hinge margin; symmetric corner radii simplify the hinge-side corners.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "Pixel10ProFoldOpen",
+    "label": "Pixel 10 Pro Fold (open)",
+    "group": "Google",
+    "brand": "Google",
+    "width": 1504.0,
+    "height": 1552.0,
+    "screen": {
+      "x": 45.158,
+      "y": 43.282,
+      "width": 1413.684,
+      "height": 1465.437
+    },
+    "colors": ["moonstone", "jade"],
+    "finishes": {
+      "moonstone": "#929aaa",
+      "jade": "#bdc8a6"
+    },
+    "measurements": {
+      "bodyMm": [150.4, 155.2],
+      "displayPx": [2076, 2152],
+      "ppi": 373
+    },
+    "geometry": {
+      "bodyRadius": 91,
+      "screenRadius": 57,
+      "camera": {
+        "width": 31,
+        "height": 31,
+        "top": 23,
+        "centerX": 1370.684
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 381,
+          "height": 64
+        },
+        {
+          "side": "right",
+          "y": 511,
+          "height": 113
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://store.google.com/gb/product/pixel_10_pro_fold_specs?hl=en-GB"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Inner display centered on unfolded body; the upper-right camera center is measured in screen-local SVG units and its position is approximate. No crease is drawn.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "NothingPhone3a",
+    "label": "Nothing Phone (3a)",
+    "group": "Nothing",
+    "brand": "Nothing",
+    "width": 775.0,
+    "height": 1635.2,
+    "screen": {
+      "x": 33.081,
+      "y": 32.628,
+      "width": 708.837,
+      "height": 1569.943
+    },
+    "colors": ["black", "white", "blue"],
+    "finishes": {
+      "black": "#37383a",
+      "white": "#e9e7df",
+      "blue": "#8baad4"
+    },
+    "measurements": {
+      "bodyMm": [77.5, 163.52],
+      "displayPx": [1080, 2392],
+      "ppi": 387
+    },
+    "geometry": {
+      "bodyRadius": 96,
+      "screenRadius": 66,
+      "camera": {
+        "width": 28,
+        "height": 28,
+        "top": 17
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 466,
+          "height": 56
+        },
+        {
+          "side": "left",
+          "y": 533,
+          "height": 56
+        },
+        {
+          "side": "right",
+          "y": 475,
+          "height": 68
+        },
+        {
+          "side": "right",
+          "y": 567,
+          "height": 53
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://ph.nothing.tech/pages/phone-3a", "https://support.nothing.tech/hc/en-us/articles/32978945259281-What-are-the-dimensions-and-weight-of-the-Phone-3a"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Display centered on body.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "NothingPhone3aPro",
+    "label": "Nothing Phone (3a) Pro",
+    "group": "Nothing",
+    "brand": "Nothing",
+    "width": 775.0,
+    "height": 1635.2,
+    "screen": {
+      "x": 33.081,
+      "y": 32.628,
+      "width": 708.837,
+      "height": 1569.943
+    },
+    "colors": ["grey", "black"],
+    "finishes": {
+      "grey": "#959693",
+      "black": "#37383a"
+    },
+    "measurements": {
+      "bodyMm": [77.5, 163.52],
+      "displayPx": [1080, 2392],
+      "ppi": 387
+    },
+    "geometry": {
+      "bodyRadius": 96,
+      "screenRadius": 66,
+      "camera": {
+        "width": 28,
+        "height": 28,
+        "top": 17
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 466,
+          "height": 56
+        },
+        {
+          "side": "left",
+          "y": 533,
+          "height": 56
+        },
+        {
+          "side": "right",
+          "y": 475,
+          "height": 68
+        },
+        {
+          "side": "right",
+          "y": 567,
+          "height": 53
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://ph.nothing.tech/pages/phone-3a-pro", "https://intl.nothing.tech/products/phone-3a-pro"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Centered display. The Pro shares the standard (3a) front dimensions and resolution; its different rear camera assembly is outside this view.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "NothingPhone3aLite",
+    "label": "Nothing Phone (3a) Lite",
+    "group": "Nothing",
+    "brand": "Nothing",
+    "width": 780.8,
+    "height": 1641.0,
+    "screen": {
+      "x": 35.981,
+      "y": 35.528,
+      "width": 708.837,
+      "height": 1569.943
+    },
+    "colors": ["black", "white", "blue"],
+    "finishes": {
+      "black": "#37383a",
+      "white": "#e9e7df",
+      "blue": "#819dc4"
+    },
+    "measurements": {
+      "bodyMm": [78.08, 164.1],
+      "displayPx": [1080, 2392],
+      "ppi": 387
+    },
+    "geometry": {
+      "bodyRadius": 88,
+      "screenRadius": 54,
+      "camera": {
+        "width": 28,
+        "height": 28,
+        "top": 17
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 447,
+          "height": 55
+        },
+        {
+          "side": "left",
+          "y": 515,
+          "height": 55
+        },
+        {
+          "side": "right",
+          "y": 467,
+          "height": 67
+        },
+        {
+          "side": "right",
+          "y": 568,
+          "height": 50
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://support.nothing.tech/hc/en-us/articles/40034822081553-What-are-the-dimensions-of-Nothing-Phone-3a-Lite-and-how-much-does-it-weigh", "https://support.nothing.tech/hc/en-us/articles/39997700261649-What-are-the-screen-specifications-of-the-Phone", "https://in.nothing.tech/products/phone-3a-lite"],
+      "method": "10 SVG units/mm. Rectangular display derived from pixel resolution and published pixel density. Display centered on body. Blue is documented on the India store; finishes vary by region.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations."
+    }
+  }
+]

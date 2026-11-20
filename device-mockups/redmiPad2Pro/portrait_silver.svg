@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1816.5" height="2798" viewBox="0 0 1816.5 2798">
+<title>Redmi Pad 2 Pro — silver</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 181.65 × 279.8 mm; centered display derived from 12.1 in diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Sources: https://www.mi.com/global/product/redmi-pad-2-pro/specs/</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1816.5" height="2798">
+<rect x="0" y="0" width="1816.5" height="2798" rx="0" fill="white"/><rect x="93.8" y="95.88" width="1628.9" height="2606.24" rx="48" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1816.5" height="2798" rx="88" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="1816.5" height="2798" rx="0" fill="#d4d6d9"/><rect x="0" y="0" width="1816.5" height="2798" rx="0" fill="url(#brushed)"/>
+<rect x="16.348499999999998" y="16.348499999999998" width="1783.803" height="2765.303" rx="71.6515" fill="#111317"/>
+<circle cx="1769.6" cy="1399" r="11" fill="url(#lens)"/>
+</g></g>
+</svg>

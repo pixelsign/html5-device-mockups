@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2358.28" height="1473.93" viewBox="0 0 2358.28 1473.93">
+<title>Galaxy Tab S9 landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1658" height="2543">
+<rect x="92.03" y="92.36" width="1473.93" height="2358.28" rx="39" fill="white"/>
+</mask></defs>
+<g transform="translate(0 1473.93) rotate(-90) translate(-92.03 -92.36)"><g mask="url(#aperture)"><rect x="92.03" y="92.36" width="1473.93" height="2358.28" rx="0" fill="white"/></g></g>
+</svg>

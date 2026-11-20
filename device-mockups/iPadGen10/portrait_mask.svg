@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1578" height="2271" viewBox="0 0 1578 2271">
+<title>iPad (10th generation) · 2022 portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1795" height="2486">
+<rect x="108.5" y="107.5" width="1578" height="2271" rx="38" fill="white"/>
+</mask></defs>
+<g transform="translate(-108.5 -107.5)"><g mask="url(#aperture)"><rect x="108.5" y="107.5" width="1578" height="2271" rx="0" fill="white"/></g></g>
+</svg>

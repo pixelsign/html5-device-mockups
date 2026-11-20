@@ -1,0 +1,3 @@
+// Standalone build with no phone or legacy image references.
+@use 'general' with ($legacy-specials: false);
+@use 'device-mockups' with ($include-legacy: false, $include-phones: false);

@@ -1,0 +1,740 @@
+[
+  {
+    "id": "galaxyTabS12Plus",
+    "label": "Galaxy Tab S12+",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1878.0,
+    "height": 2895.0,
+    "screen": {
+      "x": 90.2,
+      "y": 90.97,
+      "width": 1697.6,
+      "height": 2713.06
+    },
+    "finishes": {
+      "gray": "#626670",
+      "silver": "#d4d6d9"
+    },
+    "geometry": {
+      "bodyRadius": 79,
+      "screenRadius": 48,
+      "webcam": {
+        "x": 1832.9,
+        "y": 1447.5,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 187.8 × 289.5 mm; centered display derived from 12.6 in diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS12Ultra",
+    "label": "Galaxy Tab S12 Ultra",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 2085.0,
+    "height": 3263.0,
+    "screen": {
+      "x": 60.54,
+      "y": 58.66,
+      "width": 1963.92,
+      "height": 3145.67
+    },
+    "finishes": {
+      "gray": "#626670",
+      "silver": "#d4d6d9"
+    },
+    "geometry": {
+      "bodyRadius": 79,
+      "screenRadius": 47,
+      "notch": {
+        "x": 1992.46,
+        "y": 1598.5,
+        "width": 40,
+        "height": 66,
+        "r": 18
+      },
+      "webcam": {
+        "x": 2017.46,
+        "y": 1631.5,
+        "r": 10
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame."
+    }
+  },
+  {
+    "id": "galaxyTabS11",
+    "label": "Galaxy Tab S11",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1653.0,
+    "height": 2538.0,
+    "screen": {
+      "x": 86.09,
+      "y": 84.35,
+      "width": 1480.82,
+      "height": 2369.31
+    },
+    "finishes": {
+      "gray": "#626670",
+      "silver": "#d4d6d9"
+    },
+    "geometry": {
+      "bodyRadius": 76,
+      "screenRadius": 41,
+      "webcam": {
+        "x": 1609.95,
+        "y": 1269.0,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 165.3 × 253.8 mm; centered display derived from 11 in diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS11Ultra",
+    "label": "Galaxy Tab S11 Ultra",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 2085.0,
+    "height": 3263.0,
+    "screen": {
+      "x": 60.54,
+      "y": 58.66,
+      "width": 1963.92,
+      "height": 3145.67
+    },
+    "finishes": {
+      "gray": "#626670",
+      "silver": "#d4d6d9"
+    },
+    "geometry": {
+      "bodyRadius": 79,
+      "screenRadius": 47,
+      "notch": {
+        "x": 1992.46,
+        "y": 1598.5,
+        "width": 40,
+        "height": 66,
+        "r": 18
+      },
+      "webcam": {
+        "x": 2017.46,
+        "y": 1631.5,
+        "r": 10
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/global/meet-samsung-galaxy-tab-s11-series-packing-everything-you-expect-from-a-premium-tablet"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 208.5 × 326.3 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame."
+    }
+  },
+  {
+    "id": "galaxyTabS10Plus",
+    "label": "Galaxy Tab S10+",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1854.0,
+    "height": 2854.0,
+    "screen": {
+      "x": 91.67,
+      "y": 92.0,
+      "width": 1670.66,
+      "height": 2670.0
+    },
+    "finishes": {
+      "moonstone-grey": "#636771",
+      "platinum-silver": "#d6d7dc"
+    },
+    "geometry": {
+      "bodyRadius": 78,
+      "screenRadius": 44,
+      "webcam": {
+        "x": 1808.16,
+        "y": 1427.0,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 185.4 × 285.4 mm; centered display derived from 12.4 in diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS10Ultra",
+    "label": "Galaxy Tab S10 Ultra",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 2086.0,
+    "height": 3264.0,
+    "screen": {
+      "x": 61.04,
+      "y": 59.16,
+      "width": 1963.92,
+      "height": 3145.67
+    },
+    "finishes": {
+      "moonstone-grey": "#636771",
+      "platinum-silver": "#d6d7dc"
+    },
+    "geometry": {
+      "bodyRadius": 77,
+      "screenRadius": 43,
+      "notch": {
+        "x": 1994.96,
+        "y": 1555.5,
+        "width": 38,
+        "height": 153,
+        "r": 10
+      },
+      "webcam": {
+        "x": 2017.96,
+        "y": 1603.0,
+        "r": 10
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/uk/galaxy-tab-s10-series-is-samsungs-ai-ready-tablet"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 208.6 × 326.4 mm; centered display derived from 14.6 in diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. One lens marker represents the dual-camera housing."
+    }
+  },
+  {
+    "id": "galaxyTabS10FE",
+    "label": "Galaxy Tab S10 FE",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1658.0,
+    "height": 2543.0,
+    "screen": {
+      "x": 95.32,
+      "y": 97.62,
+      "width": 1467.36,
+      "height": 2347.77
+    },
+    "finishes": {
+      "gray": "#626670",
+      "silver": "#d4d6d9",
+      "blue": "#adbfda"
+    },
+    "geometry": {
+      "bodyRadius": 78,
+      "screenRadius": 42,
+      "webcam": {
+        "x": 1610.34,
+        "y": 1271.5,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+        "https://www.samsung.com/us/support/answer/ANS10005059/"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 10.9 in diagonal and 1440 × 2304 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS10FEPlus",
+    "label": "Galaxy Tab S10 FE+",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1947.0,
+    "height": 3006.0,
+    "screen": {
+      "x": 91.74,
+      "y": 92.18,
+      "width": 1763.52,
+      "height": 2821.63
+    },
+    "finishes": {
+      "gray": "#626670",
+      "silver": "#d4d6d9",
+      "blue": "#adbfda"
+    },
+    "geometry": {
+      "bodyRadius": 80,
+      "screenRadius": 45,
+      "webcam": {
+        "x": 1901.13,
+        "y": 1503.0,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/global/galaxy-tab-s10-fe-series-brings-intelligent-experiences-to-the-forefront-with-premium-versatile-design",
+        "https://www.samsung.com/us/support/answer/ANS10005059/"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 194.7 × 300.6 mm; centered display derived from 13.1 in diagonal and 1800 × 2880 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS10Lite",
+    "label": "Galaxy Tab S10 Lite",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1658.0,
+    "height": 2543.0,
+    "screen": {
+      "x": 95.32,
+      "y": 97.62,
+      "width": 1467.36,
+      "height": 2347.77
+    },
+    "finishes": {
+      "gray": "#626670",
+      "silver": "#d4d6d9",
+      "coralred": "#cd7777"
+    },
+    "geometry": {
+      "bodyRadius": 78,
+      "screenRadius": 40,
+      "webcam": {
+        "x": 1610.34,
+        "y": 1271.5,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://news.samsung.com/global/galaxy-tab-s10-lite-a-value-packed-tablet-for-everyday-needs"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 10.9 in diagonal and 1320 × 2112 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS9",
+    "label": "Galaxy Tab S9",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1658.0,
+    "height": 2543.0,
+    "screen": {
+      "x": 92.03,
+      "y": 92.36,
+      "width": 1473.93,
+      "height": 2358.28
+    },
+    "finishes": {
+      "graphite": "#57585c",
+      "beige": "#dfd5c2"
+    },
+    "geometry": {
+      "bodyRadius": 74,
+      "screenRadius": 39,
+      "webcam": {
+        "x": 1611.98,
+        "y": 1271.5,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-serie"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 165.8 × 254.3 mm; centered display derived from 278.1 mm diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS9Plus",
+    "label": "Galaxy Tab S9+",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1854.0,
+    "height": 2854.0,
+    "screen": {
+      "x": 91.57,
+      "y": 91.83,
+      "width": 1670.87,
+      "height": 2670.34
+    },
+    "finishes": {
+      "graphite": "#57585c",
+      "beige": "#dfd5c2"
+    },
+    "geometry": {
+      "bodyRadius": 76,
+      "screenRadius": 42,
+      "webcam": {
+        "x": 1808.22,
+        "y": 1427.0,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-serie"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 185.4 × 285.4 mm; centered display derived from 315 mm diagonal and 1752 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabS9Ultra",
+    "label": "Galaxy Tab S9 Ultra",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 2086.0,
+    "height": 3264.0,
+    "screen": {
+      "x": 63.53,
+      "y": 63.15,
+      "width": 1958.94,
+      "height": 3137.7
+    },
+    "finishes": {
+      "graphite": "#57585c",
+      "beige": "#dfd5c2"
+    },
+    "geometry": {
+      "bodyRadius": 77,
+      "screenRadius": 43,
+      "notch": {
+        "x": 1992.47,
+        "y": 1555.5,
+        "width": 38,
+        "height": 153,
+        "r": 10
+      },
+      "webcam": {
+        "x": 2015.47,
+        "y": 1603.0,
+        "r": 10
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.samsung.com/de/support/mobile-devices/vergleich-galaxy-tab-s9-serie"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 208.6 × 326.4 mm; centered display derived from 369.9 mm diagonal and 1848 × 2960 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Long-edge cutout and lens use body coordinates; rotate both with the frame. One lens marker represents the dual-camera housing."
+    }
+  },
+  {
+    "id": "galaxyTabA11",
+    "label": "Galaxy Tab A11",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1247.0,
+    "height": 2110,
+    "screen": {
+      "x": 58.35,
+      "y": 108.37,
+      "width": 1130.3,
+      "height": 1893.26
+    },
+    "finishes": {
+      "grey": "#626670",
+      "silver": "#d4d6d9"
+    },
+    "geometry": {
+      "bodyRadius": 73,
+      "screenRadius": 24,
+      "webcam": {
+        "x": 623.5,
+        "y": 54.19,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.samsung.com/uk/tablets/galaxy-tab-a/galaxy-tab-a11-grey-64gb-wi-fi-sm-x130nzaaeub/"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 124.7 × 211 mm; centered display derived from 220.5 mm diagonal and 800 × 1340 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "galaxyTabA11Plus",
+    "label": "Galaxy Tab A11+",
+    "type": "tablet",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 1687.0,
+    "height": 2571.0,
+    "screen": {
+      "x": 106.27,
+      "y": 105.93,
+      "width": 1474.46,
+      "height": 2359.13
+    },
+    "finishes": {
+      "grey": "#626670",
+      "silver": "#d4d6d9"
+    },
+    "geometry": {
+      "bodyRadius": 76,
+      "screenRadius": 27,
+      "webcam": {
+        "x": 1633.87,
+        "y": 1285.5,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.samsung.com/uk/tablets/galaxy-tab-a/galaxy-tab-a11-plus-silver-128gb-wi-fi-sm-x230nzsreub/"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 168.7 × 257.1 mm; centered display derived from 278.2 mm diagonal and 1200 × 1920 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "pixelTablet",
+    "label": "Pixel Tablet",
+    "type": "tablet",
+    "group": "Google",
+    "brand": "Google",
+    "width": 1690,
+    "height": 2580,
+    "screen": {
+      "x": 107.96,
+      "y": 110.73,
+      "width": 1474.09,
+      "height": 2358.54
+    },
+    "finishes": {
+      "porcelain": "#e4dfd4",
+      "hazel": "#7e877d",
+      "rose": "#dfbfb9"
+    },
+    "geometry": {
+      "bodyRadius": 99,
+      "screenRadius": 54,
+      "webcam": {
+        "x": 1636.02,
+        "y": 1290.0,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.google.com/googlepixeltablet/answer/13555146?hl=en"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 169 × 258 mm; centered display derived from 10.95 in diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "onePlusPad4",
+    "label": "OnePlus Pad 4",
+    "type": "tablet",
+    "group": "OnePlus",
+    "brand": "OnePlus",
+    "width": 2097.6,
+    "height": 2897.1,
+    "screen": {
+      "x": 80.53,
+      "y": 80.06,
+      "width": 1936.54,
+      "height": 2736.98
+    },
+    "finishes": {
+      "dune-glow": "#e3d1bc",
+      "sage-mist": "#afbdb0"
+    },
+    "geometry": {
+      "bodyRadius": 99,
+      "screenRadius": 64,
+      "webcam": {
+        "x": 2057.33,
+        "y": 1448.55,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.oneplus.com/global/pad-4/specs"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 209.76 × 289.71 mm; centered display derived from 13.2 in diagonal and 2400 × 3392 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "onePlusPadGo2",
+    "label": "OnePlus Pad Go 2",
+    "type": "tablet",
+    "group": "OnePlus",
+    "brand": "OnePlus",
+    "width": 1927.7,
+    "height": 2660.1,
+    "screen": {
+      "x": 79.61,
+      "y": 79.61,
+      "width": 1768.48,
+      "height": 2500.89
+    },
+    "finishes": {
+      "shadow-black": "#48484b",
+      "lavender-drift": "#c0b6cf"
+    },
+    "geometry": {
+      "bodyRadius": 101,
+      "screenRadius": 60,
+      "webcam": {
+        "x": 1887.9,
+        "y": 1330.05,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.oneplus.com/global/oneplus-pad-go-2/specs"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 192.77 × 266.01 mm; centered display derived from 306.3 mm diagonal and 1980 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "xiaomiPad8Pro",
+    "label": "Xiaomi Pad 8 Pro",
+    "type": "tablet",
+    "group": "Xiaomi",
+    "brand": "Xiaomi",
+    "width": 1734.2,
+    "height": 2512.2,
+    "screen": {
+      "x": 77.41,
+      "y": 73.04,
+      "width": 1579.38,
+      "height": 2366.11
+    },
+    "finishes": {
+      "pine-green": "#8ea79e",
+      "blue": "#adbfda",
+      "gray": "#626670"
+    },
+    "geometry": {
+      "bodyRadius": 84,
+      "screenRadius": 52,
+      "webcam": {
+        "x": 1695.5,
+        "y": 1256.1,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.mi.com/global/product/xiaomi-pad-8-pro/specs"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 173.42 × 251.22 mm; centered display derived from 11.2 in diagonal and 2136 × 3200 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "redmiPad2Pro",
+    "label": "Redmi Pad 2 Pro",
+    "type": "tablet",
+    "group": "Xiaomi",
+    "brand": "Xiaomi",
+    "width": 1816.5,
+    "height": 2798.0,
+    "screen": {
+      "x": 93.8,
+      "y": 95.88,
+      "width": 1628.9,
+      "height": 2606.24
+    },
+    "finishes": {
+      "graphite-gray": "#52555a",
+      "silver": "#d4d6d9",
+      "lavender-purple": "#c3b9cd"
+    },
+    "geometry": {
+      "bodyRadius": 88,
+      "screenRadius": 48,
+      "webcam": {
+        "x": 1769.6,
+        "y": 1399.0,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.mi.com/global/product/redmi-pad-2-pro/specs/"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 181.65 × 279.8 mm; centered display derived from 12.1 in diagonal and 1600 × 2560 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  },
+  {
+    "id": "lenovoLegionTabGen5",
+    "label": "Lenovo Legion Tab Gen 5",
+    "type": "tablet",
+    "group": "Lenovo",
+    "brand": "Lenovo",
+    "width": 1285.0,
+    "height": 2064.6,
+    "screen": {
+      "x": 49.27,
+      "y": 85.14,
+      "width": 1186.45,
+      "height": 1894.32
+    },
+    "finishes": {
+      "eclipse-black": "#343639",
+      "glacier-white": "#e3e5e7",
+      "aurora": "#bfc8ea",
+      "surge": "#7394aa"
+    },
+    "geometry": {
+      "bodyRadius": 67,
+      "screenRadius": 40,
+      "webcam": {
+        "x": 1260.36,
+        "y": 1032.3,
+        "r": 11
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Legion_Tab_8_8_5/Legion_Tab_8_8_5_Spec.PDF"
+      ],
+      "notes": "Portrait, 10 units/mm. Body 128.5 × 206.46 mm; centered display derived from 8.8 in diagonal and 1904 × 3040 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations."
+    }
+  }
+]

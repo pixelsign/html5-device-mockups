@@ -1,0 +1,237 @@
+[
+  {
+    "id": "iPhone17",
+    "label": "iPhone 17",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1496.0,
+    "screen": {
+      "x": 24.539,
+      "y": 24.1,
+      "width": 665.922,
+      "height": 1447.8
+    },
+    "colors": ["black", "white", "mist-blue", "sage", "lavender"],
+    "finishes": {
+      "black": "#353634",
+      "white": "#f4f3ef",
+      "mist-blue": "#c0ccda",
+      "sage": "#b5c4a7",
+      "lavender": "#d8cfea"
+    },
+    "measurements": {
+      "bodyMm": [71.5, 149.6],
+      "displayPx": [1206, 2622],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 112,
+      "screenRadius": 93,
+      "camera": {
+        "width": 112,
+        "height": 33,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 252,
+          "height": 31
+        },
+        {
+          "side": "left",
+          "y": 337,
+          "height": 66
+        },
+        {
+          "side": "left",
+          "y": 421,
+          "height": 66
+        },
+        {
+          "side": "right",
+          "y": 399,
+          "height": 105
+        },
+        {
+          "side": "right",
+          "y": 948,
+          "height": 78
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://support.apple.com/en-us/125089"],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "galaxyS25",
+    "label": "Galaxy S25",
+    "group": "Samsung",
+    "brand": "Samsung",
+    "width": 705.0,
+    "height": 1469.0,
+    "screen": {
+      "x": 24.797,
+      "y": 24.476,
+      "width": 655.407,
+      "height": 1420.048
+    },
+    "colors": ["navy", "icyblue", "mint", "silver-shadow", "blueblack", "coralred", "pinkgold"],
+    "finishes": {
+      "navy": "#3d4e65",
+      "icyblue": "#cbdce9",
+      "mint": "#c6d9ce",
+      "silver-shadow": "#adb0b0",
+      "blueblack": "#313740",
+      "coralred": "#e98378",
+      "pinkgold": "#e8cfc4"
+    },
+    "measurements": {
+      "bodyMm": [70.5, 146.9],
+      "displayPx": [1080, 2340],
+      "fullDiagonalMm": 156.4
+    },
+    "geometry": {
+      "bodyRadius": 76,
+      "screenRadius": 57,
+      "camera": {
+        "width": 26,
+        "height": 26,
+        "top": 13
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 319,
+          "height": 115
+        },
+        {
+          "side": "right",
+          "y": 478,
+          "height": 63
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://www.samsung.com/au/smartphones/galaxy-s25/specs/", "https://www.samsung.com/us/smartphones/galaxy-s25/"],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published full-rectangle diagonal.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "Pixel10",
+    "label": "Pixel 10",
+    "group": "Google",
+    "brand": "Google",
+    "width": 720,
+    "height": 1528.0,
+    "screen": {
+      "x": 34.976,
+      "y": 34.502,
+      "width": 650.047,
+      "height": 1458.995
+    },
+    "colors": ["obsidian", "indigo", "frost", "lemongrass"],
+    "finishes": {
+      "obsidian": "#3b3c3b",
+      "indigo": "#7182cd",
+      "frost": "#d9e3e8",
+      "lemongrass": "#d7e684"
+    },
+    "measurements": {
+      "bodyMm": [72, 152.8],
+      "displayPx": [1080, 2424],
+      "ppi": 422
+    },
+    "geometry": {
+      "bodyRadius": 105,
+      "screenRadius": 72,
+      "camera": {
+        "width": 33,
+        "height": 33,
+        "top": 16
+      },
+      "buttons": [
+        {
+          "side": "right",
+          "y": 381,
+          "height": 61
+        },
+        {
+          "side": "right",
+          "y": 519,
+          "height": 111
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://store.google.com/gb/product/pixel_10_specs?hl=en-GB"],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  },
+  {
+    "id": "NothingPhone3",
+    "label": "Nothing Phone (3)",
+    "group": "Nothing",
+    "brand": "Nothing",
+    "width": 755.9,
+    "height": 1606.0,
+    "screen": {
+      "x": 30.08,
+      "y": 29.957,
+      "width": 695.739,
+      "height": 1546.087
+    },
+    "colors": ["black", "white"],
+    "finishes": {
+      "black": "#37383a",
+      "white": "#e9e7df"
+    },
+    "measurements": {
+      "bodyMm": [75.59, 160.6],
+      "displayPx": [1260, 2800],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 88,
+      "screenRadius": 62,
+      "camera": {
+        "width": 28,
+        "height": 28,
+        "top": 16
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 370,
+          "height": 57
+        },
+        {
+          "side": "left",
+          "y": 446,
+          "height": 57
+        },
+        {
+          "side": "right",
+          "y": 438,
+          "height": 69
+        },
+        {
+          "side": "right",
+          "y": 549,
+          "height": 48
+        }
+      ]
+    },
+    "provenance": {
+      "sources": ["https://support.nothing.tech/hc/en-us/articles/36457446865169-What-are-the-dimensions-and-weight-of-Nothing-Phone-3", "https://support.nothing.tech/hc/en-us/articles/36457408798993-What-are-the-screen-specifications-of-the-Phone", "https://us.nothing.tech/products/phone-3"],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations."
+    }
+  }
+]

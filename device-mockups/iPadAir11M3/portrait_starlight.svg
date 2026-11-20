@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1785" height="2476" viewBox="0 0 1785 2476">
+<title>iPad Air 11-inch (M3) · 2025 — starlight</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. 2025 release; M3. The M2, M3 and M4 Air share this front outline at this size. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate. Sources: https://support.apple.com/en-us/122241; https://support.apple.com/en-us/108043</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1785" height="2476">
+<rect x="0" y="0" width="1785" height="2476" rx="0" fill="white"/><rect x="103.5" y="102.5" width="1578" height="2271" rx="38" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1785" height="2476" rx="90" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="1785" height="2476" rx="0" fill="#e4ded1"/><rect x="0" y="0" width="1785" height="2476" rx="0" fill="url(#brushed)"/>
+<rect x="16.064999999999998" y="16.064999999999998" width="1752.87" height="2443.87" rx="73.935" fill="#111317"/>
+<circle cx="1733.25" cy="1238" r="14" fill="url(#lens)"/>
+</g></g>
+</svg>

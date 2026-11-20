@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1207.9" height="679.44375" viewBox="0 0 1207.9 679.44375">
+<title>Samsung The Frame LS03F (55-inch) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1237.9" height="743.4">
+<rect x="15" y="12.33" width="1207.9" height="679.44375" rx="0" fill="white"/>
+</mask></defs>
+<g transform="translate(-15 -12.33)"><g mask="url(#aperture)"><rect x="15" y="12.33" width="1207.9" height="679.44375" rx="0" fill="white"/></g></g>
+</svg>

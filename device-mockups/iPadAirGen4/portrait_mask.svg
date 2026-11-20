@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1578" height="2271" viewBox="0 0 1578 2271">
+<title>iPad Air (4th generation) · 2020 portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1785" height="2476">
+<rect x="103.5" y="102.5" width="1578" height="2271" rx="38" fill="white"/>
+</mask></defs>
+<g transform="translate(-103.5 -102.5)"><g mask="url(#aperture)"><rect x="103.5" y="102.5" width="1578" height="2271" rx="0" fill="white"/></g></g>
+</svg>

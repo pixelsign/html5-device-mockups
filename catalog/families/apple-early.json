@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "iPhoneXR",
+    "label": "iPhone XR",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 757.0,
+    "height": 1509.0,
+    "screen": {
+      "x": 55.936,
+      "y": 56.39,
+      "width": 645.129,
+      "height": 1396.221
+    },
+    "colors": [
+      "product-red",
+      "yellow",
+      "white",
+      "coral",
+      "black",
+      "blue"
+    ],
+    "finishes": {
+      "product-red": "#bc2335",
+      "yellow": "#f4d559",
+      "white": "#f3f0ec",
+      "coral": "#fa795f",
+      "black": "#292a2c",
+      "blue": "#4699bc"
+    },
+    "measurements": {
+      "bodyMm": [
+        75.7,
+        150.9
+      ],
+      "displayPx": [
+        828,
+        1792
+      ],
+      "ppi": 326
+    },
+    "geometry": {
+      "bodyRadius": 112,
+      "screenRadius": 56,
+      "camera": {
+        "kind": "notch",
+        "width": 348,
+        "height": 54,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 266,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 362,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 445,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 375,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111868"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone11",
+    "label": "iPhone 11",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 757.0,
+    "height": 1509.0,
+    "screen": {
+      "x": 55.936,
+      "y": 56.39,
+      "width": 645.129,
+      "height": 1396.221
+    },
+    "colors": [
+      "black",
+      "green",
+      "yellow",
+      "purple",
+      "product-red",
+      "white"
+    ],
+    "finishes": {
+      "black": "#292a2c",
+      "green": "#a4d7c6",
+      "yellow": "#f8e58c",
+      "purple": "#c6bad6",
+      "product-red": "#bc2335",
+      "white": "#f3f0ec"
+    },
+    "measurements": {
+      "bodyMm": [
+        75.7,
+        150.9
+      ],
+      "displayPx": [
+        828,
+        1792
+      ],
+      "ppi": 326
+    },
+    "geometry": {
+      "bodyRadius": 112,
+      "screenRadius": 56,
+      "camera": {
+        "kind": "notch",
+        "width": 348,
+        "height": 54,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 266,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 362,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 445,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 375,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111865"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone11Pro",
+    "label": "iPhone 11 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 714.0,
+    "height": 1440.0,
+    "screen": {
+      "x": 45.046,
+      "y": 44.515,
+      "width": 623.908,
+      "height": 1350.969
+    },
+    "colors": [
+      "gold",
+      "space-gray",
+      "silver",
+      "midnight-green"
+    ],
+    "finishes": {
+      "gold": "#d8c3a5",
+      "space-gray": "#5b5b5e",
+      "silver": "#d8dbdb",
+      "midnight-green": "#52605a"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.4,
+        144.0
+      ],
+      "displayPx": [
+        1125,
+        2436
+      ],
+      "ppi": 458
+    },
+    "geometry": {
+      "bodyRadius": 105,
+      "screenRadius": 60,
+      "camera": {
+        "kind": "notch",
+        "width": 349,
+        "height": 55,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 238,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 331,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 414,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 343,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111879"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone11ProMax",
+    "label": "iPhone 11 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 778.0,
+    "height": 1580.0,
+    "screen": {
+      "x": 44.603,
+      "y": 44.638,
+      "width": 688.795,
+      "height": 1490.725
+    },
+    "colors": [
+      "gold",
+      "space-gray",
+      "silver",
+      "midnight-green"
+    ],
+    "finishes": {
+      "gold": "#d8c3a5",
+      "space-gray": "#5b5b5e",
+      "silver": "#d8dbdb",
+      "midnight-green": "#52605a"
+    },
+    "measurements": {
+      "bodyMm": [
+        77.8,
+        158.0
+      ],
+      "displayPx": [
+        1242,
+        2688
+      ],
+      "ppi": 458
+    },
+    "geometry": {
+      "bodyRadius": 108,
+      "screenRadius": 63,
+      "camera": {
+        "kind": "notch",
+        "width": 349,
+        "height": 55,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 283,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 375,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 458,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 400,
+          "height": 103
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111878"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhoneSE2",
+    "label": "iPhone SE (2nd generation)",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 673.0,
+    "height": 1384.0,
+    "screen": {
+      "x": 44.322,
+      "y": 172.313,
+      "width": 584.356,
+      "height": 1039.374
+    },
+    "colors": [
+      "black",
+      "white",
+      "product-red"
+    ],
+    "finishes": {
+      "black": "#292a2c",
+      "white": "#f3f0ec",
+      "product-red": "#bc2335"
+    },
+    "measurements": {
+      "bodyMm": [
+        67.3,
+        138.4
+      ],
+      "displayPx": [
+        750,
+        1334
+      ],
+      "ppi": 326
+    },
+    "geometry": {
+      "bodyRadius": 94,
+      "screenRadius": 0,
+      "camera": {
+        "kind": "none",
+        "width": 0,
+        "height": 0,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 208,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 296,
+          "height": 58
+        },
+        {
+          "side": "left",
+          "y": 372,
+          "height": 58
+        },
+        {
+          "side": "right",
+          "y": 298,
+          "height": 63
+        }
+      ],
+      "home": {
+        "x": 336.5,
+        "y": 1297.844,
+        "r": 53
+      }
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111882"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and Touch ID Home button are approximate."
+    }
+  },
+  {
+    "id": "iPhoneSE3",
+    "label": "iPhone SE (3rd generation)",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 673.0,
+    "height": 1384.0,
+    "screen": {
+      "x": 44.322,
+      "y": 172.313,
+      "width": 584.356,
+      "height": 1039.374
+    },
+    "colors": [
+      "product-red",
+      "starlight",
+      "midnight"
+    ],
+    "finishes": {
+      "product-red": "#bc2335",
+      "starlight": "#ebe5dc",
+      "midnight": "#303944"
+    },
+    "measurements": {
+      "bodyMm": [
+        67.3,
+        138.4
+      ],
+      "displayPx": [
+        750,
+        1334
+      ],
+      "ppi": 326
+    },
+    "geometry": {
+      "bodyRadius": 94,
+      "screenRadius": 0,
+      "camera": {
+        "kind": "none",
+        "width": 0,
+        "height": 0,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 208,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 296,
+          "height": 58
+        },
+        {
+          "side": "left",
+          "y": 372,
+          "height": 58
+        },
+        {
+          "side": "right",
+          "y": 298,
+          "height": 63
+        }
+      ],
+      "home": {
+        "x": 336.5,
+        "y": 1297.844,
+        "r": 53
+      }
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111866"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and Touch ID Home button are approximate."
+    }
+  },
+  {
+    "id": "iPhone12mini",
+    "label": "iPhone 12 mini",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 642.0,
+    "height": 1315.0,
+    "screen": {
+      "x": 32.849,
+      "y": 33.172,
+      "width": 576.303,
+      "height": 1248.655
+    },
+    "colors": [
+      "black",
+      "white",
+      "product-red",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "finishes": {
+      "black": "#292a2c",
+      "white": "#f3f0ec",
+      "product-red": "#dd453d",
+      "green": "#c4ddc5",
+      "blue": "#254967",
+      "purple": "#bdb0d8"
+    },
+    "measurements": {
+      "bodyMm": [
+        64.2,
+        131.5
+      ],
+      "displayPx": [
+        1080,
+        2340
+      ],
+      "ppi": 476
+    },
+    "geometry": {
+      "bodyRadius": 98,
+      "screenRadius": 65,
+      "camera": {
+        "kind": "notch",
+        "width": 347,
+        "height": 54,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 210,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 296,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 376,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 316,
+          "height": 100
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111877"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone12",
+    "label": "iPhone 12",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1467.0,
+    "screen": {
+      "x": 34.478,
+      "y": 34.448,
+      "width": 646.043,
+      "height": 1398.104
+    },
+    "colors": [
+      "black",
+      "white",
+      "product-red",
+      "green",
+      "blue",
+      "purple"
+    ],
+    "finishes": {
+      "black": "#292a2c",
+      "white": "#f3f0ec",
+      "product-red": "#dd453d",
+      "green": "#c4ddc5",
+      "blue": "#254967",
+      "purple": "#bdb0d8"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        146.7
+      ],
+      "displayPx": [
+        1170,
+        2532
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 106,
+      "screenRadius": 72,
+      "camera": {
+        "kind": "notch",
+        "width": 347,
+        "height": 54,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 249,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 335,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 417,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 364,
+          "height": 102
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111876"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone12Pro",
+    "label": "iPhone 12 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1467.0,
+    "screen": {
+      "x": 34.478,
+      "y": 34.448,
+      "width": 646.043,
+      "height": 1398.104
+    },
+    "colors": [
+      "silver",
+      "graphite",
+      "gold",
+      "pacific-blue"
+    ],
+    "finishes": {
+      "silver": "#d8dbdb",
+      "graphite": "#575858",
+      "gold": "#d8c3a5",
+      "pacific-blue": "#475e6d"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        146.7
+      ],
+      "displayPx": [
+        1170,
+        2532
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 106,
+      "screenRadius": 72,
+      "camera": {
+        "kind": "notch",
+        "width": 347,
+        "height": 54,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 249,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 335,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 417,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 364,
+          "height": 102
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111875"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone12ProMax",
+    "label": "iPhone 12 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 781.0,
+    "height": 1608.0,
+    "screen": {
+      "x": 34.456,
+      "y": 33.681,
+      "width": 712.087,
+      "height": 1540.638
+    },
+    "colors": [
+      "silver",
+      "graphite",
+      "gold",
+      "pacific-blue"
+    ],
+    "finishes": {
+      "silver": "#d8dbdb",
+      "graphite": "#575858",
+      "gold": "#d8c3a5",
+      "pacific-blue": "#475e6d"
+    },
+    "measurements": {
+      "bodyMm": [
+        78.1,
+        160.8
+      ],
+      "displayPx": [
+        1284,
+        2778
+      ],
+      "ppi": 458
+    },
+    "geometry": {
+      "bodyRadius": 113,
+      "screenRadius": 79,
+      "camera": {
+        "kind": "notch",
+        "width": 347,
+        "height": 54,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 286,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 379,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 461,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 408,
+          "height": 105
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111874"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone13mini",
+    "label": "iPhone 13 mini",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 642.0,
+    "height": 1315.0,
+    "screen": {
+      "x": 32.849,
+      "y": 33.172,
+      "width": 576.303,
+      "height": 1248.655
+    },
+    "colors": [
+      "product-red",
+      "starlight",
+      "midnight",
+      "blue",
+      "pink",
+      "green"
+    ],
+    "finishes": {
+      "product-red": "#bc2335",
+      "starlight": "#ebe5dc",
+      "midnight": "#303944",
+      "blue": "#597a93",
+      "pink": "#eed4d1",
+      "green": "#45594c"
+    },
+    "measurements": {
+      "bodyMm": [
+        64.2,
+        131.5
+      ],
+      "displayPx": [
+        1080,
+        2340
+      ],
+      "ppi": 476
+    },
+    "geometry": {
+      "bodyRadius": 98,
+      "screenRadius": 65,
+      "camera": {
+        "kind": "notch",
+        "width": 267,
+        "height": 58,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 222,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 313,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 395,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 330,
+          "height": 102
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111873"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone13",
+    "label": "iPhone 13",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1467.0,
+    "screen": {
+      "x": 34.478,
+      "y": 34.448,
+      "width": 646.043,
+      "height": 1398.104
+    },
+    "colors": [
+      "product-red",
+      "starlight",
+      "midnight",
+      "blue",
+      "pink",
+      "green"
+    ],
+    "finishes": {
+      "product-red": "#bc2335",
+      "starlight": "#ebe5dc",
+      "midnight": "#303944",
+      "blue": "#597a93",
+      "pink": "#eed4d1",
+      "green": "#45594c"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        146.7
+      ],
+      "displayPx": [
+        1170,
+        2532
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 106,
+      "screenRadius": 72,
+      "camera": {
+        "kind": "notch",
+        "width": 267,
+        "height": 58,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 270,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 363,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 446,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 390,
+          "height": 102
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111872"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone13Pro",
+    "label": "iPhone 13 Pro",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1467.0,
+    "screen": {
+      "x": 34.478,
+      "y": 34.448,
+      "width": 646.043,
+      "height": 1398.104
+    },
+    "colors": [
+      "graphite",
+      "gold",
+      "silver",
+      "sierra-blue",
+      "alpine-green"
+    ],
+    "finishes": {
+      "graphite": "#575858",
+      "gold": "#d8c3a5",
+      "silver": "#d8dbdb",
+      "sierra-blue": "#9bb1c5",
+      "alpine-green": "#596d5e"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        146.7
+      ],
+      "displayPx": [
+        1170,
+        2532
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 106,
+      "screenRadius": 72,
+      "camera": {
+        "kind": "notch",
+        "width": 267,
+        "height": 58,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 270,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 363,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 446,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 390,
+          "height": 102
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111871"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone13ProMax",
+    "label": "iPhone 13 Pro Max",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 781.0,
+    "height": 1608.0,
+    "screen": {
+      "x": 34.456,
+      "y": 33.681,
+      "width": 712.087,
+      "height": 1540.638
+    },
+    "colors": [
+      "graphite",
+      "gold",
+      "silver",
+      "sierra-blue",
+      "alpine-green"
+    ],
+    "finishes": {
+      "graphite": "#575858",
+      "gold": "#d8c3a5",
+      "silver": "#d8dbdb",
+      "sierra-blue": "#9bb1c5",
+      "alpine-green": "#596d5e"
+    },
+    "measurements": {
+      "bodyMm": [
+        78.1,
+        160.8
+      ],
+      "displayPx": [
+        1284,
+        2778
+      ],
+      "ppi": 458
+    },
+    "geometry": {
+      "bodyRadius": 113,
+      "screenRadius": 79,
+      "camera": {
+        "kind": "notch",
+        "width": 267,
+        "height": 58,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 302,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 399,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 481,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 440,
+          "height": 106
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111870"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone14",
+    "label": "iPhone 14",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 715.0,
+    "height": 1467.0,
+    "screen": {
+      "x": 34.478,
+      "y": 34.448,
+      "width": 646.043,
+      "height": 1398.104
+    },
+    "colors": [
+      "midnight",
+      "purple",
+      "starlight",
+      "product-red",
+      "blue",
+      "yellow"
+    ],
+    "finishes": {
+      "midnight": "#303944",
+      "purple": "#d6cddc",
+      "starlight": "#ebe5dc",
+      "product-red": "#bc2335",
+      "blue": "#a7becf",
+      "yellow": "#f1df91"
+    },
+    "measurements": {
+      "bodyMm": [
+        71.5,
+        146.7
+      ],
+      "displayPx": [
+        1170,
+        2532
+      ],
+      "ppi": 460
+    },
+    "geometry": {
+      "bodyRadius": 106,
+      "screenRadius": 72,
+      "camera": {
+        "kind": "notch",
+        "width": 267,
+        "height": 58,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 270,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 363,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 446,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 390,
+          "height": 102
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111850"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  },
+  {
+    "id": "iPhone14Plus",
+    "label": "iPhone 14 Plus",
+    "group": "iPhone",
+    "brand": "Apple",
+    "width": 781.0,
+    "height": 1608.0,
+    "screen": {
+      "x": 34.456,
+      "y": 33.681,
+      "width": 712.087,
+      "height": 1540.638
+    },
+    "colors": [
+      "midnight",
+      "purple",
+      "starlight",
+      "product-red",
+      "blue",
+      "yellow"
+    ],
+    "finishes": {
+      "midnight": "#303944",
+      "purple": "#d6cddc",
+      "starlight": "#ebe5dc",
+      "product-red": "#bc2335",
+      "blue": "#a7becf",
+      "yellow": "#f1df91"
+    },
+    "measurements": {
+      "bodyMm": [
+        78.1,
+        160.8
+      ],
+      "displayPx": [
+        1284,
+        2778
+      ],
+      "ppi": 458
+    },
+    "geometry": {
+      "bodyRadius": 113,
+      "screenRadius": 79,
+      "camera": {
+        "kind": "notch",
+        "width": 267,
+        "height": 58,
+        "top": 0
+      },
+      "buttons": [
+        {
+          "side": "left",
+          "y": 302,
+          "height": 30
+        },
+        {
+          "side": "left",
+          "y": 399,
+          "height": 65
+        },
+        {
+          "side": "left",
+          "y": 481,
+          "height": 65
+        },
+        {
+          "side": "right",
+          "y": 440,
+          "height": 106
+        }
+      ]
+    },
+    "provenance": {
+      "sources": [
+        "https://support.apple.com/en-us/111854"
+      ],
+      "method": "10 SVG units/mm. Centered rectangular display derived from pixel resolution and published pixel density.",
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate."
+    }
+  }
+]

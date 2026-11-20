@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1210" height="680.625" viewBox="0 0 1210 680.625">
+<title>Sony BRAVIA 8 II (55-inch) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1224" height="722">
+<rect x="7" y="11.077" width="1210" height="680.625" rx="0" fill="white"/>
+</mask></defs>
+<g transform="translate(-7 -11.077)"><g mask="url(#aperture)"><rect x="7" y="11.077" width="1210" height="680.625" rx="0" fill="white"/></g></g>
+</svg>

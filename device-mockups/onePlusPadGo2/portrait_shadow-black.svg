@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1927.7" height="2660.1" viewBox="0 0 1927.7 2660.1">
+<title>OnePlus Pad Go 2 — shadow-black</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Portrait, 10 units/mm. Body 192.77 × 266.01 mm; centered display derived from 306.3 mm diagonal and 1980 × 2800 pixels. Original illustration: placement, corner radii, camera details and finish swatches are approximations. Sources: https://www.oneplus.com/global/oneplus-pad-go-2/specs</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1927.7" height="2660.1">
+<rect x="0" y="0" width="1927.7" height="2660.1" rx="0" fill="white"/><rect x="79.61" y="79.61" width="1768.48" height="2500.89" rx="60" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1927.7" height="2660.1" rx="101" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="1927.7" height="2660.1" rx="0" fill="#48484b"/><rect x="0" y="0" width="1927.7" height="2660.1" rx="0" fill="url(#brushed)"/>
+<rect x="17.3493" y="17.3493" width="1893.0014" height="2625.4013999999997" rx="83.6507" fill="#111317"/>
+<circle cx="1887.9" cy="1330.05" r="11" fill="url(#lens)"/>
+</g></g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="841" height="1178" viewBox="0 0 841 1178">
+  <title>iPhone Duo (cover) — night-sky</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/148588; https://support.apple.com/guide/iphone/iphone-duo-iphde2xz6efm/ios; https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo.md</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#474c58" stroke="#303237" stroke-width="1">
+    <rect x="833" y="336" width="8" height="94" rx="3"/>
+    <rect x="833" y="780" width="8" height="75" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M74 6H767a65 65 0 0 1 65 65V1107a65 65 0 0 1 -65 65H74a65 65 0 0 1 -65 -65V71a65 65 0 0 1 65 -65Z M73.53 27.439H767.469a39 39 0 0 1 39 39V1111.561a39 39 0 0 1 -39 39H73.53a39 39 0 0 1 -39 -39V66.439a39 39 0 0 1 39 -39Z"/>
+    <path fill="#474c58" d="M74 1H767a70 70 0 0 1 70 70V1107a70 70 0 0 1 -70 70H74a70 70 0 0 1 -70 -70V71a70 70 0 0 1 70 -70Z M74 10H767a61 61 0 0 1 61 61V1107a61 61 0 0 1 -61 61H74a61 61 0 0 1 -61 -61V71a61 61 0 0 1 61 -61Z"/>
+    <path fill="url(#polish)" d="M74 1H767a70 70 0 0 1 70 70V1107a70 70 0 0 1 -70 70H74a70 70 0 0 1 -70 -70V71a70 70 0 0 1 70 -70Z M74 10H767a61 61 0 0 1 61 61V1107a61 61 0 0 1 -61 61H74a61 61 0 0 1 -61 -61V71a61 61 0 0 1 61 -61Z"/>
+  </g>
+  <path fill="#050608" d="M736.995 69.439H736.995a23 23 0 0 1 23 23V92.439a23 23 0 0 1 -23 23H736.995a23 23 0 0 1 -23 -23V92.439a23 23 0 0 1 23 -23Z"/>
+  <circle cx="736.995" cy="92.439" r="14.72" fill="url(#optic)"/>
+  <circle cx="734.995" cy="90.439" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

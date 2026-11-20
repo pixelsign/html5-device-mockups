@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1237.9" height="743.4" viewBox="0 0 1237.9 743.4">
+<title>Samsung The Frame LS03F (55-inch) — black</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. Front elevation in mm using published outer dimensions with and without tabletop stand. The 16:9 aperture, stand silhouette, bezel and colour are illustrative; no manufacturer artwork used. Sources: https://www.samsung.com/at/lifestyle-tvs/the-frame/ls03f-55-inch-art-store-black-qe55ls03fauxxn/</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1237.9" height="743.4">
+<rect x="0" y="0" width="1237.9" height="743.4" rx="0" fill="white"/><rect x="15" y="12.33" width="1207.9" height="679.44375" rx="0" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><g fill="#353335"><path d="M192.35000000000002 706.8h12L181.35000000000002 739.4h9v4H170.35000000000002v-5Z"/><path d="M1045.5500000000002 706.8h-12L1056.5500000000002 739.4h-9v4H1067.5500000000002v-5Z"/></g><rect x="0" y="0" width="1237.9" height="708.8" rx="1.5" fill="#353335"/><rect x="1" y="1" width="1235.9" height="706.8" rx="1" fill="url(#brushed)"/></g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="915.84" height="592.01" viewBox="0 0 915.84 592.01">
+<title>MacBook Pro 16-inch (M5 Max, Liquid Retina XDR) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="973.84" height="642.01">
+<rect x="29" y="9" width="915.84" height="592.01" rx="9" fill="white"/><rect x="460.42" y="9" width="53" height="11" rx="4" fill="black"/>
+</mask></defs>
+<g transform="translate(-29 -9)"><g mask="url(#aperture)"><rect x="29" y="9" width="915.84" height="592.01" rx="0" fill="white"/></g></g>
+</svg>

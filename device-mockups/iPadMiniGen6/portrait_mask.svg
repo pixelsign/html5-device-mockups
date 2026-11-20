@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1159" height="1766" viewBox="0 0 1159 1766">
+<title>iPad mini (6th generation) · 2021 portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1348" height="1954">
+<rect x="94.5" y="94" width="1159" height="1766" rx="33" fill="white"/>
+</mask></defs>
+<g transform="translate(-94.5 -94)"><g mask="url(#aperture)"><rect x="94.5" y="94" width="1159" height="1766" rx="0" fill="white"/></g></g>
+</svg>

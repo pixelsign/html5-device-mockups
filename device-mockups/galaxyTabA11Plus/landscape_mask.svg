@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2359.13" height="1474.46" viewBox="0 0 2359.13 1474.46">
+<title>Galaxy Tab A11+ landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1687" height="2571">
+<rect x="106.27" y="105.93" width="1474.46" height="2359.13" rx="27" fill="white"/>
+</mask></defs>
+<g transform="translate(0 1474.46) rotate(-90) translate(-106.27 -105.93)"><g mask="url(#aperture)"><rect x="106.27" y="105.93" width="1474.46" height="2359.13" rx="0" fill="white"/></g></g>
+</svg>

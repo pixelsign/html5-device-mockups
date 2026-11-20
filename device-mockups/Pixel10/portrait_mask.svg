@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650.047" height="1458.995" viewBox="0 0 650.047 1458.995">
+  <title>Pixel 10 portrait screen mask</title>
+  <desc>White is visible content; corners and camera are transparent.</desc>
+  <path fill="white" fill-rule="evenodd" d="M72 0H578.047a72 72 0 0 1 72 72V1386.995a72 72 0 0 1 -72 72H72a72 72 0 0 1 -72 -72V72a72 72 0 0 1 72 -72Z M325.024 16H325.024a16.5 16.5 0 0 1 16.5 16.5V32.5a16.5 16.5 0 0 1 -16.5 16.5H325.024a16.5 16.5 0 0 1 -16.5 -16.5V32.5a16.5 16.5 0 0 1 16.5 -16.5Z"/>
+</svg>

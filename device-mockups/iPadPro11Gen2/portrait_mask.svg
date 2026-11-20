@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1605" height="2298" viewBox="0 0 1605 2298">
+<title>iPad Pro 11-inch (2nd generation) · 2020 portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1785" height="2476">
+<rect x="90" y="89" width="1605" height="2298" rx="38" fill="white"/>
+</mask></defs>
+<g transform="translate(-90 -89)"><g mask="url(#aperture)"><rect x="90" y="89" width="1605" height="2298" rx="0" fill="white"/></g></g>
+</svg>

@@ -555,6 +555,14 @@
     }
     .empty strong { color: var(--text); font-weight: 600; }
 
+    .list-note {
+      margin: 1.5rem 1.25rem 0;
+      font-size: var(--fs-xs);
+      line-height: 1.5;
+      color: var(--text-2);
+      text-wrap: pretty;
+    }
+
     .btn {
       display: inline-flex;
       align-items: center;
@@ -1281,6 +1289,7 @@
           <p><strong>No devices match.</strong><br>Try another name or type.</p>
           <button type="button" class="btn" id="reset-filters">Show all devices</button>
         </div>
+        <p class="list-note">Device names are trademarks of their respective owners. This project is not affiliated with or endorsed by any manufacturer.</p>
       </div>
     </aside>
 
@@ -1442,6 +1451,7 @@
     </div>
   </template>
 
+  <script src="dist/modern-picker.js"></script>
   <script>
     // ─── Device registry ───────────────────────────────────────────────────────
     // Only combinations that dist/device-mockups.css actually defines.
@@ -1473,7 +1483,7 @@
         { id: 'galaxyS5',      label: 'Galaxy S5',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white','gold'], obsolete: true },
         { id: 'galaxyS3',      label: 'Galaxy S3',          type: 'phone',   orientations: ['portrait','landscape'], colors: ['black','white'], obsolete: true },
         { id: 'galaxyTab4',    label: 'Galaxy Tab 4',       type: 'tablet',  orientations: ['portrait'],             colors: ['black','white'], obsolete: true },
-        { id: 'SamsungTV',     label: 'Samsung TV',         type: 'desktop', orientations: ['portrait'],             colors: ['black'] },
+        { id: 'SamsungTV',     label: 'Samsung TV',         type: 'tv', orientations: ['portrait'],             colors: ['black'] },
       ]},
       { group: 'Google', brand: 'Google', devices: [
         { id: 'Pixel',         label: 'Pixel',              type: 'phone',   orientations: ['portrait'],             colors: ['black','white'], obsolete: true },
@@ -1491,6 +1501,11 @@
       ]},
     ];
 
+    for (const d of [...MODERN_PHONES, ...LARGE_DEVICES].reverse()) {
+      let group = CATALOG.find(g => g.group === d.group);
+      if (!group) { group = {group:d.group, brand:d.brand, devices:[]}; CATALOG.push(group); }
+      group.devices.unshift(d);
+    }
     CATALOG.forEach(g => g.devices.forEach(d => { d.brand = d.brand || g.brand; }));
     const ALL_DEVICES = CATALOG.flatMap(g => g.devices);
     // Null prototype: ids arrive from the URL, so '__proto__' or 'constructor' must not resolve.
@@ -1501,9 +1516,10 @@
       { id: 'phone',   label: 'Phones' },
       { id: 'tablet',  label: 'Tablets' },
       { id: 'laptop',  label: 'Laptops' },
-      { id: 'desktop', label: 'Desktop & TV' },
+      { id: 'desktop', label: 'Desktops' },
+      { id: 'tv', label: 'TVs' },
     ];
-    const TYPE_NOUN = { phone: 'Phone', tablet: 'Tablet', laptop: 'Laptop', desktop: 'Desktop' };
+    const TYPE_NOUN = { phone: 'Phone', tablet: 'Tablet', laptop: 'Laptop', desktop: 'Desktop', tv: 'TV' };
 
     const FINISH = {
       black:     { name: 'Black',      dot: '#1d1d1f', tint: 'oklch(62% 0.14 255)' },
@@ -1514,6 +1530,13 @@
       pink:      { name: 'Rose gold',  dot: '#e9b9ad', tint: 'oklch(66% 0.14 10)' },
       red:       { name: 'Red',        dot: '#b3202d', tint: 'oklch(60% 0.19 25)' },
     };
+
+    function finish(d, c) {
+      const hex = d.finishes?.[c];
+      const name = c.replace(/[-_]/g, ' ').replace(/([a-z])([A-Z])/g, '$1 $2');
+      return { name: FINISH[c]?.name || name.charAt(0).toUpperCase() + name.slice(1),
+        tint: FINISH[c]?.tint || FINISH.black.tint, dot: hex || FINISH[c]?.dot || '#888' };
+    }
 
     // ─── State ────────────────────────────────────────────────────────────────
     const state = {
@@ -1574,7 +1597,7 @@
     function frameUrl(id, o, c) {
       const d = DEVICE_MAP[id];
       const file = (o === 'landscape' && d.synthLandscape) ? `portrait_${c}` : `${o}_${c}`;
-      return `device-mockups/${id}/${file}.png`;
+      return `device-mockups/${id}/${file}.${d.ext || 'png'}`;
     }
 
     const preloaded = new Map();
@@ -1625,7 +1648,7 @@
         image: state.imageUrl ? 'your image' : 'an empty screen',
       }[state.screen];
       stageDevice.setAttribute('aria-label',
-        `${d.label}, ${FINISH[state.color].name.toLowerCase()}, ${state.orientation}, showing ${screenDesc}`);
+        `${d.label}, ${finish(d, state.color).name.toLowerCase()}, ${state.orientation}, showing ${screenDesc}`);
     }
 
     // ─── Motion: device swap, rotation, finish crossfade ──────────────────────
@@ -1807,7 +1830,7 @@
           meta.innerHTML =
             (d.obsolete ? `<span class="badge"><span class="sr-only">, </span>Obsolete</span>` : '') +
             `<span class="sr-only">, ${facts.join(', ')}</span>` +
-            `<span class="row-dots" aria-hidden="true">${d.colors.map(c => `<span style="--dot:${FINISH[c].dot}"></span>`).join('')}</span>`;
+            `<span class="row-dots" aria-hidden="true">${d.colors.map(c => `<span style="--dot:${finish(d, c).dot}"></span>`).join('')}</span>`;
 
           row.append(input, name, meta);
           fs.appendChild(row);
@@ -1875,11 +1898,11 @@
       d.colors.forEach(c => {
         const label = document.createElement('label');
         label.className = 'swatch';
-        label.style.setProperty('--dot', FINISH[c].dot);
-        label.innerHTML = `<input class="sr-only" type="radio" name="finish" value="${c}"${c === state.color ? ' checked' : ''} aria-label="${FINISH[c].name}"><span class="swatch-dot" aria-hidden="true"></span>`;
+        label.style.setProperty('--dot', finish(d, c).dot);
+        label.innerHTML = `<input class="sr-only" type="radio" name="finish" value="${c}"${c === state.color ? ' checked' : ''} aria-label="${finish(d, c).name}"><span class="swatch-dot" aria-hidden="true"></span>`;
         swatchesEl.appendChild(label);
       });
-      finishName.textContent = FINISH[state.color].name;
+      finishName.textContent = finish(DEVICE_MAP[state.id], state.color).name;
     }
 
     function renderMeta(d) {
@@ -1913,7 +1936,7 @@
 
     swatchesEl.addEventListener('change', e => {
       const c = e.target.value;
-      finishName.textContent = FINISH[c].name;
+      finishName.textContent = finish(DEVICE_MAP[state.id], c).name;
       crossfade(() => { state.color = c; });
     });
 
@@ -2235,7 +2258,7 @@
     renderScreen();
     placePill(segScreen, false);
 
-    const initial = readHash() || { id: 'iPhoneXS', orientation: 'portrait', color: 'spacegrey' };
+    const initial = readHash() || { id: MODERN_PHONES[0].id, orientation: 'portrait', color: MODERN_PHONES[0].colors[0] };
     state.orientation = initial.orientation;
     state.color = initial.color;
     selectDevice(initial.id);

@@ -1,5 +1,7 @@
 $mockup-path: '../device-mockups' !default;
 
+$legacy-specials: true !default;
+
 // Screen shape for the notched iPhones (XS, XS Max).
 // Their screen has a notch and large continuous corners, which no border-radius can
 // match. Each model ships an alpha mask traced from its frame PNG (exact notch, ears
@@ -8,7 +10,7 @@ $mockup-path: '../device-mockups' !default;
 // matching the rotated frame. All colours share the same screen geometry.
 // Mask and screen insets bleed 5px into the black bezel so no light edge shows when
 // scaled; regenerate both with scripts/screen-masks.py.
-@mixin screen-mask($device) {
+@mixin screen-mask($device, $extension: png, $orientations: (portrait, landscape)) {
     &[data-device="#{$device}"] .screen {
         border-radius: 0;
         -webkit-mask-repeat: no-repeat;
@@ -17,10 +19,10 @@ $mockup-path: '../device-mockups' !default;
         mask-size: 100% 100%;
     }
 
-    @each $orientation in (portrait, landscape) {
+    @each $orientation in $orientations {
         &[data-device="#{$device}"][data-orientation="#{$orientation}"] .screen {
-            -webkit-mask-image: url(#{$mockup-path}/#{$device}/#{$orientation}_mask.png);
-            mask-image: url(#{$mockup-path}/#{$device}/#{$orientation}_mask.png);
+            -webkit-mask-image: url(#{$mockup-path}/#{$device}/#{$orientation}_mask.#{$extension});
+            mask-image: url(#{$mockup-path}/#{$device}/#{$orientation}_mask.#{$extension});
         }
     }
 }
@@ -51,6 +53,7 @@ $mockup-path: '../device-mockups' !default;
         isolation: isolate;
     }
 
+    @if $legacy-specials {
     @include screen-mask(iPhoneXS);
     @include screen-mask(iPhoneXSMax);
 
@@ -67,6 +70,8 @@ $mockup-path: '../device-mockups' !default;
             }
         }
     }
+
+    } // legacy specials
 
     .button {
         position: absolute;

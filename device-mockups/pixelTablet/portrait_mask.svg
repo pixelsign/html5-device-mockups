@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1474.09" height="2358.54" viewBox="0 0 1474.09 2358.54">
+<title>Pixel Tablet portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1690" height="2580">
+<rect x="107.96" y="110.73" width="1474.09" height="2358.54" rx="54" fill="white"/>
+</mask></defs>
+<g transform="translate(-107.96 -110.73)"><g mask="url(#aperture)"><rect x="107.96" y="110.73" width="1474.09" height="2358.54" rx="0" fill="white"/></g></g>
+</svg>

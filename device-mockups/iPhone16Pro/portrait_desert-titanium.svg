@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="715" height="1496" viewBox="0 0 715 1496">
+  <title>iPhone 16 Pro — desert-titanium</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/121031</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#c9aa90" stroke="#303237" stroke-width="1">
+    <rect x="0" y="260" width="8" height="31" rx="3"/>
+    <rect x="0" y="349" width="8" height="65" rx="3"/>
+    <rect x="0" y="437" width="8" height="65" rx="3"/>
+    <rect x="707" y="426" width="8" height="103" rx="3"/>
+    <rect x="707" y="990" width="8" height="75" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M111 6H604a102 102 0 0 1 102 102V1388a102 102 0 0 1 -102 102H111a102 102 0 0 1 -102 -102V108a102 102 0 0 1 102 -102Z M110.539 24.1H604.461a86 86 0 0 1 86 86V1385.9a86 86 0 0 1 -86 86H110.539a86 86 0 0 1 -86 -86V110.1a86 86 0 0 1 86 -86Z"/>
+    <path fill="#c9aa90" d="M111 1H604a107 107 0 0 1 107 107V1388a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H604a98 98 0 0 1 98 98V1388a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+    <path fill="url(#polish)" d="M111 1H604a107 107 0 0 1 107 107V1388a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H604a98 98 0 0 1 98 98V1388a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+  </g>
+  <path fill="#050608" d="M318 37.1H397a16.5 16.5 0 0 1 16.5 16.5V53.6a16.5 16.5 0 0 1 -16.5 16.5H318a16.5 16.5 0 0 1 -16.5 -16.5V53.6a16.5 16.5 0 0 1 16.5 -16.5Z"/>
+  <circle cx="397" cy="53.6" r="10.56" fill="url(#optic)"/>
+  <circle cx="395" cy="51.6" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

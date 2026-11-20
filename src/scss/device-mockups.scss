@@ -7,10 +7,37 @@
 @use "sass:math";
 @use "general" as *;
 @use "devices" as *;
+@use "modern" as *;
+
+@use "large" as *;
+@use "tvs" as *;
+$include-phones: true !default;
+$include-large: true !default;
+$include-legacy: true !default;
+$include-tvs: ($include-legacy == true) !default;
+$nativeLandscape: list.join($laptops,$tvDevices,comma);
+$rows: ();
+$svgDevices: ();
+@if $include-phones { $rows: $modernRows; $svgDevices: $modernDevices; }
+@if $include-large { $rows: list.join($rows, $largeRows, comma); $svgDevices: list.join($svgDevices,$largeDevices,comma); }
+@if $include-tvs { $rows: list.join($rows,$tvRows,comma); $svgDevices: list.join($svgDevices,$tvDevices,comma); }
+@if $include-legacy == true { $rows: list.join($devicesList, $rows, comma); }
+@else if $include-legacy != false {
+    @each $row in $devicesList {
+        @if list.index($include-legacy, list.nth($row, 1)) { $rows: list.append($rows, $row, comma); }
+    }
+}
 
 .device {
 
-    @each $device, $orientation, $color, $overlay_transparent, $image_width, $image_height, $screen_top, $screen_right, $screen_bottom, $screen_left, $button_top, $button_right, $button_bottom, $bottom_left in $devicesList {
+    @each $id in $svgDevices {
+        @if list.index($nativeLandscape, $id) { @include screen-mask($id, svg, (landscape,)); }
+        @else { @include screen-mask($id, svg); }
+    }
+
+    @each $device, $orientation, $color, $overlay_transparent, $image_width, $image_height, $screen_top, $screen_right, $screen_bottom, $screen_left, $button_top, $button_right, $button_bottom, $bottom_left in $rows {
+        $ext: png;
+        @if list.index($svgDevices, $device) { $ext: svg; }
 
         &[data-device="#{$device}"][data-orientation="#{$orientation}"][data-color="#{$color}"] {
 
@@ -45,9 +72,9 @@
                 // centered, then rotated -90deg. Because the element and the portrait
                 // image share the same aspect ratio, background-size:cover fills it
                 // exactly — no separate landscape image file required.
-                @if $orientation == 'landscape' and list.index($portraitOnlyDevices, $device) {
+                @if $orientation == 'landscape' and (list.index($portraitOnlyDevices, $device) or ($ext == svg and not list.index($nativeLandscape, $device))) {
 
-                    $portraitImageURL: '#{$mockup-path}/#{$device}/portrait_#{$color}.png';
+                    $portraitImageURL: '#{$mockup-path}/#{$device}/portrait_#{$color}.#{$ext}';
 
                     // element dims in the landscape container (W × H_l):
                     //   width  = H_l / W  = image_height / image_width
@@ -68,11 +95,12 @@
 
                 } @else {
 
-                    $imageURL: '#{$mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
+                    $imageURL: '#{$mockup-path}/#{$device}/#{$orientation}_#{$color}.#{$ext}';
                     background-image: url(#{$imageURL});
 
                 }
 
+                @if $ext == svg { z-index: 1; }
                 @if $overlay_transparent == false {
                     z-index: -1;
                 }

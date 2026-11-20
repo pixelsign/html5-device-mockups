@@ -1,0 +1,484 @@
+[
+  {
+    "id": "MacBookNeo13A18Pro",
+    "label": "MacBook Neo 13-inch (A18 Pro)",
+    "type": "laptop",
+    "group": "Mac",
+    "brand": "Apple",
+    "width": 802.4,
+    "height": 512.8,
+    "screen": {
+      "x": 40,
+      "y": 23,
+      "width": 722.4,
+      "height": 451.8
+    },
+    "finishes": {
+      "silver": "#d5d5d3",
+      "blush": "#e6cbd2",
+      "citrus": "#dee99b",
+      "indigo": "#50566f"
+    },
+    "geometry": {
+      "bodyRadius": 15,
+      "screenRadius": 0,
+      "lid": {
+        "x": 18,
+        "y": 0,
+        "width": 766.4,
+        "height": 499.8
+      },
+      "deck": {
+        "x": 0,
+        "y": 499.8,
+        "width": 802.4,
+        "height": 13
+      },
+      "webcam": {
+        "x": 401.2,
+        "y": 11.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.apple.com/macbook-neo/specs/",
+        "https://www.apple.com/shop/buy-mac/macbook-neo"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: MHFA4LL/A (Silver, 256GB). 13.0-inch Liquid Retina IPS LCD; native 2408 × 1506 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "MacBookAir13M5",
+    "label": "MacBook Air 13-inch (M5)",
+    "type": "laptop",
+    "group": "Mac",
+    "brand": "Apple",
+    "width": 824.0,
+    "height": 544.2,
+    "screen": {
+      "x": 28,
+      "y": 10,
+      "width": 768.0,
+      "height": 499.2
+    },
+    "finishes": {
+      "sky-blue": "#c7d5df",
+      "silver": "#d5d5d3",
+      "starlight": "#e5daca",
+      "midnight": "#303b48"
+    },
+    "geometry": {
+      "bodyRadius": 15,
+      "screenRadius": 9,
+      "lid": {
+        "x": 16,
+        "y": 0,
+        "width": 792.0,
+        "height": 532.2
+      },
+      "deck": {
+        "x": 0,
+        "y": 532.2,
+        "width": 824.0,
+        "height": 12
+      },
+      "notch": {
+        "x": 386.0,
+        "y": 10,
+        "width": 52,
+        "height": 11,
+        "r": 4
+      },
+      "webcam": {
+        "x": 412.0,
+        "y": 15.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.apple.com/macbook-air/specs/",
+        "https://www.apple.com/shop/buy-mac/macbook-air"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: MDH74LL/A (Silver, M5). 13.6-inch Liquid Retina IPS LCD; native 2560 × 1664 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "MacBookAir15M5",
+    "label": "MacBook Air 15-inch (M5)",
+    "type": "laptop",
+    "group": "Mac",
+    "brand": "Apple",
+    "width": 920.0,
+    "height": 604.2,
+    "screen": {
+      "x": 28,
+      "y": 10,
+      "width": 864.0,
+      "height": 559.2
+    },
+    "finishes": {
+      "sky-blue": "#c7d5df",
+      "silver": "#d5d5d3",
+      "starlight": "#e5daca",
+      "midnight": "#303b48"
+    },
+    "geometry": {
+      "bodyRadius": 15,
+      "screenRadius": 9,
+      "lid": {
+        "x": 16,
+        "y": 0,
+        "width": 888.0,
+        "height": 592.2
+      },
+      "deck": {
+        "x": 0,
+        "y": 592.2,
+        "width": 920.0,
+        "height": 12
+      },
+      "notch": {
+        "x": 434.0,
+        "y": 10,
+        "width": 52,
+        "height": 11,
+        "r": 4
+      },
+      "webcam": {
+        "x": 460.0,
+        "y": 15.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://support.apple.com/en-us/126321",
+        "https://www.apple.com/shop/buy-mac/macbook-air"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: MDV94LL/A (Silver, M5). 15.3-inch Liquid Retina IPS LCD; native 2880 × 1864 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "MacBookPro14M6",
+    "label": "MacBook Pro 14-inch (M6, Liquid Retina XDR)",
+    "type": "laptop",
+    "group": "Mac",
+    "brand": "Apple",
+    "width": 859.36,
+    "height": 570.46,
+    "screen": {
+      "x": 29,
+      "y": 9,
+      "width": 801.36,
+      "height": 520.46
+    },
+    "finishes": {
+      "space-black": "#444446",
+      "silver": "#d5d5d3"
+    },
+    "geometry": {
+      "bodyRadius": 15,
+      "screenRadius": 9,
+      "lid": {
+        "x": 19,
+        "y": 0,
+        "width": 821.36,
+        "height": 552.46
+      },
+      "deck": {
+        "x": 0,
+        "y": 552.46,
+        "width": 859.36,
+        "height": 18
+      },
+      "notch": {
+        "x": 403.18,
+        "y": 9,
+        "width": 53,
+        "height": 11,
+        "r": 4
+      },
+      "webcam": {
+        "x": 429.68,
+        "y": 14.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.apple.com/macbook-pro/specs/",
+        "https://www.apple.com/shop/buy-mac/macbook-pro"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: MHWT4LL/A (Space Black). 14.2-inch Liquid Retina XDR; native 3024 × 1964 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "MacBookPro16M5Max",
+    "label": "MacBook Pro 16-inch (M5 Max, Liquid Retina XDR)",
+    "type": "laptop",
+    "group": "Mac",
+    "brand": "Apple",
+    "width": 973.84,
+    "height": 642.01,
+    "screen": {
+      "x": 29,
+      "y": 9,
+      "width": 915.84,
+      "height": 592.01
+    },
+    "finishes": {
+      "space-black": "#444446",
+      "silver": "#d5d5d3"
+    },
+    "geometry": {
+      "bodyRadius": 15,
+      "screenRadius": 9,
+      "lid": {
+        "x": 19,
+        "y": 0,
+        "width": 935.84,
+        "height": 624.01
+      },
+      "deck": {
+        "x": 0,
+        "y": 624.01,
+        "width": 973.84,
+        "height": 18
+      },
+      "notch": {
+        "x": 460.42,
+        "y": 9,
+        "width": 53,
+        "height": 11,
+        "r": 4
+      },
+      "webcam": {
+        "x": 486.92,
+        "y": 14.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.apple.com/macbook-pro/specs/",
+        "https://www.apple.com/shop/buy-mac/macbook-pro"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: MGE74LL/A (Silver). 16.2-inch Liquid Retina XDR; native 3456 × 2234 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "MacBookPro14ProledM5Pro",
+    "label": "MacBook Pro 14-inch (M5 Pro, PROLED XDR)",
+    "type": "laptop",
+    "group": "Mac",
+    "brand": "Apple",
+    "width": 847.36,
+    "height": 563.29,
+    "screen": {
+      "x": 23,
+      "y": 6,
+      "width": 801.36,
+      "height": 526.29
+    },
+    "finishes": {
+      "space-black": "#444446",
+      "silver": "#d5d5d3"
+    },
+    "geometry": {
+      "bodyRadius": 14,
+      "screenRadius": 9,
+      "lid": {
+        "x": 16,
+        "y": 0,
+        "width": 815.36,
+        "height": 548.29
+      },
+      "deck": {
+        "x": 0,
+        "y": 548.29,
+        "width": 847.36,
+        "height": 15
+      },
+      "notch": {
+        "x": 420.18,
+        "y": 9,
+        "width": 7,
+        "height": 7,
+        "r": 3.5
+      },
+      "webcam": {
+        "x": 423.68,
+        "y": 12.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.apple.com/macbook-pro/proled-xdr-display/specs/",
+        "https://www.apple.com/shop/buy-mac/macbook-pro-proled-xdr",
+        "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: MJ2G4LL/A (Silver, standard display). 14.2-inch tandem OLED touchscreen; native 3024 × 1986 px. The circular cutout represents the camera, not the expanded Dynamic Island UI. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "MacBookPro16ProledM5Pro",
+    "label": "MacBook Pro 16-inch (M5 Pro, PROLED XDR)",
+    "type": "laptop",
+    "group": "Mac",
+    "brand": "Apple",
+    "width": 966.08,
+    "height": 637.49,
+    "screen": {
+      "x": 23,
+      "y": 6,
+      "width": 920.08,
+      "height": 600.49
+    },
+    "finishes": {
+      "space-black": "#444446",
+      "silver": "#d5d5d3"
+    },
+    "geometry": {
+      "bodyRadius": 14,
+      "screenRadius": 9,
+      "lid": {
+        "x": 16,
+        "y": 0,
+        "width": 934.08,
+        "height": 622.49
+      },
+      "deck": {
+        "x": 0,
+        "y": 622.49,
+        "width": 966.08,
+        "height": 15
+      },
+      "notch": {
+        "x": 479.54,
+        "y": 9,
+        "width": 7,
+        "height": 7,
+        "r": 3.5
+      },
+      "webcam": {
+        "x": 483.04,
+        "y": 12.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.apple.com/macbook-pro/proled-xdr-display/specs/",
+        "https://www.apple.com/shop/buy-mac/macbook-pro-proled-xdr",
+        "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: MJ2W4LL/A (Silver, standard display). 16.3-inch tandem OLED touchscreen; native 3472 × 2266 px. The circular cutout represents the camera, not the expanded Dynamic Island UI. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "SurfaceLaptop138Gen8",
+    "label": "Surface Laptop 13.8-inch (8th Edition, Snapdragon)",
+    "type": "laptop",
+    "group": "Windows laptops",
+    "brand": "Microsoft",
+    "width": 825.84,
+    "height": 567.56,
+    "screen": {
+      "x": 27,
+      "y": 21,
+      "width": 771.84,
+      "height": 514.56
+    },
+    "finishes": {
+      "platinum": "#c7c8c9",
+      "black": "#323232",
+      "dune": "#c7b8a6",
+      "jade": "#a8bcb3"
+    },
+    "geometry": {
+      "bodyRadius": 13,
+      "screenRadius": 8,
+      "lid": {
+        "x": 14,
+        "y": 0,
+        "width": 797.84,
+        "height": 550.56
+      },
+      "deck": {
+        "x": 0,
+        "y": 550.56,
+        "width": 825.84,
+        "height": 17
+      },
+      "webcam": {
+        "x": 412.92,
+        "y": 10.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.microsoft.com/en-us/surface/devices/surface-laptop",
+        "https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=8MZBMMCJZPMF&market=US&languages=en-us"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: EP2-59034 (Platinum, Snapdragon X2 Plus, 16GB/512GB). 13.8-inch HDR PixelSense LCD touchscreen, 120 Hz; native 2304 × 1536 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  },
+  {
+    "id": "DellXPS13DX13260",
+    "label": "Dell XPS 13 (DX13260, 2.5K touch)",
+    "type": "laptop",
+    "group": "Windows laptops",
+    "brand": "Dell",
+    "width": 808.0,
+    "height": 523.0,
+    "screen": {
+      "x": 20,
+      "y": 13,
+      "width": 768.0,
+      "height": 480.0
+    },
+    "finishes": {
+      "sky": "#bcccd6"
+    },
+    "geometry": {
+      "bodyRadius": 10,
+      "screenRadius": 2,
+      "lid": {
+        "x": 13,
+        "y": 0,
+        "width": 782.0,
+        "height": 509.0
+      },
+      "deck": {
+        "x": 0,
+        "y": 509.0,
+        "width": 808.0,
+        "height": 14
+      },
+      "webcam": {
+        "x": 404.0,
+        "y": 6.5,
+        "r": 1.6
+      }
+    },
+    "provenance": {
+      "artwork": "Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork.",
+      "sources": [
+        "https://www.dell.com/en-us/shop/laptop-computers/spd/xps13dx13260"
+      ],
+      "notes": "US catalog, 2026-11-20. Reference SKU: DX13260, offer dx13260_so_42 (Sky, Core 5 320, 8GB/256GB). 13.4-inch InfinityEdge touchscreen, 30–120 Hz; native 2560 × 1600 px. Front-view lid, deck, bezel, camera geometry and finish swatches are illustrative."
+    }
+  }
+]

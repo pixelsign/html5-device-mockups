@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1212" height="681.75" viewBox="0 0 1212 681.75">
+<title>TCL C7K QD-Mini LED (55-inch) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1226" height="760">
+<rect x="7" y="11.865" width="1212" height="681.75" rx="0" fill="white"/>
+</mask></defs>
+<g transform="translate(-7 -11.865)"><g mask="url(#aperture)"><rect x="7" y="11.865" width="1212" height="681.75" rx="0" fill="white"/></g></g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1396.221" height="645.129" viewBox="0 0 1396.221 645.129">
+  <title>iPhone 11 landscape screen mask</title>
+  <desc>White is visible content; corners and camera are transparent.</desc>
+  <path transform="translate(0 645.129) rotate(-90)" fill="white" fill-rule="evenodd" d="M56 0H589.129a56 56 0 0 1 56 56V1340.221a56 56 0 0 1 -56 56H56a56 56 0 0 1 -56 -56V56a56 56 0 0 1 56 -56Z M148.565 0h348v27q0 27 -27 27h-294q-27 0 -27 -27Z"/>
+</svg>

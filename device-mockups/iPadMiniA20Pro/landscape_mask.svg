@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1804" height="1178" viewBox="0 0 1804 1178">
+<title>iPad mini (A20 Pro) · 2026 landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1326" height="1953">
+<rect x="74" y="74.5" width="1178" height="1804" rx="33" fill="white"/>
+</mask></defs>
+<g transform="translate(0 1178) rotate(-90) translate(-74 -74.5)"><g mask="url(#aperture)"><rect x="74" y="74.5" width="1178" height="1804" rx="0" fill="white"/></g></g>
+</svg>

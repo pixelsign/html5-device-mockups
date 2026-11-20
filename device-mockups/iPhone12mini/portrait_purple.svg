@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="642" height="1315" viewBox="0 0 642 1315">
+  <title>iPhone 12 mini — purple</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate. Measurements: https://support.apple.com/en-us/111877</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#bdb0d8" stroke="#303237" stroke-width="1">
+    <rect x="0" y="210" width="8" height="30" rx="3"/>
+    <rect x="0" y="296" width="8" height="65" rx="3"/>
+    <rect x="0" y="376" width="8" height="65" rx="3"/>
+    <rect x="634" y="316" width="8" height="100" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M98 6H544a89 89 0 0 1 89 89V1220a89 89 0 0 1 -89 89H98a89 89 0 0 1 -89 -89V95a89 89 0 0 1 89 -89Z M97.849 33.172H544.152a65 65 0 0 1 65 65V1216.827a65 65 0 0 1 -65 65H97.849a65 65 0 0 1 -65 -65V98.172a65 65 0 0 1 65 -65Z"/>
+    <path fill="#bdb0d8" d="M98 1H544a94 94 0 0 1 94 94V1220a94 94 0 0 1 -94 94H98a94 94 0 0 1 -94 -94V95a94 94 0 0 1 94 -94Z M98 10H544a85 85 0 0 1 85 85V1220a85 85 0 0 1 -85 85H98a85 85 0 0 1 -85 -85V95a85 85 0 0 1 85 -85Z"/>
+    <path fill="url(#polish)" d="M98 1H544a94 94 0 0 1 94 94V1220a94 94 0 0 1 -94 94H98a94 94 0 0 1 -94 -94V95a94 94 0 0 1 94 -94Z M98 10H544a85 85 0 0 1 85 85V1220a85 85 0 0 1 -85 85H98a85 85 0 0 1 -85 -85V95a85 85 0 0 1 85 -85Z"/>
+  </g>
+  <rect x="147.5" y="29.172" width="347" height="8" fill="#050608"/>
+  <path fill="#050608" d="M147.5 33.172h347v27q0 27 -27 27h-293q-27 0 -27 -27Z"/>
+  <circle cx="467.5" cy="60.172" r="17.28" fill="url(#optic)"/>
+  <circle cx="465.5" cy="58.172" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

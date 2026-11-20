@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="747" height="1562" viewBox="0 0 747 1562">
+  <title>iPhone Air — space-black</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/125092</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#3a3a3a" stroke="#303237" stroke-width="1">
+    <rect x="0" y="272" width="8" height="31" rx="3"/>
+    <rect x="0" y="364" width="8" height="65" rx="3"/>
+    <rect x="0" y="456" width="8" height="65" rx="3"/>
+    <rect x="739" y="445" width="8" height="103" rx="3"/>
+    <rect x="739" y="1034" width="8" height="75" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M111 6H636a102 102 0 0 1 102 102V1454a102 102 0 0 1 -102 102H111a102 102 0 0 1 -102 -102V108a102 102 0 0 1 102 -102Z M110.63 25.626H636.369a85 85 0 0 1 85 85V1451.374a85 85 0 0 1 -85 85H110.63a85 85 0 0 1 -85 -85V110.626a85 85 0 0 1 85 -85Z"/>
+    <path fill="#3a3a3a" d="M111 1H636a107 107 0 0 1 107 107V1454a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H636a98 98 0 0 1 98 98V1454a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+    <path fill="url(#polish)" d="M111 1H636a107 107 0 0 1 107 107V1454a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H636a98 98 0 0 1 98 98V1454a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+  </g>
+  <path fill="#050608" d="M334 38.626H413a16.5 16.5 0 0 1 16.5 16.5V55.126a16.5 16.5 0 0 1 -16.5 16.5H334a16.5 16.5 0 0 1 -16.5 -16.5V55.126a16.5 16.5 0 0 1 16.5 -16.5Z"/>
+  <circle cx="413" cy="55.126" r="10.56" fill="url(#optic)"/>
+  <circle cx="411" cy="53.126" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

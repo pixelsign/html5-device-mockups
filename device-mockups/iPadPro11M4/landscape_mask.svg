@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2328" height="1605" viewBox="0 0 2328 1605">
+<title>iPad Pro 11-inch (M4) · 2024 landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1775" height="2497">
+<rect x="85" y="84.5" width="1605" height="2328" rx="38" fill="white"/>
+</mask></defs>
+<g transform="translate(0 1605) rotate(-90) translate(-85 -84.5)"><g mask="url(#aperture)"><rect x="85" y="84.5" width="1605" height="2328" rx="0" fill="white"/></g></g>
+</svg>

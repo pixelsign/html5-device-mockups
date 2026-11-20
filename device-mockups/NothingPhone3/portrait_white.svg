@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="755.9" height="1606" viewBox="0 0 755.9 1606">
+  <title>Nothing Phone (3) — white</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.nothing.tech/hc/en-us/articles/36457446865169-What-are-the-dimensions-and-weight-of-Nothing-Phone-3; https://support.nothing.tech/hc/en-us/articles/36457408798993-What-are-the-screen-specifications-of-the-Phone; https://us.nothing.tech/products/phone-3</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#e9e7df" stroke="#303237" stroke-width="1">
+    <rect x="0" y="370" width="8" height="57" rx="3"/>
+    <rect x="0" y="446" width="8" height="57" rx="3"/>
+    <rect x="747.9" y="438" width="8" height="69" rx="3"/>
+    <rect x="747.9" y="549" width="8" height="48" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M88 6H667.9a79 79 0 0 1 79 79V1521a79 79 0 0 1 -79 79H88a79 79 0 0 1 -79 -79V85a79 79 0 0 1 79 -79Z M92.08 29.957H663.819a62 62 0 0 1 62 62V1514.044a62 62 0 0 1 -62 62H92.08a62 62 0 0 1 -62 -62V91.957a62 62 0 0 1 62 -62Z"/>
+    <path fill="#e9e7df" d="M88 1H667.9a84 84 0 0 1 84 84V1521a84 84 0 0 1 -84 84H88a84 84 0 0 1 -84 -84V85a84 84 0 0 1 84 -84Z M88 10H667.9a75 75 0 0 1 75 75V1521a75 75 0 0 1 -75 75H88a75 75 0 0 1 -75 -75V85a75 75 0 0 1 75 -75Z"/>
+    <path fill="url(#polish)" d="M88 1H667.9a84 84 0 0 1 84 84V1521a84 84 0 0 1 -84 84H88a84 84 0 0 1 -84 -84V85a84 84 0 0 1 84 -84Z M88 10H667.9a75 75 0 0 1 75 75V1521a75 75 0 0 1 -75 75H88a75 75 0 0 1 -75 -75V85a75 75 0 0 1 75 -75Z"/>
+  </g>
+  <path fill="#050608" d="M377.95 45.957H377.95a14 14 0 0 1 14 14V59.957a14 14 0 0 1 -14 14H377.95a14 14 0 0 1 -14 -14V59.957a14 14 0 0 1 14 -14Z"/>
+  <circle cx="377.95" cy="59.957" r="8.96" fill="url(#optic)"/>
+  <circle cx="375.95" cy="57.957" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

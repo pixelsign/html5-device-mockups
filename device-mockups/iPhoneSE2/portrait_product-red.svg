@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="673" height="1384" viewBox="0 0 673 1384">
+  <title>iPhone SE (2nd generation) — product-red</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and Touch ID Home button are approximate. Measurements: https://support.apple.com/en-us/111882</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#bc2335" stroke="#303237" stroke-width="1">
+    <rect x="0" y="208" width="8" height="30" rx="3"/>
+    <rect x="0" y="296" width="8" height="58" rx="3"/>
+    <rect x="0" y="372" width="8" height="58" rx="3"/>
+    <rect x="665" y="298" width="8" height="63" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M94 6H579a85 85 0 0 1 85 85V1293a85 85 0 0 1 -85 85H94a85 85 0 0 1 -85 -85V91a85 85 0 0 1 85 -85Z M44.322 172.313h584.356v1039.374h-584.356Z"/>
+    <path fill="#bc2335" d="M94 1H579a90 90 0 0 1 90 90V1293a90 90 0 0 1 -90 90H94a90 90 0 0 1 -90 -90V91a90 90 0 0 1 90 -90Z M94 10H579a81 81 0 0 1 81 81V1293a81 81 0 0 1 -81 81H94a81 81 0 0 1 -81 -81V91a81 81 0 0 1 81 -81Z"/>
+    <path fill="url(#polish)" d="M94 1H579a90 90 0 0 1 90 90V1293a90 90 0 0 1 -90 90H94a90 90 0 0 1 -90 -90V91a90 90 0 0 1 90 -90Z M94 10H579a81 81 0 0 1 81 81V1293a81 81 0 0 1 -81 81H94a81 81 0 0 1 -81 -81V91a81 81 0 0 1 81 -81Z"/>
+  </g>
+  <circle cx="336.5" cy="1297.844" r="53" fill="#08090b" stroke="#bc2335" stroke-width="2"/>
+</svg>

@@ -56,3 +56,6 @@ node_modules
 
 # Local backup of the previous demo page
 index.previous.html
+
+# Local agent notes
+AGENTS.md

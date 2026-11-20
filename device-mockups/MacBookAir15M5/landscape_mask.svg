@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="559.2" viewBox="0 0 864 559.2">
+<title>MacBook Air 15-inch (M5) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="920" height="604.2">
+<rect x="28" y="10" width="864" height="559.2" rx="9" fill="white"/><rect x="434" y="10" width="52" height="11" rx="4" fill="black"/>
+</mask></defs>
+<g transform="translate(-28 -10)"><g mask="url(#aperture)"><rect x="28" y="10" width="864" height="559.2" rx="0" fill="white"/></g></g>
+</svg>

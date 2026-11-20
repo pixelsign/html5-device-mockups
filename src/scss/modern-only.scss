@@ -1,0 +1,3 @@
+// Standalone stylesheet for the downloadable modern pack.
+// Include the already-shipped X-era PNGs in the X-onward download.
+@use 'device-mockups' with ($include-large: false, $include-legacy: (iPhoneX, iPhoneXS, iPhoneXSMax));

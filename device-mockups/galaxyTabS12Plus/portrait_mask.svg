@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1697.6" height="2713.06" viewBox="0 0 1697.6 2713.06">
+<title>Galaxy Tab S12+ portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1878" height="2895">
+<rect x="90.2" y="90.97" width="1697.6" height="2713.06" rx="48" fill="white"/>
+</mask></defs>
+<g transform="translate(-90.2 -90.97)"><g mask="url(#aperture)"><rect x="90.2" y="90.97" width="1697.6" height="2713.06" rx="0" fill="white"/></g></g>
+</svg>

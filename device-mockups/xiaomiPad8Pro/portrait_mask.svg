@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1579.38" height="2366.11" viewBox="0 0 1579.38 2366.11">
+<title>Xiaomi Pad 8 Pro portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1734.2" height="2512.2">
+<rect x="77.41" y="73.04" width="1579.38" height="2366.11" rx="52" fill="white"/>
+</mask></defs>
+<g transform="translate(-77.41 -73.04)"><g mask="url(#aperture)"><rect x="77.41" y="73.04" width="1579.38" height="2366.11" rx="0" fill="white"/></g></g>
+</svg>

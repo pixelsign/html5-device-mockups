@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1741" height="2506" viewBox="0 0 1741 2506">
+<title>iPad (9th generation) · 2021 — space-gray</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. 2021 release; A13 Bionic. Same front outline as the other 10.2-inch Home-button model. Original front view at 10 units/mm; centered aperture derived from 2160 × 1620 at 264 ppi. Corner radii, control geometry and swatches are approximate. Sources: https://support.apple.com/en-us/111898; https://support.apple.com/en-us/108043</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1741" height="2506">
+<rect x="0" y="0" width="1741" height="2506" rx="0" fill="white"/><rect x="91" y="214" width="1559" height="2078" rx="0" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1741" height="2506" rx="98" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="1741" height="2506" rx="0" fill="#797a7e"/><rect x="0" y="0" width="1741" height="2506" rx="0" fill="url(#brushed)"/>
+<rect x="15.668999999999999" y="15.668999999999999" width="1709.662" height="2474.662" rx="82.331" fill="#111317"/>
+<circle cx="870.5" cy="2399" r="52" fill="#797a7e"/><circle cx="870.5" cy="2399" r="43.68" fill="#222429"/><circle cx="870.5" cy="107" r="14" fill="url(#lens)"/>
+</g></g>
+</svg>

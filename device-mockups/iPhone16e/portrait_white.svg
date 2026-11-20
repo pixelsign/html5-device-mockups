@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="715" height="1467" viewBox="0 0 715 1467">
+  <title>iPhone 16e — white</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/122208</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#f1efed" stroke="#303237" stroke-width="1">
+    <rect x="0" y="255" width="8" height="31" rx="3"/>
+    <rect x="0" y="342" width="8" height="65" rx="3"/>
+    <rect x="0" y="428" width="8" height="65" rx="3"/>
+    <rect x="707" y="418" width="8" height="103" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M89 6H626a80 80 0 0 1 80 80V1381a80 80 0 0 1 -80 80H89a80 80 0 0 1 -80 -80V86a80 80 0 0 1 80 -80Z M89.478 34.448H625.521a55 55 0 0 1 55 55V1377.552a55 55 0 0 1 -55 55H89.478a55 55 0 0 1 -55 -55V89.448a55 55 0 0 1 55 -55Z"/>
+    <path fill="#f1efed" d="M89 1H626a85 85 0 0 1 85 85V1381a85 85 0 0 1 -85 85H89a85 85 0 0 1 -85 -85V86a85 85 0 0 1 85 -85Z M89 10H626a76 76 0 0 1 76 76V1381a76 76 0 0 1 -76 76H89a76 76 0 0 1 -76 -76V86a76 76 0 0 1 76 -76Z"/>
+    <path fill="url(#polish)" d="M89 1H626a85 85 0 0 1 85 85V1381a85 85 0 0 1 -85 85H89a85 85 0 0 1 -85 -85V86a85 85 0 0 1 85 -85Z M89 10H626a76 76 0 0 1 76 76V1381a76 76 0 0 1 -76 76H89a76 76 0 0 1 -76 -76V86a76 76 0 0 1 76 -76Z"/>
+  </g>
+  <rect x="252.5" y="30.448" width="210" height="8" fill="#050608"/>
+  <path fill="#050608" d="M252.5 34.448h210v21.5q0 21.5 -21.5 21.5h-167q-21.5 0 -21.5 -21.5Z"/>
+  <circle cx="441" cy="55.948" r="13.76" fill="url(#optic)"/>
+  <circle cx="439" cy="53.948" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

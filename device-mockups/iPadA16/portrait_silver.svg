@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1795" height="2486" viewBox="0 0 1795 2486">
+<title>iPad (A16) · 2025 — silver</title>
+<desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications are references for measurements and product details, not sources of artwork. 2025 release; A16. The 10th-generation iPad and iPad (A16) share this front outline. Original front view at 10 units/mm; centered aperture derived from 2360 × 1640 at 264 ppi. Corner radii, control geometry and swatches are approximate. Sources: https://support.apple.com/en-us/122240; https://support.apple.com/en-us/108043</desc>
+<defs><linearGradient id="brushed" x2="100%" y2="24%">
+  <stop stop-color="#151a26" stop-opacity=".38"/><stop offset=".13" stop-color="white" stop-opacity=".45"/>
+  <stop offset=".35" stop-color="white" stop-opacity="0"/><stop offset=".82" stop-color="#171d28" stop-opacity=".17"/>
+  <stop offset=".96" stop-color="white" stop-opacity=".38"/><stop offset="1" stop-color="#171d28" stop-opacity=".4"/>
+</linearGradient>
+<radialGradient id="lens" cx="38%" cy="35%" r="65%">
+  <stop stop-color="#7190a2"/><stop offset=".27" stop-color="#294050"/>
+  <stop offset=".65" stop-color="#101724"/><stop offset="1" stop-color="#040509"/>
+</radialGradient>
+<mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="1795" height="2486">
+<rect x="0" y="0" width="1795" height="2486" rx="0" fill="white"/><rect x="108.5" y="107.5" width="1578" height="2271" rx="38" fill="black"/>
+</mask></defs>
+<g mask="url(#aperture)"><defs><clipPath id="shell"><rect x="0" y="0" width="1795" height="2486" rx="90" fill="white"/></clipPath></defs>
+<g clip-path="url(#shell)">
+<rect x="0" y="0" width="1795" height="2486" rx="0" fill="#d8d9da"/><rect x="0" y="0" width="1795" height="2486" rx="0" fill="url(#brushed)"/>
+<rect x="16.154999999999998" y="16.154999999999998" width="1762.69" height="2453.69" rx="73.845" fill="#111317"/>
+<circle cx="1740.75" cy="1243" r="14" fill="url(#lens)"/>
+</g></g>
+</svg>

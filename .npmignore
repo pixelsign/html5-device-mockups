@@ -12,5 +12,6 @@ device-mockups/**/*.psd
 *~lock~
 device-mockups/**/*.af
 device-mockups/**/*.ai
+dist/*.zip
 index.previous.html
 scripts

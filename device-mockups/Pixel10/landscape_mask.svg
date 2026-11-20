@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1458.995" height="650.047" viewBox="0 0 1458.995 650.047">
+  <title>Pixel 10 landscape screen mask</title>
+  <desc>White is visible content; corners and camera are transparent.</desc>
+  <path transform="translate(0 650.047) rotate(-90)" fill="white" fill-rule="evenodd" d="M72 0H578.047a72 72 0 0 1 72 72V1386.995a72 72 0 0 1 -72 72H72a72 72 0 0 1 -72 -72V72a72 72 0 0 1 72 -72Z M325.024 16H325.024a16.5 16.5 0 0 1 16.5 16.5V32.5a16.5 16.5 0 0 1 -16.5 16.5H325.024a16.5 16.5 0 0 1 -16.5 -16.5V32.5a16.5 16.5 0 0 1 16.5 -16.5Z"/>
+</svg>

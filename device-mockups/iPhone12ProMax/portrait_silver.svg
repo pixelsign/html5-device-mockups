@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="781" height="1608" viewBox="0 0 781 1608">
+  <title>iPhone 12 Pro Max — silver</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Apple supplies measurements and finish names, not artwork. Corner radii and finish swatches are approximations. Placement and size of the left ring/silent switch and volume buttons, right side button, and TrueDepth notch are approximate. Measurements: https://support.apple.com/en-us/111874</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#d8dbdb" stroke="#303237" stroke-width="1">
+    <rect x="0" y="286" width="8" height="30" rx="3"/>
+    <rect x="0" y="379" width="8" height="65" rx="3"/>
+    <rect x="0" y="461" width="8" height="65" rx="3"/>
+    <rect x="773" y="408" width="8" height="105" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M113 6H668a104 104 0 0 1 104 104V1498a104 104 0 0 1 -104 104H113a104 104 0 0 1 -104 -104V110a104 104 0 0 1 104 -104Z M113.456 33.681H667.543a79 79 0 0 1 79 79V1495.319a79 79 0 0 1 -79 79H113.456a79 79 0 0 1 -79 -79V112.681a79 79 0 0 1 79 -79Z"/>
+    <path fill="#d8dbdb" d="M113 1H668a109 109 0 0 1 109 109V1498a109 109 0 0 1 -109 109H113a109 109 0 0 1 -109 -109V110a109 109 0 0 1 109 -109Z M113 10H668a100 100 0 0 1 100 100V1498a100 100 0 0 1 -100 100H113a100 100 0 0 1 -100 -100V110a100 100 0 0 1 100 -100Z"/>
+    <path fill="url(#polish)" d="M113 1H668a109 109 0 0 1 109 109V1498a109 109 0 0 1 -109 109H113a109 109 0 0 1 -109 -109V110a109 109 0 0 1 109 -109Z M113 10H668a100 100 0 0 1 100 100V1498a100 100 0 0 1 -100 100H113a100 100 0 0 1 -100 -100V110a100 100 0 0 1 100 -100Z"/>
+  </g>
+  <rect x="217" y="29.681" width="347" height="8" fill="#050608"/>
+  <path fill="#050608" d="M217 33.681h347v27q0 27 -27 27h-293q-27 0 -27 -27Z"/>
+  <circle cx="537" cy="60.681" r="17.28" fill="url(#optic)"/>
+  <circle cx="535" cy="58.681" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

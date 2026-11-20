@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1634" viewBox="0 0 780 1634">
+  <title>iPhone 18 Pro Max — glacier</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/148591; https://support.apple.com/en-us/108044</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#abc1ce" stroke="#303237" stroke-width="1">
+    <rect x="0" y="284" width="8" height="31" rx="3"/>
+    <rect x="0" y="381" width="8" height="65" rx="3"/>
+    <rect x="0" y="477" width="8" height="65" rx="3"/>
+    <rect x="772" y="466" width="8" height="103" rx="3"/>
+    <rect x="772" y="1082" width="8" height="75" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M111 6H669a102 102 0 0 1 102 102V1526a102 102 0 0 1 -102 102H111a102 102 0 0 1 -102 -102V108a102 102 0 0 1 102 -102Z M110.565 25.183H669.435a85 85 0 0 1 85 85V1523.818a85 85 0 0 1 -85 85H110.565a85 85 0 0 1 -85 -85V110.183a85 85 0 0 1 85 -85Z"/>
+    <path fill="#abc1ce" d="M111 1H669a107 107 0 0 1 107 107V1526a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H669a98 98 0 0 1 98 98V1526a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+    <path fill="url(#polish)" d="M111 1H669a107 107 0 0 1 107 107V1526a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H669a98 98 0 0 1 98 98V1526a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+  </g>
+  <path fill="#050608" d="M366 38.183H414a15.5 15.5 0 0 1 15.5 15.5V53.683a15.5 15.5 0 0 1 -15.5 15.5H366a15.5 15.5 0 0 1 -15.5 -15.5V53.683a15.5 15.5 0 0 1 15.5 -15.5Z"/>
+  <circle cx="414" cy="53.683" r="9.92" fill="url(#optic)"/>
+  <circle cx="412" cy="51.683" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

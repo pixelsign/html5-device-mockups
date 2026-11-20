@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="766" height="1628" viewBox="0 0 766 1628">
+  <title>Pixel 10 Pro XL — jade</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, control and camera geometry, screen placement and finish swatches are visual approximations. Measurements: https://store.google.com/gb/product/pixel_10_pro_specs?hl=en-GB</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#bdc8a6" stroke="#303237" stroke-width="1">
+    <rect x="758" y="404" width="8" height="61" rx="3"/>
+    <rect x="758" y="548" width="8" height="111" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M112 6H654a103 103 0 0 1 103 103V1519a103 103 0 0 1 -103 103H112a103 103 0 0 1 -103 -103V109a103 103 0 0 1 103 -103Z M116.79 32.14H649.21a85 85 0 0 1 85 85V1510.86a85 85 0 0 1 -85 85H116.79a85 85 0 0 1 -85 -85V117.14a85 85 0 0 1 85 -85Z"/>
+    <path fill="#bdc8a6" d="M112 1H654a108 108 0 0 1 108 108V1519a108 108 0 0 1 -108 108H112a108 108 0 0 1 -108 -108V109a108 108 0 0 1 108 -108Z M112 10H654a99 99 0 0 1 99 99V1519a99 99 0 0 1 -99 99H112a99 99 0 0 1 -99 -99V109a99 99 0 0 1 99 -99Z"/>
+    <path fill="url(#polish)" d="M112 1H654a108 108 0 0 1 108 108V1519a108 108 0 0 1 -108 108H112a108 108 0 0 1 -108 -108V109a108 108 0 0 1 108 -108Z M112 10H654a99 99 0 0 1 99 99V1519a99 99 0 0 1 -99 99H112a99 99 0 0 1 -99 -99V109a99 99 0 0 1 99 -99Z"/>
+  </g>
+  <path fill="#050608" d="M383 48.14H383a17 17 0 0 1 17 17V65.14a17 17 0 0 1 -17 17H383a17 17 0 0 1 -17 -17V65.14a17 17 0 0 1 17 -17Z"/>
+  <circle cx="383" cy="65.14" r="10.88" fill="url(#optic)"/>
+  <circle cx="381" cy="63.14" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>

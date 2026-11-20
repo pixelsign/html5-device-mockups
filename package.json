@@ -5,7 +5,12 @@
   "main": "dist/device-mockups.min.css",
   "style": "dist/device-mockups.css",
   "scripts": {
-    "build": "npm run build:css && npm run build:min",
+    "generate": "node scripts/catalog.mjs && node scripts/render-frames.mjs && node scripts/render-large.mjs && node scripts/render-large.mjs --tvs",
+    "build": "npm run generate && npm run build:css && npm run build:min",
+    "test": "node --test tests/*.test.mjs",
+    "bundle:modern": "npm run generate && sass --no-source-map --style=compressed src/scss/modern-only.scss dist/modern-only.min.css && python3 scripts/bundle-modern.py",
+    "bundle:tvs": "npm run generate && sass --no-source-map --style=compressed src/scss/tvs-only.scss dist/tvs-only.min.css && python3 scripts/bundle-large.py --tvs",
+    "bundle:large": "npm run generate && sass --no-source-map --style=compressed src/scss/large-only.scss dist/large-only.min.css && python3 scripts/bundle-large.py",
     "build:css": "sass --no-source-map src/scss/device-mockups.scss dist/device-mockups.css",
     "build:min": "sass --no-source-map --style=compressed src/scss/device-mockups.scss dist/device-mockups.min.css",
     "watch": "sass --no-source-map --watch src/scss/device-mockups.scss dist/device-mockups.css"

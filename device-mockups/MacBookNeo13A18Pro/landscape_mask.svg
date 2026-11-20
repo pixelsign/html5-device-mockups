@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="722.4" height="451.8" viewBox="0 0 722.4 451.8">
+<title>MacBook Neo 13-inch (A18 Pro) landscape screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="802.4" height="512.8">
+<rect x="40" y="23" width="722.4" height="451.8" rx="0" fill="white"/>
+</mask></defs>
+<g transform="translate(-40 -23)"><g mask="url(#aperture)"><rect x="40" y="23" width="722.4" height="451.8" rx="0" fill="white"/></g></g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1958.94" height="3137.7" viewBox="0 0 1958.94 3137.7">
+<title>Galaxy Tab S9 Ultra portrait screen mask</title>
+<defs><mask id="aperture" maskUnits="userSpaceOnUse" x="0" y="0" width="2086" height="3264">
+<rect x="63.53" y="63.15" width="1958.94" height="3137.7" rx="43" fill="white"/><rect x="1992.47" y="1555.5" width="38" height="153" rx="10" fill="black"/>
+</mask></defs>
+<g transform="translate(-63.53 -63.15)"><g mask="url(#aperture)"><rect x="63.53" y="63.15" width="1958.94" height="3137.7" rx="0" fill="white"/></g></g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="719" height="1500" viewBox="0 0 719 1500">
+  <title>iPhone 17 Pro — deep-blue</title>
+  <desc>Original front-view vector illustration, MIT (LICENSE.txt). Manufacturer specifications supply measurements, not artwork. Corner radii, controls, sensor positions and finish swatches are visual approximations. Measurements: https://support.apple.com/en-us/125090</desc>
+  <defs>
+    <linearGradient id="polish" x2="1" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121519" stop-opacity=".55"/><stop offset=".12" stop-color="white" stop-opacity=".43"/>
+      <stop offset=".34" stop-color="white" stop-opacity="0"/><stop offset=".7" stop-color="#202027" stop-opacity=".19"/>
+      <stop offset=".92" stop-color="white" stop-opacity=".45"/><stop offset="1" stop-color="#17191b" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="optic"><stop stop-color="#263b50"/><stop offset=".5" stop-color="#121824"/><stop offset="1" stop-color="#07080a"/></radialGradient>
+  </defs>
+  <g fill="#444f6c" stroke="#303237" stroke-width="1">
+    <rect x="0" y="261" width="8" height="31" rx="3"/>
+    <rect x="0" y="350" width="8" height="65" rx="3"/>
+    <rect x="0" y="438" width="8" height="65" rx="3"/>
+    <rect x="711" y="427" width="8" height="103" rx="3"/>
+    <rect x="711" y="993" width="8" height="75" rx="3"/>
+  </g>
+  <g fill-rule="evenodd">
+    <path fill="#101114" d="M111 6H608a102 102 0 0 1 102 102V1392a102 102 0 0 1 -102 102H111a102 102 0 0 1 -102 -102V108a102 102 0 0 1 102 -102Z M110.539 26.1H608.461a84 84 0 0 1 84 84V1389.9a84 84 0 0 1 -84 84H110.539a84 84 0 0 1 -84 -84V110.1a84 84 0 0 1 84 -84Z"/>
+    <path fill="#444f6c" d="M111 1H608a107 107 0 0 1 107 107V1392a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H608a98 98 0 0 1 98 98V1392a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+    <path fill="url(#polish)" d="M111 1H608a107 107 0 0 1 107 107V1392a107 107 0 0 1 -107 107H111a107 107 0 0 1 -107 -107V108a107 107 0 0 1 107 -107Z M111 10H608a98 98 0 0 1 98 98V1392a98 98 0 0 1 -98 98H111a98 98 0 0 1 -98 -98V108a98 98 0 0 1 98 -98Z"/>
+  </g>
+  <path fill="#050608" d="M320 39.1H399a16.5 16.5 0 0 1 16.5 16.5V55.6a16.5 16.5 0 0 1 -16.5 16.5H320a16.5 16.5 0 0 1 -16.5 -16.5V55.6a16.5 16.5 0 0 1 16.5 -16.5Z"/>
+  <circle cx="399" cy="55.6" r="10.56" fill="url(#optic)"/>
+  <circle cx="397" cy="53.6" r="1.5" fill="#9ab5d1" opacity=".5"/>
+</svg>
