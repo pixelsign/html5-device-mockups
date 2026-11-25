@@ -21,12 +21,13 @@ For...
 * Embedding a YouTube video
 
 Why?
-* Looks cool
-* Attracts customers
+* Looks super cool
+* Attracts so many customers
 * Makes your site look professional
 * Give people the idea that your app/site works on mobile
 * Give the impression that your illustrations are meant for web/mobile
 * Lots of screenshots in just one "device"
+* less worries about your website
 
 Features:
 * Maintains the device's aspect ratio when scaled
